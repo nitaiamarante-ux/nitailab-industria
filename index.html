@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Consultoria em operações industriais com método TPS/Lean aplicado ao chão. Para indústria média que sente no bolso o custo de operação ineficiente. Diagnóstico de 5 dias, mapa de perdas quantificado, plano de 90 dias." />
+  <meta name="author" content="Nitai Morais" />
+  <title>Nitai Lab Indústria — Consultoria em Operações Industriais</title>
+
+  <meta property="og:title" content="Nitai Lab Indústria — Consultoria em Operações Industriais" />
+  <meta property="og:description" content="TPS aplicado ao chão. Para indústria média que sente no bolso o custo de operação ineficiente." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://industria.nitailab.com.br" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Urbanist:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <style>
+    :root {
+      --bg-light: #F5F0EB;
+      --bg-light2: #EDE6DC;
+      --bg-light3: #E5DDD2;
+
+      --petrol: #0B1519;
+      --petrol2: #0F1D24;
+      --petrol3: #162831;
+      --dark: #1A1814;
+      --dark2: #0D0C0A;
+
+      --mid: #3D3A35;
+      --mid2: #555049;
+      --soft: #9A9690;
+      --bdr-light: #D4C9BE;
+      --bdr-dark: rgba(201, 169, 110, 0.18);
+      --bdr-dark-strong: rgba(201, 169, 110, 0.35);
+
+      --gold: #A07840;
+      --goldL: #D4B077;
+      --goldBright: #E8C58C;
+      --amber: #E8A830;
+
+      --container: 1200px;
+      --container-sm: 820px;
+      --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--bg-light);
+      background-color: var(--petrol);
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Urbanist', sans-serif;
+      line-height: 1.12;
+      letter-spacing: -0.018em;
+    }
+
+    h1 { font-weight: 800; font-size: clamp(2.25rem, 5.5vw, 4.25rem); color: #fff; }
+    h2 { font-weight: 700; font-size: clamp(1.75rem, 4vw, 2.75rem); color: #fff; }
+    h3 { font-weight: 600; font-size: clamp(1.125rem, 2vw, 1.375rem); color: #fff; }
+
+    p { max-width: 68ch; }
+
+    a { color: var(--goldL); text-decoration: none; transition: color .3s var(--ease); }
+    a:hover { color: var(--goldBright); }
+
+    img { max-width: 100%; height: auto; display: block; }
+
+    .container { width: 100%; max-width: var(--container); margin: 0 auto; padding: 0 1.75rem; }
+    .container--sm { max-width: var(--container-sm); }
+
+    .section { padding: clamp(4rem, 9vw, 8rem) 0; position: relative; }
+
+    .section--dark {
+      background-color: var(--petrol);
+      position: relative;
+    }
+    .section--dark::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(201, 169, 110, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 110, 0.035) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+      mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+    }
+    .section--dark > .container { position: relative; z-index: 1; }
+
+    .section--deeper { background-color: var(--dark2); }
+    .section--lighter { background-color: var(--petrol3); }
+
+    .section--light {
+      background-color: var(--bg-light);
+      color: var(--dark);
+    }
+    .section--light h1,
+    .section--light h2,
+    .section--light h3 { color: var(--dark); }
+    .section--light a { color: var(--gold); }
+    .section--light a:hover { color: var(--goldL); }
+
+    .eyebrow {
+      font-family: 'JetBrains Mono', 'Urbanist', monospace;
+      font-size: .75rem;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--goldL);
+      margin-bottom: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .625rem;
+    }
+    .eyebrow::before {
+      content: '';
+      width: 24px; height: 1px;
+      background-color: var(--gold);
+      display: inline-block;
+    }
+    .section--light .eyebrow { color: var(--gold); }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .625rem;
+      font-family: 'Urbanist', sans-serif;
+      font-size: .8125rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: 1.0625rem 2rem;
+      border-radius: 0;
+      border: none;
+      cursor: pointer;
+      transition: all .3s var(--ease);
+      text-decoration: none;
+    }
+    .btn--primary { background-color: var(--gold); color: #fff; }
+    .btn--primary:hover { background-color: var(--goldL); color: var(--petrol); transform: translateY(-1px); }
+    .btn--outline { background: transparent; color: var(--goldL); border: 1px solid var(--gold); }
+    .btn--outline:hover { background: var(--gold); color: #fff; border-color: var(--gold); }
+
+    /* ======== NAV ======== */
+    .nav {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(11, 21, 25, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--bdr-dark);
+    }
+    .nav__inner {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.125rem 1.75rem;
+      max-width: var(--container); margin: 0 auto;
+    }
+    .nav__logo {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 800; letter-spacing: .02em;
+      color: #fff;
+      font-size: 1.0625rem;
+      display: inline-flex; align-items: center; gap: .625rem;
+    }
+    .nav__logo em { font-style: normal; color: var(--goldL); font-weight: 500; letter-spacing: .08em; text-transform: uppercase; font-size: .75rem; }
+    .nav__logo::before {
+      content: '';
+      width: 3px; height: 18px;
+      background: var(--gold);
+      display: inline-block;
+    }
+    .nav__link {
+      font-family: 'JetBrains Mono', 'Urbanist', monospace;
+      font-size: .75rem;
+      font-weight: 500;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--goldL);
+    }
+    .nav__link:hover { color: #fff; }
+
+    /* ======== HERO (layout 2 colunas quando tem foto) ======== */
+    .hero {
+      position: relative;
+      padding: clamp(4.5rem, 9vw, 8rem) 0 clamp(4rem, 8vw, 7rem);
+      background: var(--petrol);
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(201, 169, 110, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 110, 0.04) 1px, transparent 1px);
+      background-size: 80px 80px;
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; top: 0; right: 0;
+      width: 45%; height: 100%;
+      background: radial-gradient(ellipse at top right, rgba(160, 120, 64, 0.14) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero__grid {
+      position: relative; z-index: 1;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: clamp(2rem, 5vw, 4rem);
+      align-items: center;
+    }
+    .hero__title {
+      max-width: 22ch;
+      margin: 1.5rem 0 1.75rem;
+    }
+    .hero__title strong { color: var(--goldL); font-weight: 800; }
+    .hero__sub {
+      font-size: clamp(1.0625rem, 1.35vw, 1.1875rem);
+      color: rgba(245, 240, 235, 0.88);
+      max-width: 55ch;
+      margin-bottom: 2.5rem;
+      line-height: 1.65;
+      font-weight: 400;
+    }
+    .hero__ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .hero__meta {
+      display: inline-flex; align-items: center; gap: .75rem;
+      margin-top: 2.75rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--bdr-dark);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--goldL);
+      flex-wrap: wrap;
+    }
+    .hero__meta span { color: rgba(245, 240, 235, 0.5); }
+
+    .hero__photo {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      background: var(--petrol2);
+      border: 1px solid var(--bdr-dark);
+      overflow: hidden;
+    }
+    .hero__photo::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 60px; height: 3px;
+      background: var(--gold);
+      z-index: 2;
+    }
+    .hero__photo img {
+      width: 100%; height: 100%; object-fit: cover; object-position: center;
+      display: block;
+    }
+    .hero__photo-placeholder {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: 1rem;
+      padding: 2rem;
+      background-image:
+        linear-gradient(rgba(201, 169, 110, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 110, 0.06) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    .hero__photo-placeholder__icon {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 2rem;
+      color: var(--gold);
+      opacity: 0.5;
+    }
+    .hero__photo-placeholder__text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .7rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--goldL);
+      opacity: 0.7;
+      text-align: center;
+      max-width: 24ch;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 900px) {
+      .hero__grid { grid-template-columns: 1fr; }
+      .hero__photo { aspect-ratio: 5 / 4; max-height: 360px; }
+    }
+
+    /* ======== TESE (bege, alívio de leitura) ======== */
+    .tese p {
+      font-size: clamp(1.0625rem, 1.3vw, 1.1875rem);
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+      color: var(--dark);
+      font-weight: 400;
+    }
+    .tese p:last-child { margin-bottom: 0; }
+    .tese strong { font-weight: 600; color: var(--dark); }
+
+    /* ======== PULL QUOTE ======== */
+    .pullquote-wrap {
+      background: var(--dark2);
+      padding: clamp(4rem, 8vw, 7rem) 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .pullquote-wrap::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(201, 169, 110, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 110, 0.025) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+    }
+    .pullquote {
+      max-width: var(--container-sm);
+      margin: 0 auto;
+      padding: 0 1.75rem;
+      position: relative; z-index: 1;
+      border-left: 3px solid var(--gold);
+      padding-left: clamp(1.5rem, 3vw, 2.5rem);
+    }
+    .pullquote__label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--goldL);
+      margin-bottom: 1.5rem;
+      font-weight: 500;
+      display: block;
+    }
+    .pullquote p {
+      font-family: 'Urbanist', sans-serif;
+      font-size: clamp(1.25rem, 2.1vw, 1.75rem);
+      font-weight: 400;
+      line-height: 1.4;
+      max-width: none;
+      color: #fff;
+      margin-bottom: 1.25rem;
+    }
+    .pullquote p:last-child {
+      color: var(--goldL);
+      font-weight: 500;
+      font-size: clamp(1rem, 1.5vw, 1.25rem);
+    }
+
+    /* ======== NÚMEROS ======== */
+    .numeros-wrap {
+      padding: clamp(3rem, 6vw, 5rem) 0;
+      background: var(--petrol2);
+      border-top: 1px solid var(--bdr-dark);
+      border-bottom: 1px solid var(--bdr-dark);
+    }
+    .numeros__head {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    .numeros__head span {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--goldL);
+    }
+    .numeros {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border: 1px solid var(--bdr-dark);
+      background: var(--petrol);
+    }
+    .numero {
+      padding: 2.25rem 1.75rem;
+      border-right: 1px solid var(--bdr-dark);
+      position: relative;
+    }
+    .numero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 40px;
+      background: var(--gold);
+    }
+    .numero:last-child { border-right: none; }
+    .numero__value {
+      display: block;
+      font-family: 'Urbanist', sans-serif;
+      font-size: clamp(1.875rem, 3.5vw, 2.875rem);
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -.025em;
+      margin-bottom: .75rem;
+      line-height: 1;
+    }
+    .numero__value em { font-style: normal; color: var(--goldL); font-size: .65em; font-weight: 500; }
+    .numero__label {
+      font-family: 'Outfit', sans-serif;
+      font-size: .9375rem;
+      font-weight: 400;
+      color: rgba(245, 240, 235, .82);
+      line-height: 1.55;
+    }
+    @media (max-width: 860px) {
+      .numeros { grid-template-columns: repeat(2, 1fr); }
+      .numero:nth-child(2) { border-right: none; }
+      .numero:nth-child(1), .numero:nth-child(2) { border-bottom: 1px solid var(--bdr-dark); }
+    }
+    @media (max-width: 480px) {
+      .numeros { grid-template-columns: 1fr; }
+      .numero { border-right: none !important; border-bottom: 1px solid var(--bdr-dark); }
+      .numero:last-child { border-bottom: none; }
+    }
+
+    /* ======== MÉTODO ======== */
+    .metodo__header { margin-bottom: 3.5rem; max-width: 720px; }
+    .metodo__header p { color: rgba(245, 240, 235, 0.85); max-width: 52ch; margin-top: 1rem; font-weight: 400; }
+    .metodo__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+    .metodo__card {
+      background: var(--petrol2);
+      border: 1px solid var(--bdr-dark);
+      border-top: 3px solid var(--gold);
+      padding: 2.25rem 2rem 2rem;
+      display: flex; flex-direction: column;
+      gap: 1rem;
+      transition: border-color .3s var(--ease), transform .3s var(--ease);
+    }
+    .metodo__card:hover {
+      border-top-color: var(--goldL);
+      transform: translateY(-2px);
+    }
+    .metodo__num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .8125rem;
+      letter-spacing: .18em;
+      color: var(--goldL);
+      font-weight: 500;
+    }
+    .metodo__card h3 { color: #fff; font-size: 1.25rem; }
+    .metodo__card p { color: rgba(245, 240, 235, 0.85); font-size: 1rem; line-height: 1.7; font-weight: 400; }
+    @media (max-width: 860px) { .metodo__grid { grid-template-columns: 1fr; } }
+
+    .metodo__nota {
+      margin-top: 3rem;
+      padding: 1.625rem 1.875rem;
+      border-left: 3px solid var(--gold);
+      background: var(--petrol2);
+      border-top: 1px solid var(--bdr-dark);
+      border-right: 1px solid var(--bdr-dark);
+      border-bottom: 1px solid var(--bdr-dark);
+      font-size: 1rem;
+      color: rgba(245, 240, 235, 0.88);
+      max-width: 72ch;
+      line-height: 1.7;
+    }
+    .metodo__nota strong { color: var(--goldL); font-weight: 600; }
+
+    /* ======== SETORES ======== */
+    .setores__head { max-width: 720px; margin-bottom: 2.5rem; }
+    .setores__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--bdr-dark);
+      border: 1px solid var(--bdr-dark);
+    }
+    .setor {
+      padding: 0;
+      background: var(--petrol2);
+      text-align: left;
+      transition: background .3s var(--ease);
+      display: flex; flex-direction: column;
+    }
+    .setor:hover { background: var(--petrol3); }
+    .setor__foto {
+      aspect-ratio: 4 / 3;
+      background: var(--petrol3);
+      position: relative;
+      overflow: hidden;
+      background-image:
+        linear-gradient(rgba(201, 169, 110, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 110, 0.06) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .setor__foto img { width: 100%; height: 100%; object-fit: cover; }
+    .setor__foto-ph {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.5rem;
+      color: rgba(201, 169, 110, 0.4);
+      letter-spacing: .1em;
+    }
+    .setor__conteudo {
+      padding: 1.5rem 1.5rem 1.75rem;
+    }
+    .setor__num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      letter-spacing: .2em;
+      color: var(--gold);
+      font-weight: 500;
+      margin-bottom: .75rem;
+      display: block;
+    }
+    .setor__titulo {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 700;
+      font-size: 1.125rem;
+      color: #fff;
+      margin-bottom: .5rem;
+    }
+    .setor__detalhe {
+      font-size: .9375rem;
+      color: rgba(245, 240, 235, 0.78);
+      line-height: 1.55;
+      font-weight: 400;
+    }
+    @media (max-width: 860px) { .setores__grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .setores__grid { grid-template-columns: 1fr; } }
+
+    /* ======== CLIENTES (logos grid) ======== */
+    .clientes {
+      margin-top: 5rem;
+      padding-top: 3rem;
+      border-top: 1px solid var(--bdr-dark);
+    }
+    .clientes__titulo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--goldL);
+      margin-bottom: 2rem;
+      font-weight: 500;
+      text-align: center;
+    }
+    .clientes__grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1px;
+      background: var(--bdr-dark);
+      border: 1px solid var(--bdr-dark);
+    }
+    .cliente {
+      background: var(--petrol2);
+      padding: 1.625rem 1rem;
+      display: flex; align-items: center; justify-content: center;
+      min-height: 90px;
+      transition: background .3s var(--ease);
+    }
+    .cliente:hover { background: var(--petrol3); }
+    .cliente img {
+      max-width: 100%;
+      max-height: 44px;
+      width: auto;
+      opacity: 0.85;
+      filter: brightness(0) invert(1) sepia(0.2) saturate(0.5);
+      transition: opacity .3s var(--ease), filter .3s var(--ease);
+    }
+    .cliente:hover img { opacity: 1; filter: brightness(0) invert(1); }
+    .cliente__wordmark {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 700;
+      font-size: clamp(.8125rem, 1vw, .9375rem);
+      color: rgba(245, 240, 235, 0.82);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      transition: color .3s var(--ease);
+    }
+    .cliente:hover .cliente__wordmark { color: var(--goldL); }
+    @media (max-width: 900px) { .clientes__grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 500px) { .clientes__grid { grid-template-columns: repeat(2, 1fr); } }
+
+    /* ======== CREDENCIAL TSSC ======== */
+    .credencial {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr 1fr;
+      gap: clamp(2rem, 4vw, 3.5rem);
+      align-items: center;
+    }
+    .credencial__num {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 200;
+      font-size: clamp(4.5rem, 11vw, 8rem);
+      line-height: 1;
+      letter-spacing: -.04em;
+      color: var(--gold);
+      border-top: 1px solid var(--gold);
+      padding-top: 1.5rem;
+      display: inline-block;
+    }
+    .credencial__titulo {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 700;
+      font-size: clamp(1.375rem, 2.3vw, 1.75rem);
+      color: var(--dark);
+      margin-top: 1.5rem;
+      margin-bottom: 0;
+      max-width: 20ch;
+      line-height: 1.22;
+    }
+    .credencial__foto {
+      aspect-ratio: 3 / 4;
+      background: var(--bg-light2);
+      border: 1px solid var(--bdr-light);
+      position: relative;
+      overflow: hidden;
+      background-image:
+        linear-gradient(rgba(160, 120, 64, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(160, 120, 64, 0.08) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+    .credencial__foto::before {
+      content: '';
+      position: absolute; top: 0; left: 0;
+      width: 60px; height: 3px;
+      background: var(--gold);
+      z-index: 2;
+    }
+    .credencial__foto img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .credencial__foto-ph {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column; gap: .875rem;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .credencial__foto-ph__icon {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.75rem;
+      color: var(--gold);
+      opacity: 0.5;
+    }
+    .credencial__foto-ph__text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .7rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      opacity: 0.8;
+      max-width: 22ch;
+      line-height: 1.5;
+    }
+    .credencial__texto {
+      color: var(--mid);
+      font-size: 1rem;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    .credencial__texto + .credencial__texto { margin-top: 1rem; }
+    .credencial__texto strong { color: var(--dark); font-weight: 600; }
+    @media (max-width: 960px) { .credencial { grid-template-columns: 1fr; gap: 2rem; } }
+
+    /* ======== CTA FINAL ======== */
+    .cta-final {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .cta-final h2 {
+      margin-bottom: 1.5rem;
+      max-width: 22ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta-final__texto {
+      color: rgba(245, 240, 235, 0.88);
+      max-width: 60ch;
+      margin: 0 auto 2.5rem;
+      font-size: 1.0625rem;
+      font-weight: 400;
+    }
+    .cta-final__botoes {
+      display: flex; gap: 1rem;
+      justify-content: center; flex-wrap: wrap;
+    }
+    .cta-final__contatos {
+      display: flex; flex-wrap: wrap; gap: .75rem 2rem;
+      justify-content: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--bdr-dark);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .8125rem;
+      color: rgba(245, 240, 235, 0.78);
+      letter-spacing: .02em;
+    }
+    .cta-final__contatos strong { color: var(--goldL); font-weight: 500; margin-right: .375rem; }
+
+    /* ======== FOOTER ======== */
+    .footer {
+      background: var(--dark2);
+      color: var(--bg-light);
+      padding: 3.5rem 0 2rem;
+      border-top: 1px solid var(--bdr-dark);
+    }
+    .footer__inner {
+      max-width: var(--container);
+      margin: 0 auto; padding: 0 1.75rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: start;
+    }
+    .footer__brand {
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 800;
+      font-size: 1.0625rem;
+      margin-bottom: .5rem;
+      color: #fff;
+      display: inline-flex; align-items: center; gap: .625rem;
+    }
+    .footer__brand::before {
+      content: '';
+      width: 3px; height: 18px;
+      background: var(--gold);
+      display: inline-block;
+    }
+    .footer__brand em { color: var(--goldL); font-style: normal; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; font-size: .75rem; }
+    .footer__sub {
+      font-size: .9375rem;
+      color: rgba(245, 240, 235, .72);
+      max-width: 44ch;
+      line-height: 1.65;
+      font-weight: 400;
+    }
+    .footer__nav {
+      display: flex; gap: 1.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .75rem;
+      font-weight: 500;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .footer__nav a { color: var(--goldL); }
+    .footer__nav a:hover { color: #fff; }
+    .footer__line {
+      margin-top: 2.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--bdr-dark);
+      font-size: .8125rem;
+      color: rgba(245, 240, 235, .6);
+      max-width: var(--container);
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.75rem;
+      padding-right: 1.75rem;
+      letter-spacing: .02em;
+    }
+    @media (max-width: 700px) {
+      .footer__inner { grid-template-columns: 1fr; }
+      .footer__nav { flex-wrap: wrap; }
+    }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s var(--ease), transform .8s var(--ease); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Nitai Lab <em>Indústria</em></a>
+      <a href="https://nitailab.com.br" class="nav__link" target="_blank" rel="noopener">Nitai Lab</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="eyebrow">Consultoria em operações industriais</span>
+          <h1 class="hero__title">
+            Onde a operação pesada perde dinheiro no chão —<br />
+            <strong>e como TPS devolve.</strong>
+          </h1>
+          <p class="hero__sub">
+            Para indústria média que sente no bolso o custo de não ter TPS de verdade. Método aplicado, não acadêmico. Foco no que a fábrica mede, não no que o slide mostra.
+          </p>
+          <div class="hero__ctas">
+            <a href="mailto:nitai.amarante@gmail.com?subject=Conversa%20sobre%20opera%C3%A7%C3%A3o" class="btn btn--primary">
+              Conversar 30 minutos
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="https://wa.me/5531982976006?text=Oi%20Nitai%2C%20vi%20o%20site%20da%20consultoria%20industrial%20e%20quero%20conversar." class="btn btn--outline" target="_blank" rel="noopener">
+              WhatsApp direto
+            </a>
+          </div>
+          <div class="hero__meta">
+            Base Minas Gerais <span>·</span> Atuação nacional <span>·</span> Deslocamento sob demanda
+          </div>
+        </div>
+
+        <div class="hero__photo">
+          <!-- Substituir pelo arquivo real quando tiver: /fotos/hero-nitai.jpg -->
+          <!-- <img src="/fotos/hero-nitai.jpg" alt="Nitai Morais em ambiente industrial" /> -->
+          <div class="hero__photo-placeholder">
+            <div class="hero__photo-placeholder__icon">⎔</div>
+            <div class="hero__photo-placeholder__text">
+              foto do Nitai em ambiente industrial<br/>/fotos/hero-nitai.jpg
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--light">
+    <div class="container container--sm tese reveal">
+      <span class="eyebrow">O que importa</span>
+      <h2 style="margin-bottom:1.75rem; max-width: 22ch;">O ganho grande não vem de tecnologia nova. Vem de quem tem paciência pra olhar.</h2>
+      <p>
+        Em operação industrial pesada, o ganho grande raramente vem de tecnologia ou de consultoria grande. Vem de coisa que ninguém tem paciência pra olhar: reposicionar um estacionamento de máquinas pesadas, reprogramar um estoque, um Kaizen num gargalo que ficou três anos invisível. Foram dezenas de decisões simples, em sequência, que sustentaram três turnarounds e <strong>economias de oito dígitos</strong> dentro da VLI.
+      </p>
+      <p>
+        O método que uso foi aprendido com a <strong>TSSC — Toyota Production System Support Center</strong> em sua última consultoria no Brasil, durante a implantação do TPS no principal terminal da VLI. O terminal virou a escola TPS da empresa inteira.
+      </p>
+      <p>
+        Mas o que importa não é a origem da ferramenta; é como ela é aplicada. No Brasil, TPS costuma chegar pela metade — a metade técnica, das ferramentas e auditorias. A metade que fica de fora é a filosófica: <strong>tratar operadores como cabeças pensantes, não como braços</strong>. Trabalhar duro e trabalhar bem são coisas diferentes. Quando o chão começa a pensar, a eficiência vem por dentro e o quadro enxuga sozinho, sem trauma.
+      </p>
+    </div>
+  </section>
+
+  <div class="pullquote-wrap">
+    <div class="pullquote reveal">
+      <span class="pullquote__label">Um teste pra você fazer amanhã</span>
+      <p>
+        Pergunte pros operadores de algum turno qual é a maior dificuldade deles durante a operação. Depois estimule que proponham soluções.
+      </p>
+      <p>
+        Se não se surpreender, ou tem problema de clima e cultura, ou sua operação está muito afiada.
+      </p>
+    </div>
+  </div>
+
+  <div class="numeros-wrap">
+    <div class="container">
+      <div class="numeros__head reveal">
+        <span>Dados verificáveis · 16 anos VLI (Grupo Vale)</span>
+      </div>
+      <div class="numeros reveal">
+        <div class="numero">
+          <span class="numero__value"><em>R$</em> 3,9<em> mi</em></span>
+          <span class="numero__label">de economia em um ano, com volume acima do orçado — TIA Araguari</span>
+        </div>
+        <div class="numero">
+          <span class="numero__value"><em>R$</em> 8,1<em> mi</em></span>
+          <span class="numero__label">reduzidos no redesenho do processo de descarga de vagões</span>
+        </div>
+        <div class="numero">
+          <span class="numero__value">50<em>%+</em></span>
+          <span class="numero__label">de corte no orçamento operacional ao longo de três anos</span>
+        </div>
+        <div class="numero">
+          <span class="numero__value">3</span>
+          <span class="numero__label">turnarounds operacionais entregues ao longo de 16 anos na VLI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--dark">
+    <div class="container">
+      <div class="metodo__header reveal">
+        <span class="eyebrow">O ponto de entrada</span>
+        <h2>Diagnóstico Operacional Express.<br/>Cinco dias úteis, corte preciso.</h2>
+        <p>Mapeia onde está vazando dinheiro, quanto em reais, e o que fazer nos próximos 90 dias. Depois, você decide se quer acompanhamento, projeto fechado ou seguir sozinho com o plano.</p>
+      </div>
+      <div class="metodo__grid">
+        <div class="metodo__card reveal">
+          <span class="metodo__num">01 · MAPEAR</span>
+          <h3>Onde a operação sangra</h3>
+          <p>Três a cinco pontos críticos de perda operacional identificados no chão, não em planilha. Entrevista com operadores, liderança e gestão, cruzada com análise de indicadores e observação direta.</p>
+        </div>
+        <div class="metodo__card reveal">
+          <span class="metodo__num">02 · QUANTIFICAR</span>
+          <h3>Cada perda em reais</h3>
+          <p>Cada ponto identificado recebe dimensão financeira. Se não couber em R$ mensal ou anual, não entra no relatório. Sem estimativa de feeling — número com método por trás.</p>
+        </div>
+        <div class="metodo__card reveal">
+          <span class="metodo__num">03 · PLANO 90 DIAS</span>
+          <h3>Ações priorizadas e aplicáveis</h3>
+          <p>Plano de intervenção com passos concretos, responsáveis sugeridos, ordem de ataque por custo-benefício e devolutiva presencial com o time. Escopo fechado antes de começar.</p>
+        </div>
+      </div>
+      <div class="metodo__nota reveal">
+        <strong>Regra da casa:</strong> escopo, cronograma e valor são fechados por escrito antes de qualquer hora ser faturada. Sem assinatura mensal disfarçada, sem upsell embutido, sem relatório genérico.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark section--lighter">
+    <div class="container">
+      <div class="setores__head reveal">
+        <span class="eyebrow">Onde operei direto</span>
+        <h2>Setores com experiência de chão, não de leitura.</h2>
+      </div>
+      <div class="setores__grid reveal">
+        <div class="setor">
+          <div class="setor__foto">
+            <!-- <img src="/fotos/setor-siderurgia.jpg" alt="Siderurgia" /> -->
+            <div class="setor__foto-ph">◱ SID</div>
+          </div>
+          <div class="setor__conteudo">
+            <span class="setor__num">01 · SID</span>
+            <div class="setor__titulo">Siderurgia</div>
+            <div class="setor__detalhe">Terminais siderúrgicos, pontes rolantes, logística inbound/outbound</div>
+          </div>
+        </div>
+        <div class="setor">
+          <div class="setor__foto">
+            <!-- <img src="/fotos/setor-agro.jpg" alt="Agronegócio" /> -->
+            <div class="setor__foto-ph">◱ AGR</div>
+          </div>
+          <div class="setor__conteudo">
+            <span class="setor__num">02 · AGR</span>
+            <div class="setor__titulo">Agronegócio</div>
+            <div class="setor__detalhe">Grãos, soja, farelo, milho, BPF, certificação MAPA</div>
+          </div>
+        </div>
+        <div class="setor">
+          <div class="setor__foto">
+            <!-- <img src="/fotos/setor-fertilizantes.jpg" alt="Fertilizantes e Combustíveis" /> -->
+            <div class="setor__foto-ph">◱ FER</div>
+          </div>
+          <div class="setor__conteudo">
+            <span class="setor__num">03 · FER</span>
+            <div class="setor__titulo">Fertilizantes e Combustíveis</div>
+            <div class="setor__detalhe">Cadeia porto-ferrovia-terminal, grandes players</div>
+          </div>
+        </div>
+        <div class="setor">
+          <div class="setor__foto">
+            <!-- <img src="/fotos/setor-logistica.jpg" alt="Logística Multimodal" /> -->
+            <div class="setor__foto-ph">◱ LOG</div>
+          </div>
+          <div class="setor__conteudo">
+            <span class="setor__num">04 · LOG</span>
+            <div class="setor__titulo">Logística Multimodal</div>
+            <div class="setor__detalhe">Ferrovia, rodovia, 3PL, crossdocking, picking, WMS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clientes reveal">
+        <div class="clientes__titulo">Clientes atendidos diretamente dentro da VLI</div>
+        <div class="clientes__grid">
+          <div class="cliente">
+            <!-- <img src="/logos/usiminas.svg" alt="Usiminas" /> -->
+            <span class="cliente__wordmark">Usiminas</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/arcelormittal.svg" alt="ArcelorMittal" /> -->
+            <span class="cliente__wordmark">ArcelorMittal</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/gerdau.svg" alt="Gerdau" /> -->
+            <span class="cliente__wordmark">Gerdau</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/vale.svg" alt="Vale" /> -->
+            <span class="cliente__wordmark">Vale</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/aperam.svg" alt="Aperam" /> -->
+            <span class="cliente__wordmark">Aperam</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/petrobras.svg" alt="Petrobras" /> -->
+            <span class="cliente__wordmark">Petrobras</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/raizen.svg" alt="Raízen" /> -->
+            <span class="cliente__wordmark">Raízen</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/ipiranga.svg" alt="Ipiranga" /> -->
+            <span class="cliente__wordmark">Ipiranga</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/br.svg" alt="BR" /> -->
+            <span class="cliente__wordmark">BR</span>
+          </div>
+          <div class="cliente">
+            <!-- <img src="/logos/queiroz-galvao.svg" alt="Queiroz Galvão" /> -->
+            <span class="cliente__wordmark">Queiroz Galvão</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--light">
+    <div class="container">
+      <div class="credencial reveal">
+        <div>
+          <span class="eyebrow">Credencial rara</span>
+          <div class="credencial__num">TSSC</div>
+          <h3 class="credencial__titulo">A última consultoria da Toyota TSSC no Brasil passou pelo terminal que eu operava.</h3>
+        </div>
+        <div class="credencial__foto">
+          <!-- <img src="/fotos/credencial-tssc.jpg" alt="Nitai no Terminal TIA Araguari" /> -->
+          <div class="credencial__foto-ph">
+            <div class="credencial__foto-ph__icon">⎔</div>
+            <div class="credencial__foto-ph__text">foto no terminal TIA Araguari<br/>/fotos/credencial-tssc.jpg</div>
+          </div>
+        </div>
+        <div>
+          <p class="credencial__texto">O <strong>TSSC (Toyota Production System Support Center)</strong> é o braço operacional da Toyota que leva TPS para empresas fora do Japão. No Brasil, o programa de consultorias foi encerrado — o último trabalho executado foi na VLI, no Terminal Integrador Araguari, que eu supervisionava.</p>
+          <p class="credencial__texto">O que absorvi ali não é leitura de livro. É método transmitido em chão, aplicado com acompanhamento. É esse corpo de conhecimento — somado a 16 anos de prática em operação pesada — que volta para o mercado em forma de consultoria.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark section--deeper">
+    <div class="container">
+      <div class="cta-final reveal">
+        <span class="eyebrow">Primeiro passo</span>
+        <h2>Se você conhece operação perdendo dinheiro no chão, me chama.</h2>
+        <p class="cta-final__texto">Uma conversa de 30 minutos, sem compromisso. Se houver caso, a gente define escopo e valor do diagnóstico por escrito, antes de começar. Se não houver, você sai com duas ou três ideias aplicáveis de graça. Sem enrolação.</p>
+        <div class="cta-final__botoes">
+          <a href="mailto:nitai.amarante@gmail.com?subject=Conversa%20sobre%20opera%C3%A7%C3%A3o" class="btn btn--primary">
+            Enviar email
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://wa.me/5531982976006?text=Oi%20Nitai%2C%20vi%20o%20site%20da%20consultoria%20industrial%20e%20quero%20conversar." class="btn btn--outline" target="_blank" rel="noopener">
+            WhatsApp
+          </a>
+        </div>
+        <div class="cta-final__contatos">
+          <span><strong>EMAIL</strong> nitai.amarante@gmail.com</span>
+          <span><strong>WHATSAPP</strong> (31) 98297-6006</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__brand">Nitai Lab <em>Indústria</em></div>
+        <div class="footer__sub">Consultoria em operações industriais com método TPS aplicado ao chão. Conduzida por Nitai Morais, ex-VLI (Grupo Vale), 16 anos.</div>
+      </div>
+      <div class="footer__nav">
+        <a href="https://www.linkedin.com/in/nitai-morais" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://nitailab.com.br" target="_blank" rel="noopener">Nitai Lab</a>
+        <a href="mailto:nitai.amarante@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer__line">
+      © Nitai Morais · Nitai Lab Indústria · Base Minas Gerais, atuação nacional
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
