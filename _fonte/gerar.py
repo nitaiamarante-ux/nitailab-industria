@@ -11,7 +11,7 @@ import os
 import urllib.parse
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-URL = "https://industria.nitailab.com.br"
+URL = "https://nitailab.com.br"
 ZAP = "5531982976006"
 EMAIL = "nitai@nitailab.com.br"
 LINKEDIN = "https://www.linkedin.com/in/nitai-morais"

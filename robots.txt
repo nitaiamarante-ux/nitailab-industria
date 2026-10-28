@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://industria.nitailab.com.br/sitemap.xml
+Sitemap: https://nitailab.com.br/sitemap.xml
