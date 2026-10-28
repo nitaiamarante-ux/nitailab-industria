@@ -188,6 +188,9 @@ p{max-width:66ch}
 .corrido h2{margin:40px 0 12px;font-size:1.5rem}
 .corrido p,.corrido li{color:var(--tx2)}
 .corrido ul{padding-left:20px}
+.politica h1{font-size:clamp(2rem,3.6vw,2.8rem);margin-bottom:12px}
+.politica .atualizado{color:var(--tx2);font-size:15px;margin-bottom:24px}
+.politica p + p{margin-top:12px}
 
 :focus-visible{outline:2px solid var(--dourado-claro);outline-offset:3px}
 

@@ -180,7 +180,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <div><a class="marca" href="/">{PULSO}<b>NITAI LAB</b><span>Logística e Operações</span></a>
 <p class="ent">Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p></div>
 <div><h4>O que eu faço</h4><ul><li><a href="/logistica/">Logística</a></li><li><a href="/operacao/">Operação</a></li><li><a href="/verificacao/">Verificação</a></li></ul></div>
-<div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">Sobre</a></li><li><a href="/casos/">Casos</a></li><li><a href="{PDF}">Apresentação em PDF</a></li><li><a href="/privacidade/">Privacidade</a></li></ul></div>
+<div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">Sobre</a></li><li><a href="/casos/">Casos</a></li><li><a href="{PDF}">Apresentação em PDF</a></li><li><a href="/politica-de-privacidade/">Política de privacidade</a></li></ul></div>
 <div><h4>Contato</h4><ul><li><a href="{zap(origem + "-rodape")}" target="_blank" rel="noopener">WhatsApp (31) 98297-6006</a></li><li><a href="mailto:{EMAIL}">{EMAIL}</a></li><li><a href="{LINKEDIN}" rel="noopener">LinkedIn</a></li></ul></div>
 </div>
 {cred}
@@ -458,16 +458,22 @@ def contato():
                   corpo, [], [{"@type": "ContactPage", "name": "Contato", "url": URL + "/contato/"}], atual="contato", origem="contato")
 
 
-def privacidade():
-    corpo = abertura("Privacidade", "Privacidade", "Este site não pede cadastro e não guarda dado pessoal de quem o visita.", "", None)
-    corpo += f"""<section class="faixa"><div class="miolo corrido">
-<h2>O que este site coleta</h2><p>Nenhum formulário, nenhum cadastro, nenhum cookie de publicidade. Quando você clica no WhatsApp ou no e-mail, a conversa acontece no aplicativo que você escolheu, sob as regras dele.</p>
-<h2>Medição</h2><p>Se houver medição de visitas, ela conta páginas e cliques sem identificar quem visita.</p>
-<h2>Responsável</h2><p>NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais. Dúvidas: <a href="mailto:{EMAIL}">{EMAIL}</a>.</p>
-<h2>Fotos</h2><p>As fotos de carga são ilustrativas, de bancos com licença livre, com o crédito no rodapé de cada página. Os logos identificam empresas atendidas pelo Nitai Morais durante a sua carreira na Vale e na VLI.</p>
-</div></section>"""
-    return pagina("/privacidade/", "Privacidade | Nitai Lab", "Como este site trata dados: sem cadastro, sem formulário e sem cookie de publicidade.",
-                  corpo, [], [], origem="privacidade")
+def politica():
+    # Corpo LITERAL da política no ar desde 23/09/2026 (declarada ao Google no app OAuth nitai-lab, Perfil da Empresa).
+    # Não editar o texto sem a sessão do Resgate: ver _commons/norte/AVISO_dominio_raiz_2026-10-28.md. Só a moldura é deste site.
+    corpo_lit = open(os.path.join(RAIZ, "_fonte", "politica_corpo.html"), encoding="utf-8").read()
+    corpo = f'<section class="faixa"><div class="miolo corrido politica"><h1>Política de Privacidade</h1>{corpo_lit}</div></section>'
+    return pagina("/politica-de-privacidade/", "Política de Privacidade | Nitai Lab",
+                  "Como a Nitai Lab coleta, usa e protege dados pessoais, em conformidade com a LGPD.", corpo, [], [], origem="politica")
+
+
+def redirecionar(destino):
+    return f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><title>Redirecionando</title>
+<meta name="robots" content="noindex"><link rel="canonical" href="{destino}">
+<meta http-equiv="refresh" content="0;url={destino}"></head>
+<body><p>Esta página mudou para <a href="{destino}">{destino}</a>.</p></body></html>
+"""
 
 
 def erro404():
@@ -490,14 +496,19 @@ def escrever(rel, conteudo):
 if __name__ == "__main__":
     paginas = {"index.html": inicio(), "logistica/index.html": logistica(), "operacao/index.html": operacao(),
                "verificacao/index.html": verificacao(), "casos/index.html": casos(), "sobre/index.html": sobre(),
-               "contato/index.html": contato(), "privacidade/index.html": privacidade(), "404.html": erro404()}
+               "contato/index.html": contato(), "politica-de-privacidade/index.html": politica(), "404.html": erro404()}
     for rel, html in paginas.items():
-        assert "—" not in html and "–" not in html, f"travessão em {rel}"
+        if rel != "politica-de-privacidade/index.html":  # a política é texto literal de terceiro, não se edita
+            assert "—" not in html and "–" not in html, f"travessão em {rel}"
         if rel != "404.html":  # caminhos relativos (abrem também fora do servidor); a 404 é servida em qualquer caminho, fica absoluta
             pre = "../" * rel.count("/") or "./"
             html = html.replace('="/"', f'="{pre}"').replace('="/', f'="{pre}')
         escrever(rel, html)
-    urls = ["/", "/logistica/", "/operacao/", "/verificacao/", "/casos/", "/sobre/", "/contato/", "/privacidade/"]
+    RESGATE = "https://resgateseugoogle.nitailab.com.br/"
+    for rel, destino in {"resgate-seu-google/index.html": RESGATE, "lp/index.html": RESGATE,
+                         "privacidade/index.html": "/politica-de-privacidade/"}.items():
+        escrever(rel, redirecionar(destino))  # Pages não faz 301: meta refresh + canonical (como o site-v2 já fazia)
+    urls = ["/", "/logistica/", "/operacao/", "/verificacao/", "/casos/", "/sobre/", "/contato/", "/politica-de-privacidade/"]
     escrever("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
              + "".join(f"<url><loc>{URL}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     escrever("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n")
