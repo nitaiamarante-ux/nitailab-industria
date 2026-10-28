@@ -192,9 +192,43 @@ p{max-width:66ch}
 .politica .atualizado{color:var(--tx2);font-size:15px;margin-bottom:24px}
 .politica p + p{margin-top:12px}
 
+
+/* abertura com retrato ao lado: foto no tamanho nativo, fundida ao grafite por degradê (mask) */
+.abre-retrato{background:var(--grafite);overflow:hidden}
+.abre-retrato .miolo{display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:24px;min-height:560px}
+.ar-texto{padding:80px 0 56px}
+.ar-texto h1{margin:18px 0 20px}
+.ar-texto .lead{color:var(--creme);font-size:19px;max-width:52ch}
+.ar-foto{align-self:stretch;position:relative;margin-right:calc(min(0px, (var(--largura) - 100vw) / 2) - 32px)}  /* sangra até a borda direita da tela */
+.ar-foto img{position:absolute;right:0;bottom:0;height:100%;width:100%;object-fit:cover;object-position:center top;filter:saturate(.8) contrast(1.02) brightness(.92)}
+.ar-foto img[src*="trabalhando"]{object-position:72% 40%}
+/* degradê por cima da foto: funde a borda esquerda e o pé no grafite */
+.ar-foto::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,var(--grafite) 0%,rgba(26,24,20,.55) 22%,rgba(26,24,20,0) 52%),linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 30%)}
+
+/* quem está por trás (Início) */
+.quem-grade{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}
+.quem-foto{position:relative;max-width:440px}
+.quem-foto img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;filter:saturate(.85)}
+.quem-foto::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 35%),linear-gradient(270deg,var(--grafite) 0%,rgba(26,24,20,0) 25%)}
+.quem-texto h2{margin:14px 0 18px}
+.quem-texto p{color:var(--tx2)}
+.quem-texto p + p{margin-top:14px}
+
+/* mosaico de cargas reais */
+.mosaico{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.mosaico figure{margin:0}
+.mosaico img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--raio);filter:saturate(.9)}
+.mosaico figcaption{margin-top:10px;font-family:var(--f-display);font-size:15px;font-weight:600;letter-spacing:.06em;color:var(--tx2)}
+
+/* foto no topo do caso */
+.caso{overflow:hidden}
+.caso-foto{width:calc(100% + 64px);max-width:none;margin:-32px -32px 24px;aspect-ratio:16/9;object-fit:cover;filter:saturate(.85)}
+
 :focus-visible{outline:2px solid var(--dourado-claro);outline-offset:3px}
 
 @media (max-width:980px){
+  .mosaico{grid-template-columns:1fr 1fr}
   .ofertas.tres{grid-template-columns:1fr 1fr}
   .topo nav{gap:16px}
   .topo nav a{font-size:15px}
@@ -235,6 +269,15 @@ p{max-width:66ch}
   .nums{grid-template-columns:1fr 1fr;gap:32px 0}
   .nums div:nth-child(3){padding-left:0;border-left:0}
   .ofertas,.ofertas.tres,.duas,.casos{grid-template-columns:1fr;gap:20px}
+  .abre-retrato .miolo{grid-template-columns:1fr;min-height:0;gap:0}
+  .ar-foto{order:-1;height:380px;margin:0 -16px}
+  .ar-foto::after{background:linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 45%)}
+  .ar-texto{padding:0 0 40px;margin-top:-40px;position:relative}
+  .quem-grade{grid-template-columns:1fr;gap:24px}
+  .quem-foto{max-width:none}
+  .quem-foto img{aspect-ratio:1/1}
+  .mosaico{grid-template-columns:1fr 1fr;gap:12px}
+  .caso-foto{width:calc(100% + 48px);margin:-24px -24px 20px}
   .duas{gap:28px}
   .passos{grid-template-columns:1fr}
   .conta{grid-template-columns:1fr}

@@ -38,6 +38,20 @@ FOTOS = {
                   "https://commons.wikimedia.org/wiki/File:Washed_and_dewatered_iron_ore_fines_are_stockpiled_(6025446558).jpg"),
 }
 
+# Fotos do próprio Nitai (celular, terminais e minas onde trabalhou; EXIF/GPS removido na conversão) e retratos do ensaio
+# tratado que ele escolheu em 28/10. Intenção de cada uso: frentes/minerio/site/FOTOS_intencao.md.
+PROPRIAS = {
+    "real-armazem-graos": "Armazém graneleiro por dentro, com grão estocado e pá carregadeira",
+    "real-vagoes-terminal": "Vagões graneleiros carregados ao lado da plataforma do terminal",
+    "real-planta-mina": "Planta de beneficiamento de minério vista do alto",
+    "real-carreta-minerio": "Carreta basculando minério na descarga",
+    "real-carregamento-minerio": "Minério sendo carregado em vagões no pátio",
+    "real-silos-terminal": "Silos e armazém de um terminal de grãos",
+    "real-graos-armazenados": "Granel agrícola armazenado em pilha dentro do armazém",
+    "real-kcl-armazenado": "Pilha de cloreto de potássio (KCl) dentro do armazém",
+    "real-fio-maquina": "Bobinas de fio-máquina no pátio do terminal",
+}
+
 CADEIAS = [
     ("Minério e siderurgia", ["vale", "usiminas", "arcelormittal", "gerdau", "aperam", "agera"]),
     ("Grãos", ["cargill", "adm", "bunge", "ldc", "amaggi", "caramuru", "granol", "sodrugestvo", "marubeni", "mitsui", "chs"]),
@@ -76,7 +90,16 @@ def btn_pdf(origem):
     return f'<a class="btn btn-2" data-acao="pdf-{origem}" href="{PDF}" target="_blank" rel="noopener">{IC_PDF}Baixar a apresentação</a>'
 
 
-def abertura(rot, h1, lead, acoes, foto=None):
+def abertura(rot, h1, lead, acoes, foto=None, retrato=None):
+    if retrato:  # retrato do Nitai ao lado, fundido ao fundo por degradê (sem ampliar além do nativo)
+        src, alt = retrato
+        return (f'<section class="abre-retrato"><div class="miolo"><div class="ar-texto"><div class="rot">{rot}</div><h1>{h1}</h1>'
+                f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div></div>'
+                f'<div class="ar-foto"><img src="/fotos/{src}.webp" alt="{alt}" fetchpriority="high"></div></div></section>')
+    if foto in PROPRIAS:
+        img = f'<img src="/fotos/{foto}.webp" alt="{PROPRIAS[foto]}" fetchpriority="high">'
+        return (f'<section class="abre">{img}<div class="miolo"><div class="rot">{rot}</div><h1>{h1}</h1>'
+                f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div></div></section>')
     if foto:
         alt, leg = FOTOS[foto][0], FOTOS[foto][1]
         espelho = ' class="espelho"' if foto in ESPELHO else ""
@@ -228,13 +251,20 @@ def inicio():
 <div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>
 <div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>
 </div></div></section>"""
+    corpo += """<section class="faixa quem"><div class="miolo quem-grade">
+<div class="quem-foto"><img src="/fotos/nitai-retrato-escuro.webp" alt="Nitai Morais"></div>
+<div class="quem-texto"><div class="rot">Quem está por trás</div><h2>Sou Nitai Morais.</h2>
+<p>Passei 16 anos do lado de dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI, na gestão de operação com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com cliente e implantei o TPS com a própria Toyota.</p>
+<p>Hoje levo isso para quem precisa decidir rota, custo e risco, ou fazer uma operação render mais. Atendo pessoalmente, do primeiro contato à entrega.</p>
+<div class="acoes"><a class="btn btn-2" href="/sobre/">Ver a trajetória</a></div></div>
+</div></section>"""
     corpo += secao_clientes()
     corpo += f"""<section class="faixa sup"><div class="miolo"><div class="rot">O que eu faço</div>
 <h2>Três perguntas que chegam até mim</h2>
 <div class="cartoes">
-<a class="cartao" href="/logistica/"><img src="/fotos/panamax-2.webp" alt="{FOTOS['panamax-2'][0]}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Como a minha carga chega ao destino, a que custo e com que risco?</span><p>Rota, modal, alternativas, viabilidade e netback, da origem ao porto.</p><span class="ir">Ver Logística →</span></div></a>
-<a class="cartao" href="/operacao/"><img src="/fotos/aco-3.webp" alt="{FOTOS['aco-3'][0]}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Onde a minha operação perde dinheiro?</span><p>Diagnóstico de 5 dias no chão do terminal, do armazém ou da planta, com o Toyota Production System que implantei com a própria Toyota.</p><span class="ir">Ver Operação →</span></div></a>
-<a class="cartao" href="/verificacao/"><img src="/fotos/minerio-1.webp" alt="{FOTOS['minerio-1'][0]}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Me ofereceram uma mina, um lote ou um parceiro. É real?</span><p>O que se comprova em documento antes de assinar, e se a carga consegue sair.</p><span class="ir">Ver Verificação →</span></div></a>
+<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{PROPRIAS['real-vagoes-terminal']}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Como a minha carga chega ao destino, a que custo e com que risco?</span><p>Rota, modal, alternativas, viabilidade e netback, da origem ao porto.</p><span class="ir">Ver Logística →</span></div></a>
+<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{PROPRIAS['real-armazem-graos']}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Onde a minha operação perde dinheiro?</span><p>Diagnóstico de 5 dias no chão do terminal, do armazém ou da planta, com o Toyota Production System que implantei com a própria Toyota.</p><span class="ir">Ver Operação →</span></div></a>
+<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{PROPRIAS['real-planta-mina']}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Me ofereceram uma mina, um lote ou um parceiro. É real?</span><p>O que se comprova em documento antes de assinar, e se a carga consegue sair.</p><span class="ir">Ver Verificação →</span></div></a>
 </div></div></section>"""
     corpo += REGRAS
     corpo += fecho("inicio-fecho", "Tem uma carga, uma operação ou um negócio na mesa?",
@@ -243,7 +273,7 @@ def inicio():
            "publisher": {"@id": URL + "/#empresa"}}]
     return pagina("/", "Logística de granéis, da origem ao porto | Nitai Lab",
                   "Consultoria de logística de granéis e carga industrial com 16 anos de Vale e VLI: estratégia e estrutura, desempenho da operação e verificação.",
-                  corpo, ["trem-min-1", "panamax-2", "aco-3", "minerio-1"], ld, origem="inicio")
+                  corpo, ["trem-min-1"], ld, origem="inicio")
 
 
 FAQ_LOG = [
@@ -268,6 +298,14 @@ def logistica():
 <div class="oferta"><span class="rot">Estrutura</span><h3>Estruturação e coordenação da cadeia</h3><p>Plano logístico com rota, capacidades e contratos, programação de embarque e acompanhamento do fluxo até o navio ou o cliente final.</p></div>
 <div class="oferta"><span class="rot">Entrada no Brasil</span><h3>Olhos locais para quem está fora</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>
 <div class="oferta"><span class="rot">Cargas</span><h3>Granel e carga industrial</h3><p>Minério de ferro e manganês, soja, milho e farelo, fertilizantes como KCl e ureia, gusa e produtos siderúrgicos.</p></div>
+</div></div></section>"""
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Cargas</div><h2>O que já passou pela minha operação</h2>
+<p class="intro">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>
+<div class="mosaico">
+<figure><img src="/fotos/real-graos-armazenados.webp" alt="Granel agrícola armazenado em pilha dentro do armazém"><figcaption>Grãos e farelo</figcaption></figure>
+<figure><img src="/fotos/real-kcl-armazenado.webp" alt="Pilha de cloreto de potássio (KCl) dentro do armazém"><figcaption>Fertilizante (KCl)</figcaption></figure>
+<figure><img src="/fotos/real-carregamento-minerio.webp" alt="Minério sendo carregado em vagões no pátio"><figcaption>Minério de ferro</figcaption></figure>
+<figure><img src="/fotos/real-fio-maquina.webp" alt="Bobinas de fio-máquina no pátio do terminal"><figcaption>Siderúrgicos</figcaption></figure>
 </div></div></section>"""
     corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">A conta</div><h2>O preço na origem é o que sobra depois de cada trecho</h2>
 <p class="intro">Quem compra paga o preço de referência menos tudo o que existe entre a origem e o porão do navio. Quem não conhece cada trecho negocia no escuro.</p>
@@ -309,7 +347,7 @@ def operacao():
     corpo = abertura("Desempenho da operação · TPS e Lean", "Onde a sua operação perde dinheiro.",
                      "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
                      btn_zap("operacao-abertura", texto="Oi Nitai, vi a página de operação do site e quero conversar sobre a minha operação.") + btn_pdf("operacao-abertura"),
-                     "aco-3")
+                     "real-armazem-graos")
     corpo += """<section class="faixa"><div class="miolo"><div class="rot">Diagnóstico de 5 dias</div><h2>Cinco dias no chão, um plano em reais</h2>
 <ol class="passos">
 <li><b>Onde perde dinheiro</b><span>De três a cinco pontos críticos levantados no chão, com operadores, liderança e indicadores.</span></li>
@@ -340,7 +378,7 @@ def operacao():
     ld = [servico("Diagnóstico operacional de 5 dias", "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.", "/operacao/"), faq_ld(FAQ_OP)]
     return pagina("/operacao/", "Consultoria TPS e Lean para operações | Nitai Lab",
                   "Diagnóstico de 5 dias com o Toyota Production System no chão de terminal, armazém ou planta: onde a operação perde dinheiro, em reais, e o plano de 90 dias",
-                  corpo, ["aco-3"], ld, atual="operacao", origem="operacao")
+                  corpo, [], ld, atual="operacao", origem="operacao")
 
 
 FAQ_VER = [
@@ -355,7 +393,7 @@ def verificacao():
     corpo = abertura("Verificação", "Me ofereceram uma mina, um lote ou um parceiro. É real?",
                      "Antes de assinar, levanto o que se comprova em documento oficial e o que a logística permite de verdade. Se a carga não consegue sair, o negócio não existe.",
                      btn_zap("verificacao-abertura", texto="Oi Nitai, vi a página de verificação do site e quero conferir uma mina ou um parceiro.") + btn_pdf("verificacao-abertura"),
-                     "minerio-1")
+                     "real-planta-mina")
     corpo += """<section class="faixa"><div class="miolo"><div class="rot">O que eu confiro</div><h2>Cada ponto, na fonte oficial</h2>
 <div class="ofertas">
 <div class="oferta"><span class="rot">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>
@@ -378,27 +416,27 @@ def verificacao():
     ld = [servico("Due diligence técnica e logística de mineração", "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.", "/verificacao/"), faq_ld(FAQ_VER)]
     return pagina("/verificacao/", "Due diligence de mineração: técnica e logística | Nitai Lab",
                   "Antes de assinar: título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. Complemento da due diligence jurídica.",
-                  corpo, ["minerio-1"], ld, atual="verificacao", origem="verificacao")
+                  corpo, [], ld, atual="verificacao", origem="verificacao")
 
 
 def casos():
     corpo = abertura("Casos", "O que aconteceu quando alguém parou para olhar.",
                      "Casos reais da minha trajetória. Sem nome de colega e sem número junto do lugar, por respeito a quem estava lá comigo.",
                      btn_zap("casos-abertura"), None)
-    corpo += """<section class="faixa"><div class="miolo"><div class="casos">
-<article class="caso"><span class="rot">Minério e siderurgia</span><h3>A caneta no vidro</h3><dl>
+    corpo += f"""<section class="faixa"><div class="miolo"><div class="casos">
+<article class="caso"><img class="caso-foto" src="/fotos/real-carreta-minerio.webp" alt="{PROPRIAS['real-carreta-minerio']}"><span class="rot">Minério e siderurgia</span><h3>A caneta no vidro</h3><dl>
 <dt>Situação</dt><dd>Um terminal de minério desenhado para carretas simples passou a receber bitrens e rodotrens. A fila ia para a rua, o cliente pressionava e a leitura de todos era: falta gente.</dd>
 <dt>O que fiz</dt><dd>Passei uma hora parado num único ponto da operação, só observando. Cada operador era dono de um caminhão, não de uma etapa. Redesenhei os papéis por etapa na parede de vidro da sala de reunião, com o líder de turno, e o desenho virou padrão.</dd>
 <dt>Resultado</dt><dd><b>Perto de 50% a mais de capacidade de descarga</b>, com a mesma equipe e sem investimento.</dd></dl></article>
-<article class="caso"><span class="rot">Grãos</span><h3>Cada vagão no seu 100%</h3><dl>
+<article class="caso"><img class="caso-foto" src="/fotos/real-vagoes-terminal.webp" alt="{PROPRIAS['real-vagoes-terminal']}"><span class="rot">Grãos</span><h3>Cada vagão no seu 100%</h3><dl>
 <dt>Situação</dt><dd>Frota de vagões heterogênea, carregamento sem padrão e, no pico da safra, demanda maior que a capacidade. Toda tonelada não carregada ia embora.</dd>
 <dt>O que fiz</dt><dd>Cada vagão passou a ter a própria meta de peso, medida como porcentagem do seu limite. A reunião de produção saiu do escritório e foi para uma sala dentro da operação, na troca de turno.</dd>
 <dt>Resultado</dt><dd><b>Mais de 100 toneladas a mais por trem</b> nos mesmos ativos, e receita adicional de milhões já no primeiro ano.</dd></dl></article>
-<article class="caso"><span class="rot">Minério e siderurgia</span><h3>Dez minérios em três pátios</h3><dl>
+<article class="caso"><img class="caso-foto" src="/fotos/real-carregamento-minerio.webp" alt="{PROPRIAS['real-carregamento-minerio']}"><span class="rot">Minério e siderurgia</span><h3>Dez minérios em três pátios</h3><dl>
 <dt>Situação</dt><dd>Um terminal funcionava como estoque avançado da composição química de uma siderúrgica, com até dez produtos de minério diferentes.</dd>
 <dt>O que fiz</dt><dd>Controle de segregação por produto e por pátio, com rastreabilidade e janelas de descarga.</dd>
 <dt>Resultado</dt><dd><b>Sem contaminação cruzada</b>, num terminal do qual dependia o faturamento diário do cliente.</dd></dl></article>
-<article class="caso"><span class="rot">Grãos</span><h3>A recuperação de um terminal</h3><dl>
+<article class="caso"><img class="caso-foto" src="/fotos/real-silos-terminal.webp" alt="{PROPRIAS['real-silos-terminal']}"><span class="rot">Grãos</span><h3>A recuperação de um terminal</h3><dl>
 <dt>Situação</dt><dd>Um terminal de grãos com o pior histórico da unidade em auditoria sanitária.</dd>
 <dt>O que fiz</dt><dd>Rotina de gestão integrada, padrão por etapa e acompanhamento próximo como gerente interino.</dd>
 <dt>Resultado</dt><dd><b>A maior nota em auditorias sanitárias</b>, a primeira certificação permanente do Ministério da Agricultura para grãos e recordes de produção mensal.</dd></dl></article>
@@ -410,8 +448,8 @@ def casos():
 
 
 def sobre():
-    corpo = abertura("Sobre", "Nitai Morais", "16 anos no Grupo Vale, entre a Vale e a VLI, planejando e operando terminais integrados a ferrovia e porto. Base em Minas Gerais.",
-                     btn_zap("sobre-abertura") + f'<a class="btn btn-2" href="{LINKEDIN}" rel="noopener">LinkedIn</a>', None)
+    corpo = abertura("Sobre", "Nitai Morais", "16 anos no Grupo Vale, entre a Vale e a VLI, no comercial, no planejamento de terminais integrados a ferrovia e porto e na gestão da operação. Base em Minas Gerais.",
+                     btn_zap("sobre-abertura") + f'<a class="btn btn-2" href="{LINKEDIN}" rel="noopener">LinkedIn</a>', retrato=("nitai-retrato-editorial", "Nitai Morais"))
     corpo += """<section class="faixa"><div class="miolo"><div class="rot">Escala</div><h2>No tamanho em que a cadeia acontece</h2>
 <div class="nums">
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
@@ -447,7 +485,7 @@ def sobre():
 def contato():
     corpo = abertura("Contato", "Como eu trabalho e como me chamar.",
                      "Respondo pelo WhatsApp ou por e-mail. A primeira conversa sobre o seu caso não custa nada.",
-                     btn_zap("contato-abertura") + f'<a class="btn btn-2" href="mailto:{EMAIL}">{EMAIL}</a>', None)
+                     btn_zap("contato-abertura") + f'<a class="btn btn-2" href="mailto:{EMAIL}">{EMAIL}</a>', retrato=("nitai-trabalhando", "Nitai Morais trabalhando no notebook"))
     corpo += REGRAS
     corpo += f"""<section class="faixa sup"><div class="miolo"><div class="duas">
 <div><div class="rot">Para encaminhar</div><h2 style="margin-top:14px">Apresentação em PDF</h2><p class="t2" style="margin-top:14px">Seis páginas, para mandar a quem decide.</p><div class="acoes">{btn_pdf("contato")}</div></div>
