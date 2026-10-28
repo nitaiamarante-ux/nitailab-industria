@@ -201,7 +201,9 @@ p{max-width:66ch}
 .ar-texto .lead{color:var(--creme);font-size:19px;max-width:52ch}
 .ar-foto{align-self:stretch;position:relative;margin-right:calc(min(0px, (var(--largura) - 100vw) / 2) - 32px)}  /* sangra até a borda direita da tela */
 .ar-foto img{position:absolute;right:0;bottom:0;height:100%;width:100%;object-fit:cover;object-position:center top;filter:saturate(.8) contrast(1.02) brightness(.92)}
-.ar-foto img[src*="trabalhando"]{object-position:72% 40%}
+.ar-foto img[src*="trabalhando"]{object-position:72% 40%;filter:saturate(.55) brightness(.7) contrast(1.05) blur(.4px)}
+/* contato: a foto vira atmosfera (véu e degradê longo), não retrato em primeiro plano */
+.ar-foto:has(img[src*="trabalhando"])::after{background:linear-gradient(90deg,var(--grafite) 0%,rgba(26,24,20,.78) 30%,rgba(26,24,20,.35) 65%,rgba(26,24,20,.45) 100%),linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 40%),linear-gradient(180deg,rgba(26,24,20,.5) 0%,rgba(26,24,20,0) 25%)}
 /* degradê por cima da foto: funde a borda esquerda e o pé no grafite */
 .ar-foto::after{content:"";position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(90deg,var(--grafite) 0%,rgba(26,24,20,.55) 22%,rgba(26,24,20,0) 52%),linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 30%)}
@@ -209,8 +211,8 @@ p{max-width:66ch}
 /* quem está por trás (Início) */
 .quem-grade{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center}
 .quem-foto{position:relative;max-width:440px}
-.quem-foto img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;filter:saturate(.85)}
-.quem-foto::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 35%),linear-gradient(270deg,var(--grafite) 0%,rgba(26,24,20,0) 25%)}
+.quem-foto img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 20%;filter:saturate(.75) brightness(.74) contrast(1.06)}  /* rosto mais baixo, no tom do grafite */
+.quem-foto::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 75% 70% at 50% 38%,rgba(26,24,20,0) 40%,rgba(26,24,20,.55) 100%),linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 35%),linear-gradient(270deg,var(--grafite) 0%,rgba(26,24,20,0) 25%)}
 .quem-texto h2{margin:14px 0 18px}
 .quem-texto p{color:var(--tx2)}
 .quem-texto p + p{margin-top:14px}

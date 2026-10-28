@@ -228,11 +228,11 @@ ROTA = """<section class="rota" aria-label="A cadeia, da origem ao porto"><div c
 <li>Porto<small>fila, navio, embarque</small></li>
 </ol></div></section>"""
 
-REGRAS = """<section class="faixa"><div class="miolo"><div class="rot">Como trabalho</div><h2>Três regras que valem antes de qualquer proposta</h2>
+REGRAS = """<section class="faixa"><div class="miolo"><div class="rot">Como trabalho</div><h2>Princípios de trabalho</h2>
 <div class="ofertas tres">
-<div class="oferta"><h3>Tudo por escrito antes</h3><p>Escopo, prazo e valor fechados antes de qualquer hora faturada. Sem mensalidade disfarçada e sem relatório genérico.</p></div>
-<div class="oferta"><h3>Quem apresenta fica protegido</h3><p>Contatos e informações recebidos em confiança não mudam de mão. Proponho acordo de confidencialidade e de não contorno, que protege os dois lados.</p></div>
-<div class="oferta"><h3>Conversa antes de proposta</h3><p>A primeira conversa sobre o seu caso não custa nada. Se houver trabalho, a gente define o formato. Se não houver, você sai com uma leitura honesta.</p></div>
+<div class="oferta"><h3>Tudo por escrito antes</h3><p>Escopo, prazo e valor definidos antes do início. Sem cobrança recorrente sem entrega definida e sem relatório genérico.</p></div>
+<div class="oferta"><h3>Confidencialidade nos dois sentidos</h3><p>Contatos e informações recebidos em confiança não mudam de mão. Proponho acordo de confidencialidade e de não contorno, que protege as duas partes e quem fez a apresentação.</p></div>
+<div class="oferta"><h3>Conversa antes de proposta</h3><p>A primeira conversa sobre o caso não tem custo. Havendo trabalho, definimos juntos o formato. Não havendo, você sai com uma avaliação objetiva.</p></div>
 </div></div></section>"""
 
 
@@ -240,11 +240,11 @@ def inicio():
     corpo = abertura(
         "Nitai Morais · 16 anos de comercial, logística e operações na Vale e VLI",
         "Logística de granéis e carga industrial, da origem ao porto.",
-        "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje ajudo quem embarca minério, grãos, fertilizantes e gusa a decidir rota, custo e risco, e quem opera terminal, armazém ou planta a parar de perder dinheiro.",
+        "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
         btn_zap("inicio-abertura") + btn_pdf("inicio-abertura"), "trem-min-1")
     corpo += ROTA
     corpo += """<section class="faixa"><div class="miolo"><div class="rot">Escala</div>
-<h2>Operei essa cadeia por dentro, no tamanho em que ela acontece.</h2>
+<h2>Experiência na escala real da cadeia</h2>
 <div class="nums">
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
 <div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>
@@ -253,22 +253,22 @@ def inicio():
 </div></div></section>"""
     corpo += """<section class="faixa quem"><div class="miolo quem-grade">
 <div class="quem-foto"><img src="/fotos/nitai-retrato-escuro.webp" alt="Nitai Morais"></div>
-<div class="quem-texto"><div class="rot">Quem está por trás</div><h2>Sou Nitai Morais.</h2>
-<p>Passei 16 anos do lado de dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI, na gestão de operação com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com cliente e implantei o TPS com a própria Toyota.</p>
-<p>Hoje levo isso para quem precisa decidir rota, custo e risco, ou fazer uma operação render mais. Atendo pessoalmente, do primeiro contato à entrega.</p>
+<div class="quem-texto"><div class="rot">Quem conduz o trabalho</div><h2>Nitai Morais</h2>
+<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>
+<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>
 <div class="acoes"><a class="btn btn-2" href="/sobre/">Ver a trajetória</a></div></div>
 </div></section>"""
     corpo += secao_clientes()
-    corpo += f"""<section class="faixa sup"><div class="miolo"><div class="rot">O que eu faço</div>
-<h2>Três perguntas que chegam até mim</h2>
+    corpo += f"""<section class="faixa sup"><div class="miolo"><div class="rot">Frentes de atuação</div>
+<h2>Três frentes, uma mesma base: a operação vista por dentro</h2>
 <div class="cartoes">
-<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{PROPRIAS['real-vagoes-terminal']}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Como a minha carga chega ao destino, a que custo e com que risco?</span><p>Rota, modal, alternativas, viabilidade e netback, da origem ao porto.</p><span class="ir">Ver Logística →</span></div></a>
-<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{PROPRIAS['real-armazem-graos']}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Onde a minha operação perde dinheiro?</span><p>Diagnóstico de 5 dias no chão do terminal, do armazém ou da planta, com o Toyota Production System que implantei com a própria Toyota.</p><span class="ir">Ver Operação →</span></div></a>
-<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{PROPRIAS['real-planta-mina']}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Me ofereceram uma mina, um lote ou um parceiro. É real?</span><p>O que se comprova em documento antes de assinar, e se a carga consegue sair.</p><span class="ir">Ver Verificação →</span></div></a>
+<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{PROPRIAS['real-vagoes-terminal']}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class="ir">Ver Logística →</span></div></a>
+<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{PROPRIAS['real-armazem-graos']}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class="ir">Ver Operação →</span></div></a>
+<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{PROPRIAS['real-planta-mina']}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Mina, lote e contraparte conferidos antes da assinatura</span><p>Fontes oficiais, leitura do laudo e capacidade real de escoar a carga.</p><span class="ir">Ver Verificação →</span></div></a>
 </div></div></section>"""
     corpo += REGRAS
-    corpo += fecho("inicio-fecho", "Tem uma carga, uma operação ou um negócio na mesa?",
-                   "Me conte em duas linhas pelo WhatsApp. Respondo com o que eu faria primeiro.")
+    corpo += fecho("inicio-fecho", "Avaliação inicial do seu caso",
+                   "Descreva em poucas linhas a carga, a operação ou o negócio. Retorno com uma primeira avaliação e o próximo passo recomendado.")
     ld = [{"@type": "WebSite", "name": "Nitai Lab", "url": URL + "/", "inLanguage": "pt-BR",
            "publisher": {"@id": URL + "/#empresa"}}]
     return pagina("/", "Logística de granéis, da origem ao porto | Nitai Lab",
@@ -285,21 +285,21 @@ FAQ_LOG = [
 
 
 def logistica():
-    corpo = abertura("Estratégia e estrutura logística", "Como a sua carga chega ao destino, a que custo e com que risco.",
+    corpo = abertura("Estratégia e estrutura logística", "Rota, custo e risco da carga, da origem ao porto.",
                      "Granel se decide na logística. Antes de fechar um contrato de compra, venda ou transporte, mostro a conta trecho a trecho, as alternativas e onde está o risco.",
                      btn_zap("logistica-abertura", texto="Oi Nitai, vi a página de logística do site e quero conversar sobre uma carga.") + btn_pdf("logistica-abertura"),
                      "panamax-1")
     corpo += ROTA
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">O que eu entrego</div><h2>Cinco situações em que eu entro</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Escopo</div><h2>Serviços</h2>
 <div class="ofertas">
 <div class="oferta"><span class="rot">Viabilidade</span><h3>Viabilidade e netback de lote ou de fluxo</h3><p>A conta trecho a trecho, por rota e por cenário de frete e preço. Você sai sabendo o preço mínimo na origem e qual rota vale a pena.</p></div>
 <div class="oferta"><span class="rot">Alternativas</span><h3>Estudo de rota e modal</h3><p>Rodovia, ferrovia, cabotagem e porto comparados em custo, prazo, capacidade e risco, com o que confirmar em cotação antes de decidir.</p></div>
 <div class="oferta"><span class="rot">Risco</span><h3>Análise de risco logístico</h3><p>Dependência de um só operador, capacidade contratada, take-or-pay, sazonalidade, regulação e a saúde de quem está do outro lado.</p></div>
 <div class="oferta"><span class="rot">Estrutura</span><h3>Estruturação e coordenação da cadeia</h3><p>Plano logístico com rota, capacidades e contratos, programação de embarque e acompanhamento do fluxo até o navio ou o cliente final.</p></div>
-<div class="oferta"><span class="rot">Entrada no Brasil</span><h3>Olhos locais para quem está fora</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>
+<div class="oferta"><span class="rot">Entrada no Brasil</span><h3>Apoio local a empresas estrangeiras</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>
 <div class="oferta"><span class="rot">Cargas</span><h3>Granel e carga industrial</h3><p>Minério de ferro e manganês, soja, milho e farelo, fertilizantes como KCl e ureia, gusa e produtos siderúrgicos.</p></div>
 </div></div></section>"""
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Cargas</div><h2>O que já passou pela minha operação</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Cargas</div><h2>Cargas que operei</h2>
 <p class="intro">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>
 <div class="mosaico">
 <figure><img src="/fotos/real-graos-armazenados.webp" alt="Granel agrícola armazenado em pilha dentro do armazém"><figcaption>Grãos e farelo</figcaption></figure>
@@ -318,16 +318,16 @@ def logistica():
 <div><i>−</i><b>Tributos e giro</b><span>impostos, câmbio, prazo de recebimento</span></div>
 <div><i>=</i><b>Netback</b><span>o que sobra para a origem, o preço mínimo que fecha</span></div>
 </div></div></section>"""
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Como funciona</div><h2>Do primeiro contato à entrega</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Como funciona</div><h2>Etapas do trabalho</h2>
 <ol class="passos">
-<li><b>Conversa</b><span>Você me conta a carga, a origem, o destino e o prazo. Sem custo.</span></li>
+<li><b>Conversa inicial</b><span>Carga, origem, destino, volume e prazo. Sem custo.</span></li>
 <li><b>Escopo por escrito</b><span>O que entra, o que não entra, prazo e valor, antes de começar.</span></li>
 <li><b>Entrega</b><span>Dossiê ou plano com a conta, as alternativas e o que confirmar.</span></li>
 <li><b>Acompanhamento</b><span>Opcional, se você quiser que eu coordene a execução.</span></li>
 </ol>
 <div class="duas"><div class="caixa"><span class="rot">De onde vem</span><p>Planejei por dentro a cadeia de grãos e fertilizantes que vai do porto de Tubarão, pelas ferrovias EFVM e FCA, até terminais no interior de Minas e o cliente final, e a de minério e siderúrgicos para as usinas de Minas.</p></div>
 <div><h3>Perguntas frequentes</h3>""" + faq(FAQ_LOG) + "</div></div></div></section>"
-    corpo += fecho("logistica-fecho", "Tem uma carga para tirar do lugar?", "Me diga o que é, de onde sai e para onde vai. Respondo com a primeira leitura.")
+    corpo += fecho("logistica-fecho", "Envie os dados da carga para uma primeira avaliação", "Produto, origem, destino e volume. Retorno com a leitura inicial e o que precisa ser confirmado.")
     ld = [servico("Consultoria de logística de granéis", "Rota, modal, alternativas, viabilidade, netback e risco logístico para granéis e carga industrial no Brasil.", "/logistica/"), faq_ld(FAQ_LOG)]
     return pagina("/logistica/", "Consultoria logística ferroviária e portuária | Nitai Lab",
                   "Rota, modal, alternativas, viabilidade e risco logístico para minério, grãos, fertilizantes e siderúrgicos, da origem ao porto.",
@@ -348,21 +348,21 @@ def operacao():
                      "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
                      btn_zap("operacao-abertura", texto="Oi Nitai, vi a página de operação do site e quero conversar sobre a minha operação.") + btn_pdf("operacao-abertura"),
                      "real-armazem-graos")
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Diagnóstico de 5 dias</div><h2>Cinco dias no chão, um plano em reais</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Diagnóstico de 5 dias</div><h2>Diagnóstico em cinco dias, com as perdas quantificadas em reais</h2>
 <ol class="passos">
 <li><b>Onde perde dinheiro</b><span>De três a cinco pontos críticos levantados no chão, com operadores, liderança e indicadores.</span></li>
 <li><b>Cada perda em reais</b><span>Cada ponto vem com o valor por mês ou por ano.</span></li>
 <li><b>Plano de 90 dias</b><span>Ações em ordem de custo e benefício, com responsáveis.</span></li>
 <li><b>Devolutiva ao time</b><span>Apresentação presencial para quem vai executar.</span></li>
 </ol></div></section>"""
-    corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">Temas</div><h2>Onde costumo encontrar a perda</h2>
+    corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">Temas</div><h2>Principais fontes de perda</h2>
 <div class="ofertas">
 <div class="oferta"><h3>Capacidade e gargalo</h3><p>A etapa que limita tudo, quase sempre distribuição de papéis e não falta de equipamento.</p></div>
 <div class="oferta"><h3>Custo por tonelada</h3><p>Quanto custa cada tonelada movimentada e o que compõe esse número.</p></div>
 <div class="oferta"><h3>Contratos e terceiros</h3><p>Serviços operacionais pagos por um escopo que a operação já não usa.</p></div>
 <div class="oferta"><h3>Paradas de manutenção</h3><p>Planejamento e controle para parar sem perder a produção programada.</p></div>
 </div></div></section>"""
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Resultados</div><h2>O que esse tipo de trabalho já entregou</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Resultados</div><h2>Resultados obtidos</h2>
 <div class="nums">
 <div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>
 <div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>
@@ -374,7 +374,7 @@ def operacao():
 <p class="t2">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>
 <div class="caixa"><span class="rot">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>
 <h3 style="margin-top:56px">Perguntas frequentes</h3>""" + faq(FAQ_OP) + '<div class="acoes"><a class="btn btn-2" href="/casos/">Ver os casos</a></div></div></section>'
-    corpo += fecho("operacao-fecho", "Sua operação custa mais do que deveria?", "Me conte o que você opera e onde dói. Respondo com o primeiro lugar para olhar.")
+    corpo += fecho("operacao-fecho", "Solicite um diagnóstico", "Informe o tipo de operação e o principal problema. Retorno indicando por onde começar.")
     ld = [servico("Diagnóstico operacional de 5 dias", "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.", "/operacao/"), faq_ld(FAQ_OP)]
     return pagina("/operacao/", "Consultoria TPS e Lean para operações | Nitai Lab",
                   "Diagnóstico de 5 dias com o Toyota Production System no chão de terminal, armazém ou planta: onde a operação perde dinheiro, em reais, e o plano de 90 dias",
@@ -390,20 +390,20 @@ FAQ_VER = [
 
 
 def verificacao():
-    corpo = abertura("Verificação", "Me ofereceram uma mina, um lote ou um parceiro. É real?",
+    corpo = abertura("Verificação", "Verificação técnica e logística antes da assinatura.",
                      "Antes de assinar, levanto o que se comprova em documento oficial e o que a logística permite de verdade. Se a carga não consegue sair, o negócio não existe.",
                      btn_zap("verificacao-abertura", texto="Oi Nitai, vi a página de verificação do site e quero conferir uma mina ou um parceiro.") + btn_pdf("verificacao-abertura"),
                      "real-planta-mina")
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">O que eu confiro</div><h2>Cada ponto, na fonte oficial</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">O que é verificado</div><h2>Itens conferidos em fonte oficial</h2>
 <div class="ofertas">
 <div class="oferta"><span class="rot">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>
 <div class="oferta"><span class="rot">CFEM</span><h3>Royalty da mineração em dia</h3><p>Quem recolhe a Compensação Financeira pela Exploração Mineral está produzindo e vendendo de fato.</p></div>
 <div class="oferta"><span class="rot">Licenças</span><h3>Licença ambiental</h3><p>Se a licença cobre a operação e o volume que estão sendo oferecidos.</p></div>
-<div class="oferta"><span class="rot">Contraparte</span><h3>Quem está do outro lado</h3><p>Sócios, tempo de existência, processos e dívidas públicas da empresa que vende ou compra.</p></div>
-<div class="oferta"><span class="rot">Laudo</span><h3>Qualidade lida, não emitida</h3><p>O que o laudo do laboratório diz sobre o teor e o que isso faz com o preço.</p></div>
+<div class="oferta"><span class="rot">Contraparte</span><h3>Empresa do outro lado</h3><p>Sócios, tempo de existência, processos e dívidas públicas da empresa que vende ou compra.</p></div>
+<div class="oferta"><span class="rot">Laudo</span><h3>Leitura do laudo de qualidade</h3><p>O que o laudo do laboratório diz sobre o teor e o que isso faz com o preço.</p></div>
 <div class="oferta"><span class="rot">Logística</span><h3>Capacidade de escoar</h3><p>Se existe caminho, vaga e capacidade para a carga chegar ao porto no volume e no prazo prometidos.</p></div>
 </div></div></section>"""
-    corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">Entregas</div><h2>O que você recebe</h2>
+    corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">Entregas</div><h2>Entregáveis</h2>
 <div class="ofertas">
 <div class="oferta"><h3>Parecer rápido</h3><p>Uma página: dá para seguir ou não, e por quê.</p></div>
 <div class="oferta"><h3>Dossiê da mina</h3><p>O que está documentado, o que falta e o que pedir antes de assinar.</p></div>
@@ -412,7 +412,7 @@ def verificacao():
 </div>
 <div class="caixa" style="margin-top:32px"><span class="rot">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p></div>
 <h3 style="margin-top:56px">Perguntas frequentes</h3>""" + faq(FAQ_VER) + "</div></section>"
-    corpo += fecho("verificacao-fecho", "Tem um negócio na mesa e uma dúvida?", "Me mande o que você recebeu. Respondo se vale seguir e o que pedir primeiro.")
+    corpo += fecho("verificacao-fecho", "Envie a documentação para análise", "Retorno indicando se o negócio se sustenta e quais documentos solicitar antes de seguir.")
     ld = [servico("Due diligence técnica e logística de mineração", "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.", "/verificacao/"), faq_ld(FAQ_VER)]
     return pagina("/verificacao/", "Due diligence de mineração: técnica e logística | Nitai Lab",
                   "Antes de assinar: título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. Complemento da due diligence jurídica.",
@@ -420,8 +420,8 @@ def verificacao():
 
 
 def casos():
-    corpo = abertura("Casos", "O que aconteceu quando alguém parou para olhar.",
-                     "Casos reais da minha trajetória. Sem nome de colega e sem número junto do lugar, por respeito a quem estava lá comigo.",
+    corpo = abertura("Casos", "Casos de operação e logística.",
+                     "Situações reais da minha trajetória na Vale e na VLI, descritas sem identificar pessoas e sem associar números a locais.",
                      btn_zap("casos-abertura"), None)
     corpo += f"""<section class="faixa"><div class="miolo"><div class="casos">
 <article class="caso"><img class="caso-foto" src="/fotos/real-carreta-minerio.webp" alt="{PROPRIAS['real-carreta-minerio']}"><span class="rot">Minério e siderurgia</span><h3>A caneta no vidro</h3><dl>
@@ -441,7 +441,7 @@ def casos():
 <dt>O que fiz</dt><dd>Rotina de gestão integrada, padrão por etapa e acompanhamento próximo como gerente interino.</dd>
 <dt>Resultado</dt><dd><b>A maior nota em auditorias sanitárias</b>, a primeira certificação permanente do Ministério da Agricultura para grãos e recordes de produção mensal.</dd></dl></article>
 </div></div></section>"""
-    corpo += fecho("casos-fecho", "Reconheceu a sua operação em algum desses?", "Me conte. Quase sempre o primeiro passo é o mesmo: alguém parar e olhar.")
+    corpo += fecho("casos-fecho", "Situação semelhante na sua operação?", "Descreva o contexto. Indico o primeiro ponto a analisar.")
     return pagina("/casos/", "Casos de operação e logística de granéis | Nitai Lab",
                   "Casos reais de terminal, ferrovia e porto, anonimizados: o desafio, o que foi feito e o resultado em ordem de grandeza.",
                   corpo, [], [{"@type": "CollectionPage", "name": "Casos", "url": URL + "/casos/"}], atual="casos", origem="casos")
@@ -450,14 +450,14 @@ def casos():
 def sobre():
     corpo = abertura("Sobre", "Nitai Morais", "16 anos no Grupo Vale, entre a Vale e a VLI, no comercial, no planejamento de terminais integrados a ferrovia e porto e na gestão da operação. Base em Minas Gerais.",
                      btn_zap("sobre-abertura") + f'<a class="btn btn-2" href="{LINKEDIN}" rel="noopener">LinkedIn</a>', retrato=("nitai-retrato-editorial", "Nitai Morais"))
-    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Escala</div><h2>No tamanho em que a cadeia acontece</h2>
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Escala</div><h2>Escala da experiência</h2>
 <div class="nums">
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
 <div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>
 <div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>
 <div><b>250</b><span>pessoas na maior equipe que liderei</span></div>
 </div></div></section>"""
-    corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">Trajetória</div><h2>Por escopo, não por cargo</h2>
+    corpo += """<section class="faixa sup"><div class="miolo"><div class="rot">Trajetória</div><h2>Trajetória por área de atuação</h2>
 <div class="traj">
 <div><div class="quando">2024 a hoje<small>Nitai Lab</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Pela NP Consultoria e Serviços.</p></div></div>
 <div><div class="quando">2022 a 2024<small>VLI</small></div><div><h3>Minério e siderurgia</h3><p>Gestão de planejamento, processos, manutenção e operação dos terminais de Santa Luzia e Ouro Preto, em Minas, com até dez produtos de minério segregados e parada geral planejada sem perder produção. Gerente interino por oito meses.</p></div></div>
@@ -475,7 +475,7 @@ def sobre():
 <li>Negociação Estratégica e Gestão de Conflitos, Ibmec</li>
 <li>Administração de Empresas, FUMEC</li>
 </ul></div></div></div></section>"""
-    corpo += fecho("sobre-fecho", "Vamos conversar?", "Pelo WhatsApp ou por e-mail. Se for indicação, me diga de quem.")
+    corpo += fecho("sobre-fecho", "Contato", "Pelo WhatsApp ou por e-mail. Em caso de indicação, informe quem indicou.")
     ld = [{"@type": "ProfilePage", "name": "Sobre Nitai Morais", "url": URL + "/sobre/", "mainEntity": {"@id": URL + "/#nitai"}}]
     return pagina("/sobre/", "Nitai Morais, 16 anos de Vale e VLI | Nitai Lab",
                   "Gestão de terminais integrados a ferrovia e porto, TPS com a TSSC, primeiro modelo de EBITDA por unidade da VLI. Base em Minas Gerais.",
@@ -483,8 +483,8 @@ def sobre():
 
 
 def contato():
-    corpo = abertura("Contato", "Como eu trabalho e como me chamar.",
-                     "Respondo pelo WhatsApp ou por e-mail. A primeira conversa sobre o seu caso não custa nada.",
+    corpo = abertura("Contato", "Contato e condições de trabalho.",
+                     "Atendimento pelo WhatsApp ou por e-mail. A primeira conversa sobre o caso não tem custo.",
                      btn_zap("contato-abertura") + f'<a class="btn btn-2" href="mailto:{EMAIL}">{EMAIL}</a>', retrato=("nitai-trabalhando", "Nitai Morais trabalhando no notebook"))
     corpo += REGRAS
     corpo += f"""<section class="faixa sup"><div class="miolo"><div class="duas">
