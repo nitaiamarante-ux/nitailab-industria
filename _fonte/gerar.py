@@ -202,7 +202,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <div class="cols">
 <div><a class="marca" href="/">{PULSO}<b>NITAI LAB</b><span>Logística e Operações</span></a>
 <p class="ent">Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p></div>
-<div><h4>O que eu faço</h4><ul><li><a href="/logistica/">Logística</a></li><li><a href="/operacao/">Operação</a></li><li><a href="/verificacao/">Verificação</a></li></ul></div>
+<div><h4>Frentes de atuação</h4><ul><li><a href="/logistica/">Logística</a></li><li><a href="/operacao/">Operação</a></li><li><a href="/verificacao/">Verificação</a></li></ul></div>
 <div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">Sobre</a></li><li><a href="/casos/">Casos</a></li><li><a href="{PDF}">Apresentação em PDF</a></li><li><a href="/politica-de-privacidade/">Política de privacidade</a></li></ul></div>
 <div><h4>Contato</h4><ul><li><a href="{zap(origem + "-rodape")}" target="_blank" rel="noopener">WhatsApp (31) 98297-6006</a></li><li><a href="mailto:{EMAIL}">{EMAIL}</a></li><li><a href="{LINKEDIN}" rel="noopener">LinkedIn</a></li></ul></div>
 </div>
