@@ -163,7 +163,8 @@ PESSOA = {"@type": "Person", "@id": URL + "/#nitai", "name": "Nitai Morais", "al
           "worksFor": {"@id": URL + "/#empresa"}, "sameAs": [LINKEDIN],
           "address": {"@type": "PostalAddress", "addressRegion": "MG", "addressCountry": "BR"},
           "alumniOf": ["Fundação Getulio Vargas", "PUC Minas", "Fundação Dom Cabral", "FUMEC"]}
-EMPRESA = {"@type": "ProfessionalService", "@id": URL + "/#empresa", "name": "Nitai Lab",
+EMPRESA = {"@type": "ProfessionalService", "@id": URL + "/#empresa", "name": "Nitai Lab", "alternateName": "Nitai Lab Logística e Operações",
+           "sameAs": [LINKEDIN], "slogan": "Logística de granéis e carga industrial, da origem ao porto",
            "legalName": "NP Consultoria e Serviços Ltda", "taxID": "68.698.300/0001-20", "url": URL + "/",
            "email": EMAIL, "telephone": "+55 31 98297-6006", "areaServed": "BR", "founder": {"@id": URL + "/#nitai"},
            "address": {"@type": "PostalAddress", "addressRegion": "MG", "addressCountry": "BR"},
