@@ -116,7 +116,7 @@ def seletor_compacto(caminho):
 
 FOTOS = {
     "trem-min-1": ("Trem carregado de minério de ferro na ferrovia, visto do alto", "trem de minério",
-                   "HVL (espelhada)", "CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/",
+                   "HVL (recortada e espelhada)", "CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/",
                    "https://commons.wikimedia.org/wiki/File:Trem_da_Vale_com_minério_de_ferro_na_EFVM_e_BR-381_em_Timóteo_MG.JPG"),
     "panamax-1": ("Navio graneleiro entrando no porto de Santos", "navio graneleiro",
                   "Mike Peel", "CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -315,7 +315,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
         partes = []
         for f in fotos_usadas:
             _, leg, autor, lic, lic_url, fonte = FOTOS[f]
-            autor = autor.replace("(espelhada)", T("(espelhada)"))
+            autor = autor.replace("(recortada e espelhada)", T("(recortada e espelhada)"))
             partes.append(f'<li>{T(leg).capitalize()}: <a href="{fonte}" rel="noopener">{autor}</a>, <a href="{lic_url}" rel="noopener">{lic}</a></li>')
         cred = f'<div class="creditos"><p>{T("Fotos ilustrativas, Wikimedia Commons.")}</p><ul>' + "".join(partes) + "</ul></div>"
     grafo = {"@context": "https://schema.org", "@graph": [pessoa(), empresa()] + ld}

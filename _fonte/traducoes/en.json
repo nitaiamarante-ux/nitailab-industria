@@ -1,606 +1,606 @@
 {
- "13865a704f7e": {
-  "pt": "Contato pelo site da Nitai Lab",
-  "tr": "Contact through the Nitai Lab website"
- },
- "2491875755f5": {
-  "pt": "Oi Nitai, vi o site da Nitai Lab e quero conversar.",
-  "tr": "Hello Nitai, I saw the Nitai Lab website and would like to talk."
- },
- "7515e4ab6b47": {
-  "pt": "Enviar e-mail",
-  "tr": "Send an email"
- },
- "41cf1dc9ba0c": {
-  "pt": "Baixar a apresentação",
-  "tr": "Download the presentation"
- },
- "d822bd1cda3c": {
-  "pt": "Nitai Morais · 16 anos de comercial, logística e operações na Vale e VLI",
-  "tr": "Nitai Morais · 16 years in commercial, logistics and operations roles at Vale and VLI"
- },
- "36ce5bbc47bb": {
-  "pt": "Logística de granéis e carga industrial, da origem ao porto.",
-  "tr": "Bulk and industrial cargo logistics in Brazil, from origin to port."
- },
- "f2192b621bf4": {
-  "pt": "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
-  "tr": "I planned terminals, rail and port operations from the inside and implemented TPS with Toyota itself. Today I support companies shipping iron ore, grains, fertilisers and pig iron in their decisions on route, cost and risk, and in terminal, warehouse and plant operations that need to cut losses."
- },
- "8926edead734": {
-  "pt": "Trem carregado de minério de ferro na ferrovia, visto do alto",
-  "tr": "Train loaded with iron ore on the railway, seen from above"
- },
- "a69bf6a1b994": {
-  "pt": "trem de minério",
-  "tr": "iron ore train"
- },
- "664fd9495d5c": {
-  "pt": "Carga · ",
-  "tr": "Cargo · "
- },
- "8feb2a0f5550": {
-  "pt": "<section class=\"rota\" aria-label=\"A cadeia, da origem ao porto\"><div class=\"miolo\"><ol>\n<li>Origem<small>mina, fazenda, usina</small></li>\n<li>Rodovia<small>carreta, bitrem, rodotrem</small></li>\n<li>Terminal<small>transbordo, armazém, estoque</small></li>\n<li>Ferrovia<small>vagão, janela, tarifa</small></li>\n<li>Porto<small>fila, navio, embarque</small></li>\n</ol><p class=\"rota-nota\">Arranjo mais comum no granel de exportação. Há cadeias só rodoviárias, por cabotagem ou por hidrovia, e cada uma muda a conta.</p></div></section>",
-  "tr": "<section class=\"rota\" aria-label=\"The chain, from origin to port\"><div class=\"miolo\"><ol>\n<li>Origin<small>mine, farm, mill</small></li>\n<li>Road<small>truck, B-double, road train</small></li>\n<li>Terminal<small>transhipment, storage, stockpile</small></li>\n<li>Rail<small>wagon, slot, tariff</small></li>\n<li>Port<small>queue, vessel, loading</small></li>\n</ol><p class=\"rota-nota\">The most common setup for bulk exports. Some chains are road-only, coastal shipping or inland waterway, and each one changes the numbers.</p></div></section>"
- },
- "0862b09cc49b": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div>\n<h2>Experience at real scale across the chain</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>1.8 Mt</b><span>of pig iron exported in the account portfolio I managed</span></div>\n<div><b>16 years</b><span>in the Vale Group, across Vale and VLI</span></div>\n</div></div></section>"
- },
- "2aee2ff4427c": {
-  "pt": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem conduz o trabalho</div><h2>Nitai Morais</h2>\n<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>\n<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">Ver a trajetória</a></div></div>\n</div></section>",
-  "tr": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Who leads the work</div><h2>Nitai Morais</h2>\n<p>Sixteen years inside the chain: in Vale's commercial team, in VLI's terminal planning and in operations management, leading teams of up to 250 people. I planned capacity, defended budgets, negotiated with clients and implemented TPS with consulting from Toyota itself.</p>\n<p>Today I apply that experience to decisions on route, cost and risk, and to operations that need to perform better. I lead every engagement personally, from diagnosis to delivery.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">See my track record</a></div></div>\n</div></section>"
- },
- "aa54dc144f0f": {
-  "pt": "Minério e siderurgia",
-  "tr": "Iron ore and steel"
- },
- "57726edfbcbd": {
-  "pt": "Grãos",
-  "tr": "Grains"
- },
- "20c4e9d61ce2": {
-  "pt": "Fertilizantes",
-  "tr": "Fertilisers"
- },
- "b147110461ea": {
-  "pt": "Combustíveis",
-  "tr": "Fuels"
- },
- "7e8f187956c1": {
-  "pt": "Construção",
-  "tr": "Construction"
- },
- "e84b64f4b7a2": {
-  "pt": "Clientes",
-  "tr": "Clients"
- },
- "2e9386c6a2e3": {
-  "pt": "Clientes que atendi",
-  "tr": "Clients I served"
- },
- "c218ad8fee8c": {
-  "pt": "Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.",
-  "tr": "Over 16 years at Vale and VLI, in the iron ore, grain, fertiliser and fuel chains."
- },
- "93dda4b47644": {
-  "pt": "Vagões graneleiros carregados ao lado da plataforma do terminal",
-  "tr": "Loaded bulk wagons beside the terminal platform"
- },
- "f94bff9bf501": {
-  "pt": "Armazém graneleiro por dentro, com grão estocado e pá carregadeira",
-  "tr": "Inside a bulk warehouse, with stored grain and a wheel loader"
- },
- "5026b91eb549": {
-  "pt": "Planta de beneficiamento de minério vista do alto",
-  "tr": "Iron ore processing plant seen from above"
- },
- "5ea65ccb1cfe": {
-  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Frentes de atuação</div>\n<h2>Três frentes, uma mesma base: a operação vista por dentro</h2>\n<div class=\"cartoes\">\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot\">Estratégia e estrutura logística</span><span class=\"q\">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class=\"ir\">Ver Logística →</span></div></a>\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot\">Desempenho da operação · TPS</span><span class=\"q\">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class=\"ir\">Ver Operação →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot\">Verificação</span><span class=\"q\">Mina, lote e contraparte documentados antes da assinatura</span><p>Para quem compra e para quem vende: fontes oficiais, laudo lido e capacidade real de escoar a carga.</p><span class=\"ir\">Ver Verificação →</span></div></a>\n</div></div></section>",
-  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Areas of work</div>\n<h2>Three areas of work, one foundation: operations seen from the inside</h2>\n<div class=\"cartoes\">\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot\">Logistics strategy and structure</span><span class=\"q\">Route, cost and risk of the cargo, from origin to port</span><p>Route and mode studies, alternatives, feasibility, netback and logistics risk.</p><span class=\"ir\">See Logistics →</span></div></a>\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot\">Operational performance · TPS</span><span class=\"q\">Operational losses quantified in money</span><p>A 5-day diagnostic at a terminal, warehouse or plant, using the Toyota method (TPS), with a 90-day plan.</p><span class=\"ir\">See Operations →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot\">Verification</span><span class=\"q\">Mine, parcel and counterparty documented before signing</span><p>For buyers and for sellers: official sources, the lab report read and the real capacity to move the cargo.</p><span class=\"ir\">See Verification →</span></div></a>\n</div></div></section>"
- },
- "dc05d179f94f": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Como trabalho</div><h2>Princípios de trabalho</h2>\n<div class=\"ofertas tres\">\n<div class=\"oferta\"><h3>Tudo por escrito antes</h3><p>Escopo, prazo e valor definidos antes do início. Sem cobrança recorrente sem entrega definida e sem relatório genérico.</p></div>\n<div class=\"oferta\"><h3>Confidencialidade nos dois sentidos</h3><p>Contatos e informações recebidos em confiança não mudam de mão. Proponho acordo de confidencialidade e de não contorno, que protege as duas partes e quem fez a apresentação.</p></div>\n<div class=\"oferta\"><h3>Conversa antes de proposta</h3><p>A primeira conversa sobre o caso não tem custo. Havendo trabalho, definimos juntos o formato. Não havendo, você sai com uma avaliação objetiva.</p></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">How I work</div><h2>Working principles</h2>\n<div class=\"ofertas tres\">\n<div class=\"oferta\"><h3>Everything in writing first</h3><p>Scope, timeline and fee agreed before work starts. No retainers without a defined deliverable and no boilerplate reports.</p></div>\n<div class=\"oferta\"><h3>Confidentiality both ways</h3><p>Contacts and information shared in confidence are not passed on. I propose a non-disclosure and non-circumvention agreement that protects both parties and the introducer.</p></div>\n<div class=\"oferta\"><h3>A conversation before a proposal</h3><p>The first conversation about your case is free of charge. If there is work to do, we agree on the format together. If there is not, you leave with an objective assessment.</p></div>\n</div></div></section>"
- },
- "d4cd3db085f5": {
-  "pt": "Avaliação inicial do seu caso",
-  "tr": "An initial assessment of your case"
- },
- "938594ea8108": {
-  "pt": "Descreva em poucas linhas a carga, a operação ou o negócio. Retorno com uma primeira avaliação e o próximo passo recomendado.",
-  "tr": "Describe the cargo, the operation or the deal in a few lines. I will reply with a first assessment and the recommended next step."
- },
- "aabf25d5bf4c": {
-  "pt": "Logística de granéis, da origem ao porto | Nitai Lab",
-  "tr": "Brazil bulk logistics, from origin to port | Nitai Lab"
- },
- "f465b11480fd": {
-  "pt": "Consultoria de logística de granéis e carga industrial com 16 anos de Vale e VLI: estratégia e estrutura, desempenho da operação e verificação.",
-  "tr": "Bulk and industrial cargo logistics consulting in Brazil, backed by 16 years at Vale and VLI: logistics strategy and structure, operational performance and verification."
- },
- "94573b18ff3f": {
-  "pt": "Logística",
-  "tr": "Logistics"
- },
- "05b440409738": {
-  "pt": "Operação",
-  "tr": "Operations"
- },
- "140f8046d943": {
-  "pt": "Verificação",
-  "tr": "Verification"
- },
- "5b9a292dbe17": {
-  "pt": "Casos",
-  "tr": "Cases"
- },
- "23930282a19c": {
-  "pt": "Sobre",
-  "tr": "About"
- },
- "56661c07cf29": {
-  "pt": "Contato",
-  "tr": "Contact"
- },
- "747e0f9d9982": {
-  "pt": "Fotos ilustrativas, Wikimedia Commons.",
-  "tr": "Illustrative photos, Wikimedia Commons."
- },
- "edc8845a7db9": {
-  "pt": "Consultor de logística de granéis e operações industriais",
-  "tr": "Bulk logistics and industrial operations consultant"
- },
- "4e828a45ae2a": {
-  "pt": "16 anos no Grupo Vale (Vale e VLI), gestão de terminais integrados a ferrovia e porto.",
-  "tr": "16 years in the Vale Group (Vale and VLI), managing terminals integrated with rail and port."
- },
- "5d82d33c21b6": {
-  "pt": "Nitai Lab Logística e Operações",
-  "tr": "Nitai Lab Logistics and Operations"
- },
- "671f2aa0dd86": {
-  "pt": "Logística de granéis e carga industrial, da origem ao porto",
-  "tr": "Bulk and industrial cargo logistics, from origin to port"
- },
- "115f5c54a3cc": {
-  "pt": "logística de granéis",
-  "tr": "bulk logistics"
- },
- "20ff030d2827": {
-  "pt": "logística ferroviária",
-  "tr": "rail logistics"
- },
- "9fff03cd2f71": {
-  "pt": "logística portuária",
-  "tr": "port logistics"
- },
- "2a256d33a48a": {
-  "pt": "netback",
-  "tr": "netback"
- },
- "6fa1810143f1": {
-  "pt": "due diligence de mineração",
-  "tr": "mining due diligence"
- },
- "98270408b2ee": {
-  "pt": "diagnóstico operacional",
-  "tr": "operational diagnostic"
- },
- "a25793994c40": {
-  "pt": "Toyota Production System",
-  "tr": "Toyota Production System"
- },
- "13f2b01a2019": {
-  "pt": "Nitai Lab, início",
-  "tr": "Nitai Lab, home"
- },
- "e1bcb2f8e337": {
-  "pt": "Logística e Operações",
-  "tr": "Logistics and Operations"
- },
- "f3b86b13dbbc": {
-  "pt": "Principal",
-  "tr": "Main"
- },
- "088725f24197": {
-  "pt": "Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.",
-  "tr": "Bulk and industrial cargo logistics in Brazil, from origin to port. NP Consultoria e Serviços Ltda, CNPJ (Brazilian company tax ID) 68.698.300/0001-20, Minas Gerais, Brazil."
- },
- "183170aae4b0": {
-  "pt": "Frentes de atuação",
-  "tr": "Areas of work"
- },
- "34e187902624": {
-  "pt": "Apresentação em PDF",
-  "tr": "Presentation (PDF)"
- },
- "4e9ec3a0282d": {
-  "pt": "Política de privacidade",
-  "tr": "Privacy policy (Portuguese)"
- },
- "5f59fbe4100b": {
-  "pt": "Oi Nitai, vi a página de logística do site e quero conversar sobre uma carga.",
-  "tr": "Hello Nitai, I saw the logistics page on your website and would like to talk about a cargo."
- },
- "c3521830e7d9": {
-  "pt": "Estratégia e estrutura logística",
-  "tr": "Logistics strategy and structure"
- },
- "94e6400c7365": {
-  "pt": "Rota, custo e risco da carga, da origem ao porto.",
-  "tr": "Route, cost and risk of the cargo, from origin to port."
- },
- "a6a69d8a9008": {
-  "pt": "Granel se decide na logística. Antes de fechar um contrato de compra, venda ou transporte, mostro a conta trecho a trecho, as alternativas e onde está o risco.",
-  "tr": "In bulk commodities, logistics decides the deal. Before you sign a purchase, sale or freight contract, I show you the numbers leg by leg, the alternatives and where the risk sits."
- },
- "7bd83ad158bc": {
-  "pt": "Navio graneleiro entrando no porto de Santos",
-  "tr": "Bulk carrier entering the port of Santos"
- },
- "dab44e5c6749": {
-  "pt": "navio graneleiro",
-  "tr": "bulk carrier"
- },
- "23c5e1d027e6": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escopo</div><h2>Serviços</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Viabilidade</span><h3>Viabilidade e netback de lote ou de fluxo</h3><p>A conta trecho a trecho, por rota e por cenário de frete e preço. Você sai sabendo o preço mínimo na origem e qual rota vale a pena.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternativas</span><h3>Estudo de rota e modal</h3><p>Rodovia, ferrovia, cabotagem e porto comparados em custo, prazo, capacidade e risco, com o que confirmar em cotação antes de decidir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risco</span><h3>Análise de risco logístico</h3><p>Dependência de um só operador, capacidade contratada, take-or-pay, sazonalidade, regulação e a saúde de quem está do outro lado.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Estrutura</span><h3>Estruturação e coordenação da cadeia</h3><p>Plano logístico com rota, capacidades e contratos, programação de embarque e acompanhamento do fluxo até o navio ou o cliente final.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entrada no Brasil</span><h3>Apoio local a empresas estrangeiras</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargas</span><h3>Granel e carga industrial</h3><p>Minério de ferro e manganês, soja, milho e farelo, fertilizantes como KCl e ureia, gusa e produtos siderúrgicos.</p></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scope</div><h2>Services</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Feasibility</span><h3>Feasibility and netback for a parcel or a flow</h3><p>The numbers leg by leg, by route and by freight and price scenario. You come away knowing the minimum price at origin and which route is worth it.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternatives</span><h3>Route and mode study</h3><p>Road, rail and coastal shipping, and the port options, compared on cost, transit time, capacity and risk, with what to confirm in quotations before deciding.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risk</span><h3>Logistics risk analysis</h3><p>Dependence on a single operator, contracted capacity, take-or-pay terms, seasonality, regulation and the financial health of the counterparty.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Structure</span><h3>Supply chain structuring and coordination</h3><p>A logistics plan with route, capacities and contracts, shipment scheduling and follow-up of the flow all the way to the vessel or the end customer.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entering Brazil</span><h3>Local support for foreign companies</h3><p>For foreign traders, buyers and investors: who operates each leg, where the cargo gets stuck, who to talk to and what to check before signing.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargo</span><h3>Bulk and industrial cargo</h3><p>Iron and manganese ore, soybeans, corn and soybean meal, fertilisers such as potash (KCl) and urea, pig iron and steel products.</p></div>\n</div></div></section>"
- },
- "c2ee3889e5b0": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargas</div><h2>Cargas que operei</h2>\n<p class=\"intro\">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Granel agrícola armazenado em pilha dentro do armazém\"><figcaption>Grãos e farelo</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Pilha de cloreto de potássio (KCl) dentro do armazém\"><figcaption>Fertilizante (KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Minério sendo carregado em vagões no pátio\"><figcaption>Minério de ferro</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Bobinas de fio-máquina no pátio do terminal\"><figcaption>Siderúrgicos</figcaption></figure>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargo</div><h2>Cargo I have handled</h2>\n<p class=\"intro\">Photos from the terminals and mines where I worked. Each bulk commodity is stored, loaded and moved differently.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Agricultural bulk stockpiled inside the warehouse\"><figcaption>Grains and soybean meal</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Potassium chloride (KCl) stockpile inside the warehouse\"><figcaption>Fertiliser (potash, KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Iron ore being loaded into wagons in the yard\"><figcaption>Iron ore</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Wire rod coils in the terminal yard\"><figcaption>Steel products</figcaption></figure>\n</div></div></section>"
+ "017f0072a273": {
+  "pt": "É o que sobra para a origem depois de pagar cada trecho até o comprador: frete rodoviário, ferrovia, terminal, porto, frete marítimo, tributos e capital de giro. É o preço mínimo que fecha a conta na mina ou na fazenda.",
+  "tr": "It is what is left for the origin after paying every leg up to the buyer: road freight, rail, terminal, port, ocean freight, taxes and working capital. It is the minimum price that makes the deal work at the mine or the farm."
  },
  "0251e25f840e": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">A conta</div><h2>O preço na origem é o que sobra depois de cada trecho</h2>\n<p class=\"intro\">Quem compra paga o preço de referência menos tudo o que existe entre a origem e o porão do navio. Quem não conhece cada trecho negocia no escuro.</p>\n<div class=\"conta\" aria-label=\"Como se forma o preço na origem\">\n<div><i>&nbsp;</i><b>Preço de referência</b><span>índice ou cotação, ajustado pela qualidade do lote</span></div>\n<div><i>−</i><b>Frete marítimo</b><span>tipo de navio, rota, época</span></div>\n<div><i>−</i><b>Porto</b><span>tarifa, estadia, janela</span></div>\n<div><i>−</i><b>Ferrovia</b><span>tarifa e capacidade contratada</span></div>\n<div><i>−</i><b>Rodovia</b><span>da origem ao terminal</span></div>\n<div><i>−</i><b>Tributos e giro</b><span>impostos, câmbio, prazo de recebimento</span></div>\n<div><i>=</i><b>Netback</b><span>o que sobra para a origem, o preço mínimo que fecha</span></div>\n</div></div></section>",
   "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">The numbers</div><h2>The price at origin is what is left after every leg</h2>\n<p class=\"intro\">The buyer pays the reference price minus everything between the origin and the ship's hold. Anyone who does not know each leg is negotiating blind.</p>\n<div class=\"conta\" aria-label=\"How the price at origin is built\">\n<div><i>&nbsp;</i><b>Reference price</b><span>index or quotation, adjusted for the quality of the parcel</span></div>\n<div><i>−</i><b>Ocean freight</b><span>vessel size, route, season</span></div>\n<div><i>−</i><b>Port</b><span>tariff, demurrage, loading window</span></div>\n<div><i>−</i><b>Rail</b><span>tariff and contracted capacity</span></div>\n<div><i>−</i><b>Road</b><span>from origin to terminal</span></div>\n<div><i>−</i><b>Taxes and working capital</b><span>taxes, FX rate, payment terms</span></div>\n<div><i>=</i><b>Netback</b><span>what is left for the origin, the minimum price at which the deal still works</span></div>\n</div></div></section>"
  },
- "d8181052946f": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Como funciona</div><h2>Etapas do trabalho</h2>\n<ol class=\"passos\">\n<li><b>Conversa inicial</b><span>Carga, origem, destino, volume e prazo. Sem custo.</span></li>\n<li><b>Escopo por escrito</b><span>O que entra, o que não entra, prazo e valor, antes de começar.</span></li>\n<li><b>Entrega</b><span>Dossiê ou plano com a conta, as alternativas e o que confirmar.</span></li>\n<li><b>Acompanhamento</b><span>Opcional, se você quiser que eu coordene a execução.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">De onde vem</span><p>Planejei por dentro a cadeia de grãos e fertilizantes que vai do porto de Tubarão, pelas ferrovias EFVM e FCA, até terminais no interior de Minas e o cliente final, e a de minério e siderúrgicos para as usinas de Minas.</p></div>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">How it works</div><h2>Stages of the work</h2>\n<ol class=\"passos\">\n<li><b>Initial conversation</b><span>Cargo, origin, destination, volume and timeline. Free of charge.</span></li>\n<li><b>Scope in writing</b><span>What is included, what is not, timeline and fee, before we start.</span></li>\n<li><b>Delivery</b><span>A dossier or plan with the numbers, the alternatives and what to confirm.</span></li>\n<li><b>Follow-up</b><span>Optional, if you want me to coordinate execution.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">Where this comes from</span><p>I planned from the inside the grain and fertiliser chain that runs from the port of Tubarão, via the EFVM and FCA railways, to inland terminals in Minas Gerais and the end customer, and the iron ore and steel chain serving the steel mills of Minas Gerais.</p></div>"
- },
- "7231a3bb4377": {
-  "pt": "Perguntas frequentes",
-  "tr": "Frequently asked questions"
- },
- "5d6946521fee": {
-  "pt": "Você trabalha só com minério?",
-  "tr": "Do you work only with iron ore?"
- },
- "b83d1a438bb2": {
-  "pt": "Não. Trabalhei com minério, grãos, farelo, fertilizantes, gusa, produtos siderúrgicos e combustíveis. A lógica é a mesma: cada trecho tem custo, prazo, capacidade e dono.",
-  "tr": "No. I have worked with iron ore, grains, soybean meal, fertilisers, pig iron, steel products and fuels. The logic is the same: every leg has a cost, a lead time, a capacity and an owner."
- },
- "db062a503d78": {
-  "pt": "O que é netback?",
-  "tr": "What is netback?"
- },
- "017f0072a273": {
-  "pt": "É o que sobra para a origem depois de pagar cada trecho até o comprador: frete rodoviário, ferrovia, terminal, porto, frete marítimo, tributos e capital de giro. É o preço mínimo que fecha a conta na mina ou na fazenda.",
-  "tr": "It is what is left for the origin after paying every leg up to the buyer: road freight, rail, terminal, port, ocean freight, taxes and working capital. It is the minimum price that makes the deal work at the mine or the farm."
- },
- "bd006bafd1f8": {
-  "pt": "Você contrata o frete ou opera a carga?",
-  "tr": "Do you contract freight or handle the cargo yourself?"
- },
- "9a3b9ed40f73": {
-  "pt": "Não sou transportador nem agente de carga. Desenho a cadeia, comparo alternativas, coordeno quem opera e acompanho os indicadores do lado de quem tem a carga.",
-  "tr": "I am not a carrier or a freight forwarder. I design the chain, compare alternatives, coordinate the operators and track the KPIs on the cargo owner's behalf."
- },
- "ed0fd4af7e0e": {
-  "pt": "Atende empresa estrangeira?",
-  "tr": "Do you work with foreign companies?"
- },
- "8d13981a9de2": {
-  "pt": "Sim. Para quem compra, vende ou investe no Brasil de fora, faço o papel de olhos locais: quem opera o quê, onde a carga trava e com quem falar.",
-  "tr": "Yes. For those buying, selling or investing in Brazil from abroad, I act as your eyes on the ground: who operates what, where the cargo gets stuck and who to talk to."
- },
- "c868666447f5": {
-  "pt": "Envie os dados da carga para uma primeira avaliação",
-  "tr": "Send the cargo details for a first assessment"
- },
- "eae6098558e6": {
-  "pt": "Produto, origem, destino e volume. Retorno com a leitura inicial e o que precisa ser confirmado.",
-  "tr": "Product, origin, destination and volume. I will reply with an initial view and what needs to be confirmed."
- },
- "ab3c1de9e046": {
-  "pt": "Consultoria de logística de granéis",
-  "tr": "Bulk logistics consulting"
- },
- "44a1ab02ba09": {
-  "pt": "Rota, modal, alternativas, viabilidade, netback e risco logístico para granéis e carga industrial no Brasil.",
-  "tr": "Route, mode, alternatives, feasibility, netback and logistics risk for bulk and industrial cargo in Brazil."
- },
- "215232dd1a52": {
-  "pt": "Consultoria logística ferroviária e portuária | Nitai Lab",
-  "tr": "Brazil rail and port logistics consulting | Nitai Lab"
- },
- "9e64a8e86c19": {
-  "pt": "Rota, modal, alternativas, viabilidade e risco logístico para minério, grãos, fertilizantes e siderúrgicos, da origem ao porto.",
-  "tr": "Route, mode, alternatives, feasibility and logistics risk for iron ore, grains, fertilisers and steel products in Brazil, from origin to port."
- },
- "6455b81f6a8f": {
-  "pt": "Oi Nitai, vi a página de operação do site e quero conversar sobre a minha operação.",
-  "tr": "Hello Nitai, I saw the operations page on your website and would like to talk about my operation."
- },
- "3d2310de297b": {
-  "pt": "Desempenho da operação · TPS e Lean",
-  "tr": "Operational performance · TPS and Lean"
- },
- "f567350536b9": {
-  "pt": "Onde a sua operação perde dinheiro.",
-  "tr": "Where your operation loses money."
- },
- "5314cae31cd3": {
-  "pt": "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
-  "tr": "At a terminal, warehouse, mine or factory, the big gain rarely comes from new technology. It comes from what nobody has the patience to look at. The method is the Toyota Production System I implemented with TSSC, Toyota's own consulting arm, adapted to the reality of the Brazilian shop floor."
- },
- "1174f39037c7": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Diagnóstico de 5 dias</div><h2>Diagnóstico em cinco dias, com as perdas quantificadas em reais</h2>\n<ol class=\"passos\">\n<li><b>Onde perde dinheiro</b><span>De três a cinco pontos críticos levantados no chão, com operadores, liderança e indicadores.</span></li>\n<li><b>Cada perda em reais</b><span>Cada ponto vem com o valor por mês ou por ano.</span></li>\n<li><b>Plano de 90 dias</b><span>Ações em ordem de custo e benefício, com responsáveis.</span></li>\n<li><b>Devolutiva ao time</b><span>Apresentação presencial para quem vai executar.</span></li>\n</ol></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">5-day diagnostic</div><h2>A five-day diagnostic, with losses quantified in money</h2>\n<ol class=\"passos\">\n<li><b>Where money is lost</b><span>Three to five critical points identified on the floor, with operators, supervisors and indicators.</span></li>\n<li><b>Each loss in money</b><span>Each point is valued per month or per year.</span></li>\n<li><b>90-day plan</b><span>Actions ranked by cost-benefit, with owners.</span></li>\n<li><b>Readout to the team</b><span>An on-site presentation to the people who will execute.</span></li>\n</ol></div></section>"
- },
- "56c088e245d5": {
-  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Temas</div><h2>Principais fontes de perda</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Capacidade e gargalo</h3><p>A etapa que limita tudo, quase sempre distribuição de papéis e não falta de equipamento.</p></div>\n<div class=\"oferta\"><h3>Custo por tonelada</h3><p>Quanto custa cada tonelada movimentada e o que compõe esse número.</p></div>\n<div class=\"oferta\"><h3>Contratos e terceiros</h3><p>Serviços operacionais pagos por um escopo que a operação já não usa.</p></div>\n<div class=\"oferta\"><h3>Paradas de manutenção</h3><p>Planejamento e controle para parar sem perder a produção programada.</p></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Topics</div><h2>Main sources of loss</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Capacity and bottlenecks</h3><p>The step that limits everything, almost always a matter of how roles are split rather than missing equipment.</p></div>\n<div class=\"oferta\"><h3>Cost per tonne</h3><p>What each tonne handled costs and what makes up that number.</p></div>\n<div class=\"oferta\"><h3>Contracts and third-party services</h3><p>Operating services still paid for on a scope the operation no longer uses.</p></div>\n<div class=\"oferta\"><h3>Planned shutdowns</h3><p>Planning and control so that a stoppage does not cost scheduled production.</p></div>\n</div></div></section>"
- },
- "292d3afe60f6": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<div class=\"nums\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>\n<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>\n<div><b>+50%</b><span>de corte no orçamento operacional ao longo de três anos</span></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Results</div><h2>Results achieved</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;3.9M</b><span>saved in one year, with volume above budget</span></div>\n<div><b>BRL&nbsp;8.1M</b><span>cut from the budget by redesigning wagon unloading</span></div>\n<div><b>50%+</b><span>cut in the operating budget over three years</span></div>\n<div><b>BRL&nbsp;2M</b><span>saved per year by restructuring service contracts</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Method</div><h3 style=\"margin:10px 0 12px\">Toyota Production System with Toyota itself</h3>\n<p class=\"t2\">I led the TPS implementation with direct consulting from TSSC, the Toyota centre that brings the method to companies outside Japan. The terminal became VLI's TPS school.</p>\n<p class=\"t2\">In Brazil, TPS often arrives only halfway: tools and audits. The missing half is treating operators as people who think. That is the half I bring.</p></div>\n<div class=\"caixa\"><span class=\"rot\">A test you can run tomorrow</span><p>Ask the operators on one shift what their biggest difficulty in the operation is. Then ask them to propose solutions.</p><p>If you are not surprised, either there is a problem with morale and culture, or the operation is already very well run.</p></div></div>"
- },
- "b38d2af3a40e": {
-  "pt": "Em que tipo de operação o diagnóstico funciona?",
-  "tr": "What kind of operation does the diagnostic work in?"
- },
- "f3009ab28976": {
-  "pt": "Terminal, armazém, pátio, mina, usina, fábrica. O método é olhar o chão, medir tempos e movimentos por etapa e transformar cada perda em reais.",
-  "tr": "Terminal, warehouse, yard, mine, plant or factory. The method is to look at the floor, measure times and movements at each step and turn every loss into money."
- },
- "b203e2e7f28f": {
-  "pt": "Quanto tempo leva?",
-  "tr": "How long does it take?"
- },
- "ca4ddedd28a5": {
-  "pt": "Cinco dias úteis no formato padrão: contexto, campo, esboço, validação com o time e apresentação.",
-  "tr": "Five working days in the standard format: context, field work, draft, validation with the team and presentation."
- },
- "35c45c30b82e": {
-  "pt": "Preciso parar a operação?",
-  "tr": "Do I need to stop the operation?"
- },
- "ee700bf1f707": {
-  "pt": "Não. O trabalho acontece com a operação rodando, junto de operadores, liderança e indicadores.",
-  "tr": "No. The work happens with the operation running, alongside operators, supervisors and indicators."
- },
- "5ab86d1161e9": {
-  "pt": "Você implanta Lean e TPS?",
-  "tr": "Do you implement Lean and TPS?"
- },
- "86155c0429a3": {
-  "pt": "Sim. Implantei o Toyota Production System com a TSSC e montei a escola de TPS da VLI. O diagnóstico é a porta de entrada: mostra onde o método rende mais na sua operação. A implantação vem depois, como acompanhamento, com escopo próprio.",
-  "tr": "Yes. I implemented the Toyota Production System with TSSC and set up VLI's TPS school. The diagnostic is the entry point: it shows where the method pays off most in your operation. Implementation comes afterwards, as a follow-up engagement with its own scope."
- },
- "ccae6e5b79dc": {
-  "pt": "O que acontece depois?",
-  "tr": "What happens next?"
- },
- "3d0218e4d798": {
-  "pt": "Você decide: seguir sozinho com o plano, contratar acompanhamento da implantação ou um projeto fechado. Cada um com escopo próprio.",
-  "tr": "You decide: carry out the plan on your own, hire support for the implementation, or commission a fixed-scope project. Each is scoped separately."
- },
- "a726f284bdb0": {
-  "pt": "Ver os casos",
-  "tr": "See the cases"
- },
- "770df3eb02a1": {
-  "pt": "Solicite um diagnóstico",
-  "tr": "Request a diagnostic"
- },
- "762904584412": {
-  "pt": "Informe o tipo de operação e o principal problema. Retorno indicando por onde começar.",
-  "tr": "Tell me the type of operation and the main problem. I will reply with where to start."
- },
- "12abbe95fe25": {
-  "pt": "Diagnóstico operacional de 5 dias",
-  "tr": "5-day operational diagnostic"
- },
- "bfdaf5d95a2a": {
-  "pt": "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.",
-  "tr": "Shop-floor diagnostic at a terminal, warehouse or plant: losses in money and a 90-day plan."
- },
- "fa78f811f8cd": {
-  "pt": "Consultoria TPS e Lean para operações | Nitai Lab",
-  "tr": "TPS and Lean consulting for operations in Brazil | Nitai Lab"
- },
  "057ee07c70e4": {
   "pt": "Diagnóstico de 5 dias com o Toyota Production System no chão de terminal, armazém ou planta: onde a operação perde dinheiro, em reais, e o plano de 90 dias",
   "tr": "A 5-day diagnostic using the Toyota Production System on the floor of a terminal, warehouse or plant: where the operation loses money, in figures, and the 90-day plan"
  },
- "6c79cf4da921": {
-  "pt": "Oi Nitai, vi a página de verificação do site e quero conversar sobre uma mina ou um negócio.",
-  "tr": "Hello Nitai, I saw the verification page on your website and would like to talk about a mine or a deal."
- },
- "bff873b87e16": {
-  "pt": "Verificação técnica e logística antes da assinatura.",
-  "tr": "Technical and logistics verification before you sign."
- },
- "d85f0b55ca65": {
-  "pt": "O que se comprova em documento oficial e o que a logística permite de verdade, para os dois lados do negócio: quem compra ou investe e quem vende ou capta. Se a carga não consegue sair, o negócio não existe.",
-  "tr": "What can be proven in official records and what the logistics really allow, for both sides of the deal: those buying or investing and those selling or raising capital. If the cargo cannot be moved to port, there is no deal."
- },
- "26d38b2425d6": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Para quem</div><h2>Os dois lados do mesmo dossiê</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Quem compra ou investe</span><h3>Segurança antes de assinar</h3><p>Mina, lote e contraparte conferidos em fonte oficial, com o laudo lido e a capacidade real de escoar até o porto. Você sabe o que está comprando e o que pedir antes de seguir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Quem vende ou capta</span><h3>O dossiê pronto antes do pedido</h3><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar, organizados antes de o comprador ou o investidor pedirem. Oportunidade documentada negocia melhor e fecha mais rápido.</p></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Who it is for</div><h2>Two sides of the same dossier</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Buyers and investors</span><h3>Clarity before signing</h3><p>Mine, parcel and counterparty checked against official sources, with the lab report read and the real capacity to move the cargo to port. You know what you are buying and what to ask for before moving forward.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Sellers and those raising capital</span><h3>The dossier ready before it is requested</h3><p>Mining title at ANM, CFEM royalty payments, licence, lab report read and capacity to move the cargo, organised before the buyer or investor asks for them. A documented opportunity negotiates from a stronger position and closes faster.</p></div>\n</div></div></section>"
- },
- "ce8564e7b3cf": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">O que é verificado</div><h2>Itens conferidos em fonte oficial</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>Royalty da mineração em dia</h3><p>Quem recolhe a Compensação Financeira pela Exploração Mineral está produzindo e vendendo de fato.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licenças</span><h3>Licença ambiental</h3><p>Se a licença cobre a operação e o volume que estão sendo oferecidos.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Contraparte</span><h3>Empresa do outro lado</h3><p>Sócios, tempo de existência, processos e dívidas públicas da empresa que vende ou compra.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Laudo</span><h3>Leitura do laudo de qualidade</h3><p>O que o laudo do laboratório diz sobre o teor e o que isso faz com o preço.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logística</span><h3>Capacidade de escoar</h3><p>Se existe caminho, vaga e capacidade para a carga chegar ao porto no volume e no prazo prometidos.</p></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">What is verified</div><h2>Items checked against official sources</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Mining title</h3><p>Whether the claim exists at the National Mining Agency (ANM), in whose name, at what stage and for which mineral.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>CFEM royalty up to date</h3><p>A company paying CFEM, Brazil's federal mining royalty, is actually producing and selling.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licences</span><h3>Environmental licence</h3><p>Whether the licence covers the operation and the volume being offered.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Counterparty</span><h3>The company on the other side</h3><p>Shareholders, years in business, litigation and public-sector debts of the company that is selling or buying.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Lab report</span><h3>Reading the quality report</h3><p>What the laboratory report says about the grade and what that means for the price.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logistics</span><h3>Capacity to move the cargo</h3><p>Whether there is a route, a slot and the capacity for the cargo to reach the port at the committed volume and on schedule.</p></div>\n</div></div></section>"
- },
- "2fff38efc748": {
-  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Entregas</div><h2>Entregáveis</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Parecer rápido</h3><p>Uma página: dá para seguir ou não, e por quê.</p></div>\n<div class=\"oferta\"><h3>Dossiê da mina</h3><p>O que está documentado, o que falta e o que pedir antes de assinar.</p></div>\n<div class=\"oferta\"><h3>Dossiê da contraparte</h3><p>Quem é a empresa do outro lado e o que pesa contra ela.</p></div>\n<div class=\"oferta\"><h3>Dossiê de ativo logístico</h3><p>Terminal, armazém ou contrato de capacidade: o que existe e o que trava.</p></div>\n</div>\n<div class=\"caixa\" style=\"margin-top:32px\"><span class=\"rot\">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p></div>",
-  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Deliverables</div><h2>Deliverables</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Quick assessment</h3><p>One page: go or no go, and why.</p></div>\n<div class=\"oferta\"><h3>Mine dossier</h3><p>What is documented, what is missing and what to request before signing.</p></div>\n<div class=\"oferta\"><h3>Counterparty dossier</h3><p>Who the company on the other side is and what weighs against it.</p></div>\n<div class=\"oferta\"><h3>Logistics asset dossier</h3><p>Terminal, warehouse or capacity contract: what exists and what is holding it back.</p></div>\n</div>\n<div class=\"caixa\" style=\"margin-top:32px\"><span class=\"rot\">What I do not do</span><p>I do not issue technical reports or legal opinions. I work alongside the geologist, the laboratory and the lawyer, and cover what falls between them: operations and logistics.</p></div>"
- },
- "c6235f8549f4": {
-  "pt": "Isso substitui a due diligence jurídica?",
-  "tr": "Does this replace legal due diligence?"
- },
- "91c4a8f0767b": {
-  "pt": "Não. É o complemento técnico e logístico dela. O advogado olha contratos e passivos; eu olho se a mina existe no papel e no chão, se produz o que diz e se a carga consegue chegar ao porto.",
-  "tr": "No. It complements it on the technical and logistics side. The lawyer looks at contracts and liabilities; I look at whether the mine exists on paper and on the ground, whether it produces what it claims and whether the cargo can reach the port."
- },
- "a244128c1f5a": {
-  "pt": "Você emite laudo técnico?",
-  "tr": "Do you issue technical reports?"
- },
- "f9bba6db1762": {
-  "pt": "Não. Laudo de qualidade e de reserva é do laboratório e do geólogo. Eu leio o laudo e digo o que ele significa para a logística e para o preço.",
-  "tr": "No. Quality and reserve reports belong to the laboratory and the geologist. I read the report and explain what it means for logistics and for price."
- },
- "73d338e1e47b": {
-  "pt": "Um parecer rápido sai em poucos dias. O dossiê completo depende de quantos documentos a outra parte entrega.",
-  "tr": "A quick assessment takes a few days. The full dossier depends on how many documents the other party provides."
- },
- "44261f859925": {
-  "pt": "Serve para quem está fora do Brasil?",
-  "tr": "Is this useful for someone outside Brazil?"
- },
- "d04046b14c6a": {
-  "pt": "Sim. Comprador e investidor estrangeiro costumam pedir exatamente isso antes de qualquer proposta.",
-  "tr": "Yes. Foreign buyers and investors usually ask for exactly this before making any offer."
- },
- "1f1b4be73297": {
-  "pt": "Envie a documentação para análise",
-  "tr": "Send the documents for review"
- },
- "080a53797d34": {
-  "pt": "Retorno indicando se o negócio se sustenta e quais documentos solicitar antes de seguir.",
-  "tr": "I will reply with whether the deal holds up and which documents to request before moving forward."
- },
- "d7c1ef93095d": {
-  "pt": "Due diligence técnica e logística de mineração",
-  "tr": "Technical and logistics due diligence for mining in Brazil"
- },
- "d5b7a088bb9b": {
-  "pt": "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.",
-  "tr": "Verification of the mine and the counterparty against official sources (ANM, CFEM, licences, company registry) and of the capacity to move the cargo to port."
- },
- "17a6196ca950": {
-  "pt": "Due diligence de mineração: técnica e logística | Nitai Lab",
-  "tr": "Brazil mining due diligence: technical and logistics | Nitai Lab"
- },
- "b82b22cee9f2": {
-  "pt": "Antes de assinar: título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. Complemento da due diligence jurídica.",
-  "tr": "Before you sign: mining title at ANM, CFEM royalties, licence, lab report read, capacity to move the cargo and the counterparty. A complement to legal due diligence."
- },
- "fa5c2bf39312": {
-  "pt": "Casos de operação e logística.",
-  "tr": "Operations and logistics cases."
+ "05b440409738": {
+  "pt": "Operação",
+  "tr": "Operations"
  },
  "0650eab47494": {
   "pt": "Situações reais da minha trajetória na Vale e na VLI, descritas sem identificar pessoas e sem associar números a locais.",
   "tr": "Real situations from my career at Vale and VLI, described without identifying people and without linking figures to locations."
  },
- "53132a8579d2": {
-  "pt": "Carreta basculando minério na descarga",
-  "tr": "Truck tipping iron ore at the unloading point"
+ "080a53797d34": {
+  "pt": "Retorno indicando se o negócio se sustenta e quais documentos solicitar antes de seguir.",
+  "tr": "I will reply with whether the deal holds up and which documents to request before moving forward."
  },
- "3b35a4df24f0": {
-  "pt": "Minério sendo carregado em vagões no pátio",
-  "tr": "Iron ore being loaded into wagons in the yard"
+ "0862b09cc49b": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div>\n<h2>Experience at real scale across the chain</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>1.8 Mt</b><span>of pig iron exported in the account portfolio I managed</span></div>\n<div><b>16 years</b><span>in the Vale Group, across Vale and VLI</span></div>\n</div></div></section>"
  },
- "fe8d99b3d242": {
-  "pt": "Silos e armazém de um terminal de grãos",
-  "tr": "Silos and warehouse at a grain terminal"
- },
- "7f3e904174e7": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"casos\">\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carreta-minerio.webp\" alt=\"{a1}\"><span class=\"rot\">Minério e siderurgia</span><h3>A caneta no vidro</h3><dl>\n<dt>Situação</dt><dd>Um terminal de minério desenhado para carretas simples passou a receber bitrens e rodotrens. A fila ia para a rua, o cliente pressionava e a leitura de todos era: falta gente.</dd>\n<dt>O que fiz</dt><dd>Passei uma hora parado num único ponto da operação, só observando. Cada operador era dono de um caminhão, não de uma etapa. Redesenhei os papéis por etapa na parede de vidro da sala de reunião, com o líder de turno, e o desenho virou padrão.</dd>\n<dt>Resultado</dt><dd><b>Perto de 50% a mais de capacidade de descarga</b>, com a mesma equipe e sem investimento.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{a2}\"><span class=\"rot\">Grãos</span><h3>Cada vagão no seu 100%</h3><dl>\n<dt>Situação</dt><dd>Frota de vagões heterogênea, carregamento sem padrão e, no pico da safra, demanda maior que a capacidade. Toda tonelada não carregada ia embora.</dd>\n<dt>O que fiz</dt><dd>Cada vagão passou a ter a própria meta de peso, medida como porcentagem do seu limite. A reunião de produção saiu do escritório e foi para uma sala dentro da operação, na troca de turno.</dd>\n<dt>Resultado</dt><dd><b>Mais de 100 toneladas a mais por trem</b> nos mesmos ativos, e receita adicional de milhões já no primeiro ano.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{a3}\"><span class=\"rot\">Minério e siderurgia</span><h3>Dez minérios em três pátios</h3><dl>\n<dt>Situação</dt><dd>Um terminal funcionava como estoque avançado da composição química de uma siderúrgica, com até dez produtos de minério diferentes.</dd>\n<dt>O que fiz</dt><dd>Controle de segregação por produto e por pátio, com rastreabilidade e janelas de descarga.</dd>\n<dt>Resultado</dt><dd><b>Sem contaminação cruzada</b>, num terminal do qual dependia o faturamento diário do cliente.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-silos-terminal.webp\" alt=\"{a4}\"><span class=\"rot\">Grãos</span><h3>A recuperação de um terminal</h3><dl>\n<dt>Situação</dt><dd>Um terminal de grãos com o pior histórico da unidade em auditoria sanitária.</dd>\n<dt>O que fiz</dt><dd>Rotina de gestão integrada, padrão por etapa e acompanhamento próximo como gerente interino.</dd>\n<dt>Resultado</dt><dd><b>A maior nota em auditorias sanitárias</b>, a primeira certificação permanente do Ministério da Agricultura para grãos e recordes de produção mensal.</dd></dl></article>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"casos\">\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carreta-minerio.webp\" alt=\"{a1}\"><span class=\"rot\">Iron ore and steel</span><h3>The pen on the glass</h3><dl>\n<dt>Situation</dt><dd>An iron ore terminal designed for single-trailer trucks started receiving B-doubles and road trains. The queue spilled onto the public road, the client was pressing, and everyone had the same diagnosis: not enough staff.</dd>\n<dt>What I did</dt><dd>I spent an hour standing at a single point of the operation, just watching. Each operator owned a truck, not a step. I redrew the roles by step on the glass wall of the meeting room, with the shift leader, and the drawing became the standard.</dd>\n<dt>Result</dt><dd><b>Close to 50% more unloading capacity</b>, with the same team and no investment.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{a2}\"><span class=\"rot\">Grains</span><h3>Every wagon at its own 100%</h3><dl>\n<dt>Situation</dt><dd>A mixed fleet of wagon types, loading without a standard and, at the peak of the harvest, demand above capacity. Every tonne not loaded was lost.</dd>\n<dt>What I did</dt><dd>Each wagon got its own weight target, set as a percentage of its own payload limit. The production meeting moved out of the office into a room inside the operation, at shift change.</dd>\n<dt>Result</dt><dd><b>Over 100 tonnes more per train</b> with the same assets, and millions of reais in additional revenue in the first year.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{a3}\"><span class=\"rot\">Iron ore and steel</span><h3>Ten ores in three yards</h3><dl>\n<dt>Situation</dt><dd>A terminal acted as the forward stockyard for a steel mill's blend, handling up to ten different ore products to chemical specification.</dd>\n<dt>What I did</dt><dd>Segregation control by product and by yard, with traceability and unloading windows.</dd>\n<dt>Result</dt><dd><b>No cross-contamination</b>, at a terminal on which the client's daily revenue depended.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-silos-terminal.webp\" alt=\"{a4}\"><span class=\"rot\">Grains</span><h3>Turning a terminal around</h3><dl>\n<dt>Situation</dt><dd>A grain terminal with the worst sanitary audit record in the unit.</dd>\n<dt>What I did</dt><dd>An integrated management routine, a standard for each step and close follow-up as acting manager.</dd>\n<dt>Result</dt><dd><b>The highest score in sanitary audits</b>, the terminal's first permanent certification from Brazil's Ministry of Agriculture for grain handling, and record monthly throughput.</dd></dl></article>\n</div></div></section>"
- },
- "87e71ead1f73": {
-  "pt": "Situação semelhante na sua operação?",
-  "tr": "A similar situation in your operation?"
- },
- "b772884922db": {
-  "pt": "Descreva o contexto. Indico o primeiro ponto a analisar.",
-  "tr": "Describe the context. I will point out the first thing to look at."
- },
- "48d3852c4c00": {
-  "pt": "Casos de operação e logística de granéis | Nitai Lab",
-  "tr": "Bulk operations and logistics cases | Nitai Lab"
- },
- "52edc15637a4": {
-  "pt": "Casos reais de terminal, ferrovia e porto, anonimizados: o desafio, o que foi feito e o resultado em ordem de grandeza.",
-  "tr": "Real, anonymised cases from terminals, rail and port in Brazil: the challenge, what was done and the results as orders of magnitude."
- },
- "a2c1f95e8187": {
-  "pt": "16 anos no Grupo Vale, entre a Vale e a VLI, no comercial, no planejamento de terminais integrados a ferrovia e porto e na gestão da operação. Base em Minas Gerais.",
-  "tr": "16 years in the Vale Group, across Vale and VLI, in commercial roles, in planning terminals integrated with rail and port, and in operations management. Based in Minas Gerais, Brazil."
- },
- "86b6f4a89a4c": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div><h2>Scale of experience</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>1.8 Mt</b><span>of pig iron exported in the account portfolio I managed</span></div>\n<div><b>250</b><span>people in the largest team I led</span></div>\n</div></div></section>"
+ "088725f24197": {
+  "pt": "Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.",
+  "tr": "Bulk and industrial cargo logistics in Brazil, from origin to port. NP Consultoria e Serviços Ltda, CNPJ (Brazilian company tax ID) 68.698.300/0001-20, Minas Gerais, Brazil."
  },
  "09d210e3c440": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Trajetória</div><h2>Trajetória por área de atuação</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024 a hoje<small>Nitai Lab</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Pela NP Consultoria e Serviços.</p></div></div>\n<div><div class=\"quando\">2022 a 2024<small>VLI</small></div><div><h3>Minério e siderurgia</h3><p>Gestão de planejamento, processos, manutenção e operação dos terminais de Santa Luzia e Ouro Preto, em Minas, com até dez produtos de minério segregados e parada geral planejada sem perder produção. Gerente interino por oito meses.</p></div></div>\n<div><div class=\"quando\">2019 a 2022<small>VLI</small></div><div><h3>Planejamento de terminais de grãos e fertilizantes</h3><p>Planejamento de longo, médio e curto prazo dos terminais de Araguari e Pirapora: dimensionamento, defesa de orçamento, investimentos e custos, e novos negócios com a capacidade ociosa e a sazonalidade de cada operação. Implantação do TPS com a TSSC e o primeiro modelo de EBITDA por unidade operacional da empresa. Gerente interino por seis meses.</p></div></div>\n<div><div class=\"quando\">2016 a 2019<small>VLI</small></div><div><h3>Cadeia de fertilizantes e recuperação de terminal</h3><p>Planejamento da cadeia do porto de Tubarão, pelas ferrovias EFVM e FCA, até o terminal e o cliente. Recuperação do terminal de grãos de Pirapora até a primeira certificação permanente do Ministério da Agricultura.</p></div></div>\n<div><div class=\"quando\">2008 a 2016<small>Vale e VLI</small></div><div><h3>Comercial</h3><p>Atendimento a siderúrgicas e distribuidoras de combustíveis em Belo Horizonte, São Luís e Ouro Branco, incluindo a carteira de gusa e a primeira cobrança de estadia de vagões a um grande cliente. Tricampeão do ranking de atendimento ao cliente.</p></div></div>\n</div></div></section>",
   "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Career</div><h2>Career by area</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024 to present<small>Nitai Lab</small></div><div><h3>Logistics and operations consulting</h3><p>Bulk logistics, feasibility and verification for those buying, selling or investing, and operational diagnostics for industry. Through NP Consultoria e Serviços.</p></div></div>\n<div><div class=\"quando\">2022 to 2024<small>VLI</small></div><div><h3>Iron ore and steel</h3><p>Responsible for planning, processes, maintenance and operations at the Santa Luzia and Ouro Preto terminals in Minas Gerais, with up to ten segregated ore products and a full planned shutdown without lost production. Acting manager for eight months.</p></div></div>\n<div><div class=\"quando\">2019 to 2022<small>VLI</small></div><div><h3>Grain and fertiliser terminal planning</h3><p>Long, medium and short-term planning for the Araguari and Pirapora terminals: capacity sizing, budget defence, capex and opex, and new business built on idle capacity and each operation's seasonality. TPS implementation with TSSC and the company's first EBITDA model per operating unit. Acting manager for six months.</p></div></div>\n<div><div class=\"quando\">2016 to 2019<small>VLI</small></div><div><h3>Fertiliser chain and terminal turnaround</h3><p>Planning of the chain from the port of Tubarão, via the EFVM and FCA railways, to the terminal and the customer. Turnaround of the Pirapora grain terminal up to its first permanent certification from the Ministry of Agriculture.</p></div></div>\n<div><div class=\"quando\">2008 to 2016<small>Vale and VLI</small></div><div><h3>Commercial and key accounts</h3><p>Account management for steel mills and fuel distributors in Belo Horizonte, São Luís and Ouro Branco, including the pig iron portfolio and the first wagon demurrage charge billed to a major client. Three-time winner of the company's customer-service ranking.</p></div></div>\n</div></div></section>"
  },
- "65cf9ce24faf": {
-  "pt": "<section class=\"campo\"><img src=\"/fotos/real-nitai-campo-mina.webp\" alt=\"Nitai Morais em visita técnica a uma planta de beneficiamento de minério\">\n<div class=\"miolo\"><div class=\"campo-texto\"><div class=\"rot\">Em campo</div><h2>Visita técnica a uma planta de beneficiamento de minério</h2>\n<p>Verificação também é presença: ver a planta operando, as pilhas, o acesso e o caminho da carga até a ferrovia e o porto.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/verificacao/\">Ver Verificação</a></div></div></div></section>",
-  "tr": "<section class=\"campo\"><img src=\"/fotos/real-nitai-campo-mina.webp\" alt=\"Nitai Morais on a technical visit to an iron ore processing plant\">\n<div class=\"miolo\"><div class=\"campo-texto\"><div class=\"rot\">In the field</div><h2>Technical visit to an iron ore processing plant</h2>\n<p>Verification also means being there: seeing the plant running, the stockpiles, the access and the cargo's path to the railway and the port.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/verificacao/\">See Verification</a></div></div></div></section>"
- },
- "dc2c4757ad2b": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Método</div><h2 style=\"margin-top:14px\">TPS com a própria Toyota</h2><p class=\"t2\" style=\"margin-top:16px\">Implantei o Toyota Production System com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI, com imersões de um mês para profissionais da empresa inteira.</p></div>\n<div><div class=\"rot\">Formação</div><ul style=\"margin-top:18px;padding-left:20px;display:grid;gap:8px\" class=\"t2\">\n<li>MBA em Logística e Supply Chain Management, FGV (em andamento)</li>\n<li>Pós-graduação em Engenharia Multimodal, PUC Minas</li>\n<li>Escola de Liderança VLI, Fundação Dom Cabral</li>\n<li>Negociação Estratégica e Gestão de Conflitos, Ibmec</li>\n<li>Administração de Empresas, FUMEC</li>\n</ul></div></div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Method</div><h2 style=\"margin-top:14px\">TPS with Toyota itself</h2><p class=\"t2\" style=\"margin-top:16px\">I implemented the Toyota Production System with direct consulting from TSSC, the Toyota centre that brings the method to companies outside Japan. The terminal became VLI's TPS school, with month-long immersions for professionals from across the company.</p></div>\n<div><div class=\"rot\">Education</div><ul style=\"margin-top:18px;padding-left:20px;display:grid;gap:8px\" class=\"t2\">\n<li>MBA in Logistics and Supply Chain Management, FGV (in progress)</li>\n<li>Postgraduate degree in Multimodal Engineering, PUC Minas</li>\n<li>VLI Leadership School, Fundação Dom Cabral</li>\n<li>Strategic Negotiation and Conflict Management, Ibmec</li>\n<li>Business Administration, FUMEC</li>\n</ul></div></div></div></section>"
- },
- "534f707c88bf": {
-  "pt": "Pelo WhatsApp ou por e-mail. Em caso de indicação, informe quem indicou.",
-  "tr": "By email or WhatsApp. If you were referred, please tell me by whom."
- },
- "6e61d784602d": {
-  "pt": "Sobre Nitai Morais",
-  "tr": "About Nitai Morais"
- },
- "a14b25eaecf0": {
-  "pt": "Nitai Morais, 16 anos de Vale e VLI | Nitai Lab",
-  "tr": "Nitai Morais, 16 years at Vale and VLI | Nitai Lab"
- },
  "0c88625f53c0": {
   "pt": "Gestão de terminais integrados a ferrovia e porto, TPS com a TSSC, primeiro modelo de EBITDA por unidade da VLI. Base em Minas Gerais.",
   "tr": "Management of terminals integrated with rail and port, TPS with TSSC, VLI's first EBITDA model per unit. Based in Minas Gerais, Brazil."
  },
- "74377f68a978": {
-  "pt": "Contato e condições de trabalho.",
-  "tr": "Contact and terms of engagement."
+ "109576f4160b": {
+  "pt": "(recortada e espelhada)",
+  "tr": "(cropped and mirrored)"
  },
- "85a9edd4f3d0": {
-  "pt": "Atendimento pelo WhatsApp ou por e-mail. A primeira conversa sobre o caso não tem custo.",
-  "tr": "I reply by email or WhatsApp, in English or Portuguese. The first conversation about your case is free of charge."
+ "115f5c54a3cc": {
+  "pt": "logística de granéis",
+  "tr": "bulk logistics"
  },
- "dad2954c4627": {
-  "pt": "Nitai Morais trabalhando no notebook",
-  "tr": "Nitai Morais working on a laptop"
+ "1174f39037c7": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Diagnóstico de 5 dias</div><h2>Diagnóstico em cinco dias, com as perdas quantificadas em reais</h2>\n<ol class=\"passos\">\n<li><b>Onde perde dinheiro</b><span>De três a cinco pontos críticos levantados no chão, com operadores, liderança e indicadores.</span></li>\n<li><b>Cada perda em reais</b><span>Cada ponto vem com o valor por mês ou por ano.</span></li>\n<li><b>Plano de 90 dias</b><span>Ações em ordem de custo e benefício, com responsáveis.</span></li>\n<li><b>Devolutiva ao time</b><span>Apresentação presencial para quem vai executar.</span></li>\n</ol></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">5-day diagnostic</div><h2>A five-day diagnostic, with losses quantified in money</h2>\n<ol class=\"passos\">\n<li><b>Where money is lost</b><span>Three to five critical points identified on the floor, with operators, supervisors and indicators.</span></li>\n<li><b>Each loss in money</b><span>Each point is valued per month or per year.</span></li>\n<li><b>90-day plan</b><span>Actions ranked by cost-benefit, with owners.</span></li>\n<li><b>Readout to the team</b><span>An on-site presentation to the people who will execute.</span></li>\n</ol></div></section>"
  },
- "bfc7e2de197a": {
-  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Para encaminhar</div><h2 style=\"margin-top:14px\">Apresentações em PDF</h2><p class=\"t2\" style=\"margin-top:14px\">Para enviar a quem decide, conforme o assunto.</p>\n<ul class=\"lista-pdf\"><li><a href=\"{d1}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Institucional</a><span>quem sou, frentes, clientes e casos</span></li>\n<li><a href=\"{d2}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Logística e Verificação</a><span>rota, custo, risco e verificação antes da assinatura</span></li>\n<li><a href=\"{d3}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Diagnóstico Operacional</a><span>os 5 dias, entregáveis e resultados</span></li></ul></div>\n<div class=\"caixa\"><span class=\"rot\">Quem responde</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p><p>WhatsApp +55 31 98297-6006 · {email} · <a href=\"{linkedin}\" rel=\"noopener\">LinkedIn</a></p></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">To forward</div><h2 style=\"margin-top:14px\">Presentations (PDF)</h2><p class=\"t2\" style=\"margin-top:14px\">To pass on to the decision-maker, by topic.</p>\n<ul class=\"lista-pdf\"><li><a href=\"{d1}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Company overview</a><span>who I am, areas of work, clients and cases</span></li>\n<li><a href=\"{d2}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Logistics and Verification</a><span>route, cost, risk and verification before signing</span></li>\n<li><a href=\"{d3}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Operational Diagnostic</a><span>the 5 days, deliverables and results</span></li></ul></div>\n<div class=\"caixa\"><span class=\"rot\">Who you will deal with</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ (Brazilian company tax ID) 68.698.300/0001-20, Minas Gerais, Brazil.</p><p>{email} · WhatsApp +55 31 98297-6006 · <a href=\"{linkedin}\" rel=\"noopener\">LinkedIn</a></p></div>\n</div></div></section>"
+ "12abbe95fe25": {
+  "pt": "Diagnóstico operacional de 5 dias",
+  "tr": "5-day operational diagnostic"
  },
- "7ec996672937": {
-  "pt": "Como trabalho e contato | Nitai Lab",
-  "tr": "How I work and contact | Nitai Lab"
+ "13865a704f7e": {
+  "pt": "Contato pelo site da Nitai Lab",
+  "tr": "Contact through the Nitai Lab website"
+ },
+ "13f2b01a2019": {
+  "pt": "Nitai Lab, início",
+  "tr": "Nitai Lab, home"
+ },
+ "140f8046d943": {
+  "pt": "Verificação",
+  "tr": "Verification"
+ },
+ "17a6196ca950": {
+  "pt": "Due diligence de mineração: técnica e logística | Nitai Lab",
+  "tr": "Brazil mining due diligence: technical and logistics | Nitai Lab"
+ },
+ "183170aae4b0": {
+  "pt": "Frentes de atuação",
+  "tr": "Areas of work"
+ },
+ "1f1b4be73297": {
+  "pt": "Envie a documentação para análise",
+  "tr": "Send the documents for review"
+ },
+ "20c4e9d61ce2": {
+  "pt": "Fertilizantes",
+  "tr": "Fertilisers"
+ },
+ "20ff030d2827": {
+  "pt": "logística ferroviária",
+  "tr": "rail logistics"
+ },
+ "215232dd1a52": {
+  "pt": "Consultoria logística ferroviária e portuária | Nitai Lab",
+  "tr": "Brazil rail and port logistics consulting | Nitai Lab"
  },
  "2373342685c7": {
   "pt": "Escopo, prazo e valor por escrito, confidencialidade nos dois sentidos e resposta pelo WhatsApp ou e-mail.",
   "tr": "Scope, timeline and fee in writing, confidentiality both ways, and replies by email or WhatsApp."
  },
+ "23930282a19c": {
+  "pt": "Sobre",
+  "tr": "About"
+ },
+ "23c5e1d027e6": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escopo</div><h2>Serviços</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Viabilidade</span><h3>Viabilidade e netback de lote ou de fluxo</h3><p>A conta trecho a trecho, por rota e por cenário de frete e preço. Você sai sabendo o preço mínimo na origem e qual rota vale a pena.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternativas</span><h3>Estudo de rota e modal</h3><p>Rodovia, ferrovia, cabotagem e porto comparados em custo, prazo, capacidade e risco, com o que confirmar em cotação antes de decidir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risco</span><h3>Análise de risco logístico</h3><p>Dependência de um só operador, capacidade contratada, take-or-pay, sazonalidade, regulação e a saúde de quem está do outro lado.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Estrutura</span><h3>Estruturação e coordenação da cadeia</h3><p>Plano logístico com rota, capacidades e contratos, programação de embarque e acompanhamento do fluxo até o navio ou o cliente final.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entrada no Brasil</span><h3>Apoio local a empresas estrangeiras</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargas</span><h3>Granel e carga industrial</h3><p>Minério de ferro e manganês, soja, milho e farelo, fertilizantes como KCl e ureia, gusa e produtos siderúrgicos.</p></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scope</div><h2>Services</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Feasibility</span><h3>Feasibility and netback for a parcel or a flow</h3><p>The numbers leg by leg, by route and by freight and price scenario. You come away knowing the minimum price at origin and which route is worth it.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternatives</span><h3>Route and mode study</h3><p>Road, rail and coastal shipping, and the port options, compared on cost, transit time, capacity and risk, with what to confirm in quotations before deciding.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risk</span><h3>Logistics risk analysis</h3><p>Dependence on a single operator, contracted capacity, take-or-pay terms, seasonality, regulation and the financial health of the counterparty.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Structure</span><h3>Supply chain structuring and coordination</h3><p>A logistics plan with route, capacities and contracts, shipment scheduling and follow-up of the flow all the way to the vessel or the end customer.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entering Brazil</span><h3>Local support for foreign companies</h3><p>For foreign traders, buyers and investors: who operates each leg, where the cargo gets stuck, who to talk to and what to check before signing.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargo</span><h3>Bulk and industrial cargo</h3><p>Iron and manganese ore, soybeans, corn and soybean meal, fertilisers such as potash (KCl) and urea, pig iron and steel products.</p></div>\n</div></div></section>"
+ },
+ "2491875755f5": {
+  "pt": "Oi Nitai, vi o site da Nitai Lab e quero conversar.",
+  "tr": "Hello Nitai, I saw the Nitai Lab website and would like to talk."
+ },
+ "26d38b2425d6": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Para quem</div><h2>Os dois lados do mesmo dossiê</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Quem compra ou investe</span><h3>Segurança antes de assinar</h3><p>Mina, lote e contraparte conferidos em fonte oficial, com o laudo lido e a capacidade real de escoar até o porto. Você sabe o que está comprando e o que pedir antes de seguir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Quem vende ou capta</span><h3>O dossiê pronto antes do pedido</h3><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar, organizados antes de o comprador ou o investidor pedirem. Oportunidade documentada negocia melhor e fecha mais rápido.</p></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Who it is for</div><h2>Two sides of the same dossier</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Buyers and investors</span><h3>Clarity before signing</h3><p>Mine, parcel and counterparty checked against official sources, with the lab report read and the real capacity to move the cargo to port. You know what you are buying and what to ask for before moving forward.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Sellers and those raising capital</span><h3>The dossier ready before it is requested</h3><p>Mining title at ANM, CFEM royalty payments, licence, lab report read and capacity to move the cargo, organised before the buyer or investor asks for them. A documented opportunity negotiates from a stronger position and closes faster.</p></div>\n</div></div></section>"
+ },
+ "292d3afe60f6": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<div class=\"nums\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>\n<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>\n<div><b>+50%</b><span>de corte no orçamento operacional ao longo de três anos</span></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Results</div><h2>Results achieved</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;3.9M</b><span>saved in one year, with volume above budget</span></div>\n<div><b>BRL&nbsp;8.1M</b><span>cut from the budget by redesigning wagon unloading</span></div>\n<div><b>50%+</b><span>cut in the operating budget over three years</span></div>\n<div><b>BRL&nbsp;2M</b><span>saved per year by restructuring service contracts</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Method</div><h3 style=\"margin:10px 0 12px\">Toyota Production System with Toyota itself</h3>\n<p class=\"t2\">I led the TPS implementation with direct consulting from TSSC, the Toyota centre that brings the method to companies outside Japan. The terminal became VLI's TPS school.</p>\n<p class=\"t2\">In Brazil, TPS often arrives only halfway: tools and audits. The missing half is treating operators as people who think. That is the half I bring.</p></div>\n<div class=\"caixa\"><span class=\"rot\">A test you can run tomorrow</span><p>Ask the operators on one shift what their biggest difficulty in the operation is. Then ask them to propose solutions.</p><p>If you are not surprised, either there is a problem with morale and culture, or the operation is already very well run.</p></div></div>"
+ },
+ "2a256d33a48a": {
+  "pt": "netback",
+  "tr": "netback"
+ },
+ "2aee2ff4427c": {
+  "pt": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem conduz o trabalho</div><h2>Nitai Morais</h2>\n<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>\n<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">Ver a trajetória</a></div></div>\n</div></section>",
+  "tr": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Who leads the work</div><h2>Nitai Morais</h2>\n<p>Sixteen years inside the chain: in Vale's commercial team, in VLI's terminal planning and in operations management, leading teams of up to 250 people. I planned capacity, defended budgets, negotiated with clients and implemented TPS with consulting from Toyota itself.</p>\n<p>Today I apply that experience to decisions on route, cost and risk, and to operations that need to perform better. I lead every engagement personally, from diagnosis to delivery.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">See my track record</a></div></div>\n</div></section>"
+ },
+ "2e9386c6a2e3": {
+  "pt": "Clientes que atendi",
+  "tr": "Clients I served"
+ },
+ "2fff38efc748": {
+  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Entregas</div><h2>Entregáveis</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Parecer rápido</h3><p>Uma página: dá para seguir ou não, e por quê.</p></div>\n<div class=\"oferta\"><h3>Dossiê da mina</h3><p>O que está documentado, o que falta e o que pedir antes de assinar.</p></div>\n<div class=\"oferta\"><h3>Dossiê da contraparte</h3><p>Quem é a empresa do outro lado e o que pesa contra ela.</p></div>\n<div class=\"oferta\"><h3>Dossiê de ativo logístico</h3><p>Terminal, armazém ou contrato de capacidade: o que existe e o que trava.</p></div>\n</div>\n<div class=\"caixa\" style=\"margin-top:32px\"><span class=\"rot\">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p></div>",
+  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Deliverables</div><h2>Deliverables</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Quick assessment</h3><p>One page: go or no go, and why.</p></div>\n<div class=\"oferta\"><h3>Mine dossier</h3><p>What is documented, what is missing and what to request before signing.</p></div>\n<div class=\"oferta\"><h3>Counterparty dossier</h3><p>Who the company on the other side is and what weighs against it.</p></div>\n<div class=\"oferta\"><h3>Logistics asset dossier</h3><p>Terminal, warehouse or capacity contract: what exists and what is holding it back.</p></div>\n</div>\n<div class=\"caixa\" style=\"margin-top:32px\"><span class=\"rot\">What I do not do</span><p>I do not issue technical reports or legal opinions. I work alongside the geologist, the laboratory and the lawyer, and cover what falls between them: operations and logistics.</p></div>"
+ },
+ "34e187902624": {
+  "pt": "Apresentação em PDF",
+  "tr": "Presentation (PDF)"
+ },
+ "35c45c30b82e": {
+  "pt": "Preciso parar a operação?",
+  "tr": "Do I need to stop the operation?"
+ },
+ "36ce5bbc47bb": {
+  "pt": "Logística de granéis e carga industrial, da origem ao porto.",
+  "tr": "Bulk and industrial cargo logistics in Brazil, from origin to port."
+ },
+ "3b35a4df24f0": {
+  "pt": "Minério sendo carregado em vagões no pátio",
+  "tr": "Iron ore being loaded into wagons in the yard"
+ },
+ "3d0218e4d798": {
+  "pt": "Você decide: seguir sozinho com o plano, contratar acompanhamento da implantação ou um projeto fechado. Cada um com escopo próprio.",
+  "tr": "You decide: carry out the plan on your own, hire support for the implementation, or commission a fixed-scope project. Each is scoped separately."
+ },
+ "3d2310de297b": {
+  "pt": "Desempenho da operação · TPS e Lean",
+  "tr": "Operational performance · TPS and Lean"
+ },
+ "41cf1dc9ba0c": {
+  "pt": "Baixar a apresentação",
+  "tr": "Download the presentation"
+ },
+ "44261f859925": {
+  "pt": "Serve para quem está fora do Brasil?",
+  "tr": "Is this useful for someone outside Brazil?"
+ },
+ "44a1ab02ba09": {
+  "pt": "Rota, modal, alternativas, viabilidade, netback e risco logístico para granéis e carga industrial no Brasil.",
+  "tr": "Route, mode, alternatives, feasibility, netback and logistics risk for bulk and industrial cargo in Brazil."
+ },
+ "48d3852c4c00": {
+  "pt": "Casos de operação e logística de granéis | Nitai Lab",
+  "tr": "Bulk operations and logistics cases | Nitai Lab"
+ },
+ "4e828a45ae2a": {
+  "pt": "16 anos no Grupo Vale (Vale e VLI), gestão de terminais integrados a ferrovia e porto.",
+  "tr": "16 years in the Vale Group (Vale and VLI), managing terminals integrated with rail and port."
+ },
+ "4e9ec3a0282d": {
+  "pt": "Política de privacidade",
+  "tr": "Privacy policy (Portuguese)"
+ },
+ "5026b91eb549": {
+  "pt": "Planta de beneficiamento de minério vista do alto",
+  "tr": "Iron ore processing plant seen from above"
+ },
+ "52edc15637a4": {
+  "pt": "Casos reais de terminal, ferrovia e porto, anonimizados: o desafio, o que foi feito e o resultado em ordem de grandeza.",
+  "tr": "Real, anonymised cases from terminals, rail and port in Brazil: the challenge, what was done and the results as orders of magnitude."
+ },
+ "53132a8579d2": {
+  "pt": "Carreta basculando minério na descarga",
+  "tr": "Truck tipping iron ore at the unloading point"
+ },
+ "5314cae31cd3": {
+  "pt": "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
+  "tr": "At a terminal, warehouse, mine or factory, the big gain rarely comes from new technology. It comes from what nobody has the patience to look at. The method is the Toyota Production System I implemented with TSSC, Toyota's own consulting arm, adapted to the reality of the Brazilian shop floor."
+ },
+ "534f707c88bf": {
+  "pt": "Pelo WhatsApp ou por e-mail. Em caso de indicação, informe quem indicou.",
+  "tr": "By email or WhatsApp. If you were referred, please tell me by whom."
+ },
+ "56661c07cf29": {
+  "pt": "Contato",
+  "tr": "Contact"
+ },
+ "56c088e245d5": {
+  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Temas</div><h2>Principais fontes de perda</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Capacidade e gargalo</h3><p>A etapa que limita tudo, quase sempre distribuição de papéis e não falta de equipamento.</p></div>\n<div class=\"oferta\"><h3>Custo por tonelada</h3><p>Quanto custa cada tonelada movimentada e o que compõe esse número.</p></div>\n<div class=\"oferta\"><h3>Contratos e terceiros</h3><p>Serviços operacionais pagos por um escopo que a operação já não usa.</p></div>\n<div class=\"oferta\"><h3>Paradas de manutenção</h3><p>Planejamento e controle para parar sem perder a produção programada.</p></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Topics</div><h2>Main sources of loss</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><h3>Capacity and bottlenecks</h3><p>The step that limits everything, almost always a matter of how roles are split rather than missing equipment.</p></div>\n<div class=\"oferta\"><h3>Cost per tonne</h3><p>What each tonne handled costs and what makes up that number.</p></div>\n<div class=\"oferta\"><h3>Contracts and third-party services</h3><p>Operating services still paid for on a scope the operation no longer uses.</p></div>\n<div class=\"oferta\"><h3>Planned shutdowns</h3><p>Planning and control so that a stoppage does not cost scheduled production.</p></div>\n</div></div></section>"
+ },
+ "57726edfbcbd": {
+  "pt": "Grãos",
+  "tr": "Grains"
+ },
  "57f5f5efbc59": {
   "pt": "Menu",
   "tr": "Menu"
  },
- "6d4528127f8f": {
-  "pt": "(espelhada)",
-  "tr": "(mirrored)"
+ "5ab86d1161e9": {
+  "pt": "Você implanta Lean e TPS?",
+  "tr": "Do you implement Lean and TPS?"
+ },
+ "5b9a292dbe17": {
+  "pt": "Casos",
+  "tr": "Cases"
+ },
+ "5d6946521fee": {
+  "pt": "Você trabalha só com minério?",
+  "tr": "Do you work only with iron ore?"
+ },
+ "5d82d33c21b6": {
+  "pt": "Nitai Lab Logística e Operações",
+  "tr": "Nitai Lab Logistics and Operations"
+ },
+ "5ea65ccb1cfe": {
+  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Frentes de atuação</div>\n<h2>Três frentes, uma mesma base: a operação vista por dentro</h2>\n<div class=\"cartoes\">\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot\">Estratégia e estrutura logística</span><span class=\"q\">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class=\"ir\">Ver Logística →</span></div></a>\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot\">Desempenho da operação · TPS</span><span class=\"q\">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class=\"ir\">Ver Operação →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot\">Verificação</span><span class=\"q\">Mina, lote e contraparte documentados antes da assinatura</span><p>Para quem compra e para quem vende: fontes oficiais, laudo lido e capacidade real de escoar a carga.</p><span class=\"ir\">Ver Verificação →</span></div></a>\n</div></div></section>",
+  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Areas of work</div>\n<h2>Three areas of work, one foundation: operations seen from the inside</h2>\n<div class=\"cartoes\">\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot\">Logistics strategy and structure</span><span class=\"q\">Route, cost and risk of the cargo, from origin to port</span><p>Route and mode studies, alternatives, feasibility, netback and logistics risk.</p><span class=\"ir\">See Logistics →</span></div></a>\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot\">Operational performance · TPS</span><span class=\"q\">Operational losses quantified in money</span><p>A 5-day diagnostic at a terminal, warehouse or plant, using the Toyota method (TPS), with a 90-day plan.</p><span class=\"ir\">See Operations →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot\">Verification</span><span class=\"q\">Mine, parcel and counterparty documented before signing</span><p>For buyers and for sellers: official sources, the lab report read and the real capacity to move the cargo.</p><span class=\"ir\">See Verification →</span></div></a>\n</div></div></section>"
+ },
+ "5f59fbe4100b": {
+  "pt": "Oi Nitai, vi a página de logística do site e quero conversar sobre uma carga.",
+  "tr": "Hello Nitai, I saw the logistics page on your website and would like to talk about a cargo."
+ },
+ "6455b81f6a8f": {
+  "pt": "Oi Nitai, vi a página de operação do site e quero conversar sobre a minha operação.",
+  "tr": "Hello Nitai, I saw the operations page on your website and would like to talk about my operation."
+ },
+ "65cf9ce24faf": {
+  "pt": "<section class=\"campo\"><img src=\"/fotos/real-nitai-campo-mina.webp\" alt=\"Nitai Morais em visita técnica a uma planta de beneficiamento de minério\">\n<div class=\"miolo\"><div class=\"campo-texto\"><div class=\"rot\">Em campo</div><h2>Visita técnica a uma planta de beneficiamento de minério</h2>\n<p>Verificação também é presença: ver a planta operando, as pilhas, o acesso e o caminho da carga até a ferrovia e o porto.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/verificacao/\">Ver Verificação</a></div></div></div></section>",
+  "tr": "<section class=\"campo\"><img src=\"/fotos/real-nitai-campo-mina.webp\" alt=\"Nitai Morais on a technical visit to an iron ore processing plant\">\n<div class=\"miolo\"><div class=\"campo-texto\"><div class=\"rot\">In the field</div><h2>Technical visit to an iron ore processing plant</h2>\n<p>Verification also means being there: seeing the plant running, the stockpiles, the access and the cargo's path to the railway and the port.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/verificacao/\">See Verification</a></div></div></div></section>"
+ },
+ "664fd9495d5c": {
+  "pt": "Carga · ",
+  "tr": "Cargo · "
+ },
+ "671f2aa0dd86": {
+  "pt": "Logística de granéis e carga industrial, da origem ao porto",
+  "tr": "Bulk and industrial cargo logistics, from origin to port"
+ },
+ "6c79cf4da921": {
+  "pt": "Oi Nitai, vi a página de verificação do site e quero conversar sobre uma mina ou um negócio.",
+  "tr": "Hello Nitai, I saw the verification page on your website and would like to talk about a mine or a deal."
+ },
+ "6e61d784602d": {
+  "pt": "Sobre Nitai Morais",
+  "tr": "About Nitai Morais"
+ },
+ "6fa1810143f1": {
+  "pt": "due diligence de mineração",
+  "tr": "mining due diligence"
+ },
+ "7231a3bb4377": {
+  "pt": "Perguntas frequentes",
+  "tr": "Frequently asked questions"
+ },
+ "73d338e1e47b": {
+  "pt": "Um parecer rápido sai em poucos dias. O dossiê completo depende de quantos documentos a outra parte entrega.",
+  "tr": "A quick assessment takes a few days. The full dossier depends on how many documents the other party provides."
+ },
+ "74377f68a978": {
+  "pt": "Contato e condições de trabalho.",
+  "tr": "Contact and terms of engagement."
+ },
+ "747e0f9d9982": {
+  "pt": "Fotos ilustrativas, Wikimedia Commons.",
+  "tr": "Illustrative photos, Wikimedia Commons."
+ },
+ "7515e4ab6b47": {
+  "pt": "Enviar e-mail",
+  "tr": "Send an email"
+ },
+ "762904584412": {
+  "pt": "Informe o tipo de operação e o principal problema. Retorno indicando por onde começar.",
+  "tr": "Tell me the type of operation and the main problem. I will reply with where to start."
+ },
+ "770df3eb02a1": {
+  "pt": "Solicite um diagnóstico",
+  "tr": "Request a diagnostic"
+ },
+ "7bd83ad158bc": {
+  "pt": "Navio graneleiro entrando no porto de Santos",
+  "tr": "Bulk carrier entering the port of Santos"
+ },
+ "7e8f187956c1": {
+  "pt": "Construção",
+  "tr": "Construction"
+ },
+ "7ec996672937": {
+  "pt": "Como trabalho e contato | Nitai Lab",
+  "tr": "How I work and contact | Nitai Lab"
+ },
+ "7f3e904174e7": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"casos\">\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carreta-minerio.webp\" alt=\"{a1}\"><span class=\"rot\">Minério e siderurgia</span><h3>A caneta no vidro</h3><dl>\n<dt>Situação</dt><dd>Um terminal de minério desenhado para carretas simples passou a receber bitrens e rodotrens. A fila ia para a rua, o cliente pressionava e a leitura de todos era: falta gente.</dd>\n<dt>O que fiz</dt><dd>Passei uma hora parado num único ponto da operação, só observando. Cada operador era dono de um caminhão, não de uma etapa. Redesenhei os papéis por etapa na parede de vidro da sala de reunião, com o líder de turno, e o desenho virou padrão.</dd>\n<dt>Resultado</dt><dd><b>Perto de 50% a mais de capacidade de descarga</b>, com a mesma equipe e sem investimento.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{a2}\"><span class=\"rot\">Grãos</span><h3>Cada vagão no seu 100%</h3><dl>\n<dt>Situação</dt><dd>Frota de vagões heterogênea, carregamento sem padrão e, no pico da safra, demanda maior que a capacidade. Toda tonelada não carregada ia embora.</dd>\n<dt>O que fiz</dt><dd>Cada vagão passou a ter a própria meta de peso, medida como porcentagem do seu limite. A reunião de produção saiu do escritório e foi para uma sala dentro da operação, na troca de turno.</dd>\n<dt>Resultado</dt><dd><b>Mais de 100 toneladas a mais por trem</b> nos mesmos ativos, e receita adicional de milhões já no primeiro ano.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{a3}\"><span class=\"rot\">Minério e siderurgia</span><h3>Dez minérios em três pátios</h3><dl>\n<dt>Situação</dt><dd>Um terminal funcionava como estoque avançado da composição química de uma siderúrgica, com até dez produtos de minério diferentes.</dd>\n<dt>O que fiz</dt><dd>Controle de segregação por produto e por pátio, com rastreabilidade e janelas de descarga.</dd>\n<dt>Resultado</dt><dd><b>Sem contaminação cruzada</b>, num terminal do qual dependia o faturamento diário do cliente.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-silos-terminal.webp\" alt=\"{a4}\"><span class=\"rot\">Grãos</span><h3>A recuperação de um terminal</h3><dl>\n<dt>Situação</dt><dd>Um terminal de grãos com o pior histórico da unidade em auditoria sanitária.</dd>\n<dt>O que fiz</dt><dd>Rotina de gestão integrada, padrão por etapa e acompanhamento próximo como gerente interino.</dd>\n<dt>Resultado</dt><dd><b>A maior nota em auditorias sanitárias</b>, a primeira certificação permanente do Ministério da Agricultura para grãos e recordes de produção mensal.</dd></dl></article>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"casos\">\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carreta-minerio.webp\" alt=\"{a1}\"><span class=\"rot\">Iron ore and steel</span><h3>The pen on the glass</h3><dl>\n<dt>Situation</dt><dd>An iron ore terminal designed for single-trailer trucks started receiving B-doubles and road trains. The queue spilled onto the public road, the client was pressing, and everyone had the same diagnosis: not enough staff.</dd>\n<dt>What I did</dt><dd>I spent an hour standing at a single point of the operation, just watching. Each operator owned a truck, not a step. I redrew the roles by step on the glass wall of the meeting room, with the shift leader, and the drawing became the standard.</dd>\n<dt>Result</dt><dd><b>Close to 50% more unloading capacity</b>, with the same team and no investment.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{a2}\"><span class=\"rot\">Grains</span><h3>Every wagon at its own 100%</h3><dl>\n<dt>Situation</dt><dd>A mixed fleet of wagon types, loading without a standard and, at the peak of the harvest, demand above capacity. Every tonne not loaded was lost.</dd>\n<dt>What I did</dt><dd>Each wagon got its own weight target, set as a percentage of its own payload limit. The production meeting moved out of the office into a room inside the operation, at shift change.</dd>\n<dt>Result</dt><dd><b>Over 100 tonnes more per train</b> with the same assets, and millions of reais in additional revenue in the first year.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{a3}\"><span class=\"rot\">Iron ore and steel</span><h3>Ten ores in three yards</h3><dl>\n<dt>Situation</dt><dd>A terminal acted as the forward stockyard for a steel mill's blend, handling up to ten different ore products to chemical specification.</dd>\n<dt>What I did</dt><dd>Segregation control by product and by yard, with traceability and unloading windows.</dd>\n<dt>Result</dt><dd><b>No cross-contamination</b>, at a terminal on which the client's daily revenue depended.</dd></dl></article>\n<article class=\"caso\"><img class=\"caso-foto\" src=\"/fotos/real-silos-terminal.webp\" alt=\"{a4}\"><span class=\"rot\">Grains</span><h3>Turning a terminal around</h3><dl>\n<dt>Situation</dt><dd>A grain terminal with the worst sanitary audit record in the unit.</dd>\n<dt>What I did</dt><dd>An integrated management routine, a standard for each step and close follow-up as acting manager.</dd>\n<dt>Result</dt><dd><b>The highest score in sanitary audits</b>, the terminal's first permanent certification from Brazil's Ministry of Agriculture for grain handling, and record monthly throughput.</dd></dl></article>\n</div></div></section>"
+ },
+ "85a9edd4f3d0": {
+  "pt": "Atendimento pelo WhatsApp ou por e-mail. A primeira conversa sobre o caso não tem custo.",
+  "tr": "I reply by email or WhatsApp, in English or Portuguese. The first conversation about your case is free of charge."
+ },
+ "86155c0429a3": {
+  "pt": "Sim. Implantei o Toyota Production System com a TSSC e montei a escola de TPS da VLI. O diagnóstico é a porta de entrada: mostra onde o método rende mais na sua operação. A implantação vem depois, como acompanhamento, com escopo próprio.",
+  "tr": "Yes. I implemented the Toyota Production System with TSSC and set up VLI's TPS school. The diagnostic is the entry point: it shows where the method pays off most in your operation. Implementation comes afterwards, as a follow-up engagement with its own scope."
+ },
+ "86b6f4a89a4c": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div><h2>Scale of experience</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>1.8 Mt</b><span>of pig iron exported in the account portfolio I managed</span></div>\n<div><b>250</b><span>people in the largest team I led</span></div>\n</div></div></section>"
+ },
+ "87e71ead1f73": {
+  "pt": "Situação semelhante na sua operação?",
+  "tr": "A similar situation in your operation?"
+ },
+ "8926edead734": {
+  "pt": "Trem carregado de minério de ferro na ferrovia, visto do alto",
+  "tr": "Train loaded with iron ore on the railway, seen from above"
+ },
+ "8d13981a9de2": {
+  "pt": "Sim. Para quem compra, vende ou investe no Brasil de fora, faço o papel de olhos locais: quem opera o quê, onde a carga trava e com quem falar.",
+  "tr": "Yes. For those buying, selling or investing in Brazil from abroad, I act as your eyes on the ground: who operates what, where the cargo gets stuck and who to talk to."
+ },
+ "8feb2a0f5550": {
+  "pt": "<section class=\"rota\" aria-label=\"A cadeia, da origem ao porto\"><div class=\"miolo\"><ol>\n<li>Origem<small>mina, fazenda, usina</small></li>\n<li>Rodovia<small>carreta, bitrem, rodotrem</small></li>\n<li>Terminal<small>transbordo, armazém, estoque</small></li>\n<li>Ferrovia<small>vagão, janela, tarifa</small></li>\n<li>Porto<small>fila, navio, embarque</small></li>\n</ol><p class=\"rota-nota\">Arranjo mais comum no granel de exportação. Há cadeias só rodoviárias, por cabotagem ou por hidrovia, e cada uma muda a conta.</p></div></section>",
+  "tr": "<section class=\"rota\" aria-label=\"The chain, from origin to port\"><div class=\"miolo\"><ol>\n<li>Origin<small>mine, farm, mill</small></li>\n<li>Road<small>truck, B-double, road train</small></li>\n<li>Terminal<small>transhipment, storage, stockpile</small></li>\n<li>Rail<small>wagon, slot, tariff</small></li>\n<li>Port<small>queue, vessel, loading</small></li>\n</ol><p class=\"rota-nota\">The most common setup for bulk exports. Some chains are road-only, coastal shipping or inland waterway, and each one changes the numbers.</p></div></section>"
+ },
+ "91c4a8f0767b": {
+  "pt": "Não. É o complemento técnico e logístico dela. O advogado olha contratos e passivos; eu olho se a mina existe no papel e no chão, se produz o que diz e se a carga consegue chegar ao porto.",
+  "tr": "No. It complements it on the technical and logistics side. The lawyer looks at contracts and liabilities; I look at whether the mine exists on paper and on the ground, whether it produces what it claims and whether the cargo can reach the port."
+ },
+ "938594ea8108": {
+  "pt": "Descreva em poucas linhas a carga, a operação ou o negócio. Retorno com uma primeira avaliação e o próximo passo recomendado.",
+  "tr": "Describe the cargo, the operation or the deal in a few lines. I will reply with a first assessment and the recommended next step."
+ },
+ "93dda4b47644": {
+  "pt": "Vagões graneleiros carregados ao lado da plataforma do terminal",
+  "tr": "Loaded bulk wagons beside the terminal platform"
+ },
+ "94573b18ff3f": {
+  "pt": "Logística",
+  "tr": "Logistics"
+ },
+ "94e6400c7365": {
+  "pt": "Rota, custo e risco da carga, da origem ao porto.",
+  "tr": "Route, cost and risk of the cargo, from origin to port."
+ },
+ "98270408b2ee": {
+  "pt": "diagnóstico operacional",
+  "tr": "operational diagnostic"
+ },
+ "9a3b9ed40f73": {
+  "pt": "Não sou transportador nem agente de carga. Desenho a cadeia, comparo alternativas, coordeno quem opera e acompanho os indicadores do lado de quem tem a carga.",
+  "tr": "I am not a carrier or a freight forwarder. I design the chain, compare alternatives, coordinate the operators and track the KPIs on the cargo owner's behalf."
+ },
+ "9e64a8e86c19": {
+  "pt": "Rota, modal, alternativas, viabilidade e risco logístico para minério, grãos, fertilizantes e siderúrgicos, da origem ao porto.",
+  "tr": "Route, mode, alternatives, feasibility and logistics risk for iron ore, grains, fertilisers and steel products in Brazil, from origin to port."
+ },
+ "9fff03cd2f71": {
+  "pt": "logística portuária",
+  "tr": "port logistics"
+ },
+ "a14b25eaecf0": {
+  "pt": "Nitai Morais, 16 anos de Vale e VLI | Nitai Lab",
+  "tr": "Nitai Morais, 16 years at Vale and VLI | Nitai Lab"
+ },
+ "a244128c1f5a": {
+  "pt": "Você emite laudo técnico?",
+  "tr": "Do you issue technical reports?"
+ },
+ "a25793994c40": {
+  "pt": "Toyota Production System",
+  "tr": "Toyota Production System"
+ },
+ "a2c1f95e8187": {
+  "pt": "16 anos no Grupo Vale, entre a Vale e a VLI, no comercial, no planejamento de terminais integrados a ferrovia e porto e na gestão da operação. Base em Minas Gerais.",
+  "tr": "16 years in the Vale Group, across Vale and VLI, in commercial roles, in planning terminals integrated with rail and port, and in operations management. Based in Minas Gerais, Brazil."
+ },
+ "a69bf6a1b994": {
+  "pt": "trem de minério",
+  "tr": "iron ore train"
+ },
+ "a6a69d8a9008": {
+  "pt": "Granel se decide na logística. Antes de fechar um contrato de compra, venda ou transporte, mostro a conta trecho a trecho, as alternativas e onde está o risco.",
+  "tr": "In bulk commodities, logistics decides the deal. Before you sign a purchase, sale or freight contract, I show you the numbers leg by leg, the alternatives and where the risk sits."
+ },
+ "a726f284bdb0": {
+  "pt": "Ver os casos",
+  "tr": "See the cases"
+ },
+ "aa54dc144f0f": {
+  "pt": "Minério e siderurgia",
+  "tr": "Iron ore and steel"
+ },
+ "aabf25d5bf4c": {
+  "pt": "Logística de granéis, da origem ao porto | Nitai Lab",
+  "tr": "Brazil bulk logistics, from origin to port | Nitai Lab"
+ },
+ "ab3c1de9e046": {
+  "pt": "Consultoria de logística de granéis",
+  "tr": "Bulk logistics consulting"
+ },
+ "b147110461ea": {
+  "pt": "Combustíveis",
+  "tr": "Fuels"
+ },
+ "b203e2e7f28f": {
+  "pt": "Quanto tempo leva?",
+  "tr": "How long does it take?"
+ },
+ "b38d2af3a40e": {
+  "pt": "Em que tipo de operação o diagnóstico funciona?",
+  "tr": "What kind of operation does the diagnostic work in?"
+ },
+ "b772884922db": {
+  "pt": "Descreva o contexto. Indico o primeiro ponto a analisar.",
+  "tr": "Describe the context. I will point out the first thing to look at."
+ },
+ "b82b22cee9f2": {
+  "pt": "Antes de assinar: título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. Complemento da due diligence jurídica.",
+  "tr": "Before you sign: mining title at ANM, CFEM royalties, licence, lab report read, capacity to move the cargo and the counterparty. A complement to legal due diligence."
+ },
+ "b83d1a438bb2": {
+  "pt": "Não. Trabalhei com minério, grãos, farelo, fertilizantes, gusa, produtos siderúrgicos e combustíveis. A lógica é a mesma: cada trecho tem custo, prazo, capacidade e dono.",
+  "tr": "No. I have worked with iron ore, grains, soybean meal, fertilisers, pig iron, steel products and fuels. The logic is the same: every leg has a cost, a lead time, a capacity and an owner."
+ },
+ "bd006bafd1f8": {
+  "pt": "Você contrata o frete ou opera a carga?",
+  "tr": "Do you contract freight or handle the cargo yourself?"
+ },
+ "bfc7e2de197a": {
+  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Para encaminhar</div><h2 style=\"margin-top:14px\">Apresentações em PDF</h2><p class=\"t2\" style=\"margin-top:14px\">Para enviar a quem decide, conforme o assunto.</p>\n<ul class=\"lista-pdf\"><li><a href=\"{d1}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Institucional</a><span>quem sou, frentes, clientes e casos</span></li>\n<li><a href=\"{d2}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Logística e Verificação</a><span>rota, custo, risco e verificação antes da assinatura</span></li>\n<li><a href=\"{d3}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Diagnóstico Operacional</a><span>os 5 dias, entregáveis e resultados</span></li></ul></div>\n<div class=\"caixa\"><span class=\"rot\">Quem responde</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p><p>WhatsApp +55 31 98297-6006 · {email} · <a href=\"{linkedin}\" rel=\"noopener\">LinkedIn</a></p></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">To forward</div><h2 style=\"margin-top:14px\">Presentations (PDF)</h2><p class=\"t2\" style=\"margin-top:14px\">To pass on to the decision-maker, by topic.</p>\n<ul class=\"lista-pdf\"><li><a href=\"{d1}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Company overview</a><span>who I am, areas of work, clients and cases</span></li>\n<li><a href=\"{d2}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Logistics and Verification</a><span>route, cost, risk and verification before signing</span></li>\n<li><a href=\"{d3}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Operational Diagnostic</a><span>the 5 days, deliverables and results</span></li></ul></div>\n<div class=\"caixa\"><span class=\"rot\">Who you will deal with</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ (Brazilian company tax ID) 68.698.300/0001-20, Minas Gerais, Brazil.</p><p>{email} · WhatsApp +55 31 98297-6006 · <a href=\"{linkedin}\" rel=\"noopener\">LinkedIn</a></p></div>\n</div></div></section>"
+ },
+ "bfdaf5d95a2a": {
+  "pt": "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.",
+  "tr": "Shop-floor diagnostic at a terminal, warehouse or plant: losses in money and a 90-day plan."
+ },
+ "bff873b87e16": {
+  "pt": "Verificação técnica e logística antes da assinatura.",
+  "tr": "Technical and logistics verification before you sign."
+ },
+ "c218ad8fee8c": {
+  "pt": "Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.",
+  "tr": "Over 16 years at Vale and VLI, in the iron ore, grain, fertiliser and fuel chains."
+ },
+ "c2ee3889e5b0": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargas</div><h2>Cargas que operei</h2>\n<p class=\"intro\">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Granel agrícola armazenado em pilha dentro do armazém\"><figcaption>Grãos e farelo</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Pilha de cloreto de potássio (KCl) dentro do armazém\"><figcaption>Fertilizante (KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Minério sendo carregado em vagões no pátio\"><figcaption>Minério de ferro</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Bobinas de fio-máquina no pátio do terminal\"><figcaption>Siderúrgicos</figcaption></figure>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargo</div><h2>Cargo I have handled</h2>\n<p class=\"intro\">Photos from the terminals and mines where I worked. Each bulk commodity is stored, loaded and moved differently.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Agricultural bulk stockpiled inside the warehouse\"><figcaption>Grains and soybean meal</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Potassium chloride (KCl) stockpile inside the warehouse\"><figcaption>Fertiliser (potash, KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Iron ore being loaded into wagons in the yard\"><figcaption>Iron ore</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Wire rod coils in the terminal yard\"><figcaption>Steel products</figcaption></figure>\n</div></div></section>"
+ },
+ "c3521830e7d9": {
+  "pt": "Estratégia e estrutura logística",
+  "tr": "Logistics strategy and structure"
+ },
+ "c6235f8549f4": {
+  "pt": "Isso substitui a due diligence jurídica?",
+  "tr": "Does this replace legal due diligence?"
+ },
+ "c868666447f5": {
+  "pt": "Envie os dados da carga para uma primeira avaliação",
+  "tr": "Send the cargo details for a first assessment"
+ },
+ "ca4ddedd28a5": {
+  "pt": "Cinco dias úteis no formato padrão: contexto, campo, esboço, validação com o time e apresentação.",
+  "tr": "Five working days in the standard format: context, field work, draft, validation with the team and presentation."
+ },
+ "ccae6e5b79dc": {
+  "pt": "O que acontece depois?",
+  "tr": "What happens next?"
+ },
+ "ce8564e7b3cf": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">O que é verificado</div><h2>Itens conferidos em fonte oficial</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>Royalty da mineração em dia</h3><p>Quem recolhe a Compensação Financeira pela Exploração Mineral está produzindo e vendendo de fato.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licenças</span><h3>Licença ambiental</h3><p>Se a licença cobre a operação e o volume que estão sendo oferecidos.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Contraparte</span><h3>Empresa do outro lado</h3><p>Sócios, tempo de existência, processos e dívidas públicas da empresa que vende ou compra.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Laudo</span><h3>Leitura do laudo de qualidade</h3><p>O que o laudo do laboratório diz sobre o teor e o que isso faz com o preço.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logística</span><h3>Capacidade de escoar</h3><p>Se existe caminho, vaga e capacidade para a carga chegar ao porto no volume e no prazo prometidos.</p></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">What is verified</div><h2>Items checked against official sources</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Mining title</h3><p>Whether the claim exists at the National Mining Agency (ANM), in whose name, at what stage and for which mineral.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>CFEM royalty up to date</h3><p>A company paying CFEM, Brazil's federal mining royalty, is actually producing and selling.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licences</span><h3>Environmental licence</h3><p>Whether the licence covers the operation and the volume being offered.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Counterparty</span><h3>The company on the other side</h3><p>Shareholders, years in business, litigation and public-sector debts of the company that is selling or buying.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Lab report</span><h3>Reading the quality report</h3><p>What the laboratory report says about the grade and what that means for the price.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logistics</span><h3>Capacity to move the cargo</h3><p>Whether there is a route, a slot and the capacity for the cargo to reach the port at the committed volume and on schedule.</p></div>\n</div></div></section>"
+ },
+ "d04046b14c6a": {
+  "pt": "Sim. Comprador e investidor estrangeiro costumam pedir exatamente isso antes de qualquer proposta.",
+  "tr": "Yes. Foreign buyers and investors usually ask for exactly this before making any offer."
+ },
+ "d4cd3db085f5": {
+  "pt": "Avaliação inicial do seu caso",
+  "tr": "An initial assessment of your case"
  },
  "d5ae0caaa709": {
   "pt": "Pilha de cloreto de potássio (KCl) dentro do armazém",
   "tr": "Stockpile of potassium chloride (potash, KCl) inside the warehouse"
+ },
+ "d5b7a088bb9b": {
+  "pt": "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.",
+  "tr": "Verification of the mine and the counterparty against official sources (ANM, CFEM, licences, company registry) and of the capacity to move the cargo to port."
+ },
+ "d7c1ef93095d": {
+  "pt": "Due diligence técnica e logística de mineração",
+  "tr": "Technical and logistics due diligence for mining in Brazil"
+ },
+ "d8181052946f": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Como funciona</div><h2>Etapas do trabalho</h2>\n<ol class=\"passos\">\n<li><b>Conversa inicial</b><span>Carga, origem, destino, volume e prazo. Sem custo.</span></li>\n<li><b>Escopo por escrito</b><span>O que entra, o que não entra, prazo e valor, antes de começar.</span></li>\n<li><b>Entrega</b><span>Dossiê ou plano com a conta, as alternativas e o que confirmar.</span></li>\n<li><b>Acompanhamento</b><span>Opcional, se você quiser que eu coordene a execução.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">De onde vem</span><p>Planejei por dentro a cadeia de grãos e fertilizantes que vai do porto de Tubarão, pelas ferrovias EFVM e FCA, até terminais no interior de Minas e o cliente final, e a de minério e siderúrgicos para as usinas de Minas.</p></div>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">How it works</div><h2>Stages of the work</h2>\n<ol class=\"passos\">\n<li><b>Initial conversation</b><span>Cargo, origin, destination, volume and timeline. Free of charge.</span></li>\n<li><b>Scope in writing</b><span>What is included, what is not, timeline and fee, before we start.</span></li>\n<li><b>Delivery</b><span>A dossier or plan with the numbers, the alternatives and what to confirm.</span></li>\n<li><b>Follow-up</b><span>Optional, if you want me to coordinate execution.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">Where this comes from</span><p>I planned from the inside the grain and fertiliser chain that runs from the port of Tubarão, via the EFVM and FCA railways, to inland terminals in Minas Gerais and the end customer, and the iron ore and steel chain serving the steel mills of Minas Gerais.</p></div>"
+ },
+ "d822bd1cda3c": {
+  "pt": "Nitai Morais · 16 anos de comercial, logística e operações na Vale e VLI",
+  "tr": "Nitai Morais · 16 years in commercial, logistics and operations roles at Vale and VLI"
+ },
+ "d85f0b55ca65": {
+  "pt": "O que se comprova em documento oficial e o que a logística permite de verdade, para os dois lados do negócio: quem compra ou investe e quem vende ou capta. Se a carga não consegue sair, o negócio não existe.",
+  "tr": "What can be proven in official records and what the logistics really allow, for both sides of the deal: those buying or investing and those selling or raising capital. If the cargo cannot be moved to port, there is no deal."
+ },
+ "dab44e5c6749": {
+  "pt": "navio graneleiro",
+  "tr": "bulk carrier"
+ },
+ "dad2954c4627": {
+  "pt": "Nitai Morais trabalhando no notebook",
+  "tr": "Nitai Morais working on a laptop"
+ },
+ "db062a503d78": {
+  "pt": "O que é netback?",
+  "tr": "What is netback?"
+ },
+ "dc05d179f94f": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Como trabalho</div><h2>Princípios de trabalho</h2>\n<div class=\"ofertas tres\">\n<div class=\"oferta\"><h3>Tudo por escrito antes</h3><p>Escopo, prazo e valor definidos antes do início. Sem cobrança recorrente sem entrega definida e sem relatório genérico.</p></div>\n<div class=\"oferta\"><h3>Confidencialidade nos dois sentidos</h3><p>Contatos e informações recebidos em confiança não mudam de mão. Proponho acordo de confidencialidade e de não contorno, que protege as duas partes e quem fez a apresentação.</p></div>\n<div class=\"oferta\"><h3>Conversa antes de proposta</h3><p>A primeira conversa sobre o caso não tem custo. Havendo trabalho, definimos juntos o formato. Não havendo, você sai com uma avaliação objetiva.</p></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">How I work</div><h2>Working principles</h2>\n<div class=\"ofertas tres\">\n<div class=\"oferta\"><h3>Everything in writing first</h3><p>Scope, timeline and fee agreed before work starts. No retainers without a defined deliverable and no boilerplate reports.</p></div>\n<div class=\"oferta\"><h3>Confidentiality both ways</h3><p>Contacts and information shared in confidence are not passed on. I propose a non-disclosure and non-circumvention agreement that protects both parties and the introducer.</p></div>\n<div class=\"oferta\"><h3>A conversation before a proposal</h3><p>The first conversation about your case is free of charge. If there is work to do, we agree on the format together. If there is not, you leave with an objective assessment.</p></div>\n</div></div></section>"
+ },
+ "dc2c4757ad2b": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Método</div><h2 style=\"margin-top:14px\">TPS com a própria Toyota</h2><p class=\"t2\" style=\"margin-top:16px\">Implantei o Toyota Production System com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI, com imersões de um mês para profissionais da empresa inteira.</p></div>\n<div><div class=\"rot\">Formação</div><ul style=\"margin-top:18px;padding-left:20px;display:grid;gap:8px\" class=\"t2\">\n<li>MBA em Logística e Supply Chain Management, FGV (em andamento)</li>\n<li>Pós-graduação em Engenharia Multimodal, PUC Minas</li>\n<li>Escola de Liderança VLI, Fundação Dom Cabral</li>\n<li>Negociação Estratégica e Gestão de Conflitos, Ibmec</li>\n<li>Administração de Empresas, FUMEC</li>\n</ul></div></div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Method</div><h2 style=\"margin-top:14px\">TPS with Toyota itself</h2><p class=\"t2\" style=\"margin-top:16px\">I implemented the Toyota Production System with direct consulting from TSSC, the Toyota centre that brings the method to companies outside Japan. The terminal became VLI's TPS school, with month-long immersions for professionals from across the company.</p></div>\n<div><div class=\"rot\">Education</div><ul style=\"margin-top:18px;padding-left:20px;display:grid;gap:8px\" class=\"t2\">\n<li>MBA in Logistics and Supply Chain Management, FGV (in progress)</li>\n<li>Postgraduate degree in Multimodal Engineering, PUC Minas</li>\n<li>VLI Leadership School, Fundação Dom Cabral</li>\n<li>Strategic Negotiation and Conflict Management, Ibmec</li>\n<li>Business Administration, FUMEC</li>\n</ul></div></div></div></section>"
+ },
+ "e1bcb2f8e337": {
+  "pt": "Logística e Operações",
+  "tr": "Logistics and Operations"
+ },
+ "e84b64f4b7a2": {
+  "pt": "Clientes",
+  "tr": "Clients"
+ },
+ "eae6098558e6": {
+  "pt": "Produto, origem, destino e volume. Retorno com a leitura inicial e o que precisa ser confirmado.",
+  "tr": "Product, origin, destination and volume. I will reply with an initial view and what needs to be confirmed."
+ },
+ "ed0fd4af7e0e": {
+  "pt": "Atende empresa estrangeira?",
+  "tr": "Do you work with foreign companies?"
+ },
+ "edc8845a7db9": {
+  "pt": "Consultor de logística de granéis e operações industriais",
+  "tr": "Bulk logistics and industrial operations consultant"
+ },
+ "ee700bf1f707": {
+  "pt": "Não. O trabalho acontece com a operação rodando, junto de operadores, liderança e indicadores.",
+  "tr": "No. The work happens with the operation running, alongside operators, supervisors and indicators."
+ },
+ "f2192b621bf4": {
+  "pt": "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
+  "tr": "I planned terminals, rail and port operations from the inside and implemented TPS with Toyota itself. Today I support companies shipping iron ore, grains, fertilisers and pig iron in their decisions on route, cost and risk, and in terminal, warehouse and plant operations that need to cut losses."
+ },
+ "f3009ab28976": {
+  "pt": "Terminal, armazém, pátio, mina, usina, fábrica. O método é olhar o chão, medir tempos e movimentos por etapa e transformar cada perda em reais.",
+  "tr": "Terminal, warehouse, yard, mine, plant or factory. The method is to look at the floor, measure times and movements at each step and turn every loss into money."
+ },
+ "f3b86b13dbbc": {
+  "pt": "Principal",
+  "tr": "Main"
+ },
+ "f465b11480fd": {
+  "pt": "Consultoria de logística de granéis e carga industrial com 16 anos de Vale e VLI: estratégia e estrutura, desempenho da operação e verificação.",
+  "tr": "Bulk and industrial cargo logistics consulting in Brazil, backed by 16 years at Vale and VLI: logistics strategy and structure, operational performance and verification."
+ },
+ "f567350536b9": {
+  "pt": "Onde a sua operação perde dinheiro.",
+  "tr": "Where your operation loses money."
+ },
+ "f94bff9bf501": {
+  "pt": "Armazém graneleiro por dentro, com grão estocado e pá carregadeira",
+  "tr": "Inside a bulk warehouse, with stored grain and a wheel loader"
+ },
+ "f9bba6db1762": {
+  "pt": "Não. Laudo de qualidade e de reserva é do laboratório e do geólogo. Eu leio o laudo e digo o que ele significa para a logística e para o preço.",
+  "tr": "No. Quality and reserve reports belong to the laboratory and the geologist. I read the report and explain what it means for logistics and for price."
+ },
+ "fa5c2bf39312": {
+  "pt": "Casos de operação e logística.",
+  "tr": "Operations and logistics cases."
+ },
+ "fa78f811f8cd": {
+  "pt": "Consultoria TPS e Lean para operações | Nitai Lab",
+  "tr": "TPS and Lean consulting for operations in Brazil | Nitai Lab"
+ },
+ "fe8d99b3d242": {
+  "pt": "Silos e armazém de um terminal de grãos",
+  "tr": "Silos and warehouse at a grain terminal"
  }
 }
