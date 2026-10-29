@@ -20,6 +20,8 @@ Site da frente minério/logística do Nitai Morais: logística de granéis e car
 - `--podar` apaga dos JSONs as entradas órfãs (hash que nenhum texto usa mais); sem a flag elas só são listadas no aviso.
 - Em EN/ZH a ação principal é e-mail (WhatsApp só no rodapé). PDFs: se existir `apresentacoes/en/<nome>.pdf` (ou `zh/`) o site usa; senão usa o PT.
 - Política de privacidade e 404 só em PT.
+- Nomes próprios em ZH (29/10): em caracteres, com o original entre parênteses quando ajuda a busca. Vale = 淡水河谷; Tubarão = 图巴朗港; EFVM = 维多利亚-米纳斯铁路; FCA = 中大西洋铁路; cidades transliteradas (阿拉瓜里, 皮拉波拉, 贝洛奥里藏特...). VLI, TPS, TSSC, CNPJ, CFEM e ANM ficam em sigla (explicadas na 1ª menção). Para não deixar caractere sozinho na linha: `<span class="nb">` na tradução.
+- Seletor de língua (29/10): pílula com globo, língua atual preenchida em dourado; no celular fica dentro do menu.
 
 ## Publicar
 `python3 _fonte/gerar.py && git add -A && git commit && git push` (Pages publica sozinho).

@@ -49,13 +49,17 @@ p{max-width:66ch}
 .topo nav{display:flex;gap:26px}
 .topo nav a{font-family:var(--f-display);font-weight:500;font-size:16px;color:var(--creme);text-decoration:none;padding:8px 0;border-bottom:2px solid transparent}
 .topo nav a:hover,.topo nav a[aria-current]{border-bottom-color:var(--dourado-claro)}
-/* seletor de língua (PT · EN · 中文): discreto, mesmo tom do menu; a cópia do celular vive dentro do #menu */
-.lang{white-space:nowrap;display:inline-flex;align-items:center;gap:2px;font-family:var(--f-display);font-weight:500;font-size:14px;color:var(--tx2)}
-.lang span{padding:0 3px}
-.lang a{color:var(--tx2);text-decoration:none;padding:8px 4px;border-bottom:2px solid transparent}
-.lang a:hover,.lang a[aria-current]{color:var(--creme);border-bottom-color:var(--dourado-claro)}
+/* seletor de língua: pílula com globo, língua atual preenchida (29/10: o Nitai pediu mais identificável); a cópia do celular vive dentro do #menu */
+.lang{white-space:nowrap;display:inline-flex;align-items:center;gap:2px;padding:3px 3px 3px 10px;border:1px solid var(--linha);border-radius:999px;font-family:var(--f-display);font-weight:600;font-size:13px;letter-spacing:.04em}
+.lang svg{width:15px;height:15px;color:var(--dourado-claro);margin-right:4px;flex:none}
+.lang a{color:var(--tx2);text-decoration:none;padding:5px 10px;border-radius:999px;line-height:1.2;transition:background-color .2s,color .2s}
+.lang a:hover{color:var(--creme);background:rgba(245,240,235,.08)}
+.lang a[aria-current]{color:var(--grafite);background:var(--dourado-claro)}
+.rolado .topo .lang{border-color:var(--borda)}
+.rolado .topo .lang svg{color:var(--dourado)}
 .rolado .topo .lang a{color:var(--tx2-claro)}
-.rolado .topo .lang a:hover,.rolado .topo .lang a[aria-current]{color:var(--grafite);border-bottom-color:var(--dourado)}
+.rolado .topo .lang a:hover{color:var(--grafite);background:rgba(26,24,20,.06)}
+.rolado .topo .lang a[aria-current]{color:var(--creme);background:var(--grafite)}
 .lang-mob{display:none}
 
 /* botões */
@@ -211,7 +215,7 @@ p{max-width:66ch}
 
 /* abertura com retrato ao lado: foto no tamanho nativo, fundida ao grafite por degradê (mask) */
 .abre-retrato{background:var(--grafite);overflow:hidden}
-.abre-retrato .miolo{display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:24px;min-height:560px}
+.abre-retrato .miolo{display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:24px;min-height:600px}
 .ar-texto{padding:80px 0 56px}
 .ar-texto h1{margin:18px 0 20px}
 .ar-texto .lead{color:var(--creme);font-size:19px;max-width:52ch}
@@ -294,11 +298,12 @@ html:not([lang="pt-BR"]) .topo .marca span{display:none}  /* EN/ZH: o seletor de
   .topo.menu-aberto nav a{padding:14px 0;border-bottom:1px solid var(--linha);font-size:17px}
   .rolado .topo.menu-aberto nav{background:var(--creme)}
   .rolado .topo.menu-aberto nav a{border-bottom-color:var(--borda)}
-  .topo.menu-aberto nav .lang-mob{display:flex;gap:6px;padding-top:14px;font-size:16px}
-  .topo.menu-aberto nav .lang-mob a{padding:10px 8px;font-size:16px;border-bottom:2px solid transparent;color:var(--tx2)}
-  .topo.menu-aberto nav .lang-mob a[aria-current]{color:var(--creme);border-bottom-color:var(--dourado-claro)}
-  .rolado .topo.menu-aberto nav .lang-mob a{border-bottom-color:transparent;color:var(--tx2-claro)}
-  .rolado .topo.menu-aberto nav .lang-mob a[aria-current]{color:var(--grafite);border-bottom-color:var(--dourado)}
+  .topo.menu-aberto nav .lang-mob{display:inline-flex;justify-self:start;margin-top:16px;font-size:15px;padding:4px 4px 4px 12px}
+  .topo.menu-aberto nav .lang-mob svg{width:18px;height:18px}
+  .topo.menu-aberto nav .lang-mob a{padding:9px 16px;font-size:15px;border-bottom:0}
+  .topo nav .lang a{color:var(--tx2)}
+  .topo nav .lang a[aria-current]{color:var(--grafite)}
+  .rolado .topo nav .lang a[aria-current]{color:var(--creme)}
   .so-desk{display:none}
   .topo .btn{min-height:44px;padding:0 14px;font-size:15px}
   .abre{min-height:620px}
@@ -347,3 +352,6 @@ html[lang="zh-Hans"]{--f-display:"Urbanist","PingFang SC","Hiragino Sans GB","Mi
 html[lang="zh-Hans"] .rot,html[lang="zh-Hans"] .rota li,html[lang="zh-Hans"] .caso dt{letter-spacing:.04em;text-transform:none}
 html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2,html[lang="zh-Hans"] h3,html[lang="zh-Hans"] h4{letter-spacing:0}
 html[lang="zh-Hans"] body{line-height:1.75}
+.nb{white-space:nowrap}
+/* títulos em chinês: sem caractere órfão na última linha */
+html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2,html[lang="zh-Hans"] h3,html[lang="zh-Hans"] p{text-wrap:pretty;line-break:strict}

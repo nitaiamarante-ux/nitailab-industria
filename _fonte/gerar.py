@@ -95,7 +95,9 @@ def seletor(caminho, classe):
     for l in LANGS:
         atual = ' aria-current="true"' if l == LANG else ""
         partes.append(f'<a href="@@{caminho_lang(l, caminho)}" hreflang="{LANGS[l]["tag"]}" lang="{LANGS[l]["tag"]}"{atual}>{rot[l]}</a>')
-    return f'<div class="lang {classe}" role="group" aria-label="Idioma / Language / 语言">' + '<span aria-hidden="true">·</span>'.join(partes) + "</div>"
+    globo = ('<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6">'
+             '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9s1.3-6.3 3.8-9z"/></svg>')
+    return f'<div class="lang {classe}" role="group" aria-label="Idioma / Language / 语言">{globo}' + "".join(partes) + "</div>"
 
 FOTOS = {
     "trem-min-1": ("Trem carregado de minério de ferro na ferrovia, visto do alto", "trem de minério",
@@ -297,6 +299,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
         partes = []
         for f in fotos_usadas:
             _, leg, autor, lic, lic_url, fonte = FOTOS[f]
+            autor = autor.replace("(espelhada)", T("(espelhada)"))
             partes.append(f'<li>{T(leg).capitalize()}: <a href="{fonte}" rel="noopener">{autor}</a>, <a href="{lic_url}" rel="noopener">{lic}</a></li>')
         cred = f'<div class="creditos"><p>{T("Fotos ilustrativas, Wikimedia Commons.")}</p><ul>' + "".join(partes) + "</ul></div>"
     grafo = {"@context": "https://schema.org", "@graph": [pessoa(), empresa()] + ld}
@@ -567,7 +570,7 @@ def verificacao():
 def casos():
     corpo = abertura("Casos", "Casos de operação e logística.",
                      "Situações reais da minha trajetória na Vale e na VLI, descritas sem identificar pessoas e sem associar números a locais.",
-                     btn_zap("casos-abertura"), None)
+                     btn_zap("casos-abertura"), "real-kcl-armazenado")
     corpo += TF("""<section class="faixa"><div class="miolo"><div class="casos">
 <article class="caso"><img class="caso-foto" src="/fotos/real-carreta-minerio.webp" alt="{a1}"><span class="rot">Minério e siderurgia</span><h3>A caneta no vidro</h3><dl>
 <dt>Situação</dt><dd>Um terminal de minério desenhado para carretas simples passou a receber bitrens e rodotrens. A fila ia para a rua, o cliente pressionava e a leitura de todos era: falta gente.</dd>
