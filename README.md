@@ -21,7 +21,9 @@ Site da frente minério/logística do Nitai Morais: logística de granéis e car
 - Em EN/ZH a ação principal é e-mail (WhatsApp só no rodapé). PDFs: se existir `apresentacoes/en/<nome>.pdf` (ou `zh/`) o site usa; senão usa o PT.
 - Política de privacidade e 404 só em PT.
 - Nomes próprios em ZH (29/10): em caracteres, com o original entre parênteses quando ajuda a busca. Vale = 淡水河谷; Tubarão = 图巴朗港; EFVM = 维多利亚-米纳斯铁路; FCA = 中大西洋铁路; cidades transliteradas (阿拉瓜里, 皮拉波拉, 贝洛奥里藏特...). VLI, TPS, TSSC, CNPJ, CFEM e ANM ficam em sigla (explicadas na 1ª menção). Para não deixar caractere sozinho na linha: `<span class="nb">` na tradução.
-- Seletor de língua (29/10): pílula com globo, língua atual preenchida em dourado; no celular fica dentro do menu.
+- Seletor de língua (29/10): pílula com globo, língua atual preenchida em dourado. No celular: globo + língua atual na barra do topo (`<details class="lang-sel">`), e a pílula também dentro do menu.
+- Aviso de língua (29/10): navegador em outra língua e a página existe nela (lê os `<link hreflang>`) = barra discreta acima do conteúdo, uma vez só (`localStorage nl_lang_aviso`), sem redirecionar.
+- Celular (29/10): abertura com a foto inteira em cima (3:2, sem degradê nem texto por cima), título e botão principal logo abaixo, parágrafo depois do botão; botões com a largura do texto; secundário vira link sublinhado. Referências que embasaram: `_nitai_lab/frentes/minerio/site/pesquisa/referencias_celular_2026-10-29/LEIA.md`.
 
 ## Publicar
 `python3 _fonte/gerar.py && git add -A && git commit && git push` (Pages publica sozinho).

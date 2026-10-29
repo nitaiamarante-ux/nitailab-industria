@@ -89,15 +89,30 @@ def prefixar_links(html):
     return re.sub(r'href="/((?:%s)/)?"' % "|".join(SLUGS), lambda m: f'href="{pre}/{m.group(1) or ""}"', html)
 
 
+GLOBO = ('<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6">'
+         '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9s1.3-6.3 3.8-9z"/></svg>')
+
+
 def seletor(caminho, classe):
     rot = {"pt": "PT", "en": "EN", "zh": "中文"}
     partes = []
     for l in LANGS:
         atual = ' aria-current="true"' if l == LANG else ""
         partes.append(f'<a href="@@{caminho_lang(l, caminho)}" hreflang="{LANGS[l]["tag"]}" lang="{LANGS[l]["tag"]}"{atual}>{rot[l]}</a>')
-    globo = ('<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6">'
-             '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9s1.3-6.3 3.8-9z"/></svg>')
-    return f'<div class="lang {classe}" role="group" aria-label="Idioma / Language / 语言">{globo}' + "".join(partes) + "</div>"
+    return f'<div class="lang {classe}" role="group" aria-label="Idioma / Language / 语言">{GLOBO}' + "".join(partes) + "</div>"
+
+
+def seletor_compacto(caminho):
+    """Celular (29/10, pedido do Nitai: idioma fora do menu): globo + língua atual na barra do topo, abre a lista."""
+    rot = {"pt": "PT", "en": "EN", "zh": "中文"}
+    nome = {"pt": "Português", "en": "English", "zh": "中文"}
+    itens = ""
+    for l in LANGS:
+        atual = ' aria-current="true"' if l == LANG else ""
+        itens += f'<a href="@@{caminho_lang(l, caminho)}" hreflang="{LANGS[l]["tag"]}" lang="{LANGS[l]["tag"]}"{atual}>{nome[l]}</a>'
+    return (f'<details class="lang-sel"><summary aria-label="Idioma / Language / 语言">{GLOBO}<span>{rot[LANG]}</span></summary>'
+            f'<div class="lang-lista">{itens}</div></details>')
+
 
 FOTOS = {
     "trem-min-1": ("Trem carregado de minério de ferro na ferrovia, visto do alto", "trem de minério",
@@ -333,7 +348,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <header class="topo"><div class="miolo">
 <a class="marca" href="/" aria-label="{T("Nitai Lab, início")}">{PULSO}<b>NITAI LAB</b><span>{T("Logística e Operações")}</span></a>
 <nav id="menu" aria-label="{T("Principal")}">{nav}{seletor(caminho, "lang-mob")}</nav>
-<div class="topo-acoes">{seletor(caminho, "lang-desk")}{btn_zap(origem + "-topo", rotulo="<span><span class=\"so-desk\">Falar no </span>WhatsApp</span>", topo=True)}<button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu"><span></span>{T("Menu")}</button></div>
+<div class="topo-acoes">{seletor(caminho, "lang-desk")}{seletor_compacto(caminho)}{btn_zap(origem + "-topo", rotulo="<span><span class=\"so-desk\">Falar no </span>WhatsApp</span>", topo=True)}<button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu"><span></span>{T("Menu")}</button></div>
 </div></header>
 <main>
 {corpo}
@@ -354,6 +369,18 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 function rola(){{var y=window.scrollY||0;if(y>160)b.classList.add("rolado");else if(y<6)b.classList.remove("rolado");}}
 window.addEventListener("scroll",rola,{{passive:true}});rola();
 m.addEventListener("click",function(){{var a=t.classList.toggle("menu-aberto");m.setAttribute("aria-expanded",a?"true":"false");}});}})();
+/* Seletor do celular fecha ao tocar fora. Aviso de língua (29/10): navegador em outra língua e a página existe nela = barra discreta, uma vez só, sem redirecionar. */
+(function(){{var d=document.querySelector(".lang-sel");if(d)document.addEventListener("click",function(e){{if(d.open&&!d.contains(e.target))d.open=false;}});
+var K="nl_lang_aviso";try{{if(localStorage.getItem(K))return;}}catch(e){{}}
+var cur=(document.documentElement.lang||"").slice(0,2),nav=((navigator.languages&&navigator.languages[0])||navigator.language||"").toLowerCase(),alvo;
+if(nav.indexOf("zh")===0)alvo="zh";else if(nav.indexOf("pt")===0)alvo="pt";else if(nav)alvo="en";
+if(!alvo||alvo===cur)return;var tag={{pt:"pt-BR",en:"en",zh:"zh-Hans"}}[alvo],l=document.querySelector('link[rel="alternate"][hreflang="'+tag+'"]');if(!l)return;
+var tx={{en:["This page is also available in English.","English"],zh:["本页面有中文版。","中文"],pt:["Esta página também está em português.","Português"]}}[alvo];
+var bar=document.createElement("div");bar.className="aviso-lang";bar.lang=tag;
+bar.innerHTML='<div class="miolo"><span>'+tx[0]+'</span><a href="'+l.getAttribute("href")+'">'+tx[1]+' →</a><button type="button" aria-label="Fechar / Close">×</button></div>';
+function marca(){{try{{localStorage.setItem(K,"1");}}catch(e){{}}}}
+bar.querySelector("a").addEventListener("click",marca);bar.querySelector("button").addEventListener("click",function(){{marca();bar.remove();}});
+var mn=document.querySelector("main");mn.parentNode.insertBefore(bar,mn);}})();
 </script>
 </body>
 </html>

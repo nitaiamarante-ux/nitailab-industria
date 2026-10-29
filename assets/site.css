@@ -38,7 +38,7 @@ p{max-width:66ch}
 .rolado .topo nav a:hover,.rolado .topo nav a[aria-current]{border-bottom-color:var(--dourado)}
 
 .topo-acoes{display:flex;align-items:center;gap:10px}
-.menu-botao{display:none;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--linha);border-radius:var(--raio);background:transparent;color:var(--creme);font-family:var(--f-display);font-weight:600;font-size:15px;cursor:pointer}
+.menu-botao{display:none;white-space:nowrap;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--linha);border-radius:var(--raio);background:transparent;color:var(--creme);font-family:var(--f-display);font-weight:600;font-size:15px;cursor:pointer}
 .menu-botao span{width:16px;height:10px;border-top:2px solid currentColor;border-bottom:2px solid currentColor;position:relative}
 .menu-botao span::after{content:"";position:absolute;left:0;right:0;top:2px;border-top:2px solid currentColor}
 .rolado .menu-botao{color:var(--grafite);border-color:var(--borda)}
@@ -61,6 +61,21 @@ p{max-width:66ch}
 .rolado .topo .lang a:hover{color:var(--grafite);background:rgba(26,24,20,.06)}
 .rolado .topo .lang a[aria-current]{color:var(--creme);background:var(--grafite)}
 .lang-mob{display:none}
+/* seletor compacto do celular (globo + língua atual na barra do topo) e aviso de língua pelo navegador (29/10) */
+.lang-sel{display:none;position:relative}
+.lang-sel summary{list-style:none;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 10px;border:1px solid var(--linha);border-radius:999px;font-family:var(--f-display);font-weight:600;font-size:14px;color:var(--creme);cursor:pointer}
+.lang-sel summary::-webkit-details-marker{display:none}
+.lang-sel summary svg{width:18px;height:18px;color:var(--dourado-claro)}
+.lang-lista{position:absolute;right:0;top:calc(100% + 8px);min-width:170px;display:grid;padding:6px;background:var(--grafite);border:1px solid var(--linha);border-radius:var(--raio);box-shadow:0 12px 24px rgba(0,0,0,.3);z-index:30}
+.lang-lista a{padding:12px 14px;border-radius:4px;font-family:var(--f-display);font-weight:500;font-size:16px;color:var(--creme);text-decoration:none}
+.lang-lista a[aria-current]{background:var(--dourado-claro);color:var(--grafite);font-weight:600}
+.rolado .lang-sel summary{border-color:var(--borda);color:var(--grafite)}
+.rolado .lang-sel summary svg{color:var(--dourado)}
+.aviso-lang{background:var(--sup);border-bottom:1px solid var(--linha);font-size:14px;line-height:1.4}
+.aviso-lang .miolo{display:flex;align-items:center;gap:14px;min-height:48px}
+.aviso-lang span{color:var(--tx2)}
+.aviso-lang a{color:var(--dourado-claro);font-family:var(--f-display);font-weight:600;text-decoration:none;white-space:nowrap}
+.aviso-lang button{margin-left:auto;width:44px;height:44px;border:0;background:transparent;color:var(--tx2);font-size:24px;line-height:1;cursor:pointer}
 
 /* botões */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:var(--raio);font-family:var(--f-display);font-weight:600;font-size:16px;text-decoration:none;transition:background .2s,color .2s}
@@ -306,13 +321,22 @@ html:not([lang="pt-BR"]) .topo .marca span{display:none}  /* EN/ZH: o seletor de
   .rolado .topo nav .lang a[aria-current]{color:var(--creme)}
   .so-desk{display:none}
   .topo .btn{min-height:44px;padding:0 14px;font-size:15px}
-  .abre{min-height:620px}
-  .abre::after{background:linear-gradient(180deg,rgba(26,24,20,.5) 0%,rgba(26,24,20,.93) 52%)}
-  .abre .miolo{padding-bottom:36px}
-  .abre .lead{font-size:18px}
+  /* abertura no celular (29/10): foto inteira em cima, sem texto por cima; título e botão logo abaixo; o parágrafo depois do botão */
+  .abre{display:block;min-height:0;background:var(--grafite)}
+  .abre img{position:relative;inset:auto;height:auto;aspect-ratio:3/2}
+  .abre img[src*="real-planta-mina"]{object-position:62% 50%}
+  .abre img[src*="real-kcl-armazenado"]{object-position:50% 60%}
+  .abre::after{display:none}
+  .abre .miolo{display:flex;flex-direction:column;padding-top:26px;padding-bottom:40px}
+  .abre .acoes{order:1;margin-top:4px}
+  .abre .lead{order:2;font-size:17px;color:var(--tx2);margin-top:24px}
   .abre.sem-foto{min-height:0}
   .legenda{display:none}
-  .acoes .btn{width:100%}
+  /* botões no celular (29/10): largura do texto, não da tela; o secundário vira link */
+  .acoes{align-items:center;gap:10px 22px}
+  .acoes .btn-2,.acoes .btn-in,.acoes .btn-mail{border:0;padding:0 2px;min-height:44px;color:var(--dourado-claro);background:transparent;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+  .lang-sel{display:block}
+  .topo-acoes{gap:6px}
   .rota ol{grid-template-columns:1fr;gap:14px;padding:22px 0 22px 30px}
   .rota ol::before{left:6px;right:auto;top:28px;bottom:28px;width:1px;height:auto}
   .rota li{padding-top:0}
