@@ -36,7 +36,7 @@ p{max-width:66ch}
 .rolado .topo .marca span{color:var(--tx2-claro)}
 .rolado .topo .marca svg{color:var(--dourado)}
 .rolado .topo nav a:hover,.rolado .topo nav a[aria-current]{border-bottom-color:var(--dourado)}
-.rolado .topo .btn-1{background:var(--grafite);color:var(--creme)}
+
 .topo-acoes{display:flex;align-items:center;gap:10px}
 .menu-botao{display:none;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--linha);border-radius:var(--raio);background:transparent;color:var(--creme);font-family:var(--f-display);font-weight:600;font-size:15px;cursor:pointer}
 .menu-botao span{width:16px;height:10px;border-top:2px solid currentColor;border-bottom:2px solid currentColor;position:relative}
@@ -58,6 +58,15 @@ p{max-width:66ch}
 .btn-2{border:1px solid var(--dourado-claro);color:var(--creme)}
 .btn-2:hover{background:var(--linha)}
 .acoes{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+/* botões que saem do site usam a cor e o ícone da plataforma */
+.btn-zap{background:#25D366;color:#0B141A}
+.btn-zap:hover{background:#1EBE5A}
+.btn-in{background:#0A66C2;color:#FFFFFF}
+.btn-in:hover{background:#004182}
+.btn-mail{border:1px solid var(--tx2);color:var(--creme)}
+.btn-mail:hover{background:var(--linha)}
+.rodape a.com-ic{display:inline-flex;align-items:center;gap:8px}
+.rodape a.com-ic svg{width:16px;height:16px;flex:none}
 
 /* abertura com foto */
 .abre{position:relative;min-height:600px;display:flex;align-items:flex-end;overflow:hidden;background:var(--sup)}
