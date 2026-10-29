@@ -29,3 +29,13 @@ Site da frente minério/logística do Nitai Morais: logística de granéis e car
 `python3 _fonte/gerar.py && git add -A && git commit && git push` (Pages publica sozinho).
 
 Histórico: 22/04/2026 primeira versão; 28/10/2026 tarde: frente de mineração (uma página); 28/10/2026 noite: site de 8 páginas, estilo "relatório de campo", marca Logística e Operações.
+
+## Medição e SEO/GEO (29/10/2026)
+Plano: `_nitai_lab/frentes/minerio/site/PLANO_inteligencia_site_2026-10-29.md`.
+- **`assets/medicao.js`** (entra em toda página gerada, PT/EN/ZH, com `?v=<hash>` como o CSS; não entra nos 3 redirecionamentos). Envia para `https://nl-tracker.nitai-amarante.workers.dev/event` (`site:"nitailab"`), por `sendBeacon` em `text/plain` (sem preflight), com fallback `fetch keepalive`. Sem cookies, sem IP. Código aleatório em `localStorage nl_vid`.
+- Eventos: `nl_visita` (ao carregar), `nl_rolagem` (50 e 90, uma vez cada, campo `pct`), `nl_email` / `nl_whatsapp` / `nl_pdf` (clique com `data-acao` `email-`, `whatsapp-`, `pdf-`; na falta, pelo `href`), `nl_linkedin`, `nl_idioma` (`.lang a`, `.lang-lista a`), `nl_aviso_idioma` (`.aviso-lang a`). Origem na 1ª página da sessão (`sessionStorage nl_origem`): `ia-*`, `busca-*`, `linkedin`, `whatsapp`, `email`, `direto`, `outro`, ou `link-<x>` com `?o=<x>` / `utm_source`.
+- Não envia em localhost, em `file:` nem se `localStorage.nl_dono === "1"`.
+- **Modo dono:** pasta `eu-<chave>/` (noindex, fora do sitemap e do robots) grava `nl_dono=1`. A chave fica só no nome da pasta e em `_fonte/.dono_chave` (no .gitignore); o link completo está em `~/.secrets/nitailab_dono.txt`. Abrir uma vez em cada aparelho.
+- **GEO:** `llms.txt` (EN com bloco PT, escrito à mão) e `robots.txt` com robôs de IA liberados (gerado por `robots()` em `gerar.py`).
+- **IndexNow:** `<chave>.txt` na raiz e `_fonte/indexnow.py`, que envia todas as URLs do `sitemap.xml`. **Rodar depois de cada push que muda páginas**, quando o `<chave>.txt` já responde 200: `python3 _fonte/indexnow.py`.
+- Política de privacidade: seção 7 (medição própria) acrescentada; o texto anterior não foi alterado (atende o app OAuth `nitai-lab`).

@@ -1,0 +1,38 @@
+# Nitai Lab | Logistics and Operations
+
+> Bulk and industrial cargo logistics consulting in Brazil, from origin to port, backed by 16 years at Vale and VLI: logistics strategy and structure, operational performance (Toyota Production System) and technical and logistics verification before you sign. Run by Nitai Morais through NP Consultoria e Serviços Ltda (CNPJ 68.698.300/0001-20), Minas Gerais, Brazil. The site is available in Portuguese, English and Simplified Chinese.
+
+## The three practices
+- Logistics: bulk and industrial cargo from origin to port (road, terminal, rail, port).
+  - PT: https://nitailab.com.br/logistica/
+  - EN: https://nitailab.com.br/en/logistica/
+  - ZH: https://nitailab.com.br/zh/logistica/
+- Operations: a 5-day diagnostic using the Toyota Production System on the floor of a terminal, warehouse or plant, showing where the operation loses money in figures, with a 90-day plan.
+  - PT: https://nitailab.com.br/operacao/
+  - EN: https://nitailab.com.br/en/operacao/
+  - ZH: https://nitailab.com.br/zh/operacao/
+- Verification: technical and logistics due diligence before you sign. Verification of the mine and the counterparty against official sources (ANM, CFEM, licences, company registry) and of the capacity to move the cargo to port.
+  - PT: https://nitailab.com.br/verificacao/
+  - EN: https://nitailab.com.br/en/verificacao/
+  - ZH: https://nitailab.com.br/zh/verificacao/
+
+## About
+- Nitai Morais: 16 years in the Vale Group (Vale and VLI), in commercial roles, in logistics planning of terminals integrated with rail and port, and in operations management. Implemented the Toyota Production System with TSSC (Toyota Systems Support and Consulting) and set up VLI's TPS school. Based in Minas Gerais, Brazil.
+  - PT: https://nitailab.com.br/sobre/
+  - EN: https://nitailab.com.br/en/sobre/
+  - ZH: https://nitailab.com.br/zh/sobre/
+- Cases: real situations from his career at Vale and VLI, described without identifying people and without linking figures to locations. https://nitailab.com.br/en/casos/
+
+## Contact
+- E-mail: nitai@nitailab.com.br
+- Contact page: https://nitailab.com.br/en/contato/
+- LinkedIn: https://www.linkedin.com/in/nitai-morais
+
+## Presentations (PDF)
+- Institutional presentation: https://nitailab.com.br/apresentacoes/en/Nitai_Lab_Apresentacao_Institucional.pdf
+- Logistics and verification: https://nitailab.com.br/apresentacoes/en/Nitai_Lab_Logistica_e_Verificacao.pdf
+- Operational diagnostic: https://nitailab.com.br/apresentacoes/en/Nitai_Lab_Diagnostico_Operacional.pdf
+- Chinese versions: same file names under https://nitailab.com.br/apresentacoes/zh/
+
+## Em português
+A Nitai Lab Logística e Operações é a consultoria de Nitai Morais em logística de granéis e carga industrial no Brasil, da origem ao porto. São três frentes: Logística (https://nitailab.com.br/logistica/), Operação, com diagnóstico de 5 dias pelo Sistema Toyota de Produção (https://nitailab.com.br/operacao/) e Verificação técnica e logística antes de assinar (https://nitailab.com.br/verificacao/). Nitai tem 16 anos no Grupo Vale (Vale e VLI), em comercial, logística e operações, e implantou o TPS com a TSSC da Toyota. Empresa: NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais. Contato: nitai@nitailab.com.br. Apresentações em PDF na seção acima. Política de privacidade: https://nitailab.com.br/politica-de-privacidade/

@@ -304,6 +304,7 @@ def servico(nome, desc, caminho):
 
 
 VERSAO_CSS = hashlib.sha1(open(os.path.join(RAIZ, "assets", "site.css"), "rb").read()).hexdigest()[:8]
+VERSAO_JS = hashlib.sha1(open(os.path.join(RAIZ, "assets", "medicao.js"), "rb").read()).hexdigest()[:8]
 
 
 def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, origem="site"):
@@ -342,6 +343,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/fontes.css">
 <link rel="stylesheet" href="/assets/site.css?v={VERSAO_CSS}">
+<script defer src="/assets/medicao.js?v={VERSAO_JS}"></script>
 <script type="application/ld+json">{json.dumps(grafo, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -358,8 +360,8 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <div><a class="marca" href="/">{PULSO}<b>NITAI LAB</b><span>{T("Logística e Operações")}</span></a>
 <p class="ent">{T("Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.")}</p></div>
 <div><h4>{T("Frentes de atuação")}</h4><ul><li><a href="/logistica/">{T("Logística")}</a></li><li><a href="/operacao/">{T("Operação")}</a></li><li><a href="/verificacao/">{T("Verificação")}</a></li></ul></div>
-<div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">{T("Sobre")}</a></li><li><a href="/casos/">{T("Casos")}</a></li><li><a href="{pdf_url(PDF)}">{T("Apresentação em PDF")}</a></li><li><a href="/politica-de-privacidade/">{T("Política de privacidade")}</a></li></ul></div>
-<div><h4>{T("Contato")}</h4><ul><li><a class="com-ic" href="{zap(origem + "-rodape")}" target="_blank" rel="noopener">{IC_ZAP}WhatsApp +55 31 98297-6006</a></li><li><a class="com-ic" href="mailto:{EMAIL}">{IC_MAIL}{EMAIL}</a></li><li><a class="com-ic" href="{LINKEDIN}" rel="noopener">{IC_IN}LinkedIn</a></li></ul></div>
+<div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">{T("Sobre")}</a></li><li><a href="/casos/">{T("Casos")}</a></li><li><a data-acao="pdf-rodape" href="{pdf_url(PDF)}">{T("Apresentação em PDF")}</a></li><li><a href="/politica-de-privacidade/">{T("Política de privacidade")}</a></li></ul></div>
+<div><h4>{T("Contato")}</h4><ul><li><a class="com-ic" data-acao="whatsapp-rodape" href="{zap(origem + "-rodape")}" target="_blank" rel="noopener">{IC_ZAP}WhatsApp +55 31 98297-6006</a></li><li><a class="com-ic" data-acao="email-rodape" href="mailto:{EMAIL}">{IC_MAIL}{EMAIL}</a></li><li><a class="com-ic" href="{LINKEDIN}" rel="noopener">{IC_IN}LinkedIn</a></li></ul></div>
 </div>
 {cred}
 </div></footer>
@@ -665,7 +667,7 @@ def sobre():
 def contato():
     corpo = abertura("Contato", "Contato e condições de trabalho.",
                      "Atendimento pelo WhatsApp ou por e-mail. A primeira conversa sobre o caso não tem custo.",
-                     btn_zap("contato-abertura") + (f'<a class="btn btn-mail" href="mailto:{EMAIL}">{IC_MAIL}{EMAIL}</a>' if LANG == "pt" else "") + f'<a class="btn btn-in" href="{LINKEDIN}" rel="noopener">{IC_IN}LinkedIn</a>', retrato=("nitai-trabalhando", "Nitai Morais trabalhando no notebook"))
+                     btn_zap("contato-abertura") + (f'<a class="btn btn-mail" data-acao="email-contato" href="mailto:{EMAIL}">{IC_MAIL}{EMAIL}</a>' if LANG == "pt" else "") + f'<a class="btn btn-in" href="{LINKEDIN}" rel="noopener">{IC_IN}LinkedIn</a>', retrato=("nitai-trabalhando", "Nitai Morais trabalhando no notebook"))
     corpo += T(REGRAS)
     corpo += TF("""<section class="faixa sup"><div class="miolo"><div class="duas">
 <div><div class="rot">Para encaminhar</div><h2 style="margin-top:14px">Apresentações em PDF</h2><p class="t2" style="margin-top:14px">Para enviar a quem decide, conforme o assunto.</p>
@@ -751,6 +753,14 @@ def sitemap():
     return "\n".join(linhas) + "\n</urlset>\n"
 
 
+ROBOS_IA = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot", "ClaudeBot", "Claude-SearchBot", "Google-Extended", "Bingbot"]
+
+
+def robots():
+    blocos = ["User-agent: *\nAllow: /\n"] + [f"User-agent: {b}\nAllow: /\n" for b in ROBOS_IA]
+    return "\n".join(blocos) + f"\nSitemap: {URL}/sitemap.xml\n"
+
+
 def checar_traducoes(podar, rascunho):
     """A trava: pendências por língua, órfãs, 'parecido' e PENDENTES.json. Devolve o total de pendências."""
     lista, total = [], 0
@@ -814,7 +824,7 @@ if __name__ == "__main__":
                          "privacidade/index.html": "/politica-de-privacidade/"}.items():
         escrever(rel, redirecionar(destino))  # Pages não faz 301: meta refresh + canonical (como o site-v2 já fazia)
     escrever("sitemap.xml", sitemap())
-    escrever("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n")
+    escrever("robots.txt", robots())
     print("gerado:", ", ".join(saida))
     if pend:
         print(f"ATENÇÃO --rascunho: {pend} textos ainda em português nas páginas EN/ZH. NÃO PUBLICAR.")
