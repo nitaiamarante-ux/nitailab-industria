@@ -178,8 +178,26 @@ IC_PDF = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="cu
 PULSO = '<svg viewBox="0 0 40 20" aria-hidden="true"><path d="M0 12 L8 12 L12 4 L16 16 L20 8 L24 12 L40 12" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 
 
-def zap(origem, texto="Oi Nitai, vi o site da Nitai Lab e quero conversar."):
-    return f"https://wa.me/{ZAP}?text=" + urllib.parse.quote(f"{T(texto)} [{origem}]")
+# Mensagem já escrita no WhatsApp/e-mail, na voz de quem chama, conforme a página onde a pessoa estava (29/10, Nitai: "estão
+# tosconas! colchetes... robóticas... alguem me viu em algum lugar do site e quiz me chamar"). A origem do clique não vai
+# mais no texto: o nl-tracker registra página e botão (nl_whatsapp / nl_email).
+MSG_PAGINA = {
+    "inicio": "Oi, Nitai! Conheci seu trabalho pelo site e queria conversar com você.",
+    "logistica": "Oi, Nitai! Vi no seu site a parte de logística. Tenho uma carga e queria entender rota, custo e risco com você.",
+    "operacao": "Oi, Nitai! Vi no seu site o diagnóstico de operação e queria conversar sobre a minha operação.",
+    "verificacao": "Oi, Nitai! Vi no seu site a parte de verificação. Estou avaliando um negócio e queria conversar antes de fechar.",
+    "casos": "Oi, Nitai! Li os casos no seu site e me identifiquei. Podemos conversar?",
+    "sobre": "Oi, Nitai! Li sua trajetória no site e queria conversar com você.",
+    "contato": "Oi, Nitai! Peguei seu contato no site e queria conversar sobre um projeto.",
+}
+
+
+def msg_de(origem):
+    return MSG_PAGINA.get(origem.split("-")[0], MSG_PAGINA["inicio"])
+
+
+def zap(origem, texto=None):
+    return f"https://wa.me/{ZAP}?text=" + urllib.parse.quote(T(texto or msg_de(origem)))
 
 
 ASSUNTO_EMAIL = "Contato pelo site da Nitai Lab"
@@ -187,8 +205,8 @@ ASSUNTO_EMAIL = "Contato pelo site da Nitai Lab"
 
 def btn_zap(origem, rotulo="Falar no WhatsApp", texto=None, classe="btn btn-zap", topo=False):
     if LANG != "pt":  # comprador estrangeiro não usa WhatsApp: a ação principal vira e-mail (WhatsApp fica só no rodapé)
-        corpo_msg = texto or "Oi Nitai, vi o site da Nitai Lab e quero conversar."
-        href = f"mailto:{EMAIL}?subject=" + urllib.parse.quote(f"{T(ASSUNTO_EMAIL)} [{origem}]") + "&body=" + urllib.parse.quote(T(corpo_msg))
+        corpo_msg = texto or msg_de(origem)
+        href = f"mailto:{EMAIL}?subject=" + urllib.parse.quote(T(ASSUNTO_EMAIL)) + "&body=" + urllib.parse.quote(T(corpo_msg))
         rot = T("Enviar e-mail")
         rot_html = f"<span>{rot}</span>" if topo else rot
         # 29/10: o e-mail é a ação principal aqui, então herda o visual do botão do WhatsApp (dourado cheio), não o de botão secundário
@@ -458,7 +476,7 @@ FAQ_LOG = [
 def logistica():
     corpo = abertura("Estratégia e estrutura logística", "Rota, custo e risco da carga, da origem ao porto.",
                      "Granel se decide na logística. Antes de fechar um contrato de compra, venda ou transporte, mostro a conta trecho a trecho, as alternativas e onde está o risco.",
-                     btn_zap("logistica-abertura", texto="Oi Nitai, vi a página de logística do site e quero conversar sobre uma carga.") + btn_pdf("logistica-abertura"),
+                     btn_zap("logistica-abertura") + btn_pdf("logistica-abertura"),
                      "panamax-1")
     corpo += T(ROTA)
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Escopo</div><h2>Serviços</h2>
@@ -517,7 +535,7 @@ FAQ_OP = [
 def operacao():
     corpo = abertura("Desempenho da operação · TPS e Lean", "Onde a sua operação perde dinheiro.",
                      "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
-                     btn_zap("operacao-abertura", texto="Oi Nitai, vi a página de operação do site e quero conversar sobre a minha operação.") + btn_pdf("operacao-abertura"),
+                     btn_zap("operacao-abertura") + btn_pdf("operacao-abertura"),
                      "real-armazem-graos")
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Diagnóstico de 5 dias</div><h2>Diagnóstico em cinco dias, com as perdas quantificadas em reais</h2>
 <ol class="passos">
@@ -563,7 +581,7 @@ FAQ_VER = [
 def verificacao():
     corpo = abertura("Verificação", "Verificação técnica e logística antes da assinatura.",
                      "O que se comprova em documento oficial e o que a logística permite de verdade, para os dois lados do negócio: quem compra ou investe e quem vende ou capta. Se a carga não consegue sair, o negócio não existe.",
-                     btn_zap("verificacao-abertura", texto="Oi Nitai, vi a página de verificação do site e quero conversar sobre uma mina ou um negócio.") + btn_pdf("verificacao-abertura"),
+                     btn_zap("verificacao-abertura") + btn_pdf("verificacao-abertura"),
                      "real-planta-mina")
     # Os dois lados (sugestão da avaliação por público, sessão nitai-lab-88, 28/10): o dono de mina não pode ler
     # o Nitai só como o auditor que o comprador manda. Liga a OP-03 (dossiê) e OP-06 (mandato do lado da mina).
