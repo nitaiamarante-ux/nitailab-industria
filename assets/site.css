@@ -71,8 +71,8 @@ p{max-width:66ch}
 .btn-2:hover{background:var(--linha)}
 .acoes{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
 /* botões que saem do site: ícone e nome da plataforma, cor da marca (Nitai, 28/10: "mantenha os símbolos e escrita, mas deixe a cor padrão do meu site") */
-.btn-zap{background:var(--dourado-claro);color:var(--grafite)}
-.btn-zap:hover{background:var(--creme)}
+.btn-zap,.btn-principal{background:var(--dourado-claro);color:var(--grafite)}
+.btn-zap:hover,.btn-principal:hover{background:var(--creme)}
 .btn-in,.btn-mail{border:1px solid var(--dourado-claro);color:var(--creme)}
 .btn-in:hover,.btn-mail:hover{background:var(--linha)}
 .rodape a.com-ic{display:inline-flex;align-items:center;gap:8px}

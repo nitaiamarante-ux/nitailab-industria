@@ -176,7 +176,8 @@ def btn_zap(origem, rotulo="Falar no WhatsApp", texto=None, classe="btn btn-zap"
         href = f"mailto:{EMAIL}?subject=" + urllib.parse.quote(f"{T(ASSUNTO_EMAIL)} [{origem}]") + "&body=" + urllib.parse.quote(T(corpo_msg))
         rot = T("Enviar e-mail")
         rot_html = f"<span>{rot}</span>" if topo else rot
-        return f'<a class="btn btn-mail" data-acao="email-{origem}" href="{href}" aria-label="{rot}">{IC_MAIL}{rot_html}</a>'
+        # 29/10: o e-mail é a ação principal aqui, então herda o visual do botão do WhatsApp (dourado cheio), não o de botão secundário
+        return f'<a class="{classe.replace("btn-zap", "btn-principal")}" data-acao="email-{origem}" href="{href}" aria-label="{rot}">{IC_MAIL}{rot_html}</a>'
     href = zap(origem, texto) if texto else zap(origem)
     return f'<a class="{classe}" data-acao="whatsapp-{origem}" href="{href}" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">{IC_ZAP}{rotulo}</a>'
 
