@@ -288,7 +288,7 @@ def inicio():
 <div class="cartoes">
 <a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{PROPRIAS['real-vagoes-terminal']}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class="ir">Ver Logística →</span></div></a>
 <a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{PROPRIAS['real-armazem-graos']}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class="ir">Ver Operação →</span></div></a>
-<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{PROPRIAS['real-planta-mina']}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Mina, lote e contraparte conferidos antes da assinatura</span><p>Fontes oficiais, leitura do laudo e capacidade real de escoar a carga.</p><span class="ir">Ver Verificação →</span></div></a>
+<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{PROPRIAS['real-planta-mina']}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Mina, lote e contraparte documentados antes da assinatura</span><p>Para quem compra e para quem vende: fontes oficiais, laudo lido e capacidade real de escoar a carga.</p><span class="ir">Ver Verificação →</span></div></a>
 </div></div></section>"""
     corpo += REGRAS
     corpo += fecho("inicio-fecho", "Avaliação inicial do seu caso",
@@ -415,9 +415,16 @@ FAQ_VER = [
 
 def verificacao():
     corpo = abertura("Verificação", "Verificação técnica e logística antes da assinatura.",
-                     "Antes de assinar, levanto o que se comprova em documento oficial e o que a logística permite de verdade. Se a carga não consegue sair, o negócio não existe.",
-                     btn_zap("verificacao-abertura", texto="Oi Nitai, vi a página de verificação do site e quero conferir uma mina ou um parceiro.") + btn_pdf("verificacao-abertura"),
+                     "O que se comprova em documento oficial e o que a logística permite de verdade, para os dois lados do negócio: quem compra ou investe e quem vende ou capta. Se a carga não consegue sair, o negócio não existe.",
+                     btn_zap("verificacao-abertura", texto="Oi Nitai, vi a página de verificação do site e quero conversar sobre uma mina ou um negócio.") + btn_pdf("verificacao-abertura"),
                      "real-planta-mina")
+    # Os dois lados (sugestão da avaliação por público, sessão nitai-lab-88, 28/10): o dono de mina não pode ler
+    # o Nitai só como o auditor que o comprador manda. Liga a OP-03 (dossiê) e OP-06 (mandato do lado da mina).
+    corpo += """<section class="faixa"><div class="miolo"><div class="rot">Para quem</div><h2>Os dois lados do mesmo dossiê</h2>
+<div class="ofertas">
+<div class="oferta"><span class="rot">Quem compra ou investe</span><h3>Segurança antes de assinar</h3><p>Mina, lote e contraparte conferidos em fonte oficial, com o laudo lido e a capacidade real de escoar até o porto. Você sabe o que está comprando e o que pedir antes de seguir.</p></div>
+<div class="oferta"><span class="rot">Quem vende ou capta</span><h3>O dossiê pronto antes do pedido</h3><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar, organizados antes de o comprador ou o investidor pedirem. Oportunidade documentada negocia melhor e fecha mais rápido.</p></div>
+</div></div></section>"""
     corpo += """<section class="faixa"><div class="miolo"><div class="rot">O que é verificado</div><h2>Itens conferidos em fonte oficial</h2>
 <div class="ofertas">
 <div class="oferta"><span class="rot">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>

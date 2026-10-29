@@ -58,13 +58,11 @@ p{max-width:66ch}
 .btn-2{border:1px solid var(--dourado-claro);color:var(--creme)}
 .btn-2:hover{background:var(--linha)}
 .acoes{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
-/* botões que saem do site usam a cor e o ícone da plataforma */
-.btn-zap{background:#25D366;color:#0B141A}
-.btn-zap:hover{background:#1EBE5A}
-.btn-in{background:#0A66C2;color:#FFFFFF}
-.btn-in:hover{background:#004182}
-.btn-mail{border:1px solid var(--tx2);color:var(--creme)}
-.btn-mail:hover{background:var(--linha)}
+/* botões que saem do site: ícone e nome da plataforma, cor da marca (Nitai, 28/10: "mantenha os símbolos e escrita, mas deixe a cor padrão do meu site") */
+.btn-zap{background:var(--dourado-claro);color:var(--grafite)}
+.btn-zap:hover{background:var(--creme)}
+.btn-in,.btn-mail{border:1px solid var(--dourado-claro);color:var(--creme)}
+.btn-in:hover,.btn-mail:hover{background:var(--linha)}
 .rodape a.com-ic{display:inline-flex;align-items:center;gap:8px}
 .rodape a.com-ic svg{width:16px;height:16px;flex:none}
 
