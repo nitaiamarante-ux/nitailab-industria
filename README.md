@@ -13,6 +13,14 @@ Site da frente minério/logística do Nitai Morais: logística de granéis e car
 - Método: `_nitai_lab/_commons/produtos/planta_do_site/SUPERFICIE.md` e `_commons/design/METODO_design.md`. Gate: `python3 _commons/design/gate/gate_visual.py <pagina>/index.html --marca nitai_lab` em cada página.
 - Prévia local com links funcionando: `python3 -m http.server 8765` na raiz do repo.
 
+## Línguas (PT fonte, EN, ZH)
+- O português é a fonte. Todo texto visível passa por `T()` em `_fonte/gerar.py`; EN (`/en/`) e ZH chinês simplificado (`/zh/`) saem de `_fonte/traducoes/en.json` e `zh.json`, no formato `{"<sha1(pt)[:12]>": {"pt": "...", "tr": "..."}}`.
+- Mudou qualquer texto em português: o hash muda, a tradução some do JSON e **o build trava (exit 1, nada é gravado)** até EN e ZH serem atualizados. Pendências: `_fonte/traducoes/PENDENTES.json` (por pendente traz `parecido`, a tradução antiga mais próxima, pra ver o que mudou) e a contagem por língua no terminal.
+- `python3 _fonte/gerar.py --rascunho` gera mesmo assim, com o PT no lugar do que falta: só pra prévia local, **nunca publicar** (o diretório `en/` e `zh/` fica com texto em português).
+- `--podar` apaga dos JSONs as entradas órfãs (hash que nenhum texto usa mais); sem a flag elas só são listadas no aviso.
+- Em EN/ZH a ação principal é e-mail (WhatsApp só no rodapé). PDFs: se existir `apresentacoes/en/<nome>.pdf` (ou `zh/`) o site usa; senão usa o PT.
+- Política de privacidade e 404 só em PT.
+
 ## Publicar
 `python3 _fonte/gerar.py && git add -A && git commit && git push` (Pages publica sozinho).
 
