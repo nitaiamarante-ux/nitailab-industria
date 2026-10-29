@@ -233,6 +233,12 @@ p{max-width:66ch}
 .campo-texto h2{margin:14px 0 14px}
 .campo-texto p{color:var(--creme)}
 
+/* lista de apresentações (Contato) */
+.lista-pdf{list-style:none;display:grid;gap:14px;margin-top:24px}
+.lista-pdf a{display:inline-flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:600;font-size:18px;color:var(--creme);text-decoration:none;border-bottom:1px solid var(--dourado-claro)}
+.lista-pdf a svg{width:18px;height:18px;color:var(--dourado-claro)}
+.lista-pdf span{display:block;font-size:15px;color:var(--tx2);margin-top:2px}
+
 /* foto no topo do caso */
 .caso{overflow:hidden}
 .caso-foto{width:calc(100% + 64px);max-width:none;margin:-32px -32px 24px;aspect-ratio:16/9;object-fit:cover;filter:saturate(.85)}

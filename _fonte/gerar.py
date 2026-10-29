@@ -15,7 +15,7 @@ URL = "https://nitailab.com.br"
 ZAP = "5531982976006"
 EMAIL = "nitai@nitailab.com.br"
 LINKEDIN = "https://www.linkedin.com/in/nitai-morais"
-PDF = "/apresentacao_nitai_lab_industria.pdf"
+PDF = "/apresentacoes/Nitai_Lab_Apresentacao_Institucional.pdf"  # rodapé e ações gerais
 
 FOTOS = {
     "trem-min-1": ("Trem carregado de minério de ferro na ferrovia, visto do alto", "trem de minério",
@@ -55,7 +55,7 @@ PROPRIAS = {
 
 CADEIAS = [
     ("Minério e siderurgia", ["vale", "usiminas", "arcelormittal", "gerdau", "aperam", "agera"]),
-    ("Grãos", ["cargill", "adm", "bunge", "ldc", "amaggi", "caramuru", "granol", "sodrugestvo", "marubeni", "mitsui", "chs"]),
+    ("Grãos", ["cargill", "adm", "bunge", "ldc", "amaggi", "caramuru", "granol", "sodrugestvo", "mitsui", "chs"]),
     ("Fertilizantes", ["heringer", "eurochem", "yara", "mosaic", "fertipar", "bunge"]),
     ("Combustíveis", ["petrobras", "br", "raizen", "ipiranga"]),
     ("Construção", ["queiroz-galvao"]),
@@ -87,8 +87,22 @@ def btn_zap(origem, rotulo="Falar no WhatsApp", texto=None, classe="btn btn-1"):
     return f'<a class="{classe}" data-acao="whatsapp-{origem}" href="{href}" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">{IC_ZAP}{rotulo}</a>'
 
 
+# Três apresentações (28/10, pedido do Nitai: "tem que ter mais de um"); fonte em _nitai_lab/frentes/minerio/site/apresentacao/gerar_decks.py
+DECKS = {"institucional": "/apresentacoes/Nitai_Lab_Apresentacao_Institucional.pdf",
+         "logistica": "/apresentacoes/Nitai_Lab_Logistica_e_Verificacao.pdf",
+         "operacao": "/apresentacoes/Nitai_Lab_Diagnostico_Operacional.pdf"}
+
+
+def deck_de(origem):
+    if origem.startswith(("logistica", "verificacao")):
+        return DECKS["logistica"]
+    if origem.startswith("operacao"):
+        return DECKS["operacao"]
+    return DECKS["institucional"]
+
+
 def btn_pdf(origem):
-    return f'<a class="btn btn-2" data-acao="pdf-{origem}" href="{PDF}" target="_blank" rel="noopener">{IC_PDF}Baixar a apresentação</a>'
+    return f'<a class="btn btn-2" data-acao="pdf-{origem}" href="{deck_de(origem)}" target="_blank" rel="noopener">{IC_PDF}Baixar a apresentação</a>'
 
 
 def abertura(rot, h1, lead, acoes, foto=None, retrato=None):
@@ -492,11 +506,14 @@ def sobre():
 def contato():
     corpo = abertura("Contato", "Contato e condições de trabalho.",
                      "Atendimento pelo WhatsApp ou por e-mail. A primeira conversa sobre o caso não tem custo.",
-                     btn_zap("contato-abertura") + f'<a class="btn btn-2" href="mailto:{EMAIL}">{EMAIL}</a>', retrato=("nitai-trabalhando", "Nitai Morais trabalhando no notebook"))
+                     btn_zap("contato-abertura") + f'<a class="btn btn-2" href="mailto:{EMAIL}">{EMAIL}</a><a class="btn btn-2" href="{LINKEDIN}" rel="noopener">LinkedIn</a>', retrato=("nitai-trabalhando", "Nitai Morais trabalhando no notebook"))
     corpo += REGRAS
     corpo += f"""<section class="faixa sup"><div class="miolo"><div class="duas">
-<div><div class="rot">Para encaminhar</div><h2 style="margin-top:14px">Apresentação em PDF</h2><p class="t2" style="margin-top:14px">Seis páginas, para mandar a quem decide.</p><div class="acoes">{btn_pdf("contato")}</div></div>
-<div class="caixa"><span class="rot">Quem responde</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p><p>WhatsApp (31) 98297-6006 · {EMAIL}</p></div>
+<div><div class="rot">Para encaminhar</div><h2 style="margin-top:14px">Apresentações em PDF</h2><p class="t2" style="margin-top:14px">Para enviar a quem decide, conforme o assunto.</p>
+<ul class="lista-pdf"><li><a href="{DECKS['institucional']}" target="_blank" rel="noopener">{IC_PDF}Institucional</a><span>quem sou, frentes, clientes e casos</span></li>
+<li><a href="{DECKS['logistica']}" target="_blank" rel="noopener">{IC_PDF}Logística e Verificação</a><span>rota, custo, risco e verificação antes da assinatura</span></li>
+<li><a href="{DECKS['operacao']}" target="_blank" rel="noopener">{IC_PDF}Diagnóstico Operacional</a><span>os 5 dias, entregáveis e resultados</span></li></ul></div>
+<div class="caixa"><span class="rot">Quem responde</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p><p>WhatsApp +55 31 98297-6006 · {EMAIL} · <a href="{LINKEDIN}" rel="noopener">LinkedIn</a></p></div>
 </div></div></section>"""
     return pagina("/contato/", "Como trabalho e contato | Nitai Lab",
                   "Escopo, prazo e valor por escrito, confidencialidade nos dois sentidos e resposta pelo WhatsApp ou e-mail.",
