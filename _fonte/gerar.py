@@ -221,13 +221,15 @@ m.addEventListener("click",function(){{var a=t.classList.toggle("menu-aberto");m
 """
 
 
+# Ordem corrigida pelo Nitai (28/10): o terminal de transbordo vem depois da rodovia, não antes do porto. "é assim na vli,
+# mas nao quer dizer que é assim em todo lugar": a nota abaixo da linha diz que o arranjo varia.
 ROTA = """<section class="rota" aria-label="A cadeia, da origem ao porto"><div class="miolo"><ol>
 <li>Origem<small>mina, fazenda, usina</small></li>
 <li>Rodovia<small>carreta, bitrem, rodotrem</small></li>
+<li>Terminal<small>transbordo, armazém, estoque</small></li>
 <li>Ferrovia<small>vagão, janela, tarifa</small></li>
-<li>Terminal<small>pátio, armazém, estoque</small></li>
 <li>Porto<small>fila, navio, embarque</small></li>
-</ol></div></section>"""
+</ol><p class="rota-nota">Arranjo mais comum no granel de exportação. Há cadeias só rodoviárias, por cabotagem ou por hidrovia, e cada uma muda a conta.</p></div></section>"""
 
 REGRAS = """<section class="faixa"><div class="miolo"><div class="rot">Como trabalho</div><h2>Princípios de trabalho</h2>
 <div class="ofertas tres">

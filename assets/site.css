@@ -77,6 +77,7 @@ p{max-width:66ch}
 .rota ol::before{content:"";position:absolute;left:8px;right:8px;top:33px;height:1px;background:var(--dourado)}
 .rota li{position:relative;padding-top:22px;font-family:var(--f-display);font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
 .rota li::before{content:"";position:absolute;left:0;top:2px;width:13px;height:13px;border-radius:50%;background:var(--grafite);border:2px solid var(--dourado-claro)}
+.rota-nota{font-size:14px;color:var(--tx2);padding:0 0 18px;max-width:none}
 .rota li small{display:block;font-family:var(--f-corpo);font-size:14px;letter-spacing:0;text-transform:none;font-weight:400;color:var(--tx2);margin-top:2px}
 
 /* números */
