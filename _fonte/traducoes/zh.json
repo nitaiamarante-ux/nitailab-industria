@@ -614,5 +614,57 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "粮食场站的筒仓和仓库"
+ },
+ "ef9b8508913e": {
+  "pt": "Oi, Nitai! Vi no seu site {lista}.",
+  "tr": "您好，Nitai！我在您的网站上看了{lista}。"
+ },
+ "cefdbbb1c254": {
+  "pt": "Baixei a apresentação.",
+  "tr": "我还下载了介绍资料。"
+ },
+ "e38bb0ee90a1": {
+  "pt": "a parte de logística",
+  "tr": "物流内容"
+ },
+ "95a0599f1c5e": {
+  "pt": "o diagnóstico de operação",
+  "tr": "运营诊断"
+ },
+ "20c08e876018": {
+  "pt": "a parte de verificação",
+  "tr": "核查内容"
+ },
+ "b43ab280ea20": {
+  "pt": "os casos",
+  "tr": "案例"
+ },
+ "59a6f3ae232d": {
+  "pt": "sua trajetória",
+  "tr": "您的个人经历"
+ },
+ "d78eaa27182b": {
+  "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
+  "tr": "我有一批货物，想和您探讨路线、成本和风险。"
+ },
+ "b5916a6cb057": {
+  "pt": "Queria conversar sobre a minha operação.",
+  "tr": "想和您聊聊我们的运营。"
+ },
+ "269a19c5b325": {
+  "pt": "Estou avaliando um negócio e queria conversar antes de fechar.",
+  "tr": "我正在评估一笔交易，希望在签约前和您沟通。"
+ },
+ "bf37f059fb28": {
+  "pt": "Me identifiquei com o que li. Podemos conversar?",
+  "tr": "其中的内容让我很有共鸣，方便沟通一下吗？"
+ },
+ "fc78b25be3bc": {
+  "pt": "Queria conversar com você.",
+  "tr": "希望和您沟通。"
+ },
+ "69a4207bd5ca": {
+  "pt": "Queria conversar sobre um projeto.",
+  "tr": "想和您讨论一个项目。"
  }
 }

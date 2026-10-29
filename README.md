@@ -39,3 +39,10 @@ Plano: `_nitai_lab/frentes/minerio/site/PLANO_inteligencia_site_2026-10-29.md`.
 - **GEO:** `llms.txt` (EN com bloco PT, escrito à mão) e `robots.txt` com robôs de IA liberados (gerado por `robots()` em `gerar.py`).
 - **IndexNow:** `<chave>.txt` na raiz e `_fonte/indexnow.py`, que envia todas as URLs do `sitemap.xml`. **Rodar depois de cada push que muda páginas**, quando o `<chave>.txt` já responde 200: `python3 _fonte/indexnow.py`.
 - Política de privacidade: seção 7 (medição própria) acrescentada; o texto anterior não foi alterado (atende o app OAuth `nitai-lab`).
+
+## Mensagem inteligente do WhatsApp/e-mail (29/10/2026 noite)
+- Cada botão continua com a mensagem fixa da página no `href` (fallback sem JS; `MSG_PAGINA` em `gerar.py`). **`assets/mensagem.js`** (defer, `?v=<hash>`) reescreve o `href` no clique (capture) de `data-acao` `whatsapp-*` (troca `text` do wa.me) e `email-*` (troca só o `body` do mailto).
+- Trilha em `sessionStorage nl_trilha` = `{p:[páginas de conteúdo por recência], pdf:bool}` (logistica, operacao, verificacao, casos, sobre; início e contato não entram; PDF = clique em `data-acao` `pdf-*`).
+- Texto: `Oi, Nitai! Vi no seu site {lista}. {Baixei a apresentação. }{intenção}`; lista = página atual primeiro, depois as outras, máx. 3; intenção = do último serviço visitado, senão da página atual; lista vazia = mantém o href fixo.
+- Fragmentos vêm de `<script type="application/json" id="msg-zap">` (função `config_msg()` em `gerar.py`, todos via `T()`, junções por língua no dicionário `JUNCAO`). Mudou texto = trava de tradução como sempre.
+- A função `monta()` é exportada para Node (`require("assets/mensagem.js")`) para teste. Não depende do `medicao.js`; funciona em modo dono.

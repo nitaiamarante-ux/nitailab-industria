@@ -614,5 +614,57 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "Silos and warehouse at a grain terminal"
+ },
+ "ef9b8508913e": {
+  "pt": "Oi, Nitai! Vi no seu site {lista}.",
+  "tr": "Hi Nitai, I saw {lista} on your website."
+ },
+ "cefdbbb1c254": {
+  "pt": "Baixei a apresentação.",
+  "tr": "I also downloaded the presentation."
+ },
+ "e38bb0ee90a1": {
+  "pt": "a parte de logística",
+  "tr": "the logistics section"
+ },
+ "95a0599f1c5e": {
+  "pt": "o diagnóstico de operação",
+  "tr": "the operations diagnostic"
+ },
+ "20c08e876018": {
+  "pt": "a parte de verificação",
+  "tr": "the verification section"
+ },
+ "b43ab280ea20": {
+  "pt": "os casos",
+  "tr": "the cases"
+ },
+ "59a6f3ae232d": {
+  "pt": "sua trajetória",
+  "tr": "your background"
+ },
+ "d78eaa27182b": {
+  "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
+  "tr": "I have a cargo and would like to go over route, cost and risk with you."
+ },
+ "b5916a6cb057": {
+  "pt": "Queria conversar sobre a minha operação.",
+  "tr": "I would like to talk about my operation."
+ },
+ "269a19c5b325": {
+  "pt": "Estou avaliando um negócio e queria conversar antes de fechar.",
+  "tr": "I am assessing a deal and would like to talk before closing it."
+ },
+ "bf37f059fb28": {
+  "pt": "Me identifiquei com o que li. Podemos conversar?",
+  "tr": "What I read sounded very familiar. Could we talk?"
+ },
+ "fc78b25be3bc": {
+  "pt": "Queria conversar com você.",
+  "tr": "I would like to talk."
+ },
+ "69a4207bd5ca": {
+  "pt": "Queria conversar sobre um projeto.",
+  "tr": "I would like to discuss a project."
  }
 }

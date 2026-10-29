@@ -323,6 +323,29 @@ def servico(nome, desc, caminho):
 
 VERSAO_CSS = hashlib.sha1(open(os.path.join(RAIZ, "assets", "site.css"), "rb").read()).hexdigest()[:8]
 VERSAO_JS = hashlib.sha1(open(os.path.join(RAIZ, "assets", "medicao.js"), "rb").read()).hexdigest()[:8]
+VERSAO_MSG = hashlib.sha1(open(os.path.join(RAIZ, "assets", "mensagem.js"), "rb").read()).hexdigest()[:8]
+
+# Mensagem inteligente (29/10 noite): fragmentos para o assets/mensagem.js montar o texto no clique, com o caminho da sessão.
+JUNCAO = {"pt": (" e ", ", ", " "), "en": (" and ", ", ", " "), "zh": ("和", "、", "")}
+
+
+def config_msg(caminho):
+    chave = caminho.strip("/") or "inicio"
+    e, v, sep = JUNCAO[LANG]
+    cfg = {
+        "pagina": chave, "e": e, "v": v, "sep": sep,
+        "abertura": T("Oi, Nitai! Vi no seu site {lista}."),
+        "pdf": T("Baixei a apresentação."),
+        "partes": {"logistica": T("a parte de logística"), "operacao": T("o diagnóstico de operação"),
+                   "verificacao": T("a parte de verificação"), "casos": T("os casos"), "sobre": T("sua trajetória")},
+        "intencoes": {"logistica": T("Tenho uma carga e queria entender rota, custo e risco com você."),
+                      "operacao": T("Queria conversar sobre a minha operação."),
+                      "verificacao": T("Estou avaliando um negócio e queria conversar antes de fechar."),
+                      "casos": T("Me identifiquei com o que li. Podemos conversar?"),
+                      "sobre": T("Queria conversar com você."), "inicio": T("Queria conversar com você."),
+                      "contato": T("Queria conversar sobre um projeto.")},
+    }
+    return json.dumps(cfg, ensure_ascii=False)
 
 
 def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, origem="site"):
@@ -362,6 +385,8 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <link rel="stylesheet" href="/fontes.css">
 <link rel="stylesheet" href="/assets/site.css?v={VERSAO_CSS}">
 <script defer src="/assets/medicao.js?v={VERSAO_JS}"></script>
+<script type="application/json" id="msg-zap">{config_msg(caminho)}</script>
+<script defer src="/assets/mensagem.js?v={VERSAO_MSG}"></script>
 <script type="application/ld+json">{json.dumps(grafo, ensure_ascii=False)}</script>
 </head>
 <body>
