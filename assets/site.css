@@ -223,6 +223,15 @@ p{max-width:66ch}
 .mosaico img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--raio);filter:saturate(.9)}
 .mosaico figcaption{margin-top:10px;font-family:var(--f-display);font-size:15px;font-weight:600;letter-spacing:.06em;color:var(--tx2)}
 
+/* faixa "em campo" (Sobre): foto panorâmica própria, texto sobre o céu à direita, rosto livre à esquerda */
+.campo{position:relative;min-height:560px;display:flex;align-items:center;overflow:hidden;border-top:1px solid var(--linha)}
+.campo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 40%;filter:saturate(.85) brightness(.9)}
+.campo::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(26,24,20,.88) 0%,rgba(26,24,20,.55) 34%,rgba(26,24,20,0) 56%),linear-gradient(0deg,rgba(26,24,20,.6) 0%,rgba(26,24,20,0) 30%)}
+.campo .miolo{position:relative;z-index:1;width:100%;display:flex;justify-content:flex-end}
+.campo-texto{max-width:440px;padding:64px 0}
+.campo-texto h2{margin:14px 0 14px}
+.campo-texto p{color:var(--creme)}
+
 /* foto no topo do caso */
 .caso{overflow:hidden}
 .caso-foto{width:calc(100% + 64px);max-width:none;margin:-32px -32px 24px;aspect-ratio:16/9;object-fit:cover;filter:saturate(.85)}
@@ -276,6 +285,11 @@ p{max-width:66ch}
   .ar-foto::after{background:linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 45%)}
   .ar-texto{padding:0 0 40px;margin-top:-40px;position:relative}
   .quem-grade{grid-template-columns:1fr;gap:24px}
+  .campo{flex-direction:column;align-items:stretch;min-height:0}
+  .campo img{position:relative;height:300px;object-position:22% 30%}
+  .campo::after{background:linear-gradient(0deg,var(--grafite) 0%,rgba(26,24,20,0) 30%);height:300px}
+  .campo .miolo{display:block}
+  .campo-texto{padding:24px 0 48px;max-width:none}
   .quem-foto{max-width:none}
   .quem-foto img{aspect-ratio:1/1}
   .mosaico{grid-template-columns:1fr 1fr;gap:12px}

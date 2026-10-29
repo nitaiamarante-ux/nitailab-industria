@@ -50,6 +50,7 @@ PROPRIAS = {
     "real-graos-armazenados": "Granel agrícola armazenado em pilha dentro do armazém",
     "real-kcl-armazenado": "Pilha de cloreto de potássio (KCl) dentro do armazém",
     "real-fio-maquina": "Bobinas de fio-máquina no pátio do terminal",
+    "real-nitai-campo-mina": "Nitai Morais em visita técnica a uma planta de beneficiamento de minério",
 }
 
 CADEIAS = [
@@ -465,6 +466,10 @@ def sobre():
 <div><div class="quando">2016 a 2019<small>VLI</small></div><div><h3>Cadeia de fertilizantes e recuperação de terminal</h3><p>Planejamento da cadeia do porto de Tubarão, pelas ferrovias EFVM e FCA, até o terminal e o cliente. Recuperação do terminal de grãos de Pirapora até a primeira certificação permanente do Ministério da Agricultura.</p></div></div>
 <div><div class="quando">2008 a 2016<small>Vale e VLI</small></div><div><h3>Comercial</h3><p>Atendimento a siderúrgicas e distribuidoras de combustíveis em Belo Horizonte, São Luís e Ouro Branco, incluindo a carteira de gusa e a primeira cobrança de estadia de vagões a um grande cliente. Tricampeão do ranking de atendimento ao cliente.</p></div></div>
 </div></div></section>"""
+    corpo += """<section class="campo"><img src="/fotos/real-nitai-campo-mina.webp" alt="Nitai Morais em visita técnica a uma planta de beneficiamento de minério">
+<div class="miolo"><div class="campo-texto"><div class="rot">Em campo</div><h2>Visita técnica a uma planta de beneficiamento de minério</h2>
+<p>Verificação também é presença: ver a planta operando, as pilhas, o acesso e o caminho da carga até a ferrovia e o porto.</p>
+<div class="acoes"><a class="btn btn-2" href="/verificacao/">Ver Verificação</a></div></div></div></section>"""
     corpo += secao_clientes()
     corpo += """<section class="faixa"><div class="miolo"><div class="duas">
 <div><div class="rot">Método</div><h2 style="margin-top:14px">TPS com a própria Toyota</h2><p class="t2" style="margin-top:16px">Implantei o Toyota Production System com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI, com imersões de um mês para profissionais da empresa inteira.</p></div>
