@@ -21,7 +21,7 @@ EMAIL = "nitai@nitailab.com.br"
 LINKEDIN = "https://www.linkedin.com/in/nitai-morais"
 PDF = "/apresentacoes/Nitai_Lab_Apresentacao_Institucional.pdf"  # rodapé e ações gerais
 GA4_ID = "G-5LR59PRVKW"   # Google Analytics 4 (propriedade própria do site, conta "Nitai Lab")
-CLARITY_ID = ""           # Microsoft Clarity: vazio = não entra. Preencher com o ID do projeto para ligar.
+CLARITY_ID = "z5zi7ieu6b" # Microsoft Clarity, projeto "nitailab.com.br Logística". Vazio = não entra.
 
 # ---- Línguas: PT é a fonte; EN e ZH vêm de _fonte/traducoes/<lang>.json (ver README, seção "Línguas") ----
 LANGS = {"pt": {"tag": "pt-BR", "og": "pt_BR", "prefixo": ""},
