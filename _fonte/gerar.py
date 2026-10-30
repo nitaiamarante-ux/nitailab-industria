@@ -20,6 +20,8 @@ ZAP = "5531982976006"
 EMAIL = "nitai@nitailab.com.br"
 LINKEDIN = "https://www.linkedin.com/in/nitai-morais"
 PDF = "/apresentacoes/Nitai_Lab_Apresentacao_Institucional.pdf"  # rodapé e ações gerais
+GA4_ID = "G-5LR59PRVKW"   # Google Analytics 4 (propriedade própria do site, conta "Nitai Lab")
+CLARITY_ID = ""           # Microsoft Clarity: vazio = não entra. Preencher com o ID do projeto para ligar.
 
 # ---- Línguas: PT é a fonte; EN e ZH vêm de _fonte/traducoes/<lang>.json (ver README, seção "Línguas") ----
 LANGS = {"pt": {"tag": "pt-BR", "og": "pt_BR", "prefixo": ""},
@@ -348,6 +350,25 @@ def config_msg(caminho):
     return json.dumps(cfg, ensure_ascii=False)
 
 
+def medicao_terceiros():
+    """gtag do GA4 (e Clarity, se houver ID). Só fora de localhost/file: e fora do navegador do dono (nl_dono)."""
+    partes = ["(function(){var h=(location.hostname||'').toLowerCase();",
+              "if(location.protocol!=='http:'&&location.protocol!=='https:')return;",
+              "if(h==='localhost'||h==='127.0.0.1'||h==='[::1]'||h==='::1'||h==='0.0.0.0')return;",
+              "try{if(localStorage.getItem('nl_dono')==='1')return;}catch(e){}"]
+    if GA4_ID:
+        partes.append("var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=" + GA4_ID + "';document.head.appendChild(g);"
+                      "window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config','" + GA4_ID + "');")
+    if CLARITY_ID:
+        partes.append("(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;"
+                      "t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','" + CLARITY_ID + "');")
+    partes.append("})();")
+    return "<script>" + "".join(partes) + "</script>"
+
+
+MEDICAO_TERCEIROS = medicao_terceiros()
+
+
 def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, origem="site"):
     L = LANGS[LANG]
     titulo, descricao = T(titulo), T(descricao)
@@ -384,6 +405,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/fontes.css">
 <link rel="stylesheet" href="/assets/site.css?v={VERSAO_CSS}">
+{MEDICAO_TERCEIROS}
 <script defer src="/assets/medicao.js?v={VERSAO_JS}"></script>
 <script type="application/json" id="msg-zap">{config_msg(caminho)}</script>
 <script defer src="/assets/mensagem.js?v={VERSAO_MSG}"></script>

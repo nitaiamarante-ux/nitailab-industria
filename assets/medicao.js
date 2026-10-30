@@ -126,5 +126,14 @@
     else if (href.indexOf("wa.me/") !== -1 || href.indexOf("whatsapp.com") !== -1) tipo = "nl_whatsapp";
     else if (href.split("?")[0].slice(-4) === ".pdf") tipo = "nl_pdf";
     if (tipo) envia(tipo);
+    /* GA4 (aditivo): só existe se o gtag foi carregado (fora de localhost e do modo dono) */
+    try {
+      if (window.gtag) {
+        if (tipo === "nl_email") gtag("event", "generate_lead", { metodo: "email" });
+        else if (tipo === "nl_whatsapp") gtag("event", "generate_lead", { metodo: "whatsapp" });
+        else if (tipo === "nl_pdf") gtag("event", "pdf_download");
+        else if (tipo === "nl_linkedin") gtag("event", "linkedin_click");
+      }
+    } catch (e) {}
   }, true);
 })();
