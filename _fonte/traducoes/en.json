@@ -83,6 +83,10 @@
   "pt": "Envie a documentação para análise",
   "tr": "Send the documents for review"
  },
+ "20c08e876018": {
+  "pt": "a parte de verificação",
+  "tr": "the verification section"
+ },
  "20c4e9d61ce2": {
   "pt": "Fertilizantes",
   "tr": "Fertilisers"
@@ -106,6 +110,10 @@
  "23c5e1d027e6": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escopo</div><h2>Serviços</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Viabilidade</span><h3>Viabilidade e netback de lote ou de fluxo</h3><p>A conta trecho a trecho, por rota e por cenário de frete e preço. Você sai sabendo o preço mínimo na origem e qual rota vale a pena.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternativas</span><h3>Estudo de rota e modal</h3><p>Rodovia, ferrovia, cabotagem e porto comparados em custo, prazo, capacidade e risco, com o que confirmar em cotação antes de decidir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risco</span><h3>Análise de risco logístico</h3><p>Dependência de um só operador, capacidade contratada, take-or-pay, sazonalidade, regulação e a saúde de quem está do outro lado.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Estrutura</span><h3>Estruturação e coordenação da cadeia</h3><p>Plano logístico com rota, capacidades e contratos, programação de embarque e acompanhamento do fluxo até o navio ou o cliente final.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entrada no Brasil</span><h3>Apoio local a empresas estrangeiras</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargas</span><h3>Granel e carga industrial</h3><p>Minério de ferro e manganês, soja, milho e farelo, fertilizantes como KCl e ureia, gusa e produtos siderúrgicos.</p></div>\n</div></div></section>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scope</div><h2>Services</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Feasibility</span><h3>Feasibility and netback for a parcel or a flow</h3><p>The numbers leg by leg, by route and by freight and price scenario. You come away knowing the minimum price at origin and which route is worth it.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternatives</span><h3>Route and mode study</h3><p>Road, rail and coastal shipping, and the port options, compared on cost, transit time, capacity and risk, with what to confirm in quotations before deciding.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risk</span><h3>Logistics risk analysis</h3><p>Dependence on a single operator, contracted capacity, take-or-pay terms, seasonality, regulation and the financial health of the counterparty.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Structure</span><h3>Supply chain structuring and coordination</h3><p>A logistics plan with route, capacities and contracts, shipment scheduling and follow-up of the flow all the way to the vessel or the end customer.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entering Brazil</span><h3>Local support for foreign companies</h3><p>For foreign traders, buyers and investors: who operates each leg, where the cargo gets stuck, who to talk to and what to check before signing.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargo</span><h3>Bulk and industrial cargo</h3><p>Iron and manganese ore, soybeans, corn and soybean meal, fertilisers such as potash (KCl) and urea, pig iron and steel products.</p></div>\n</div></div></section>"
+ },
+ "269a19c5b325": {
+  "pt": "Estou avaliando um negócio e queria conversar antes de fechar.",
+  "tr": "I am assessing a deal and would like to talk before closing it."
  },
  "26d38b2425d6": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Para quem</div><h2>Os dois lados do mesmo dossiê</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Quem compra ou investe</span><h3>Segurança antes de assinar</h3><p>Mina, lote e contraparte conferidos em fonte oficial, com o laudo lido e a capacidade real de escoar até o porto. Você sabe o que está comprando e o que pedir antes de seguir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Quem vende ou capta</span><h3>O dossiê pronto antes do pedido</h3><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar, organizados antes de o comprador ou o investidor pedirem. Oportunidade documentada negocia melhor e fecha mais rápido.</p></div>\n</div></div></section>",
@@ -219,6 +227,10 @@
   "pt": "Menu",
   "tr": "Menu"
  },
+ "59a6f3ae232d": {
+  "pt": "sua trajetória",
+  "tr": "your background"
+ },
  "5ab86d1161e9": {
   "pt": "Você implanta Lean e TPS?",
   "tr": "Do you implement Lean and TPS?"
@@ -254,6 +266,10 @@
  "671f2aa0dd86": {
   "pt": "Logística de granéis e carga industrial, da origem ao porto",
   "tr": "Bulk and industrial cargo logistics, from origin to port"
+ },
+ "69a4207bd5ca": {
+  "pt": "Queria conversar sobre um projeto.",
+  "tr": "I would like to discuss a project."
  },
  "6e61d784602d": {
   "pt": "Sobre Nitai Morais",
@@ -355,6 +371,10 @@
   "pt": "Rota, custo e risco da carga, da origem ao porto.",
   "tr": "Route, cost and risk of the cargo, from origin to port."
  },
+ "95a0599f1c5e": {
+  "pt": "o diagnóstico de operação",
+  "tr": "the operations diagnostic"
+ },
  "95faccd177d4": {
   "pt": "Oi, Nitai! Vi no seu site a parte de logística. Tenho uma carga e queria entender rota, custo e risco com você.",
   "tr": "Hi Nitai, I saw the logistics section of your website. I have a cargo and would like to go over route, cost and risk with you."
@@ -431,6 +451,14 @@
   "pt": "Em que tipo de operação o diagnóstico funciona?",
   "tr": "What kind of operation does the diagnostic work in?"
  },
+ "b43ab280ea20": {
+  "pt": "os casos",
+  "tr": "the cases"
+ },
+ "b5916a6cb057": {
+  "pt": "Queria conversar sobre a minha operação.",
+  "tr": "I would like to talk about my operation."
+ },
  "b772884922db": {
   "pt": "Descreva o contexto. Indico o primeiro ponto a analisar.",
   "tr": "Describe the context. I will point out the first thing to look at."
@@ -446,6 +474,10 @@
  "bd006bafd1f8": {
   "pt": "Você contrata o frete ou opera a carga?",
   "tr": "Do you contract freight or handle the cargo yourself?"
+ },
+ "bf37f059fb28": {
+  "pt": "Me identifiquei com o que li. Podemos conversar?",
+  "tr": "What I read sounded very familiar. Could we talk?"
  },
  "bfc7e2de197a": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Para encaminhar</div><h2 style=\"margin-top:14px\">Apresentações em PDF</h2><p class=\"t2\" style=\"margin-top:14px\">Para enviar a quem decide, conforme o assunto.</p>\n<ul class=\"lista-pdf\"><li><a href=\"{d1}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Institucional</a><span>quem sou, frentes, clientes e casos</span></li>\n<li><a href=\"{d2}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Logística e Verificação</a><span>rota, custo, risco e verificação antes da assinatura</span></li>\n<li><a href=\"{d3}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Diagnóstico Operacional</a><span>os 5 dias, entregáveis e resultados</span></li></ul></div>\n<div class=\"caixa\"><span class=\"rot\">Quem responde</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p><p>WhatsApp +55 31 98297-6006 · {email} · <a href=\"{linkedin}\" rel=\"noopener\">LinkedIn</a></p></div>\n</div></div></section>",
@@ -463,10 +495,6 @@
   "pt": "Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.",
   "tr": "Over 16 years at Vale and VLI, in the iron ore, grain, fertiliser and fuel chains."
  },
- "c2ee3889e5b0": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargas</div><h2>Cargas que operei</h2>\n<p class=\"intro\">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Granel agrícola armazenado em pilha dentro do armazém\"><figcaption>Grãos e farelo</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Pilha de cloreto de potássio (KCl) dentro do armazém\"><figcaption>Fertilizante (KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Minério sendo carregado em vagões no pátio\"><figcaption>Minério de ferro</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Bobinas de fio-máquina no pátio do terminal\"><figcaption>Siderúrgicos</figcaption></figure>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargo</div><h2>Cargo I have handled</h2>\n<p class=\"intro\">Photos from the terminals and mines where I worked. Each bulk commodity is stored, loaded and moved differently.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Agricultural bulk stockpiled inside the warehouse\"><figcaption>Grains and soybean meal</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Potassium chloride (KCl) stockpile inside the warehouse\"><figcaption>Fertiliser (potash, KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Iron ore being loaded into wagons in the yard\"><figcaption>Iron ore</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Wire rod coils in the terminal yard\"><figcaption>Steel products</figcaption></figure>\n</div></div></section>"
- },
  "c3521830e7d9": {
   "pt": "Estratégia e estrutura logística",
   "tr": "Logistics strategy and structure"
@@ -474,6 +502,10 @@
  "c6235f8549f4": {
   "pt": "Isso substitui a due diligence jurídica?",
   "tr": "Does this replace legal due diligence?"
+ },
+ "c6b240356e5d": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargas</div><h2>Cargas que operei</h2>\n<p class=\"intro\">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-soja-graos.webp\" alt=\"Soja em grão, foto de operação\"><figcaption>Grãos</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Pilha de cloreto de potássio (KCl) dentro do armazém\"><figcaption>Fertilizante (KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Minério sendo carregado em vagões no pátio\"><figcaption>Minério de ferro</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Bobinas de fio-máquina no pátio do terminal\"><figcaption>Siderúrgicos</figcaption></figure>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargo</div><h2>Cargo I have handled</h2>\n<p class=\"intro\">Photos from the terminals and mines where I worked. Each bulk commodity is stored, loaded and moved differently.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-soja-graos.webp\" alt=\"Soybeans, photo from operations\"><figcaption>Grains</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Potassium chloride (KCl) stockpile inside the warehouse\"><figcaption>Fertiliser (potash, KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Iron ore being loaded into wagons in the yard\"><figcaption>Iron ore</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Wire rod coils in the terminal yard\"><figcaption>Steel products</figcaption></figure>\n</div></div></section>"
  },
  "c868666447f5": {
   "pt": "Envie os dados da carga para uma primeira avaliação",
@@ -490,6 +522,10 @@
  "ce8564e7b3cf": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">O que é verificado</div><h2>Itens conferidos em fonte oficial</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>Royalty da mineração em dia</h3><p>Quem recolhe a Compensação Financeira pela Exploração Mineral está produzindo e vendendo de fato.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licenças</span><h3>Licença ambiental</h3><p>Se a licença cobre a operação e o volume que estão sendo oferecidos.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Contraparte</span><h3>Empresa do outro lado</h3><p>Sócios, tempo de existência, processos e dívidas públicas da empresa que vende ou compra.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Laudo</span><h3>Leitura do laudo de qualidade</h3><p>O que o laudo do laboratório diz sobre o teor e o que isso faz com o preço.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logística</span><h3>Capacidade de escoar</h3><p>Se existe caminho, vaga e capacidade para a carga chegar ao porto no volume e no prazo prometidos.</p></div>\n</div></div></section>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">What is verified</div><h2>Items checked against official sources</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Mining title</h3><p>Whether the claim exists at the National Mining Agency (ANM), in whose name, at what stage and for which mineral.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>CFEM royalty up to date</h3><p>A company paying CFEM, Brazil's federal mining royalty, is actually producing and selling.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licences</span><h3>Environmental licence</h3><p>Whether the licence covers the operation and the volume being offered.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Counterparty</span><h3>The company on the other side</h3><p>Shareholders, years in business, litigation and public-sector debts of the company that is selling or buying.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Lab report</span><h3>Reading the quality report</h3><p>What the laboratory report says about the grade and what that means for the price.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logistics</span><h3>Capacity to move the cargo</h3><p>Whether there is a route, a slot and the capacity for the cargo to reach the port at the committed volume and on schedule.</p></div>\n</div></div></section>"
+ },
+ "cefdbbb1c254": {
+  "pt": "Baixei a apresentação.",
+  "tr": "I also downloaded the presentation."
  },
  "d04046b14c6a": {
   "pt": "Sim. Comprador e investidor estrangeiro costumam pedir exatamente isso antes de qualquer proposta.",
@@ -510,6 +546,10 @@
  "d5b7a088bb9b": {
   "pt": "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.",
   "tr": "Verification of the mine and the counterparty against official sources (ANM, CFEM, licences, company registry) and of the capacity to move the cargo to port."
+ },
+ "d78eaa27182b": {
+  "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
+  "tr": "I have a cargo and would like to go over route, cost and risk with you."
  },
  "d7c1ef93095d": {
   "pt": "Due diligence técnica e logística de mineração",
@@ -551,6 +591,10 @@
   "pt": "Logística e Operações",
   "tr": "Logistics and Operations"
  },
+ "e38bb0ee90a1": {
+  "pt": "a parte de logística",
+  "tr": "the logistics section"
+ },
  "e84b64f4b7a2": {
   "pt": "Clientes",
   "tr": "Clients"
@@ -574,6 +618,10 @@
  "ee700bf1f707": {
   "pt": "Não. O trabalho acontece com a operação rodando, junto de operadores, liderança e indicadores.",
   "tr": "No. The work happens with the operation running, alongside operators, supervisors and indicators."
+ },
+ "ef9b8508913e": {
+  "pt": "Oi, Nitai! Vi no seu site {lista}.",
+  "tr": "Hi Nitai, I saw {lista} on your website."
  },
  "f2192b621bf4": {
   "pt": "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
@@ -611,60 +659,12 @@
   "pt": "Consultoria TPS e Lean para operações | Nitai Lab",
   "tr": "TPS and Lean consulting for operations in Brazil | Nitai Lab"
  },
- "fe8d99b3d242": {
-  "pt": "Silos e armazém de um terminal de grãos",
-  "tr": "Silos and warehouse at a grain terminal"
- },
- "ef9b8508913e": {
-  "pt": "Oi, Nitai! Vi no seu site {lista}.",
-  "tr": "Hi Nitai, I saw {lista} on your website."
- },
- "cefdbbb1c254": {
-  "pt": "Baixei a apresentação.",
-  "tr": "I also downloaded the presentation."
- },
- "e38bb0ee90a1": {
-  "pt": "a parte de logística",
-  "tr": "the logistics section"
- },
- "95a0599f1c5e": {
-  "pt": "o diagnóstico de operação",
-  "tr": "the operations diagnostic"
- },
- "20c08e876018": {
-  "pt": "a parte de verificação",
-  "tr": "the verification section"
- },
- "b43ab280ea20": {
-  "pt": "os casos",
-  "tr": "the cases"
- },
- "59a6f3ae232d": {
-  "pt": "sua trajetória",
-  "tr": "your background"
- },
- "d78eaa27182b": {
-  "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
-  "tr": "I have a cargo and would like to go over route, cost and risk with you."
- },
- "b5916a6cb057": {
-  "pt": "Queria conversar sobre a minha operação.",
-  "tr": "I would like to talk about my operation."
- },
- "269a19c5b325": {
-  "pt": "Estou avaliando um negócio e queria conversar antes de fechar.",
-  "tr": "I am assessing a deal and would like to talk before closing it."
- },
- "bf37f059fb28": {
-  "pt": "Me identifiquei com o que li. Podemos conversar?",
-  "tr": "What I read sounded very familiar. Could we talk?"
- },
  "fc78b25be3bc": {
   "pt": "Queria conversar com você.",
   "tr": "I would like to talk."
  },
- "69a4207bd5ca": {
-  "pt": "Queria conversar sobre um projeto.",
-  "tr": "I would like to discuss a project."
+ "fe8d99b3d242": {
+  "pt": "Silos e armazém de um terminal de grãos",
+  "tr": "Silos and warehouse at a grain terminal"
  }
 }

@@ -4,7 +4,7 @@ Site da frente minério/logística do Nitai Morais: logística de granéis e car
 
 - URL hoje: https://industria.nitailab.com.br. Decidido em 28/10/2026 que vira a raiz `nitailab.com.br` (ver `_nitai_lab/_commons/norte/AVISO_dominio_raiz_2026-10-28.md`, ordem da virada).
 - HTML estático gerado: **edite `_fonte/gerar.py` (conteúdo) e `assets/site.css` (visual), depois `python3 _fonte/gerar.py`**. Não edite os `index.html` à mão (o gerador sobrescreve).
-- Fotos: só licença livre, crédito no rodapé (`fotos/FONTES.md`; originais no SSD F, `fotos/_NO_SSD_F.md`). Logos: `logos/FONTES.md`. Cliente sem logo de qualidade fica fora.
+- Fotos: banco livre com crédito no rodapé; as `real-*.webp` são do próprio Nitai (30/10: `real-graos-armazenados` é KCl, saiu do mosaico; entrou `real-soja-graos`) (`fotos/FONTES.md`; originais no SSD F, `fotos/_NO_SSD_F.md`). Logos: `logos/FONTES.md`. Cliente sem logo de qualidade fica fora.
 - Pastas com `_` não são publicadas pelo Pages. `_prova/` fica fora do git.
 - O CSS entra como `site.css?v=<hash>` (calculado pelo gerador): mudou o CSS, rode o gerador, senão o navegador mistura página nova com CSS velho do cache (bug dos ícones gigantes, 28/10).
 

@@ -83,6 +83,10 @@
   "pt": "Envie a documentação para análise",
   "tr": "发送文件以供分析"
  },
+ "20c08e876018": {
+  "pt": "a parte de verificação",
+  "tr": "核查内容"
+ },
  "20c4e9d61ce2": {
   "pt": "Fertilizantes",
   "tr": "化肥"
@@ -106,6 +110,10 @@
  "23c5e1d027e6": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escopo</div><h2>Serviços</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Viabilidade</span><h3>Viabilidade e netback de lote ou de fluxo</h3><p>A conta trecho a trecho, por rota e por cenário de frete e preço. Você sai sabendo o preço mínimo na origem e qual rota vale a pena.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Alternativas</span><h3>Estudo de rota e modal</h3><p>Rodovia, ferrovia, cabotagem e porto comparados em custo, prazo, capacidade e risco, com o que confirmar em cotação antes de decidir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Risco</span><h3>Análise de risco logístico</h3><p>Dependência de um só operador, capacidade contratada, take-or-pay, sazonalidade, regulação e a saúde de quem está do outro lado.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Estrutura</span><h3>Estruturação e coordenação da cadeia</h3><p>Plano logístico com rota, capacidades e contratos, programação de embarque e acompanhamento do fluxo até o navio ou o cliente final.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Entrada no Brasil</span><h3>Apoio local a empresas estrangeiras</h3><p>Para trading, comprador ou investidor estrangeiro: quem opera cada trecho, onde a carga trava, com quem falar e o que conferir antes de assinar.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Cargas</span><h3>Granel e carga industrial</h3><p>Minério de ferro e manganês, soja, milho e farelo, fertilizantes como KCl e ureia, gusa e produtos siderúrgicos.</p></div>\n</div></div></section>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">范围</div><h2>服务</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">可行性</span><h3>单批货物或长期货流的可行性与净回值</h3><p>按路线、按运费与价格情景逐段核算。您将清楚产地可接受的最低价格，以及哪条路线值得走。</p></div>\n<div class=\"oferta\"><span class=\"rot\">备选方案</span><h3>路线与运输方式研究</h3><p>从成本、时间、运力和风险几个方面比较公路、铁路、沿海运输和港口，并列出决策前需要通过报价确认的事项。</p></div>\n<div class=\"oferta\"><span class=\"rot\">风险</span><h3>物流风险分析</h3><p>对单一运营商的依赖、合同运力、照付不议条款（take-or-pay）、季节性、监管政策以及交易对手的经营状况。</p></div>\n<div class=\"oferta\"><span class=\"rot\">结构</span><h3>供应链的搭建与协调</h3><p>包含路线、运力和合同的物流方案，装船计划，以及直至船舶或终端客户的货流跟踪。</p></div>\n<div class=\"oferta\"><span class=\"rot\">进入巴西</span><h3>为外国企业提供巴西本地支持</h3><p>面向外国贸易商、买方或投资者：每一段由谁运营，货物在哪里受阻，应该找谁，签约前要核实什么。</p></div>\n<div class=\"oferta\"><span class=\"rot\">货种</span><h3>散货与工业货物</h3><p>铁矿石和锰矿，大豆、玉米和豆粕，氯化钾和尿素等化肥，生铁和钢材产品。</p></div>\n</div></div></section>"
+ },
+ "269a19c5b325": {
+  "pt": "Estou avaliando um negócio e queria conversar antes de fechar.",
+  "tr": "我正在评估一笔交易，希望在签约前和您沟通。"
  },
  "26d38b2425d6": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Para quem</div><h2>Os dois lados do mesmo dossiê</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">Quem compra ou investe</span><h3>Segurança antes de assinar</h3><p>Mina, lote e contraparte conferidos em fonte oficial, com o laudo lido e a capacidade real de escoar até o porto. Você sabe o que está comprando e o que pedir antes de seguir.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Quem vende ou capta</span><h3>O dossiê pronto antes do pedido</h3><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar, organizados antes de o comprador ou o investidor pedirem. Oportunidade documentada negocia melhor e fecha mais rápido.</p></div>\n</div></div></section>",
@@ -219,6 +227,10 @@
   "pt": "Menu",
   "tr": "菜单"
  },
+ "59a6f3ae232d": {
+  "pt": "sua trajetória",
+  "tr": "您的个人经历"
+ },
  "5ab86d1161e9": {
   "pt": "Você implanta Lean e TPS?",
   "tr": "您负责实施精益和 TPS 吗？"
@@ -254,6 +266,10 @@
  "671f2aa0dd86": {
   "pt": "Logística de granéis e carga industrial, da origem ao porto",
   "tr": "散货与工业货物物流，从产地到港口"
+ },
+ "69a4207bd5ca": {
+  "pt": "Queria conversar sobre um projeto.",
+  "tr": "想和您讨论一个项目。"
  },
  "6e61d784602d": {
   "pt": "Sobre Nitai Morais",
@@ -355,6 +371,10 @@
   "pt": "Rota, custo e risco da carga, da origem ao porto.",
   "tr": "货物从产地到港口的路线、成本与风险。"
  },
+ "95a0599f1c5e": {
+  "pt": "o diagnóstico de operação",
+  "tr": "运营诊断"
+ },
  "95faccd177d4": {
   "pt": "Oi, Nitai! Vi no seu site a parte de logística. Tenho uma carga e queria entender rota, custo e risco com você.",
   "tr": "您好，Nitai！我看了您网站上的物流内容。我有一批货物，想和您探讨路线、成本和风险。"
@@ -431,6 +451,14 @@
   "pt": "Em que tipo de operação o diagnóstico funciona?",
   "tr": "诊断适用于哪些类型的运营？"
  },
+ "b43ab280ea20": {
+  "pt": "os casos",
+  "tr": "案例"
+ },
+ "b5916a6cb057": {
+  "pt": "Queria conversar sobre a minha operação.",
+  "tr": "想和您聊聊我们的运营。"
+ },
  "b772884922db": {
   "pt": "Descreva o contexto. Indico o primeiro ponto a analisar.",
   "tr": "请描述背景。我会指出首先需要分析的点。"
@@ -446,6 +474,10 @@
  "bd006bafd1f8": {
   "pt": "Você contrata o frete ou opera a carga?",
   "tr": "您是否代为订舱、承运或操作货物？"
+ },
+ "bf37f059fb28": {
+  "pt": "Me identifiquei com o que li. Podemos conversar?",
+  "tr": "其中的内容让我很有共鸣，方便沟通一下吗？"
  },
  "bfc7e2de197a": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"duas\">\n<div><div class=\"rot\">Para encaminhar</div><h2 style=\"margin-top:14px\">Apresentações em PDF</h2><p class=\"t2\" style=\"margin-top:14px\">Para enviar a quem decide, conforme o assunto.</p>\n<ul class=\"lista-pdf\"><li><a href=\"{d1}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Institucional</a><span>quem sou, frentes, clientes e casos</span></li>\n<li><a href=\"{d2}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Logística e Verificação</a><span>rota, custo, risco e verificação antes da assinatura</span></li>\n<li><a href=\"{d3}\" target=\"_blank\" rel=\"noopener\">{ic_pdf}Diagnóstico Operacional</a><span>os 5 dias, entregáveis e resultados</span></li></ul></div>\n<div class=\"caixa\"><span class=\"rot\">Quem responde</span><p>Nitai Morais. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.</p><p>WhatsApp +55 31 98297-6006 · {email} · <a href=\"{linkedin}\" rel=\"noopener\">LinkedIn</a></p></div>\n</div></div></section>",
@@ -463,10 +495,6 @@
   "pt": "Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.",
   "tr": "在淡水河谷和 VLI 的16年间，涵盖矿石、粮食、化肥和燃料供应链。"
  },
- "c2ee3889e5b0": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargas</div><h2>Cargas que operei</h2>\n<p class=\"intro\">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"Granel agrícola armazenado em pilha dentro do armazém\"><figcaption>Grãos e farelo</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Pilha de cloreto de potássio (KCl) dentro do armazém\"><figcaption>Fertilizante (KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Minério sendo carregado em vagões no pátio\"><figcaption>Minério de ferro</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Bobinas de fio-máquina no pátio do terminal\"><figcaption>Siderúrgicos</figcaption></figure>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">货种</div><h2>我经手过的货物</h2>\n<p class=\"intro\">这些照片来自我工作过的场站和矿山。每种散货都有各自的储存、装载和外运方式。</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-graos-armazenados.webp\" alt=\"仓库内成堆存放的农产品散货\"><figcaption>粮食与豆粕</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"仓库内的氯化钾（KCl）料堆\"><figcaption>化肥（KCl）</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"在场站将矿石装入车皮\"><figcaption>铁矿石</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"场站堆场上的线材卷\"><figcaption>钢材</figcaption></figure>\n</div></div></section>"
- },
  "c3521830e7d9": {
   "pt": "Estratégia e estrutura logística",
   "tr": "物流战略与结构"
@@ -474,6 +502,10 @@
  "c6235f8549f4": {
   "pt": "Isso substitui a due diligence jurídica?",
   "tr": "这能替代法律尽职调查吗？"
+ },
+ "c6b240356e5d": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Cargas</div><h2>Cargas que operei</h2>\n<p class=\"intro\">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-soja-graos.webp\" alt=\"Soja em grão, foto de operação\"><figcaption>Grãos</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"Pilha de cloreto de potássio (KCl) dentro do armazém\"><figcaption>Fertilizante (KCl)</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"Minério sendo carregado em vagões no pátio\"><figcaption>Minério de ferro</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"Bobinas de fio-máquina no pátio do terminal\"><figcaption>Siderúrgicos</figcaption></figure>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">货种</div><h2>我经手过的货物</h2>\n<p class=\"intro\">这些照片来自我工作过的场站和矿山。每种散货都有各自的储存、装载和外运方式。</p>\n<div class=\"mosaico\">\n<figure><img src=\"/fotos/real-soja-graos.webp\" alt=\"大豆颗粒，运营现场照片\"><figcaption>谷物</figcaption></figure>\n<figure><img src=\"/fotos/real-kcl-armazenado.webp\" alt=\"仓库内的氯化钾（KCl）料堆\"><figcaption>化肥（KCl）</figcaption></figure>\n<figure><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"在场站将矿石装入车皮\"><figcaption>铁矿石</figcaption></figure>\n<figure><img src=\"/fotos/real-fio-maquina.webp\" alt=\"场站堆场上的线材卷\"><figcaption>钢材</figcaption></figure>\n</div></div></section>"
  },
  "c868666447f5": {
   "pt": "Envie os dados da carga para uma primeira avaliação",
@@ -490,6 +522,10 @@
  "ce8564e7b3cf": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">O que é verificado</div><h2>Itens conferidos em fonte oficial</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>Título minerário</h3><p>Se o processo existe na Agência Nacional de Mineração, em nome de quem, em que fase e para qual substância.</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>Royalty da mineração em dia</h3><p>Quem recolhe a Compensação Financeira pela Exploração Mineral está produzindo e vendendo de fato.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Licenças</span><h3>Licença ambiental</h3><p>Se a licença cobre a operação e o volume que estão sendo oferecidos.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Contraparte</span><h3>Empresa do outro lado</h3><p>Sócios, tempo de existência, processos e dívidas públicas da empresa que vende ou compra.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Laudo</span><h3>Leitura do laudo de qualidade</h3><p>O que o laudo do laboratório diz sobre o teor e o que isso faz com o preço.</p></div>\n<div class=\"oferta\"><span class=\"rot\">Logística</span><h3>Capacidade de escoar</h3><p>Se existe caminho, vaga e capacidade para a carga chegar ao porto no volume e no prazo prometidos.</p></div>\n</div></div></section>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">核查内容</div><h2>通过官方来源核实的事项</h2>\n<div class=\"ofertas\">\n<div class=\"oferta\"><span class=\"rot\">ANM</span><h3>矿权</h3><p>该项目是否在巴西国家矿业局（ANM）登记，权利人是谁，处于哪个阶段，涉及哪种矿产。</p></div>\n<div class=\"oferta\"><span class=\"rot\">CFEM</span><h3>CFEM 矿业权利金按期缴纳</h3><p>按期缴纳矿产资源开采财务补偿金（CFEM，即巴西的矿业权利金）的企业，可印证其确有生产和销售。</p></div>\n<div class=\"oferta\"><span class=\"rot\">许可证</span><h3>环境许可</h3><p>许可证是否覆盖所报价的作业和数量。</p></div>\n<div class=\"oferta\"><span class=\"rot\">交易对手</span><h3>对方企业</h3><p>卖方或买方企业的股东结构、成立年限、涉诉情况和公开债务。</p></div>\n<div class=\"oferta\"><span class=\"rot\">化验报告</span><h3>品质化验报告解读</h3><p>实验室报告对品位说明了什么，以及这对价格有什么影响。</p></div>\n<div class=\"oferta\"><span class=\"rot\">物流</span><h3>外运能力</h3><p>是否有通道、运力和作业能力，让货物按承诺的数量和时间运抵港口。</p></div>\n</div></div></section>"
+ },
+ "cefdbbb1c254": {
+  "pt": "Baixei a apresentação.",
+  "tr": "我还下载了介绍资料。"
  },
  "d04046b14c6a": {
   "pt": "Sim. Comprador e investidor estrangeiro costumam pedir exatamente isso antes de qualquer proposta.",
@@ -510,6 +546,10 @@
  "d5b7a088bb9b": {
   "pt": "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.",
   "tr": "通过官方来源核实矿山与交易对手（ANM、CFEM、许可证、股东信息），以及运到港口的外运能力。"
+ },
+ "d78eaa27182b": {
+  "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
+  "tr": "我有一批货物，想和您探讨路线、成本和风险。"
  },
  "d7c1ef93095d": {
   "pt": "Due diligence técnica e logística de mineração",
@@ -551,6 +591,10 @@
   "pt": "Logística e Operações",
   "tr": "物流与运营"
  },
+ "e38bb0ee90a1": {
+  "pt": "a parte de logística",
+  "tr": "物流内容"
+ },
  "e84b64f4b7a2": {
   "pt": "Clientes",
   "tr": "客户"
@@ -574,6 +618,10 @@
  "ee700bf1f707": {
   "pt": "Não. O trabalho acontece com a operação rodando, junto de operadores, liderança e indicadores.",
   "tr": "不需要。工作在运营正常进行时开展，与操作人员、管理层和指标一起完成。"
+ },
+ "ef9b8508913e": {
+  "pt": "Oi, Nitai! Vi no seu site {lista}.",
+  "tr": "您好，Nitai！我在您的网站上看了{lista}。"
  },
  "f2192b621bf4": {
   "pt": "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
@@ -611,60 +659,12 @@
   "pt": "Consultoria TPS e Lean para operações | Nitai Lab",
   "tr": "面向运营的 TPS 与精益咨询 | Nitai Lab"
  },
- "fe8d99b3d242": {
-  "pt": "Silos e armazém de um terminal de grãos",
-  "tr": "粮食场站的筒仓和仓库"
- },
- "ef9b8508913e": {
-  "pt": "Oi, Nitai! Vi no seu site {lista}.",
-  "tr": "您好，Nitai！我在您的网站上看了{lista}。"
- },
- "cefdbbb1c254": {
-  "pt": "Baixei a apresentação.",
-  "tr": "我还下载了介绍资料。"
- },
- "e38bb0ee90a1": {
-  "pt": "a parte de logística",
-  "tr": "物流内容"
- },
- "95a0599f1c5e": {
-  "pt": "o diagnóstico de operação",
-  "tr": "运营诊断"
- },
- "20c08e876018": {
-  "pt": "a parte de verificação",
-  "tr": "核查内容"
- },
- "b43ab280ea20": {
-  "pt": "os casos",
-  "tr": "案例"
- },
- "59a6f3ae232d": {
-  "pt": "sua trajetória",
-  "tr": "您的个人经历"
- },
- "d78eaa27182b": {
-  "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
-  "tr": "我有一批货物，想和您探讨路线、成本和风险。"
- },
- "b5916a6cb057": {
-  "pt": "Queria conversar sobre a minha operação.",
-  "tr": "想和您聊聊我们的运营。"
- },
- "269a19c5b325": {
-  "pt": "Estou avaliando um negócio e queria conversar antes de fechar.",
-  "tr": "我正在评估一笔交易，希望在签约前和您沟通。"
- },
- "bf37f059fb28": {
-  "pt": "Me identifiquei com o que li. Podemos conversar?",
-  "tr": "其中的内容让我很有共鸣，方便沟通一下吗？"
- },
  "fc78b25be3bc": {
   "pt": "Queria conversar com você.",
   "tr": "希望和您沟通。"
  },
- "69a4207bd5ca": {
-  "pt": "Queria conversar sobre um projeto.",
-  "tr": "想和您讨论一个项目。"
+ "fe8d99b3d242": {
+  "pt": "Silos e armazém de um terminal de grãos",
+  "tr": "粮食场站的筒仓和仓库"
  }
 }

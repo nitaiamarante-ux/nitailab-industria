@@ -50,3 +50,12 @@ Rodada 3 (terminais VLI, 28/10/2026). Quadros extraídos do vídeo "Caminhos da 
 | terminal-tia-4.webp | TIA, tombador/moega, caminhão descarregando | https://commons.wikimedia.org/wiki/File:Caminhos_da_Produção_4_-_Terminal_Ferrorodoviário_de_Araguari.webm | TV USP Piracicaba | CC BY 3.0 | sim | 04/09/2014 (quadro 3:40) |
 | terminal-tia-5.webp | TIA, locomotiva VLI 6049 de frente (logo VLI) | https://commons.wikimedia.org/wiki/File:Caminhos_da_Produção_4_-_Terminal_Ferrorodoviário_de_Araguari.webm | TV USP Piracicaba | CC BY 3.0 | sim | 04/09/2014 (quadro 4:40) |
 | terminal-tia-6.webp | TIA, linha férrea com trem ao fundo (logo VLI) | https://commons.wikimedia.org/wiki/File:Caminhos_da_Produção_4_-_Terminal_Ferrorodoviário_de_Araguari.webm | TV USP Piracicaba | CC BY 3.0 | sim | 04/09/2014 (quadro 5:00) |
+
+## Fotos próprias do Nitai (sem crédito exigido)
+
+Os arquivos `real-*.webp` são fotos do próprio Nitai (autor e dono dos direitos); não entram na regra de crédito do banco livre.
+
+| arquivo | tema | origem | data |
+|---|---|---|---|
+| real-soja-graos.webp | soja em grão, close, saco de ráfia (mosaico da Logística, legenda "Grãos") | foto do Nitai enviada por WhatsApp; original em `F:\MINERIO\fotos_banco\2026-10-30_whatsapp_nitai\real-soja-graos-closeup.jpg` (960×1280, convertido sem ampliar) | 30/10/2026 |
+| real-graos-armazenados.webp | NÃO é grão: é KCl no armazém de fertilizantes do TIA (confirmado pelo Nitai em 30/10). Fora do mosaico; arquivo mantido | foto do Nitai | 28/10/2026 |

@@ -147,6 +147,7 @@ PROPRIAS = {
     "real-carregamento-minerio": "Minério sendo carregado em vagões no pátio",
     "real-silos-terminal": "Silos e armazém de um terminal de grãos",
     "real-graos-armazenados": "Granel agrícola armazenado em pilha dentro do armazém",
+    "real-soja-graos": "Soja em grão, foto de operação",
     "real-kcl-armazenado": "Pilha de cloreto de potássio (KCl) dentro do armazém",
     "real-fio-maquina": "Bobinas de fio-máquina no pátio do terminal",
     "real-nitai-campo-mina": "Nitai Morais em visita técnica a uma planta de beneficiamento de minério",
@@ -538,7 +539,7 @@ def logistica():
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Cargas</div><h2>Cargas que operei</h2>
 <p class="intro">Fotos dos terminais e das minas onde trabalhei. Cada granel tem o seu jeito de armazenar, carregar e escoar.</p>
 <div class="mosaico">
-<figure><img src="/fotos/real-graos-armazenados.webp" alt="Granel agrícola armazenado em pilha dentro do armazém"><figcaption>Grãos e farelo</figcaption></figure>
+<figure><img src="/fotos/real-soja-graos.webp" alt="Soja em grão, foto de operação"><figcaption>Grãos</figcaption></figure>
 <figure><img src="/fotos/real-kcl-armazenado.webp" alt="Pilha de cloreto de potássio (KCl) dentro do armazém"><figcaption>Fertilizante (KCl)</figcaption></figure>
 <figure><img src="/fotos/real-carregamento-minerio.webp" alt="Minério sendo carregado em vagões no pátio"><figcaption>Minério de ferro</figcaption></figure>
 <figure><img src="/fotos/real-fio-maquina.webp" alt="Bobinas de fio-máquina no pátio do terminal"><figcaption>Siderúrgicos</figcaption></figure>
