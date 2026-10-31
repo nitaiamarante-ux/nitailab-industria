@@ -23,10 +23,6 @@
   "pt": "Retorno indicando se o negócio se sustenta e quais documentos solicitar antes de seguir.",
   "tr": "I will reply with whether the deal holds up and which documents to request before moving forward."
  },
- "0862b09cc49b": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div>\n<h2>Experience at real scale across the chain</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>1.8 Mt</b><span>of pig iron exported in the account portfolio I managed</span></div>\n<div><b>16 years</b><span>in the Vale Group, across Vale and VLI</span></div>\n</div></div></section>"
- },
  "088725f24197": {
   "pt": "Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.",
   "tr": "Bulk and industrial cargo logistics in Brazil, from origin to port. NP Consultoria e Serviços Ltda, CNPJ (Brazilian company tax ID) 68.698.300/0001-20, Minas Gerais, Brazil."
@@ -331,9 +327,9 @@
   "pt": "Sim. Implantei o Toyota Production System com a TSSC e montei a escola de TPS da VLI. O diagnóstico é a porta de entrada: mostra onde o método rende mais na sua operação. A implantação vem depois, como acompanhamento, com escopo próprio.",
   "tr": "Yes. I implemented the Toyota Production System with TSSC and set up VLI's TPS school. The diagnostic is the entry point: it shows where the method pays off most in your operation. Implementation comes afterwards, as a follow-up engagement with its own scope."
  },
- "86b6f4a89a4c": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div><h2>Scale of experience</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>1.8 Mt</b><span>of pig iron exported in the account portfolio I managed</span></div>\n<div><b>250</b><span>people in the largest team I led</span></div>\n</div></div></section>"
+ "86e94f698eec": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div><h2>Scale of experience</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>3.2 Mt</b><span>of pig iron exported in the account portfolio I managed, over two years</span></div>\n<div><b>250</b><span>people in the largest team I led</span></div>\n</div></div></section>"
  },
  "87e71ead1f73": {
   "pt": "Situação semelhante na sua operação?",
@@ -662,6 +658,10 @@
  "fc78b25be3bc": {
   "pt": "Queria conversar com você.",
   "tr": "I would like to talk."
+ },
+ "fcad044040bb": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div>\n<h2>Experience at real scale across the chain</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>3.2 Mt</b><span>of pig iron exported in the account portfolio I managed, over two years</span></div>\n<div><b>16 years</b><span>in the Vale Group, across Vale and VLI</span></div>\n</div></div></section>"
  },
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",

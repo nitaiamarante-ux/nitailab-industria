@@ -23,10 +23,6 @@
   "pt": "Retorno indicando se o negócio se sustenta e quais documentos solicitar antes de seguir.",
   "tr": "我会回复这笔交易是否成立，以及继续推进前应索取哪些文件。"
  },
- "0862b09cc49b": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div>\n<h2>在真实规模的供应链中积累的经验</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>180万吨</b><span>我负责的客户组合中出口的生铁</span></div>\n<div><b>16年</b><span>在淡水河谷集团任职，包括淡水河谷和 VLI</span></div>\n</div></div></section>"
- },
  "088725f24197": {
   "pt": "Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.",
   "tr": "巴西散货与工业货物物流，从产地到港口。NP Consultoria e Serviços Ltda，CNPJ 68.698.300/0001-20，米纳斯吉拉斯州。"
@@ -331,9 +327,9 @@
   "pt": "Sim. Implantei o Toyota Production System com a TSSC e montei a escola de TPS da VLI. O diagnóstico é a porta de entrada: mostra onde o método rende mais na sua operação. A implantação vem depois, como acompanhamento, com escopo próprio.",
   "tr": "是的。我曾在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS），并建立了 VLI 的 TPS 学校。诊断是切入点：它显示该方法在您的运营中哪里收益最大。实施在之后进行，作为跟进服务，有单独的范围。"
  },
- "86b6f4a89a4c": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div><h2>经验的规模</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>180万吨</b><span>我负责的客户组合中出口的生铁</span></div>\n<div><b>250</b><span>人，我带领过的最大团队</span></div>\n</div></div></section>"
+ "86e94f698eec": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div><h2>经验的规模</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>320万吨</b><span>两年间我负责的客户组合中出口的生铁</span></div>\n<div><b>250</b><span>人，我带领过的最大团队</span></div>\n</div></div></section>"
  },
  "87e71ead1f73": {
   "pt": "Situação semelhante na sua operação?",
@@ -662,6 +658,10 @@
  "fc78b25be3bc": {
   "pt": "Queria conversar com você.",
   "tr": "希望和您沟通。"
+ },
+ "fcad044040bb": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div>\n<h2>在真实规模的供应链中积累的经验</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>320万吨</b><span>两年间我负责的客户组合中出口的生铁</span></div>\n<div><b>16年</b><span>在淡水河谷集团任职，包括淡水河谷和 VLI</span></div>\n</div></div></section>"
  },
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",

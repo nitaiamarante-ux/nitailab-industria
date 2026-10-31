@@ -485,7 +485,7 @@ def inicio():
 <div class="nums">
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
 <div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>
-<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>
+<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>
 <div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>
 </div></div></section>""")
     corpo += T("""<section class="faixa quem"><div class="miolo quem-grade">
@@ -698,7 +698,7 @@ def sobre():
 <div class="nums">
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
 <div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>
-<div><b>1,8 mi t</b><span>de gusa na exportação da carteira que conduzi</span></div>
+<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>
 <div><b>250</b><span>pessoas na maior equipe que liderei</span></div>
 </div></div></section>""")
     corpo += T("""<section class="faixa sup"><div class="miolo"><div class="rot">Trajetória</div><h2>Trajetória por área de atuação</h2>
