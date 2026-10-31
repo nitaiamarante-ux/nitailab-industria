@@ -47,3 +47,9 @@ Plano: `_nitai_lab/frentes/minerio/site/PLANO_inteligencia_site_2026-10-29.md`.
 - Texto: `Oi, Nitai! Vi no seu site {lista}. {Baixei a apresentação. }{intenção}`; lista = página atual primeiro, depois as outras, máx. 3; intenção = do último serviço visitado, senão da página atual; lista vazia = mantém o href fixo.
 - Fragmentos vêm de `<script type="application/json" id="msg-zap">` (função `config_msg()` em `gerar.py`, todos via `T()`, junções por língua no dicionário `JUNCAO`). Mudou texto = trava de tradução como sempre.
 - A função `monta()` é exportada para Node (`require("assets/mensagem.js")`) para teste. Não depende do `medicao.js`; funciona em modo dono.
+
+## Mapa "Os corredores que conheço por dentro" (31/10/2026)
+- Na Logística (PT/EN/ZH), no lugar da faixa ROTA; no Início a faixa ROTA continua, com link `.rota-mapa` para `/logistica/#corredores`.
+- **Fonte não é este repo:** `_nitai_lab/frentes/minerio/site/mapa_onde_operei/v5/` (`gerar_v5.py`, `mapa5.js`, `mapa5.css`, README). Rodar `python3 gerar_v5.py` lá exporta para cá `_fonte/mapa5_textos.json`, `assets/mapa5-geo.json`, `assets/mapa5.js`, `assets/mapa5.css`; depois `python3 _fonte/gerar.py` aqui (função `mapa5()`, todo texto por `T()`, trava de tradução normal). Não editar os 4 arquivos exportados à mão.
+- Geometria (~520 KB) baixa só quando a pessoa chega a ~900 px do mapa. Contato: PT = WhatsApp; EN/ZH = e-mail, com mensagem de cadeia + serviço (`data-msg-fixa`, o `mensagem.js` não reescreve). Clique conta como `nl_whatsapp`/`nl_email` (`data-acao` `whatsapp-mapa-<id>`).
+- Pendente: eventos de etapa (`window.nlMede("nl_mapa", ...)`) não são enviados: `medicao.js` não expõe `nlMede` e o worker `nl-tracker` (`NL_TIPOS`) não aceita `nl_mapa`.
