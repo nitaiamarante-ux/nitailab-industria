@@ -666,5 +666,461 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "粮食场站的筒仓和仓库"
+ },
+ "f9709f41a990": {
+  "pt": "Ver as cadeias que conheço no mapa",
+  "tr": "在地图上查看我熟悉的供应链"
+ },
+ "e876368648f4": {
+  "pt": "Da origem ao destino",
+  "tr": "从产地到目的地"
+ },
+ "8d58038ab873": {
+  "pt": "Os corredores que conheço por dentro",
+  "tr": "我从内部熟悉的物流通道"
+ },
+ "f8b2421126d9": {
+  "pt": "Do caminhão ao navio, do porto até onde a carga vai no mundo, e onde ela trava. Escolha uma carga.",
+  "tr": "从卡车到船舶，从港口到货物在全球的目的地，以及货物在哪里受阻。请选择一种货物。"
+ },
+ "b14148ea1c48": {
+  "pt": "Escolha uma carga",
+  "tr": "请选择一种货物"
+ },
+ "8426e926a472": {
+  "pt": "Meu papel",
+  "tr": "我的角色"
+ },
+ "0f4114a74a2c": {
+  "pt": "Sua carga passa por aqui? Fale comigo",
+  "tr": "您的货物经过这里吗？欢迎联系"
+ },
+ "158b9b641928": {
+  "pt": "Reproduzir",
+  "tr": "播放"
+ },
+ "8e0f5ed9908b": {
+  "pt": "Pausar",
+  "tr": "暂停"
+ },
+ "f920d46dce11": {
+  "pt": "Ver de novo",
+  "tr": "重新播放"
+ },
+ "a155722ae6c1": {
+  "pt": "Etapa",
+  "tr": "步骤"
+ },
+ "600ccd1b7156": {
+  "pt": "de",
+  "tr": "/"
+ },
+ "54ab638f7c7b": {
+  "pt": "Brasil inteiro",
+  "tr": "巴西全图"
+ },
+ "e1802a0efc5a": {
+  "pt": "Voltar para o Brasil inteiro",
+  "tr": "返回巴西全图"
+ },
+ "3d8758d863bc": {
+  "pt": "Ferrovias e portos: ANTT e ANTAQ (INFRA S.A./ONTL). Estradas: OpenStreetMap (OSRM). Polos de soja e milho: IBGE, 2018. Destino dos grãos e origem do adubo: ComexStat, Porto de Vitória, 2014 a 2021. Contornos: IBGE e Natural Earth. Rotas marítimas em esquema.",
+  "tr": "铁路与港口：ANTT 与 ANTAQ（INFRA S.A./ONTL）。公路：OpenStreetMap（OSRM）。大豆与玉米产区：IBGE，2018年。粮食目的地与化肥来源：ComexStat，维多利亚港，2014至2021年。边界：IBGE 与 Natural Earth。海运航线为示意。"
+ },
+ "7ae4b2b543c1": {
+  "pt": "Olá, Nitai. Vi no seu site a cadeia de {carga} e queria conversar sobre {servico} para a minha carga.",
+  "tr": "您好，Nitai。我在您的网站上看到了{carga}供应链，想就我的货物与您沟通{servico}。"
+ },
+ "577427041a44": {
+  "pt": "Como ajudo",
+  "tr": "我能提供的帮助"
+ },
+ "346fdcce03a3": {
+  "pt": "Do Mato Grosso à China, do Báltico a Araguari, de Marabá ao Golfo do México.",
+  "tr": "从马托格罗索州到中国，从波罗的海到阿拉瓜里，从马拉巴到墨西哥湾。"
+ },
+ "0833c28d35a7": {
+  "pt": "Mapa animado das cadeias logísticas: {n} cargas, da origem ao destino.",
+  "tr": "物流供应链动态地图：{n}种货物，从产地到目的地。"
+ },
+ "9f57f12d7144": {
+  "pt": "Exportação",
+  "tr": "出口"
+ },
+ "29d5acb6e58e": {
+  "pt": "Planejei a cadeia dos terminais de Araguari e Pirapora: capacidade, orçamento e a sazonalidade da safra e do adubo.",
+  "tr": "我负责阿拉瓜里和皮拉波拉场站的供应链规划：运力、预算，以及收获季与化肥的季节性。"
+ },
+ "26682638aa17": {
+  "pt": "Estudo de rota e modal",
+  "tr": "路线与运输方式研究"
+ },
+ "86f6357f0521": {
+  "pt": "Caminhão",
+  "tr": "卡车"
+ },
+ "aed580c47e0f": {
+  "pt": "Soja e milho chegam de caminhão: de Mato Grosso, de Goiás e do Triângulo até Araguari; do oeste da Bahia e do noroeste de Minas até Pirapora.",
+  "tr": "大豆和玉米由卡车运来：马托格罗索州、戈亚斯州和三角矿区的货物运往阿拉瓜里；巴伊亚州西部和米纳斯吉拉斯州西北部的货物运往皮拉波拉。"
+ },
+ "a1f52cdcb3f2": {
+  "pt": "Terminal",
+  "tr": "场站"
+ },
+ "aaf70f6b2b06": {
+  "pt": "No terminal integrador, o grão passa do caminhão para o trem.",
+  "tr": "在铁路场站，粮食由卡车转运到列车。"
+ },
+ "6b654ba1b5f4": {
+  "pt": "Trem",
+  "tr": "列车"
+ },
+ "ccc279584583": {
+  "pt": "Desce pela Centro-Atlântica e pela Vitória a Minas até o porto de Tubarão, no Espírito Santo.",
+  "tr": "经中大西洋铁路（FCA）和维多利亚-米纳斯铁路（EFVM）运至圣埃斯皮里图州的图巴朗港。"
+ },
+ "990f6b5f2170": {
+  "pt": "Porto",
+  "tr": "港口"
+ },
+ "8554718dfe45": {
+  "pt": "Em Tubarão, o grão sai do trem e embarca no navio.",
+  "tr": "在图巴朗港，粮食从列车卸下并装船。"
+ },
+ "8a699bb3a907": {
+  "pt": "Navio",
+  "tr": "船舶"
+ },
+ "d70754ea268d": {
+  "pt": "A soja vai sobretudo para a China, e também para o Sudeste Asiático, o Japão e a Coreia. O farelo vai para a Europa.",
+  "tr": "大豆主要运往中国，也运往东南亚、日本和韩国。豆粕运往欧洲。"
+ },
+ "3d6a2ae89c12": {
+  "pt": "Onde trava",
+  "tr": "瓶颈所在"
+ },
+ "72a491e0ec9b": {
+  "pt": "Trava na passagem do caminhão para o trem e no line-up do porto. Se a carga chega antes, entope o porto; se chega tarde, o navio perde a fila e paga demurrage.",
+  "tr": "瓶颈在卡车与列车的衔接处，以及港口的船舶排队。货物到得太早，会堵塞港口；到得太晚，船舶错过排队位置，要支付滞期费。"
+ },
+ "f62ac593f0fe": {
+  "pt": "Just in time é lindo no papel e difícil na vida real: só funciona com a cadeia coordenada.",
+  "tr": "准时化（just in time）在纸面上很美，在现实中很难：只有整条供应链协同才能实现。"
+ },
+ "434b3fa450dd": {
+  "pt": "Importação",
+  "tr": "进口"
+ },
+ "41a707451689": {
+  "pt": "Planejei a cadeia de fertilizantes de Tubarão a Araguari: capacidade, orçamento e a sazonalidade da safra e do adubo.",
+  "tr": "我负责从图巴朗港到阿拉瓜里的化肥供应链规划：运力、预算，以及收获季与化肥的季节性。"
+ },
+ "de1ed5a94dae": {
+  "pt": "Estruturação e coordenação da cadeia",
+  "tr": "供应链搭建与协调"
+ },
+ "950b07c0da48": {
+  "pt": "Muita ureia, muito KCl, muito MAP e um pouco de NPK chegam pelo mar, cada um de uma parte do mundo.",
+  "tr": "大量尿素、大量氯化钾（KCl）、大量磷酸一铵（MAP）和少量复合肥（NPK）经海运抵达，各自来自世界不同地区。"
+ },
+ "c77b10c6b61a": {
+  "pt": "Desembarca no porto de Tubarão, no Espírito Santo, e passa para o trem.",
+  "tr": "在圣埃斯皮里图州的图巴朗港卸货，转运到列车。"
+ },
+ "1204bf0ebd33": {
+  "pt": "Sobe pela Vitória a Minas e pela Centro-Atlântica até o terminal de Araguari.",
+  "tr": "经维多利亚-米纳斯铁路（EFVM）和中大西洋铁路（FCA）运往阿拉瓜里场站。"
+ },
+ "127979e3c2df": {
+  "pt": "Em Araguari, KCl, ureia, MAP e NPK descem do trem. Parte segue para a misturadora da EuroChem, ligada ao terminal.",
+  "tr": "在阿拉瓜里，氯化钾、尿素、磷酸一铵和复合肥从列车卸下。其中一部分运往与场站相连的 EuroChem 掺混工厂。"
+ },
+ "1d9a992818eb": {
+  "pt": "Dali, o adubo segue de caminhão para as lavouras de soja e milho do Triângulo e de Goiás.",
+  "tr": "化肥再由卡车运往三角矿区和戈亚斯州的大豆和玉米农田。"
+ },
+ "178c5fe7428f": {
+  "pt": "Na importação, o risco se inverte: vagão demais carregado no porto vira fila no terminal; terminal entupido não escoa o porto, atrasa o próximo navio e o cliente paga armazenagem.",
+  "tr": "进口时风险正好相反：港口装车过多，会在场站形成排队；场站堵塞就无法疏运港口，导致下一艘船延误，客户还要支付仓储费。"
+ },
+ "36757048267c": {
+  "pt": "Ferro-gusa",
+  "tr": "生铁"
+ },
+ "8923f9c76155": {
+  "pt": "Como analista comercial, fiz a ponte entre as usinas, muitas vezes com o próprio dono, a ferrovia e o porto, para garantir a exportação de gusa por São Luís em 2013 e 2014.",
+  "tr": "作为商务分析师，我在生铁厂（很多时候直接对接厂主）、铁路和港口之间牵线协调，保障了2013和2014年经圣路易斯的生铁出口。"
+ },
+ "9b63029ed24c": {
+  "pt": "Verificação de lote e contraparte",
+  "tr": "批次与交易对手核查"
+ },
+ "56f20f09d878": {
+  "pt": "Usina",
+  "tr": "工厂"
+ },
+ "96497e758237": {
+  "pt": "Usinas de gusa do Maranhão e do Pará, muitas delas empresas familiares, em Açailândia, Marabá e Rosário.",
+  "tr": "马拉尼昂州和帕拉州的生铁厂，许多是家族企业，位于阿萨伊兰迪亚、马拉巴和罗萨里奥。"
+ },
+ "f89b485263ea": {
+  "pt": "A gusa desce pela Estrada de Ferro Carajás até São Luís.",
+  "tr": "生铁经卡拉雅斯铁路（EFC）运往圣路易斯。"
+ },
+ "1c2971ec925e": {
+  "pt": "Pátio",
+  "tr": "堆场"
+ },
+ "14fdd78e40d6": {
+  "pt": "A que ia para o Itaqui descia num elevado antes do pátio de Ponta da Madeira e ficava em estoque.",
+  "tr": "运往伊塔基港的货物在蓬塔达马德拉堆场之前的高架卸车点卸下并存放。"
+ },
+ "e0f591391909": {
+  "pt": "Dali, um trecho de caminhão levava a gusa até o porto do Itaqui.",
+  "tr": "随后由卡车短途运输，将生铁运至伊塔基港。"
+ },
+ "fb8511ae83cb": {
+  "pt": "Embarque pelo porto do Itaqui e pelo terminal da VLI.",
+  "tr": "经伊塔基港和 VLI 码头装船。"
+ },
+ "4ef84fafede1": {
+  "pt": "Destino: siderúrgicas dos Estados Unidos, principalmente, e do México.",
+  "tr": "目的地：主要是美国的钢厂，其次是墨西哥。"
+ },
+ "62c203a8d4ab": {
+  "pt": "Trava nas passagens entre caminhão e trem e no line-up do porto. Se a gusa chega antes, entope o pátio; se chega tarde, o navio perde a fila e paga demurrage.",
+  "tr": "瓶颈在卡车与列车的衔接处，以及港口的船舶排队。生铁到得太早，会堵塞堆场；到得太晚，船舶错过排队位置，要支付滞期费。"
+ },
+ "9c245eeb7fbb": {
+  "pt": "Sorriso",
+  "tr": "索里苏"
+ },
+ "8ff0533cacc7": {
+  "pt": "Nova Mutum",
+  "tr": "新穆图姆"
+ },
+ "af15a97f1aae": {
+  "pt": "Lucas do Rio Verde",
+  "tr": "卢卡斯-杜里奥韦尔迪"
+ },
+ "c84bf224aa5a": {
+  "pt": "Primavera do Leste",
+  "tr": "东普里马韦拉"
+ },
+ "379568833b35": {
+  "pt": "Rio Verde",
+  "tr": "里奥韦尔迪"
+ },
+ "739550503b4c": {
+  "pt": "Jataí",
+  "tr": "雅塔伊"
+ },
+ "49d991577e2d": {
+  "pt": "Mineiros",
+  "tr": "米内鲁斯"
+ },
+ "ed9594a197c8": {
+  "pt": "Cristalina",
+  "tr": "克里斯塔利纳"
+ },
+ "fe69f0b25522": {
+  "pt": "Catalão",
+  "tr": "卡塔朗"
+ },
+ "c6ce50511580": {
+  "pt": "Uberlândia",
+  "tr": "乌贝兰迪亚"
+ },
+ "8276579d8fa3": {
+  "pt": "Uberaba",
+  "tr": "乌贝拉巴"
+ },
+ "671ce08c560c": {
+  "pt": "São Desidério",
+  "tr": "圣德西德里乌"
+ },
+ "3a5ceebb5483": {
+  "pt": "Formosa do Rio Preto",
+  "tr": "福尔摩沙-杜里奥普雷图"
+ },
+ "90d35ddbcdda": {
+  "pt": "Barreiras",
+  "tr": "巴雷拉斯"
+ },
+ "508794beac9c": {
+  "pt": "Luís Eduardo Magalhães",
+  "tr": "路易斯·爱德华多·马加良斯"
+ },
+ "ac2e5f9f0732": {
+  "pt": "Correntina",
+  "tr": "科伦蒂纳"
+ },
+ "f97c21eb44a1": {
+  "pt": "Unaí",
+  "tr": "乌纳伊"
+ },
+ "dd7943b2ebaa": {
+  "pt": "Paracatu",
+  "tr": "帕拉卡图"
+ },
+ "2f5f2da824c6": {
+  "pt": "Mato Grosso",
+  "tr": "马托格罗索州"
+ },
+ "93ef1f2e4082": {
+  "pt": "Sudoeste de Goiás",
+  "tr": "戈亚斯州西南部"
+ },
+ "e42efcd22874": {
+  "pt": "Triângulo e Goiás",
+  "tr": "三角矿区与戈亚斯州"
+ },
+ "99fe6219f270": {
+  "pt": "Oeste da Bahia",
+  "tr": "巴伊亚州西部"
+ },
+ "9c8515044ea6": {
+  "pt": "Noroeste de Minas",
+  "tr": "米纳斯吉拉斯州西北部"
+ },
+ "28afc0326206": {
+  "pt": "Araguari",
+  "tr": "阿拉瓜里"
+ },
+ "df34b668c608": {
+  "pt": "Terminal integrador",
+  "tr": "铁路场站"
+ },
+ "e576e7f3de62": {
+  "pt": "Pirapora",
+  "tr": "皮拉波拉"
+ },
+ "255861a3b7d9": {
+  "pt": "Tubarão",
+  "tr": "图巴朗港"
+ },
+ "95436cb198b6": {
+  "pt": "Vitória, ES",
+  "tr": "圣埃斯皮里图州维多利亚"
+ },
+ "07148a66538d": {
+  "pt": "São Luís",
+  "tr": "圣路易斯"
+ },
+ "8b70f7dbc741": {
+  "pt": "Itaqui e Ponta da Madeira",
+  "tr": "伊塔基港与蓬塔达马德拉港"
+ },
+ "cdb56f6c4942": {
+  "pt": "Santos",
+  "tr": "桑托斯港"
+ },
+ "340a1aca6804": {
+  "pt": "TIPLAM",
+  "tr": "TIPLAM"
+ },
+ "ad436d68815e": {
+  "pt": "Marabá",
+  "tr": "马拉巴"
+ },
+ "86bdc52765a8": {
+  "pt": "Pará",
+  "tr": "帕拉州"
+ },
+ "ae4abc658a6d": {
+  "pt": "Açailândia",
+  "tr": "阿萨伊兰迪亚"
+ },
+ "e27a919fe164": {
+  "pt": "Maranhão",
+  "tr": "马拉尼昂州"
+ },
+ "9e213bcdd5c2": {
+  "pt": "Rosário",
+  "tr": "罗萨里奥"
+ },
+ "72178561031a": {
+  "pt": "Ponta da Madeira",
+  "tr": "蓬塔达马德拉"
+ },
+ "158d3bd0c09c": {
+  "pt": "pátio QPM: elevado e estoque",
+  "tr": "QPM 堆场：高架卸车与存储"
+ },
+ "e1ba5bccd33f": {
+  "pt": "Itaqui",
+  "tr": "伊塔基港"
+ },
+ "e9551ad24534": {
+  "pt": "e terminal da VLI",
+  "tr": "及 VLI 码头"
+ },
+ "cccbd8ae87d5": {
+  "pt": "Estados Unidos",
+  "tr": "美国"
+ },
+ "e9d4eca609e6": {
+  "pt": "México",
+  "tr": "墨西哥"
+ },
+ "d2eaf2aa1512": {
+  "pt": "China",
+  "tr": "中国"
+ },
+ "c42b972c3584": {
+  "pt": "Rússia, Belarus, Alemanha e Noruega",
+  "tr": "俄罗斯、白俄罗斯、德国和挪威"
+ },
+ "0496b3e4ece1": {
+  "pt": "KCl, ureia, MAP e NPK",
+  "tr": "氯化钾、尿素、磷酸一铵和复合肥"
+ },
+ "c66e2ed373df": {
+  "pt": "Marrocos e Argélia",
+  "tr": "摩洛哥和阿尔及利亚"
+ },
+ "6f1dc2455065": {
+  "pt": "MAP e ureia",
+  "tr": "磷酸一铵和尿素"
+ },
+ "87687c479ac3": {
+  "pt": "Golfo Pérsico",
+  "tr": "波斯湾"
+ },
+ "6b10b4c1e456": {
+  "pt": "ureia",
+  "tr": "尿素"
+ },
+ "e00f4c21be2f": {
+  "pt": "Canadá, via Panamá",
+  "tr": "加拿大，经巴拿马运河"
+ },
+ "106c12fc28b1": {
+  "pt": "KCl",
+  "tr": "氯化钾（KCl）"
+ },
+ "b36269eb7684": {
+  "pt": "Caminhão e trem",
+  "tr": "卡车与列车"
+ },
+ "9b8fd9f236b9": {
+  "pt": "Line-up do porto",
+  "tr": "港口船舶排队"
+ },
+ "80a495d009cc": {
+  "pt": "Tailândia e Vietnã",
+  "tr": "泰国和越南"
+ },
+ "5600ca96c9be": {
+  "pt": "Japão e Coreia",
+  "tr": "日本和韩国"
+ },
+ "10bf7156af02": {
+  "pt": "Europa",
+  "tr": "欧洲"
+ },
+ "e6c2efaf6c6b": {
+  "pt": "farelo",
+  "tr": "豆粕"
  }
 }

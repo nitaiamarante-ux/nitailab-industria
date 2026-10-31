@@ -52,6 +52,7 @@
       var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
       if (!a) return;
       var acao = a.getAttribute("data-acao") || "";
+      if (a.hasAttribute("data-msg-fixa")) return;   /* botão com mensagem própria (mapa: cadeia + serviço) */
       if (acao.indexOf("pdf-") === 0) { var t = le(); t.pdf = true; grava(t); return; }
       var zap = acao.indexOf("whatsapp-") === 0, mail = acao.indexOf("email-") === 0;
       if (!zap && !mail) return;

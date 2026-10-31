@@ -327,6 +327,7 @@ def servico(nome, desc, caminho):
 VERSAO_CSS = hashlib.sha1(open(os.path.join(RAIZ, "assets", "site.css"), "rb").read()).hexdigest()[:8]
 VERSAO_JS = hashlib.sha1(open(os.path.join(RAIZ, "assets", "medicao.js"), "rb").read()).hexdigest()[:8]
 VERSAO_MSG = hashlib.sha1(open(os.path.join(RAIZ, "assets", "mensagem.js"), "rb").read()).hexdigest()[:8]
+VERSAO_M5 = {n: hashlib.sha1(open(os.path.join(RAIZ, "assets", n), "rb").read()).hexdigest()[:8] for n in ("mapa5.js", "mapa5.css", "mapa5-geo.json")}
 
 # Mensagem inteligente (29/10 noite): fragmentos para o assets/mensagem.js montar o texto no clique, com o caminho da sessão.
 JUNCAO = {"pt": (" e ", ", ", " "), "en": (" and ", ", ", " "), "zh": ("和", "、", "")}
@@ -479,7 +480,7 @@ def inicio():
         "Logística de granéis e carga industrial, da origem ao porto.",
         "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
         btn_zap("inicio-abertura") + btn_pdf("inicio-abertura"), "trem-min-1")
-    corpo += T(ROTA)
+    corpo += T(ROTA).replace("</p></div></section>", "</p><p class=\"rota-mapa\"><a href=\"" + u("/logistica/") + "#corredores\">" + T("Ver as cadeias que conheço no mapa") + " →</a></p></div></section>", 1)
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Escala</div>
 <h2>Experiência na escala real da cadeia</h2>
 <div class="nums">
@@ -513,6 +514,53 @@ def inicio():
                   corpo, ["trem-min-1"], ld, origem="inicio")
 
 
+# Mapa "Os corredores que conheço por dentro" (31/10/2026). Fonte: _nitai_lab/frentes/minerio/site/mapa_onde_operei/v5/
+# (gerar_v5.py exporta _fonte/mapa5_textos.json, assets/mapa5-geo.json, assets/mapa5.js e assets/mapa5.css). Todo texto visível passa por T().
+M5 = json.load(open(os.path.join(RAIZ, "_fonte", "mapa5_textos.json"), encoding="utf-8"))
+M5_SPRITE = M5["sprite"]   # icones (symbol) usados pelo mapa5.js
+
+
+def mapa5():
+    ui = {k: T(v) for k, v in M5["ui"].items()}
+    cad = []
+    for c in M5["cadeias"]:
+        cc = dict(c, carga=T(c["carga"]), tipo=T(c["tipo"]), papel=T(c["papel"]), servico=T(c["servico"]) if c["servico"] else "")
+        cc["passos"] = [dict(p, n=T(p["n"]), t=T(p["t"]), t2=T(p["t2"]) if p["t2"] else "") for p in c["passos"]]
+        cad.append(cc)
+    pinos = {k: dict(v, n=T(v["n"]), s=T(v["s"]) if v["s"] else "") for k, v in M5["pinos"].items()}
+    contato = ({"tipo": "whatsapp", "tel": ZAP} if LANG == "pt" else
+               {"tipo": "email", "email": EMAIL, "assunto": T(ASSUNTO_EMAIL)})
+    dados = dict(ui=ui, br=M5["br"], cadeias=cad, pinos=pinos, geral=M5["geral"], contato=contato,
+                 geoUrl=f"/assets/mapa5-geo.json?v={VERSAO_M5['mapa5-geo.json']}")
+    js = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    esc = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+    chips = "".join(f'<button type="button" class="m5-chip" data-c="{c["id"]}" aria-pressed="false"><span class="m5-chip-c">{esc(c["carga"])}</span>'
+                    f'<span class="m5-chip-t">{esc(c["tipo"])}</span></button>' for c in cad)
+    lista = ['<ol class="m5-lista" id="m5-lista">']
+    for c in cad:
+        lista.append(f'<li><h3>{esc(c["carga"])} <span>· {esc(c["tipo"])}</span></h3><ol>')
+        for p in c["passos"]:
+            lista.append(f'<li><b>{esc(p["n"])}.</b> {esc(p["t"])}' + (f' {esc(p["t2"])}' if p["t2"] else "") + "</li>")
+        lista.append(f'</ol><p><b>{esc(ui["papel"])}.</b> {esc(c["papel"])}</p></li>')
+    lista.append("</ol>")
+    return f'''<link rel="stylesheet" href="/assets/mapa5.css?v={VERSAO_M5['mapa5.css']}">
+<div class="miolo"><section class="mapa5 faixa" id="corredores" aria-labelledby="m5-titulo">
+<div class="m5-grade">
+<header class="m5-cab"><p class="rot m5-rot">{esc(ui["sobre"])}</p><h2 id="m5-titulo">{esc(ui["titulo"])}</h2><p class="m5-apoio">{esc(ui["apoio"])}</p></header>
+<div class="m5-escolha" role="group" aria-label="{esc(ui["escolha"])}">{chips}</div>
+<div class="m5-palco" id="m5-palco" role="img" aria-label="{esc(ui["rotulo"].replace("{n}", str(len(cad))))}">{M5_SPRITE}<canvas class="m5-tela" id="m5-tela"></canvas><div class="m5-rotulos" id="m5-rotulos" aria-hidden="true"></div>
+<div class="m5-filme" id="m5-filme" hidden><div class="m5-trilha" id="m5-trilha"></div></div>
+<div class="m5-ctrl" id="m5-ctrl" hidden></div></div>
+<div class="m5-texto" id="m5-texto" aria-live="polite"></div>
+<div class="m5-info" id="m5-info"></div>
+{"".join(lista)}
+<p class="m5-fonte">{esc(ui["fontes"])}</p>
+</div>
+<script type="application/json" id="m5-dados">{js}</script>
+</section></div>
+<script defer src="/assets/mapa5.js?v={VERSAO_M5['mapa5.js']}"></script>'''
+
+
 FAQ_LOG = [
     ("Você trabalha só com minério?", "Não. Trabalhei com minério, grãos, farelo, fertilizantes, gusa, produtos siderúrgicos e combustíveis. A lógica é a mesma: cada trecho tem custo, prazo, capacidade e dono."),
     ("O que é netback?", "É o que sobra para a origem depois de pagar cada trecho até o comprador: frete rodoviário, ferrovia, terminal, porto, frete marítimo, tributos e capital de giro. É o preço mínimo que fecha a conta na mina ou na fazenda."),
@@ -526,7 +574,7 @@ def logistica():
                      "Granel se decide na logística. Antes de fechar um contrato de compra, venda ou transporte, mostro a conta trecho a trecho, as alternativas e onde está o risco.",
                      btn_zap("logistica-abertura") + btn_pdf("logistica-abertura"),
                      "panamax-1")
-    corpo += T(ROTA)
+    corpo += mapa5()
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Escopo</div><h2>Serviços</h2>
 <div class="ofertas">
 <div class="oferta"><span class="rot">Viabilidade</span><h3>Viabilidade e netback de lote ou de fluxo</h3><p>A conta trecho a trecho, por rota e por cenário de frete e preço. Você sai sabendo o preço mínimo na origem e qual rota vale a pena.</p></div>

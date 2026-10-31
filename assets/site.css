@@ -379,3 +379,7 @@ html[lang="zh-Hans"] body{line-height:1.75}
 .nb{white-space:nowrap}
 /* títulos em chinês: sem caractere órfão na última linha */
 html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2,html[lang="zh-Hans"] h3,html[lang="zh-Hans"] p{text-wrap:pretty;line-break:strict}
+
+/* link da faixa ROTA (Início) para o mapa da Logística (31/10/2026) */
+.rota-mapa{padding:0 0 18px;font-size:15px;max-width:none}
+.rota-mapa a{font-family:var(--f-display);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}

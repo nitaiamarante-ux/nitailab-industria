@@ -666,5 +666,461 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "Silos and warehouse at a grain terminal"
+ },
+ "f9709f41a990": {
+  "pt": "Ver as cadeias que conheço no mapa",
+  "tr": "See the chains I know on the map"
+ },
+ "e876368648f4": {
+  "pt": "Da origem ao destino",
+  "tr": "From origin to destination"
+ },
+ "8d58038ab873": {
+  "pt": "Os corredores que conheço por dentro",
+  "tr": "The corridors I know from the inside"
+ },
+ "f8b2421126d9": {
+  "pt": "Do caminhão ao navio, do porto até onde a carga vai no mundo, e onde ela trava. Escolha uma carga.",
+  "tr": "From truck to ship, from the port to wherever the cargo goes in the world, and where it gets stuck. Choose a cargo."
+ },
+ "b14148ea1c48": {
+  "pt": "Escolha uma carga",
+  "tr": "Choose a cargo"
+ },
+ "8426e926a472": {
+  "pt": "Meu papel",
+  "tr": "My role"
+ },
+ "0f4114a74a2c": {
+  "pt": "Sua carga passa por aqui? Fale comigo",
+  "tr": "Does your cargo move through here? Get in touch"
+ },
+ "158b9b641928": {
+  "pt": "Reproduzir",
+  "tr": "Play"
+ },
+ "8e0f5ed9908b": {
+  "pt": "Pausar",
+  "tr": "Pause"
+ },
+ "f920d46dce11": {
+  "pt": "Ver de novo",
+  "tr": "Watch again"
+ },
+ "a155722ae6c1": {
+  "pt": "Etapa",
+  "tr": "Step"
+ },
+ "600ccd1b7156": {
+  "pt": "de",
+  "tr": "of"
+ },
+ "54ab638f7c7b": {
+  "pt": "Brasil inteiro",
+  "tr": "All of Brazil"
+ },
+ "e1802a0efc5a": {
+  "pt": "Voltar para o Brasil inteiro",
+  "tr": "Back to the map of Brazil"
+ },
+ "3d8758d863bc": {
+  "pt": "Ferrovias e portos: ANTT e ANTAQ (INFRA S.A./ONTL). Estradas: OpenStreetMap (OSRM). Polos de soja e milho: IBGE, 2018. Destino dos grãos e origem do adubo: ComexStat, Porto de Vitória, 2014 a 2021. Contornos: IBGE e Natural Earth. Rotas marítimas em esquema.",
+  "tr": "Railways and ports: ANTT and ANTAQ (INFRA S.A./ONTL). Roads: OpenStreetMap (OSRM). Soybean and corn producing areas: IBGE, 2018. Grain destinations and fertiliser origins: ComexStat, Port of Vitória, 2014 to 2021. Boundaries: IBGE and Natural Earth. Sea routes shown schematically."
+ },
+ "7ae4b2b543c1": {
+  "pt": "Olá, Nitai. Vi no seu site a cadeia de {carga} e queria conversar sobre {servico} para a minha carga.",
+  "tr": "Hello Nitai. I saw the {carga} chain on your website and would like to talk about {servico} for my cargo."
+ },
+ "577427041a44": {
+  "pt": "Como ajudo",
+  "tr": "How I help"
+ },
+ "346fdcce03a3": {
+  "pt": "Do Mato Grosso à China, do Báltico a Araguari, de Marabá ao Golfo do México.",
+  "tr": "From Mato Grosso to China, from the Baltic to Araguari, from Marabá to the Gulf of Mexico."
+ },
+ "0833c28d35a7": {
+  "pt": "Mapa animado das cadeias logísticas: {n} cargas, da origem ao destino.",
+  "tr": "Animated map of logistics chains: {n} cargoes, from origin to destination."
+ },
+ "9f57f12d7144": {
+  "pt": "Exportação",
+  "tr": "Export"
+ },
+ "29d5acb6e58e": {
+  "pt": "Planejei a cadeia dos terminais de Araguari e Pirapora: capacidade, orçamento e a sazonalidade da safra e do adubo.",
+  "tr": "I planned the chain for the Araguari and Pirapora terminals: capacity, budget and the seasonality of the harvest and of fertiliser."
+ },
+ "26682638aa17": {
+  "pt": "Estudo de rota e modal",
+  "tr": "Route and mode studies"
+ },
+ "86f6357f0521": {
+  "pt": "Caminhão",
+  "tr": "Truck"
+ },
+ "aed580c47e0f": {
+  "pt": "Soja e milho chegam de caminhão: de Mato Grosso, de Goiás e do Triângulo até Araguari; do oeste da Bahia e do noroeste de Minas até Pirapora.",
+  "tr": "Soybeans and corn arrive by truck: from Mato Grosso, Goiás and the Triângulo to Araguari; from western Bahia and northwest Minas to Pirapora."
+ },
+ "a1f52cdcb3f2": {
+  "pt": "Terminal",
+  "tr": "Terminal"
+ },
+ "aaf70f6b2b06": {
+  "pt": "No terminal integrador, o grão passa do caminhão para o trem.",
+  "tr": "At the inland rail terminal, the grain moves from truck to train."
+ },
+ "6b654ba1b5f4": {
+  "pt": "Trem",
+  "tr": "Train"
+ },
+ "ccc279584583": {
+  "pt": "Desce pela Centro-Atlântica e pela Vitória a Minas até o porto de Tubarão, no Espírito Santo.",
+  "tr": "It runs down the Centro-Atlantic and Vitória-Minas railways to Tubarão port, in Espírito Santo."
+ },
+ "990f6b5f2170": {
+  "pt": "Porto",
+  "tr": "Port"
+ },
+ "8554718dfe45": {
+  "pt": "Em Tubarão, o grão sai do trem e embarca no navio.",
+  "tr": "At Tubarão, the grain comes off the train and is loaded onto the ship."
+ },
+ "8a699bb3a907": {
+  "pt": "Navio",
+  "tr": "Ship"
+ },
+ "d70754ea268d": {
+  "pt": "A soja vai sobretudo para a China, e também para o Sudeste Asiático, o Japão e a Coreia. O farelo vai para a Europa.",
+  "tr": "Soybeans go mainly to China, and also to Southeast Asia, Japan and Korea. Soybean meal goes to Europe."
+ },
+ "3d6a2ae89c12": {
+  "pt": "Onde trava",
+  "tr": "Where it gets stuck"
+ },
+ "72a491e0ec9b": {
+  "pt": "Trava na passagem do caminhão para o trem e no line-up do porto. Se a carga chega antes, entope o porto; se chega tarde, o navio perde a fila e paga demurrage.",
+  "tr": "It gets stuck where the truck hands over to the train, and in the port line-up. If the cargo arrives early, it clogs the port; if it arrives late, the ship loses its place in the queue and pays demurrage."
+ },
+ "f62ac593f0fe": {
+  "pt": "Just in time é lindo no papel e difícil na vida real: só funciona com a cadeia coordenada.",
+  "tr": "Just in time is beautiful on paper and hard in real life: it only works when the chain is coordinated."
+ },
+ "434b3fa450dd": {
+  "pt": "Importação",
+  "tr": "Import"
+ },
+ "41a707451689": {
+  "pt": "Planejei a cadeia de fertilizantes de Tubarão a Araguari: capacidade, orçamento e a sazonalidade da safra e do adubo.",
+  "tr": "I planned the fertiliser chain from Tubarão to Araguari: capacity, budget and the seasonality of the harvest and of fertiliser."
+ },
+ "de1ed5a94dae": {
+  "pt": "Estruturação e coordenação da cadeia",
+  "tr": "Chain structuring and coordination"
+ },
+ "950b07c0da48": {
+  "pt": "Muita ureia, muito KCl, muito MAP e um pouco de NPK chegam pelo mar, cada um de uma parte do mundo.",
+  "tr": "Plenty of urea, plenty of potash (KCl), plenty of MAP and a little NPK arrive by sea, each from a different part of the world."
+ },
+ "c77b10c6b61a": {
+  "pt": "Desembarca no porto de Tubarão, no Espírito Santo, e passa para o trem.",
+  "tr": "It is unloaded at Tubarão port, in Espírito Santo, and transferred to the train."
+ },
+ "1204bf0ebd33": {
+  "pt": "Sobe pela Vitória a Minas e pela Centro-Atlântica até o terminal de Araguari.",
+  "tr": "It travels up the Vitória-Minas and Centro-Atlantic railways to the Araguari terminal."
+ },
+ "127979e3c2df": {
+  "pt": "Em Araguari, KCl, ureia, MAP e NPK descem do trem. Parte segue para a misturadora da EuroChem, ligada ao terminal.",
+  "tr": "At Araguari, potash, urea, MAP and NPK come off the train. Part of it goes to the EuroChem blending plant, linked to the terminal."
+ },
+ "1d9a992818eb": {
+  "pt": "Dali, o adubo segue de caminhão para as lavouras de soja e milho do Triângulo e de Goiás.",
+  "tr": "From there, the fertiliser goes by truck to the soybean and corn farms of the Triângulo and Goiás."
+ },
+ "178c5fe7428f": {
+  "pt": "Na importação, o risco se inverte: vagão demais carregado no porto vira fila no terminal; terminal entupido não escoa o porto, atrasa o próximo navio e o cliente paga armazenagem.",
+  "tr": "In imports, the risk is reversed: too many wagons loaded at the port become a queue at the terminal; a clogged terminal cannot clear the port, delays the next ship and the client pays storage charges."
+ },
+ "36757048267c": {
+  "pt": "Ferro-gusa",
+  "tr": "Pig iron"
+ },
+ "8923f9c76155": {
+  "pt": "Como analista comercial, fiz a ponte entre as usinas, muitas vezes com o próprio dono, a ferrovia e o porto, para garantir a exportação de gusa por São Luís em 2013 e 2014.",
+  "tr": "As a commercial analyst, I was the bridge between the plants, often their owners in person, the railway and the port, to secure pig iron exports through São Luís in 2013 and 2014."
+ },
+ "9b63029ed24c": {
+  "pt": "Verificação de lote e contraparte",
+  "tr": "Parcel and counterparty verification"
+ },
+ "56f20f09d878": {
+  "pt": "Usina",
+  "tr": "Plant"
+ },
+ "96497e758237": {
+  "pt": "Usinas de gusa do Maranhão e do Pará, muitas delas empresas familiares, em Açailândia, Marabá e Rosário.",
+  "tr": "Pig iron plants in Maranhão and Pará, many of them family businesses, in Açailândia, Marabá and Rosário."
+ },
+ "f89b485263ea": {
+  "pt": "A gusa desce pela Estrada de Ferro Carajás até São Luís.",
+  "tr": "The pig iron travels down the Carajás Railway to São Luís."
+ },
+ "1c2971ec925e": {
+  "pt": "Pátio",
+  "tr": "Yard"
+ },
+ "14fdd78e40d6": {
+  "pt": "A que ia para o Itaqui descia num elevado antes do pátio de Ponta da Madeira e ficava em estoque.",
+  "tr": "Cargo bound for Itaqui was unloaded at an elevated unloading point before the Ponta da Madeira yard and kept in stock."
+ },
+ "e0f591391909": {
+  "pt": "Dali, um trecho de caminhão levava a gusa até o porto do Itaqui.",
+  "tr": "From there, a short truck leg took the pig iron to the port of Itaqui."
+ },
+ "fb8511ae83cb": {
+  "pt": "Embarque pelo porto do Itaqui e pelo terminal da VLI.",
+  "tr": "Loading through the port of Itaqui and the VLI terminal."
+ },
+ "4ef84fafede1": {
+  "pt": "Destino: siderúrgicas dos Estados Unidos, principalmente, e do México.",
+  "tr": "Destination: steel mills in the United States, mainly, and in Mexico."
+ },
+ "62c203a8d4ab": {
+  "pt": "Trava nas passagens entre caminhão e trem e no line-up do porto. Se a gusa chega antes, entope o pátio; se chega tarde, o navio perde a fila e paga demurrage.",
+  "tr": "It gets stuck at the handovers between truck and train, and in the port line-up. If the pig iron arrives early, it clogs the yard; if it arrives late, the ship loses its place in the queue and pays demurrage."
+ },
+ "9c245eeb7fbb": {
+  "pt": "Sorriso",
+  "tr": "Sorriso"
+ },
+ "8ff0533cacc7": {
+  "pt": "Nova Mutum",
+  "tr": "Nova Mutum"
+ },
+ "af15a97f1aae": {
+  "pt": "Lucas do Rio Verde",
+  "tr": "Lucas do Rio Verde"
+ },
+ "c84bf224aa5a": {
+  "pt": "Primavera do Leste",
+  "tr": "Primavera do Leste"
+ },
+ "379568833b35": {
+  "pt": "Rio Verde",
+  "tr": "Rio Verde"
+ },
+ "739550503b4c": {
+  "pt": "Jataí",
+  "tr": "Jataí"
+ },
+ "49d991577e2d": {
+  "pt": "Mineiros",
+  "tr": "Mineiros"
+ },
+ "ed9594a197c8": {
+  "pt": "Cristalina",
+  "tr": "Cristalina"
+ },
+ "fe69f0b25522": {
+  "pt": "Catalão",
+  "tr": "Catalão"
+ },
+ "c6ce50511580": {
+  "pt": "Uberlândia",
+  "tr": "Uberlândia"
+ },
+ "8276579d8fa3": {
+  "pt": "Uberaba",
+  "tr": "Uberaba"
+ },
+ "671ce08c560c": {
+  "pt": "São Desidério",
+  "tr": "São Desidério"
+ },
+ "3a5ceebb5483": {
+  "pt": "Formosa do Rio Preto",
+  "tr": "Formosa do Rio Preto"
+ },
+ "90d35ddbcdda": {
+  "pt": "Barreiras",
+  "tr": "Barreiras"
+ },
+ "508794beac9c": {
+  "pt": "Luís Eduardo Magalhães",
+  "tr": "Luís Eduardo Magalhães"
+ },
+ "ac2e5f9f0732": {
+  "pt": "Correntina",
+  "tr": "Correntina"
+ },
+ "f97c21eb44a1": {
+  "pt": "Unaí",
+  "tr": "Unaí"
+ },
+ "dd7943b2ebaa": {
+  "pt": "Paracatu",
+  "tr": "Paracatu"
+ },
+ "2f5f2da824c6": {
+  "pt": "Mato Grosso",
+  "tr": "Mato Grosso"
+ },
+ "93ef1f2e4082": {
+  "pt": "Sudoeste de Goiás",
+  "tr": "Southwest Goiás"
+ },
+ "e42efcd22874": {
+  "pt": "Triângulo e Goiás",
+  "tr": "Triângulo and Goiás"
+ },
+ "99fe6219f270": {
+  "pt": "Oeste da Bahia",
+  "tr": "Western Bahia"
+ },
+ "9c8515044ea6": {
+  "pt": "Noroeste de Minas",
+  "tr": "Northwest Minas"
+ },
+ "28afc0326206": {
+  "pt": "Araguari",
+  "tr": "Araguari"
+ },
+ "df34b668c608": {
+  "pt": "Terminal integrador",
+  "tr": "Inland rail terminal"
+ },
+ "e576e7f3de62": {
+  "pt": "Pirapora",
+  "tr": "Pirapora"
+ },
+ "255861a3b7d9": {
+  "pt": "Tubarão",
+  "tr": "Tubarão"
+ },
+ "95436cb198b6": {
+  "pt": "Vitória, ES",
+  "tr": "Vitória, Espírito Santo"
+ },
+ "07148a66538d": {
+  "pt": "São Luís",
+  "tr": "São Luís"
+ },
+ "8b70f7dbc741": {
+  "pt": "Itaqui e Ponta da Madeira",
+  "tr": "Itaqui and Ponta da Madeira"
+ },
+ "cdb56f6c4942": {
+  "pt": "Santos",
+  "tr": "Santos"
+ },
+ "340a1aca6804": {
+  "pt": "TIPLAM",
+  "tr": "TIPLAM"
+ },
+ "ad436d68815e": {
+  "pt": "Marabá",
+  "tr": "Marabá"
+ },
+ "86bdc52765a8": {
+  "pt": "Pará",
+  "tr": "Pará"
+ },
+ "ae4abc658a6d": {
+  "pt": "Açailândia",
+  "tr": "Açailândia"
+ },
+ "e27a919fe164": {
+  "pt": "Maranhão",
+  "tr": "Maranhão"
+ },
+ "9e213bcdd5c2": {
+  "pt": "Rosário",
+  "tr": "Rosário"
+ },
+ "72178561031a": {
+  "pt": "Ponta da Madeira",
+  "tr": "Ponta da Madeira"
+ },
+ "158d3bd0c09c": {
+  "pt": "pátio QPM: elevado e estoque",
+  "tr": "QPM yard: elevated unloading and stock"
+ },
+ "e1ba5bccd33f": {
+  "pt": "Itaqui",
+  "tr": "Itaqui"
+ },
+ "e9551ad24534": {
+  "pt": "e terminal da VLI",
+  "tr": "and the VLI terminal"
+ },
+ "cccbd8ae87d5": {
+  "pt": "Estados Unidos",
+  "tr": "United States"
+ },
+ "e9d4eca609e6": {
+  "pt": "México",
+  "tr": "Mexico"
+ },
+ "d2eaf2aa1512": {
+  "pt": "China",
+  "tr": "China"
+ },
+ "c42b972c3584": {
+  "pt": "Rússia, Belarus, Alemanha e Noruega",
+  "tr": "Russia, Belarus, Germany and Norway"
+ },
+ "0496b3e4ece1": {
+  "pt": "KCl, ureia, MAP e NPK",
+  "tr": "potash, urea, MAP and NPK"
+ },
+ "c66e2ed373df": {
+  "pt": "Marrocos e Argélia",
+  "tr": "Morocco and Algeria"
+ },
+ "6f1dc2455065": {
+  "pt": "MAP e ureia",
+  "tr": "MAP and urea"
+ },
+ "87687c479ac3": {
+  "pt": "Golfo Pérsico",
+  "tr": "Persian Gulf"
+ },
+ "6b10b4c1e456": {
+  "pt": "ureia",
+  "tr": "urea"
+ },
+ "e00f4c21be2f": {
+  "pt": "Canadá, via Panamá",
+  "tr": "Canada, via Panama"
+ },
+ "106c12fc28b1": {
+  "pt": "KCl",
+  "tr": "potash (KCl)"
+ },
+ "b36269eb7684": {
+  "pt": "Caminhão e trem",
+  "tr": "Truck and train"
+ },
+ "9b8fd9f236b9": {
+  "pt": "Line-up do porto",
+  "tr": "Port line-up"
+ },
+ "80a495d009cc": {
+  "pt": "Tailândia e Vietnã",
+  "tr": "Thailand and Vietnam"
+ },
+ "5600ca96c9be": {
+  "pt": "Japão e Coreia",
+  "tr": "Japan and Korea"
+ },
+ "10bf7156af02": {
+  "pt": "Europa",
+  "tr": "Europe"
+ },
+ "e6c2efaf6c6b": {
+  "pt": "farelo",
+  "tr": "soybean meal"
  }
 }
