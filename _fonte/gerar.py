@@ -406,6 +406,12 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canon}">
 <meta property="og:locale" content="{L["og"]}">
+<meta property="og:image" content="https://nitailab.com.br/assets/og-nitailab.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta property="og:image:alt" content="Nitai Lab · Logística e Operações">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://nitailab.com.br/assets/og-nitailab.png">
 <meta name="theme-color" content="#1A1814">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
