@@ -729,9 +729,9 @@ def verificacao():
 <div class="caixa" style="margin-top:32px"><span class="rot">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p></div>""")
     corpo += '\n<h3 style="margin-top:56px">' + T("Perguntas frequentes") + "</h3>" + faq(FAQ_VER) + "</div></section>"
     corpo += fecho("verificacao-fecho", "Envie a documentação para análise", "Retorno indicando se o negócio ou o fornecedor se sustenta e quais documentos solicitar antes de seguir.")
-    ld = [servico("Due diligence técnica e logística de mineração", "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.", "/verificacao/"), faq_ld(FAQ_VER)]
-    return pagina("/verificacao/", "Due diligence de mineração: técnica e logística | Nitai Lab",
-                  "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte.",
+    ld = [servico("Relatório de verificação de mina, lote e contraparte", "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.", "/verificacao/"), faq_ld(FAQ_VER)]
+    return pagina("/verificacao/", "Verificação de mina, lote e contraparte | Nitai Lab",
+                  "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. O lado técnico e logístico da due diligence.",
                   corpo, [], ld, atual="verificacao", origem="verificacao")
 
 

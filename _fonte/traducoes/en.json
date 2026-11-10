@@ -111,10 +111,6 @@
   "pt": "Na importação, o risco se inverte: vagão demais carregado no porto vira fila no terminal; terminal entupido não escoa o porto, atrasa o próximo navio e o cliente paga armazenagem.",
   "tr": "In imports, the risk is reversed: too many wagons loaded at the port become a queue at the terminal; a clogged terminal cannot clear the port, delays the next ship and the client pays storage charges."
  },
- "17a6196ca950": {
-  "pt": "Due diligence de mineração: técnica e logística | Nitai Lab",
-  "tr": "Brazil mining due diligence: technical and logistics | Nitai Lab"
- },
  "183170aae4b0": {
   "pt": "Frentes de atuação",
   "tr": "Areas of work"
@@ -122,6 +118,10 @@
  "191d322eafd2": {
   "pt": "Não, complementa. A auditoria da fundição olha o sistema de diligência e confere documentos por amostra. Aqui o confronto é mina a mina: a origem declarada contra o registro oficial de cada uma.",
   "tr": "No, it complements it. The smelter audit reviews the due diligence system and checks documents by sampling. Here the cross-check is mine by mine: the declared origin against the official record of each one."
+ },
+ "1a7f70cacac8": {
+  "pt": "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. O lado técnico e logístico da due diligence.",
+  "tr": "Supplier declared origin checked mine by mine and, before you sign, mining title at ANM, CFEM royalties, licence, lab report read, capacity to move the cargo and the counterparty. The technical and logistics side of due diligence."
  },
  "1c2971ec925e": {
   "pt": "Pátio",
@@ -510,6 +510,10 @@
  "8276579d8fa3": {
   "pt": "Uberaba",
   "tr": "Uberaba"
+ },
+ "83a8f95a12c6": {
+  "pt": "Relatório de verificação de mina, lote e contraparte",
+  "tr": "Verification report on the mine, parcel and counterparty"
  },
  "8426e926a472": {
   "pt": "Meu papel",
@@ -927,10 +931,6 @@
   "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
   "tr": "I have a cargo and would like to go over route, cost and risk with you."
  },
- "d7c1ef93095d": {
-  "pt": "Due diligence técnica e logística de mineração",
-  "tr": "Technical and logistics due diligence for mining in Brazil"
- },
  "d8181052946f": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Como funciona</div><h2>Etapas do trabalho</h2>\n<ol class=\"passos\">\n<li><b>Conversa inicial</b><span>Carga, origem, destino, volume e prazo. Sem custo.</span></li>\n<li><b>Escopo por escrito</b><span>O que entra, o que não entra, prazo e valor, antes de começar.</span></li>\n<li><b>Entrega</b><span>Dossiê ou plano com a conta, as alternativas e o que confirmar.</span></li>\n<li><b>Acompanhamento</b><span>Opcional, se você quiser que eu coordene a execução.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">De onde vem</span><p>Planejei por dentro a cadeia de grãos e fertilizantes que vai do porto de Tubarão, pelas ferrovias EFVM e FCA, até terminais no interior de Minas e o cliente final, e a de minério e siderúrgicos para as usinas de Minas.</p></div>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">How it works</div><h2>Stages of the work</h2>\n<ol class=\"passos\">\n<li><b>Initial conversation</b><span>Cargo, origin, destination, volume and timeline. Free of charge.</span></li>\n<li><b>Scope in writing</b><span>What is included, what is not, timeline and fee, before we start.</span></li>\n<li><b>Delivery</b><span>A dossier or plan with the numbers, the alternatives and what to confirm.</span></li>\n<li><b>Follow-up</b><span>Optional, if you want me to coordinate execution.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">Where this comes from</span><p>I planned from the inside the grain and fertiliser chain that runs from the port of Tubarão, via the EFVM and FCA railways, to inland terminals in Minas Gerais and the end customer, and the iron ore and steel chain serving the steel mills of Minas Gerais.</p></div>"
@@ -1019,10 +1019,6 @@
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>16 anos</b><span>na Vale e na VLI</span></div>\n</div></div></section>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Scale</div>\n<h2>Experience at real scale across the chain</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;500M</b><span>in annual revenue from the terminal operations I planned</span></div>\n<div><b>15 Mt</b><span>of grain exported under plans I drew up</span></div>\n<div><b>3.2 Mt</b><span>of pig iron exported in the account portfolio I managed, over two years</span></div>\n<div><b>16 years</b><span>at Vale and VLI</span></div>\n</div></div></section>"
  },
- "e92183542e4b": {
-  "pt": "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte.",
-  "tr": "Supplier declared origin checked mine by mine and, before you sign, mining title at ANM, CFEM royalties, licence, lab report read, capacity to move the cargo and the counterparty."
- },
  "e9551ad24534": {
   "pt": "e terminal da VLI",
   "tr": "and the VLI terminal"
@@ -1058,6 +1054,10 @@
  "ef9b8508913e": {
   "pt": "Oi, Nitai! Vi no seu site {lista}.",
   "tr": "Hi Nitai, I saw {lista} on your website."
+ },
+ "f085cd277a1f": {
+  "pt": "Verificação de mina, lote e contraparte | Nitai Lab",
+  "tr": "Verification of the mine, parcel and counterparty | Nitai Lab"
  },
  "f3009ab28976": {
   "pt": "Terminal, armazém, pátio, mina, usina, fábrica. O método é olhar o chão, medir tempos e movimentos por etapa e transformar cada perda em reais.",

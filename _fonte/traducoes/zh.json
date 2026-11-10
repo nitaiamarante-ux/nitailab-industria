@@ -111,10 +111,6 @@
   "pt": "Na importação, o risco se inverte: vagão demais carregado no porto vira fila no terminal; terminal entupido não escoa o porto, atrasa o próximo navio e o cliente paga armazenagem.",
   "tr": "进口时风险正好相反：港口装车过多，会在场站形成排队；场站堵塞就无法疏运港口，导致下一艘船延误，客户还要支付仓储费。"
  },
- "17a6196ca950": {
-  "pt": "Due diligence de mineração: técnica e logística | Nitai Lab",
-  "tr": "巴西矿业尽职调查：技术与物流 | Nitai Lab"
- },
  "183170aae4b0": {
   "pt": "Frentes de atuação",
   "tr": "业务领域"
@@ -122,6 +118,10 @@
  "191d322eafd2": {
   "pt": "Não, complementa. A auditoria da fundição olha o sistema de diligência e confere documentos por amostra. Aqui o confronto é mina a mina: a origem declarada contra o registro oficial de cada uma.",
   "tr": "不能，是补充。冶炼厂审核关注尽职调查体系，并抽样核对文件。这里是逐矿比对：将申报产地与每座矿山的官方记录对照。"
+ },
+ "1a7f70cacac8": {
+  "pt": "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. O lado técnico e logístico da due diligence.",
+  "tr": "供应商申报产地逐矿核对；签约之前：ANM 矿权、CFEM、许可证、化验报告解读、外运能力以及交易对手。属于技术与物流层面的核查。"
  },
  "1c2971ec925e": {
   "pt": "Pátio",
@@ -510,6 +510,10 @@
  "8276579d8fa3": {
   "pt": "Uberaba",
   "tr": "乌贝拉巴"
+ },
+ "83a8f95a12c6": {
+  "pt": "Relatório de verificação de mina, lote e contraparte",
+  "tr": "矿山、批次和交易对手核查报告"
  },
  "8426e926a472": {
   "pt": "Meu papel",
@@ -927,10 +931,6 @@
   "pt": "Tenho uma carga e queria entender rota, custo e risco com você.",
   "tr": "我有一批货物，想和您探讨路线、成本和风险。"
  },
- "d7c1ef93095d": {
-  "pt": "Due diligence técnica e logística de mineração",
-  "tr": "矿业技术与物流尽职调查"
- },
  "d8181052946f": {
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Como funciona</div><h2>Etapas do trabalho</h2>\n<ol class=\"passos\">\n<li><b>Conversa inicial</b><span>Carga, origem, destino, volume e prazo. Sem custo.</span></li>\n<li><b>Escopo por escrito</b><span>O que entra, o que não entra, prazo e valor, antes de começar.</span></li>\n<li><b>Entrega</b><span>Dossiê ou plano com a conta, as alternativas e o que confirmar.</span></li>\n<li><b>Acompanhamento</b><span>Opcional, se você quiser que eu coordene a execução.</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">De onde vem</span><p>Planejei por dentro a cadeia de grãos e fertilizantes que vai do porto de Tubarão, pelas ferrovias EFVM e FCA, até terminais no interior de Minas e o cliente final, e a de minério e siderúrgicos para as usinas de Minas.</p></div>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">工作流程</div><h2>工作步骤</h2>\n<ol class=\"passos\">\n<li><b>初步沟通</b><span>货物、产地、目的地、数量和时间。不收费。</span></li>\n<li><b>书面范围</b><span>包含什么、不包含什么、期限和费用，开始前确定。</span></li>\n<li><b>交付</b><span>包含成本核算、备选方案和待确认事项的报告或方案。</span></li>\n<li><b>跟进</b><span>可选，如果您希望由我协调执行。</span></li>\n</ol>\n<div class=\"duas\"><div class=\"caixa\"><span class=\"rot\">经验来源</span><p>我曾在企业内部规划粮食和化肥供应链：从图巴朗港（图巴朗港）出发，经维多利亚-米纳斯铁路（EFVM）和中大西洋铁路（FCA），到米纳斯吉拉斯州内陆的场站和终端客户；也规划过运往米纳斯吉拉斯州钢厂的矿石和钢材供应链。</p></div>"
@@ -1019,10 +1019,6 @@
   "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div>\n<h2>Experiência na escala real da cadeia</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>16 anos</b><span>na Vale e na VLI</span></div>\n</div></div></section>",
   "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div>\n<h2>在真实规模的供应链中积累的经验</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>320万吨</b><span>两年间我负责的客户组合中出口的生铁</span></div>\n<div><b>16年</b><span>在淡水河谷和 VLI 任职</span></div>\n</div></div></section>"
  },
- "e92183542e4b": {
-  "pt": "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte.",
-  "tr": "供应商申报产地逐矿核对；签约之前：ANM 矿权、CFEM、许可证、化验报告解读、外运能力以及交易对手。"
- },
  "e9551ad24534": {
   "pt": "e terminal da VLI",
   "tr": "及 VLI 码头"
@@ -1058,6 +1054,10 @@
  "ef9b8508913e": {
   "pt": "Oi, Nitai! Vi no seu site {lista}.",
   "tr": "您好，Nitai！我在您的网站上看了{lista}。"
+ },
+ "f085cd277a1f": {
+  "pt": "Verificação de mina, lote e contraparte | Nitai Lab",
+  "tr": "矿山、批次和交易对手核查 | Nitai Lab"
  },
  "f3009ab28976": {
   "pt": "Terminal, armazém, pátio, mina, usina, fábrica. O método é olhar o chão, medir tempos e movimentos por etapa e transformar cada perda em reais.",
