@@ -191,7 +191,7 @@ MSG_PAGINA = {
     "inicio": "Oi, Nitai! Conheci seu trabalho pelo site e queria conversar com você.",
     "logistica": "Oi, Nitai! Vi no seu site a parte de logística. Tenho uma carga e queria entender rota, custo e risco com você.",
     "operacao": "Oi, Nitai! Vi no seu site o diagnóstico de operação e queria conversar sobre a minha operação.",
-    "verificacao": "Oi, Nitai! Vi no seu site a parte de verificação. Estou avaliando um negócio e queria conversar antes de fechar.",
+    "verificacao": "Oi, Nitai! Vi no seu site a parte de verificação. Estou avaliando um negócio ou um fornecedor e queria conversar.",
     "casos": "Oi, Nitai! Li os casos no seu site e me identifiquei. Podemos conversar?",
     "sobre": "Oi, Nitai! Li sua trajetória no site e queria conversar com você.",
     "contato": "Oi, Nitai! Peguei seu contato no site e queria conversar sobre um projeto.",
@@ -306,7 +306,7 @@ def u(caminho):
 def pessoa():
     return {"@type": "Person", "@id": URL + "/#nitai", "name": "Nitai Morais", "alternateName": "Nitai Pada Amarante Morais",
             "jobTitle": T("Consultor de logística de granéis e operações industriais"),
-            "description": T("16 anos no Grupo Vale (Vale e VLI), gestão de terminais integrados a ferrovia e porto."),
+            "description": T("16 anos na Vale e na VLI, gestão de terminais integrados a ferrovia e porto."),
             "worksFor": {"@id": URL + "/#empresa"}, "sameAs": [LINKEDIN],
             "address": {"@type": "PostalAddress", "addressRegion": "MG", "addressCountry": "BR"},
             "alumniOf": ["Fundação Getulio Vargas", "PUC Minas", "Fundação Dom Cabral", "FUMEC"]}
@@ -347,7 +347,7 @@ def config_msg(caminho):
                    "verificacao": T("a parte de verificação"), "casos": T("os casos"), "sobre": T("sua trajetória")},
         "intencoes": {"logistica": T("Tenho uma carga e queria entender rota, custo e risco com você."),
                       "operacao": T("Queria conversar sobre a minha operação."),
-                      "verificacao": T("Estou avaliando um negócio e queria conversar antes de fechar."),
+                      "verificacao": T("Estou avaliando um negócio ou um fornecedor e queria conversar."),
                       "casos": T("Me identifiquei com o que li. Podemos conversar?"),
                       "sobre": T("Queria conversar com você."), "inicio": T("Queria conversar com você."),
                       "contato": T("Queria conversar sobre um projeto.")},
@@ -489,8 +489,16 @@ def inicio():
     corpo = abertura(
         "Nitai Morais · 16 anos de comercial, logística e operações na Vale e VLI",
         "Logística de granéis e carga industrial, da origem ao porto.",
-        "Planejei terminais, ferrovia e porto por dentro e implantei o TPS com a própria Toyota. Hoje apoio empresas que embarcam minério, grãos, fertilizantes e gusa na decisão de rota, custo e risco, e operações de terminal, armazém e planta que precisam reduzir perdas.",
+        "Para mineradoras, siderúrgicas, terminais e compradores de fora: rota, custo e risco da carga, perdas da operação medidas em reais e a origem do fornecedor conferida em fonte oficial.",
         btn_zap("inicio-abertura") + btn_pdf("inicio-abertura"), "trem-min-1", mov=True)
+    # Ajuste 4 da AUDITORIA_marca_mensagem_2026-11-10 (10/11): as três frentes logo depois da abertura (antes: 4,3 telas abaixo).
+    corpo += TF("""<section class="faixa sup"><div class="miolo"><div class="rot">Frentes de atuação</div>
+<h2>Três frentes, uma mesma base: a operação vista por dentro</h2>
+<div class="cartoes">
+<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{alt_vagoes}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class="ir">Ver Logística →</span></div></a>
+<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{alt_armazem}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class="ir">Ver Operação →</span></div></a>
+<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{alt_planta}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Origem, mina e contraparte conferidas em fonte oficial</span><p>Para quem compra de fornecedor brasileiro e para os dois lados de um negócio: registro oficial, laudo lido e capacidade real de escoar a carga.</p><span class="ir">Ver Verificação →</span></div></a>
+</div></div></section>""", alt_vagoes=T(PROPRIAS['real-vagoes-terminal']), alt_armazem=T(PROPRIAS['real-armazem-graos']), alt_planta=T(PROPRIAS['real-planta-mina']))
     corpo += T(ROTA).replace("</p></div></section>", "</p><p class=\"rota-mapa\"><a href=\"" + u("/logistica/") + "#corredores\">" + T("Ver as cadeias que conheço no mapa") + " →</a></p></div></section>", 1)
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Escala</div>
 <h2>Experiência na escala real da cadeia</h2>
@@ -498,7 +506,7 @@ def inicio():
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
 <div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>
 <div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>
-<div><b>16 anos</b><span>no Grupo Vale, entre Vale e VLI</span></div>
+<div><b>16 anos</b><span>na Vale e na VLI</span></div>
 </div></div></section>""")
     corpo += T("""<section class="faixa quem"><div class="miolo quem-grade">
 <div class="quem-foto"><img src="/fotos/nitai-retrato-escuro.webp" alt="Nitai Morais"></div>
@@ -508,13 +516,6 @@ def inicio():
 <div class="acoes"><a class="btn btn-2" href="/sobre/">Ver a trajetória</a></div></div>
 </div></section>""")
     corpo += secao_clientes()
-    corpo += TF("""<section class="faixa sup"><div class="miolo"><div class="rot">Frentes de atuação</div>
-<h2>Três frentes, uma mesma base: a operação vista por dentro</h2>
-<div class="cartoes">
-<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{alt_vagoes}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class="ir">Ver Logística →</span></div></a>
-<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{alt_armazem}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class="ir">Ver Operação →</span></div></a>
-<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{alt_planta}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Mina, lote e contraparte documentados antes da assinatura</span><p>Para quem compra e para quem vende: fontes oficiais, laudo lido e capacidade real de escoar a carga.</p><span class="ir">Ver Verificação →</span></div></a>
-</div></div></section>""", alt_vagoes=T(PROPRIAS['real-vagoes-terminal']), alt_armazem=T(PROPRIAS['real-armazem-graos']), alt_planta=T(PROPRIAS['real-planta-mina']))
     corpo += T(REGRAS)
     corpo += fecho("inicio-fecho", "Avaliação inicial do seu caso",
                    "Descreva em poucas linhas a carga, a operação ou o negócio. Retorno com uma primeira avaliação e o próximo passo recomendado.")
@@ -681,15 +682,27 @@ FAQ_VER = [
     ("Isso substitui a due diligence jurídica?", "Não. É o complemento técnico e logístico dela. O advogado olha contratos e passivos; eu olho se a mina existe no papel e no chão, se produz o que diz e se a carga consegue chegar ao porto."),
     ("Você emite laudo técnico?", "Não. Laudo de qualidade e de reserva é do laboratório e do geólogo. Eu leio o laudo e digo o que ele significa para a logística e para o preço."),
     ("Quanto tempo leva?", "Um parecer rápido sai em poucos dias. O dossiê completo depende de quantos documentos a outra parte entrega."),
-    ("Serve para quem está fora do Brasil?", "Sim. Comprador e investidor estrangeiro costumam pedir exatamente isso antes de qualquer proposta."),
+    ("Serve para quem está fora do Brasil?", "Sim. O relatório sai em português, inglês ou chinês. Comprador estrangeiro costuma pedir exatamente isso antes de uma proposta, ou para provar ao próprio cliente a origem do que compra."),
+    ("Isso substitui a auditoria da fundição?", "Não, complementa. A auditoria da fundição olha o sistema de diligência e confere documentos por amostra. Aqui o confronto é mina a mina: a origem declarada contra o registro oficial de cada uma."),
 ]
 
 
 def verificacao():
-    corpo = abertura("Verificação", "Verificação técnica e logística antes da assinatura.",
-                     "O que se comprova em documento oficial e o que a logística permite de verdade, para os dois lados do negócio: quem compra ou investe e quem vende ou capta. Se a carga não consegue sair, o negócio não existe.",
+    corpo = abertura("Verificação", "Origem, mina e contraparte conferidas em fonte oficial.",
+                     "Para quem compra de fornecedor brasileiro e precisa provar a origem, e para os dois lados de um negócio: quem compra ou investe e quem vende ou capta. O que se comprova em documento oficial e o que a logística permite de verdade.",
                      btn_zap("verificacao-abertura") + btn_pdf("verificacao-abertura"),
                      "real-planta-mina")
+    # Quem compra de fornecedor (ajuste 1 da AUDITORIA_marca_mensagem_2026-11-10, gerência Marketing e marca, 10/11):
+    # o leitor de compliance que chega pelo LinkedIn (nota em inglês sobre fornecedor) tem de se achar na 1ª dobra.
+    # Texto da ficha da Indium revisada pelo Jurídico (09/11): sem "RMAP não chega à mina", sem certificar, sem auditar.
+    corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Quem compra de fornecedor brasileiro</div><h2>A origem declarada, conferida mina a mina</h2>
+<p class="t2" style="margin-top:16px">Para a área de compras ou de compliance que precisa mostrar ao próprio cliente de onde vem o minério ou o metal comprado no Brasil.</p>
+<div class="ofertas">
+<div class="oferta"><span class="rot">O confronto</span><h3>Declarado contra o registro oficial</h3><p>A origem que o fornecedor declara, confrontada com o que os registros oficiais mostram de cada mina: título na ANM, CFEM declarada contra o volume comprado, licença ambiental, embargos, alertas de satélite e processos. A evidência oficial vai anexada.</p></div>
+<div class="oferta"><span class="rot">O lugar</span><h3>Complementa a auditoria da fundição</h3><p>A auditoria olha o sistema de diligência e confere documentos por amostra. Aqui o confronto é mina a mina. O guia da OCDE para cadeias de minerais é a referência.</p></div>
+<div class="oferta"><span class="rot">O campo</span><h3>Quando o papel não fecha</h3><p>O passo seguinte é a verificação em campo, na mina e no caminho da carga.</p></div>
+<div class="oferta"><span class="rot">A amostra</span><h3>Antes de contratar</h3><p>Uma amostra feita só com registros públicos, sem identificar a empresa, segue sob pedido.</p></div>
+</div></div></section>""")
     # Os dois lados (sugestão da avaliação por público, sessão nitai-lab-88, 28/10): o dono de mina não pode ler
     # o Nitai só como o auditor que o comprador manda. Liga a OP-03 (dossiê) e OP-06 (mandato do lado da mina).
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Para quem</div><h2>Os dois lados do mesmo dossiê</h2>
@@ -709,16 +722,16 @@ def verificacao():
     corpo += T("""<section class="faixa sup"><div class="miolo"><div class="rot">Entregas</div><h2>Entregáveis</h2>
 <div class="ofertas">
 <div class="oferta"><h3>Parecer rápido</h3><p>Uma página: dá para seguir ou não, e por quê.</p></div>
-<div class="oferta"><h3>Dossiê da mina</h3><p>O que está documentado, o que falta e o que pedir antes de assinar.</p></div>
+<div class="oferta"><h3>Relatório de verificação</h3><p>Parecer em uma página, o que está documentado e o que falta, os riscos por item e cada evidência oficial anexada com data e origem. Em português, inglês ou chinês.</p></div>
 <div class="oferta"><h3>Dossiê da contraparte</h3><p>Quem é a empresa do outro lado e o que pesa contra ela.</p></div>
-<div class="oferta"><h3>Dossiê de ativo logístico</h3><p>Terminal, armazém ou contrato de capacidade: o que existe e o que trava.</p></div>
+<div class="oferta"><h3>Verificação em campo</h3><p>Quando o papel não fecha: a mina, as pilhas e o caminho da carga vistos de perto.</p></div>
 </div>
 <div class="caixa" style="margin-top:32px"><span class="rot">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p></div>""")
     corpo += '\n<h3 style="margin-top:56px">' + T("Perguntas frequentes") + "</h3>" + faq(FAQ_VER) + "</div></section>"
-    corpo += fecho("verificacao-fecho", "Envie a documentação para análise", "Retorno indicando se o negócio se sustenta e quais documentos solicitar antes de seguir.")
+    corpo += fecho("verificacao-fecho", "Envie a documentação para análise", "Retorno indicando se o negócio ou o fornecedor se sustenta e quais documentos solicitar antes de seguir.")
     ld = [servico("Due diligence técnica e logística de mineração", "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.", "/verificacao/"), faq_ld(FAQ_VER)]
     return pagina("/verificacao/", "Due diligence de mineração: técnica e logística | Nitai Lab",
-                  "Antes de assinar: título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte. Complemento da due diligence jurídica.",
+                  "Origem declarada do fornecedor conferida mina a mina e, antes de assinar, título na ANM, CFEM, licença, laudo lido, capacidade de escoar e a contraparte.",
                   corpo, [], ld, atual="verificacao", origem="verificacao")
 
 
@@ -751,7 +764,7 @@ def casos():
 
 
 def sobre():
-    corpo = abertura("Sobre", "Nitai Morais", "16 anos no Grupo Vale, entre a Vale e a VLI, no comercial, no planejamento de terminais integrados a ferrovia e porto e na gestão da operação. Base em Minas Gerais.",
+    corpo = abertura("Sobre", "Nitai Morais", "16 anos na Vale e na VLI, no comercial, no planejamento de terminais integrados a ferrovia e porto e na gestão da operação. Base em Minas Gerais.",
                      btn_zap("sobre-abertura") + f'<a class="btn btn-in" href="{LINKEDIN}" rel="noopener">{IC_IN}LinkedIn</a>', retrato=("nitai-retrato-editorial", "Nitai Morais"))
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Escala</div><h2>Escala da experiência</h2>
 <div class="nums">

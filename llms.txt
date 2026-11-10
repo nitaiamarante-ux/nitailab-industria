@@ -17,7 +17,7 @@
   - ZH: https://nitailab.com.br/zh/verificacao/
 
 ## About
-- Nitai Morais: 16 years in the Vale Group (Vale and VLI), in commercial roles, in logistics planning of terminals integrated with rail and port, and in operations management. Implemented the Toyota Production System with TSSC (Toyota Systems Support and Consulting) and set up VLI's TPS school. Based in Minas Gerais, Brazil.
+- Nitai Morais: 16 years at Vale and VLI, in commercial roles, in logistics planning of terminals integrated with rail and port, and in operations management. Implemented the Toyota Production System with TSSC (Toyota Systems Support and Consulting) and set up VLI's TPS school. Based in Minas Gerais, Brazil.
   - PT: https://nitailab.com.br/sobre/
   - EN: https://nitailab.com.br/en/sobre/
   - ZH: https://nitailab.com.br/zh/sobre/
@@ -35,4 +35,4 @@
 - Chinese versions: same file names under https://nitailab.com.br/apresentacoes/zh/
 
 ## Em português
-A Nitai Lab Logística e Operações é a consultoria de Nitai Morais em logística de granéis e carga industrial no Brasil, da origem ao porto. São três frentes: Logística (https://nitailab.com.br/logistica/), Operação, com diagnóstico de 5 dias pelo Sistema Toyota de Produção (https://nitailab.com.br/operacao/) e Verificação técnica e logística antes de assinar (https://nitailab.com.br/verificacao/). Nitai tem 16 anos no Grupo Vale (Vale e VLI), em comercial, logística e operações, e implantou o TPS com a TSSC da Toyota. Empresa: NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais. Contato: nitai@nitailab.com.br. Apresentações em PDF na seção acima. Política de privacidade: https://nitailab.com.br/politica-de-privacidade/
+A Nitai Lab Logística e Operações é a consultoria de Nitai Morais em logística de granéis e carga industrial no Brasil, da origem ao porto. São três frentes: Logística (https://nitailab.com.br/logistica/), Operação, com diagnóstico de 5 dias pelo Sistema Toyota de Produção (https://nitailab.com.br/operacao/) e Verificação técnica e logística antes de assinar (https://nitailab.com.br/verificacao/). Nitai tem 16 anos na Vale e na VLI, em comercial, logística e operações, e implantou o TPS com a TSSC da Toyota. Empresa: NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais. Contato: nitai@nitailab.com.br. Apresentações em PDF na seção acima. Política de privacidade: https://nitailab.com.br/politica-de-privacidade/
