@@ -171,7 +171,7 @@ ESPELHO = {"trem-min-1"}  # espelhada para o trem ficar à direita, fora do text
 LOGO_MAIOR = {"fertipar", "mitsui", "yara"}
 
 MENU = [("logistica", "Logística"), ("operacao", "Operação"), ("verificacao", "Verificação"),
-        ("casos", "Casos"), ("sobre", "Sobre")]
+        ("casos", "Casos"), ("sobre", "Sobre"), ("contato", "Contato")]
 
 # Ícones oficiais (simple-icons 13.21.0, CC0): cada botão que leva para fora fala a língua da plataforma (Nitai, 28/10).
 IC_ZAP = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>'
@@ -279,7 +279,7 @@ def secao_clientes():
             icl = ' class="maior"' if l in LOGO_MAIOR else ""
             cel.append(f'<div{cls}><img src="/logos/{l}.svg" alt="{NOMES[l]}"{icl}></div>')
         linhas.append(f'<div class="cadeia"><div class="rot">{T(nome)}</div><div class="logos">{"".join(cel)}</div></div>')
-    return (f'<section class="faixa clientes"><div class="miolo"><div class="rot">{T("Clientes")}</div><h2>{T("Clientes que atendi")}</h2>'
+    return (f'<section class="faixa clientes"><div class="miolo"><div class="rot">{T("Clientes")}</div><h2>{T("Clientes atendidos dentro da VLI")}</h2>'
             f'<p class="sub">{T("Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.")}</p>'
             f'<div class="cadeias">{"".join(linhas)}</div></div></section>')
 
@@ -438,7 +438,7 @@ def pagina(caminho, titulo, descricao, corpo, fotos_usadas, ld, atual=None, orig
 <div><a class="marca" href="/" aria-label="Nitai Lab, Logística e Operações">{ASS_RODAPE}</a>
 <p class="ent">{T("Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.")}</p></div>
 <div><h4>{T("Frentes de atuação")}</h4><ul><li><a href="/logistica/">{T("Logística")}</a></li><li><a href="/operacao/">{T("Operação")}</a></li><li><a href="/verificacao/">{T("Verificação")}</a></li></ul></div>
-<div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">{T("Sobre")}</a></li><li><a href="/casos/">{T("Casos")}</a></li><li><a data-acao="pdf-rodape" href="{pdf_url(PDF)}">{T("Apresentação em PDF")}</a></li><li><a href="/politica-de-privacidade/">{T("Política de privacidade")}</a></li></ul></div>
+<div><h4>Nitai Lab</h4><ul><li><a href="/sobre/">{T("Sobre")}</a></li><li><a href="/casos/">{T("Casos")}</a></li><li><a href="/contato/">{T("Contato")}</a></li><li><a data-acao="pdf-rodape" href="{pdf_url(PDF)}">{T("Apresentação em PDF")}</a></li><li><a href="/politica-de-privacidade/">{T("Política de privacidade")}</a></li></ul></div>
 <div><h4>{T("Contato")}</h4><ul><li><a class="com-ic" data-acao="whatsapp-rodape" href="{zap(origem + "-rodape")}" target="_blank" rel="noopener">{IC_ZAP}WhatsApp +55 31 98297-6006</a></li><li><a class="com-ic" data-acao="email-rodape" href="mailto:{EMAIL}">{IC_MAIL}{EMAIL}</a></li><li><a class="com-ic" href="{LINKEDIN}" rel="noopener">{IC_IN}LinkedIn</a></li></ul></div>
 </div>
 {cred}
@@ -480,7 +480,7 @@ ROTA = """<section class="rota" aria-label="A cadeia, da origem ao porto"><div c
 REGRAS = """<section class="faixa"><div class="miolo"><div class="rot">Como trabalho</div><h2>Princípios de trabalho</h2>
 <div class="ofertas tres">
 <div class="oferta"><h3>Tudo por escrito antes</h3><p>Escopo, prazo e valor definidos antes do início. Sem cobrança recorrente sem entrega definida e sem relatório genérico.</p></div>
-<div class="oferta"><h3>Confidencialidade nos dois sentidos</h3><p>Contatos e informações recebidos em confiança não mudam de mão. Proponho acordo de confidencialidade e de não contorno, que protege as duas partes e quem fez a apresentação.</p></div>
+<div class="oferta"><h3>Confidencialidade nos dois sentidos</h3><p>Contatos e informações recebidos em confiança não mudam de mão. Quando verifico uma mina ou um lote, não intermedio a venda dele.</p></div>
 <div class="oferta"><h3>Conversa antes de proposta</h3><p>A primeira conversa sobre o caso não tem custo. Havendo trabalho, definimos juntos o formato. Não havendo, você sai com uma avaliação objetiva.</p></div>
 </div></div></section>"""
 
@@ -489,16 +489,20 @@ def inicio():
     corpo = abertura(
         "Nitai Morais · 16 anos de comercial, logística e operações na Vale e VLI",
         "Logística de granéis e carga industrial, da origem ao porto.",
-        "Para mineradoras, siderúrgicas, terminais e compradores de fora: rota, custo e risco da carga, perdas da operação medidas em reais e a origem do fornecedor conferida em fonte oficial.",
+        "Em cinco dias, mostro onde a operação perde dinheiro, em reais. Antes de você assinar, confiro a mina e o fornecedor em fonte oficial. E calculo rota, custo e risco da carga até o porto.",
         btn_zap("inicio-abertura") + btn_pdf("inicio-abertura"), "trem-min-1", mov=True)
-    # Ajuste 4 da AUDITORIA_marca_mensagem_2026-11-10 (10/11): as três frentes logo depois da abertura (antes: 4,3 telas abaixo).
-    corpo += TF("""<section class="faixa sup"><div class="miolo"><div class="rot">Frentes de atuação</div>
-<h2>Três frentes, uma mesma base: a operação vista por dentro</h2>
-<div class="cartoes">
-<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{alt_vagoes}"><div class="corpo"><span class="rot">Estratégia e estrutura logística</span><span class="q">Rota, custo e risco da carga, da origem ao porto</span><p>Estudo de rota e modal, alternativas, viabilidade, netback e risco logístico.</p><span class="ir">Ver Logística →</span></div></a>
-<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{alt_armazem}"><div class="corpo"><span class="rot">Desempenho da operação · TPS</span><span class="q">Perdas da operação medidas em reais</span><p>Diagnóstico de 5 dias em terminal, armazém ou planta, com o método Toyota (TPS) e plano de 90 dias.</p><span class="ir">Ver Operação →</span></div></a>
-<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{alt_planta}"><div class="corpo"><span class="rot">Verificação</span><span class="q">Origem, mina e contraparte conferidas em fonte oficial</span><p>Para quem compra de fornecedor brasileiro e para os dois lados de um negócio: registro oficial, laudo lido e capacidade real de escoar a carga.</p><span class="ir">Ver Verificação →</span></div></a>
-</div></div></section>""", alt_vagoes=T(PROPRIAS['real-vagoes-terminal']), alt_armazem=T(PROPRIAS['real-armazem-graos']), alt_planta=T(PROPRIAS['real-planta-mina']))
+    # Proposta 12/11 (índice por público, protocolo v1): uma porta por caso no lugar das três frentes. Cada personagem pediu
+    # "fale comigo na primeira dobra"; o cartão diz para quem é, o que eu faço e o que a pessoa recebe.
+    corpo += TF("""<section class="faixa sup"><div class="miolo"><div class="rot">Por onde começar</div>
+<h2>O que eu faço, por tipo de caso</h2>
+<div class="cartoes quatro">
+<a class="cartao" href="/operacao/"><img src="/fotos/real-armazem-graos.webp" alt="{alt_armazem}"><div class="corpo"><span class="rot">Para quem opera terminal, armazém, pátio ou planta</span><span class="q">Diagnóstico de 5 dias no chão da operação</span><p>Você recebe de três a cinco perdas medidas em reais, o plano de 90 dias e a devolutiva ao time que vai executar.</p><span class="ir">Ver o diagnóstico →</span></div></a>
+<a class="cartao" href="/verificacao/"><img src="/fotos/real-planta-mina.webp" alt="{alt_planta}"><div class="corpo"><span class="rot">Para quem vai comprar minério ou entrar num negócio de mina</span><span class="q">A mina e o fornecedor conferidos antes de assinar</span><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar até o porto, com cada evidência oficial anexada. Parecer de uma página em poucos dias.</p><span class="ir">Ver a verificação →</span></div></a>
+<a class="cartao" href="/logistica/"><img src="/fotos/real-carregamento-minerio.webp" alt="{alt_carreg}"><div class="corpo"><span class="rot">Para quem tem mina e vende para comprador local</span><span class="q">Quanto sobraria vendendo para outro mercado</span><p>Rota, frete, porto e preço de referência, até o netback: o que sobra na mina depois de cada trecho.</p><span class="ir">Ver a logística →</span></div></a>
+<a class="cartao" href="/logistica/"><img src="/fotos/real-vagoes-terminal.webp" alt="{alt_vagoes}"><div class="corpo"><span class="rot">Para quem precisa levar carga até o porto</span><span class="q">Rota, custo e risco da carga, com alternativa</span><p>Modal, terminal, ferrovia e porto comparados no custo por tonelada e no risco de cada trecho, para decidir antes de contratar.</p><span class="ir">Ver a logística →</span></div></a>
+</div>
+<p class="portas-nota">Valor fechado e escopo por escrito antes de começar. A primeira conversa sobre o caso não tem custo.</p>
+</div></section>""", alt_vagoes=T(PROPRIAS['real-vagoes-terminal']), alt_armazem=T(PROPRIAS['real-armazem-graos']), alt_planta=T(PROPRIAS['real-planta-mina']), alt_carreg=T(PROPRIAS['real-carregamento-minerio']))
     corpo += T(ROTA).replace("</p></div></section>", "</p><p class=\"rota-mapa\"><a href=\"" + u("/logistica/") + "#corredores\">" + T("Ver as cadeias que conheço no mapa") + " →</a></p></div></section>", 1)
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Escala</div>
 <h2>Experiência na escala real da cadeia</h2>
@@ -641,7 +645,7 @@ FAQ_OP = [
 
 
 def operacao():
-    corpo = abertura("Desempenho da operação · TPS e Lean", "Onde a sua operação perde dinheiro.",
+    corpo = abertura("Desempenho da operação · Diagnóstico de 5 dias", "Onde a sua operação perde dinheiro.",
                      "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
                      btn_zap("operacao-abertura") + btn_pdf("operacao-abertura"),
                      "real-armazem-graos")
@@ -663,7 +667,7 @@ def operacao():
 <div class="nums">
 <div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>
 <div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>
-<div><b>+50%</b><span>de corte no orçamento operacional ao longo de três anos</span></div>
+<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>
 <div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>
 </div>
 <div class="duas" style="margin-top:56px"><div><div class="rot">Método</div><h3 style="margin:10px 0 12px">Toyota Production System com a própria Toyota</h3>
@@ -726,7 +730,7 @@ def verificacao():
 <div class="oferta"><h3>Dossiê da contraparte</h3><p>Quem é a empresa do outro lado e o que pesa contra ela.</p></div>
 <div class="oferta"><h3>Verificação em campo</h3><p>Quando o papel não fecha: a mina, as pilhas e o caminho da carga vistos de perto.</p></div>
 </div>
-<div class="caixa" style="margin-top:32px"><span class="rot">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p></div>""")
+<div class="caixa" style="margin-top:32px"><span class="rot">O que eu não faço</span><p>Não emito laudo técnico nem parecer jurídico. Trabalho junto do geólogo, do laboratório e do advogado, e cubro o que fica entre eles: a operação e a logística.</p><p>Quando verifico uma mina ou um lote, não intermedio a venda dele nem recebo de quem vende.</p></div>""")
     corpo += '\n<h3 style="margin-top:56px">' + T("Perguntas frequentes") + "</h3>" + faq(FAQ_VER) + "</div></section>"
     corpo += fecho("verificacao-fecho", "Envie a documentação para análise", "Retorno indicando se o negócio ou o fornecedor se sustenta e quais documentos solicitar antes de seguir.")
     ld = [servico("Relatório de verificação de mina, lote e contraparte", "Verificação de mina e de contraparte em fonte oficial (ANM, CFEM, licenças, QSA) e da capacidade de escoar até o porto.", "/verificacao/"), faq_ld(FAQ_VER)]
@@ -775,7 +779,7 @@ def sobre():
 </div></div></section>""")
     corpo += T("""<section class="faixa sup"><div class="miolo"><div class="rot">Trajetória</div><h2>Trajetória por área de atuação</h2>
 <div class="traj">
-<div><div class="quando">2024 a hoje<small>Nitai Lab</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Pela NP Consultoria e Serviços.</p></div></div>
+<div><div class="quando">2024 a hoje<small>Consultor independente</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Desde 2026 pela NP Consultoria e Serviços, a empresa da Nitai Lab.</p></div></div>
 <div><div class="quando">2022 a 2024<small>VLI</small></div><div><h3>Minério e siderurgia</h3><p>Gestão de planejamento, processos, manutenção e operação dos terminais de Santa Luzia e Ouro Preto, em Minas, com até dez produtos de minério segregados e parada geral planejada sem perder produção. Gerente interino por oito meses.</p></div></div>
 <div><div class="quando">2019 a 2022<small>VLI</small></div><div><h3>Planejamento de terminais de grãos e fertilizantes</h3><p>Planejamento de longo, médio e curto prazo dos terminais de Araguari e Pirapora: dimensionamento, defesa de orçamento, investimentos e custos, e novos negócios com a capacidade ociosa e a sazonalidade de cada operação. Implantação do TPS com a TSSC e o primeiro modelo de EBITDA por unidade operacional da empresa. Gerente interino por seis meses.</p></div></div>
 <div><div class="quando">2016 a 2019<small>VLI</small></div><div><h3>Cadeia de fertilizantes e recuperação de terminal</h3><p>Planejamento da cadeia do porto de Tubarão, pelas ferrovias EFVM e FCA, até o terminal e o cliente. Recuperação do terminal de grãos de Pirapora até a primeira certificação permanente do Ministério da Agricultura.</p></div></div>
