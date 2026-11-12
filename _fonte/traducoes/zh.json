@@ -1146,5 +1146,21 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "粮食场站的筒仓和仓库"
+ },
+ "0a7a4f5e46f5": {
+  "pt": "Sócio de terminal ou de operação em sociedade? O diagnóstico também serve como leitura independente de cada operação, além do relatório da gestão local.",
+  "tr": "您是场站或合资运营项目的合伙人？除当地管理层的报告之外，诊断也可作为对每个运营项目的独立评估。"
+ },
+ "60617640932b": {
+  "pt": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem vai a campo</div><h2>Nitai Morais</h2>\n<p>16 anos na Vale e na VLI, na gestão de terminais integrados a ferrovia e porto. Cada diagnóstico é feito por mim, no chão, do primeiro ao quinto dia.</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">Ver a trajetória →</a></p></div>\n</div></section>",
+  "tr": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">亲赴现场的人</div><h2>Nitai Morais</h2>\n<p>在淡水河谷和 VLI 工作16年，管理与铁路和港口相连的场站。每一次诊断都由我本人在现场完成，从第一天到第五天。</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">查看从业经历 →</a></p></div>\n</div></section>"
+ },
+ "66d7e1134a7c": {
+  "pt": "O que acontece com o que você vê na minha operação?",
+  "tr": "您在我的运营中看到的信息会如何处理？"
+ },
+ "5f2aa8382dad": {
+  "pt": "Fica com você. Informação de um cliente não vai para outro, nem vira caso público sem autorização por escrito.",
+  "tr": "信息归您所有。一个客户的信息不会流向另一个客户，未经书面授权也不会成为公开案例。"
  }
 }

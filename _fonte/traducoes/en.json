@@ -1146,5 +1146,21 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "Silos and warehouse at a grain terminal"
+ },
+ "0a7a4f5e46f5": {
+  "pt": "Sócio de terminal ou de operação em sociedade? O diagnóstico também serve como leitura independente de cada operação, além do relatório da gestão local.",
+  "tr": "Partner in a terminal or a jointly owned operation? The diagnostic also works as an independent reading of each operation, in addition to the local management's report."
+ },
+ "60617640932b": {
+  "pt": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem vai a campo</div><h2>Nitai Morais</h2>\n<p>16 anos na Vale e na VLI, na gestão de terminais integrados a ferrovia e porto. Cada diagnóstico é feito por mim, no chão, do primeiro ao quinto dia.</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">Ver a trajetória →</a></p></div>\n</div></section>",
+  "tr": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Who goes to the site</div><h2>Nitai Morais</h2>\n<p>16 years at Vale and VLI, managing terminals integrated with rail and port. I carry out every diagnostic myself, on the ground, from the first day to the fifth.</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">See the background →</a></p></div>\n</div></section>"
+ },
+ "66d7e1134a7c": {
+  "pt": "O que acontece com o que você vê na minha operação?",
+  "tr": "What happens to what you see in my operation?"
+ },
+ "5f2aa8382dad": {
+  "pt": "Fica com você. Informação de um cliente não vai para outro, nem vira caso público sem autorização por escrito.",
+  "tr": "It stays with you. One client's information does not go to another, and never becomes a public case without written authorization."
  }
 }

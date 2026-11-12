@@ -248,8 +248,9 @@ def btn_pdf(origem):
     return f'<a class="btn btn-2" data-acao="pdf-{origem}" href="{pdf_url(deck_de(origem))}" target="_blank" rel="noopener">{IC_PDF}{T("Baixar a apresentação")}</a>'
 
 
-def abertura(rot, h1, lead, acoes, foto=None, retrato=None, mov=False):
+def abertura(rot, h1, lead, acoes, foto=None, retrato=None, mov=False, nota=None):
     rot, h1, lead = T(rot), T(h1), T(lead)
+    nota_html = f'<p class="abre-nota">{T(nota)}</p>' if nota else ""
     if retrato:  # retrato do Nitai ao lado, fundido ao fundo por degradê (sem ampliar além do nativo)
         src, alt = retrato
         alt = T(alt)
@@ -259,13 +260,13 @@ def abertura(rot, h1, lead, acoes, foto=None, retrato=None, mov=False):
     if foto in PROPRIAS:
         img = f'<img src="/fotos/{foto}.webp" alt="{T(PROPRIAS[foto])}" fetchpriority="high">'
         return (f'<section class="abre">{img}<div class="miolo"><div class="rot">{rot}</div><h1>{h1}</h1>'
-                f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div></div></section>')
+                f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div>{nota_html}</div></section>')
     if foto:
         alt, leg = T(FOTOS[foto][0]), T(FOTOS[foto][1])
         espelho = ' class="espelho"' if foto in ESPELHO else ""
         img = f'<img src="/fotos/{foto}.webp" alt="{alt}"{espelho} fetchpriority="high">'
         return (f'<section class="abre">{img}<div class="miolo"><div class="rot">{rot}</div><h1>{h1}</h1>'
-                f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div></div><div class="legenda">{T("Carga · ")}{leg}</div>{SIMBOLO_MOV if mov else ""}</section>')
+                f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div>{nota_html}</div><div class="legenda">{T("Carga · ")}{leg}</div>{SIMBOLO_MOV if mov else ""}</section>')
     return (f'<section class="abre sem-foto"><div class="miolo"><div class="rot">{rot}</div><h1>{h1}</h1>'
             f'<p class="lead">{lead}</p><div class="acoes">{acoes}</div></div></section>')
 
@@ -642,6 +643,7 @@ FAQ_OP = [
     ("Quanto custa?", "Valor fechado, combinado antes de começar, conforme o porte da operação e a distância. A primeira conversa sobre o caso não tem custo."),
     ("Preciso parar a operação?", "Não. O trabalho acontece com a operação rodando, junto de operadores, liderança e indicadores."),
     ("Você implanta Lean e TPS?", "Sim. Implantei o Toyota Production System com a TSSC e montei a escola de TPS da VLI. O diagnóstico é a porta de entrada: mostra onde o método rende mais na sua operação. A implantação vem depois, como acompanhamento, com escopo próprio."),
+    ("O que acontece com o que você vê na minha operação?", "Fica com você. Informação de um cliente não vai para outro, nem vira caso público sem autorização por escrito."),
     ("O que acontece depois?", "Você decide: seguir sozinho com o plano, contratar acompanhamento da implantação ou um projeto fechado. Cada um com escopo próprio."),
 ]
 
@@ -650,7 +652,8 @@ def operacao():
     corpo = abertura("Desempenho da operação · Diagnóstico de 5 dias", "Onde a sua operação perde dinheiro.",
                      "Em terminal, armazém, mina ou fábrica, o ganho grande raramente vem de tecnologia nova. Vem do que ninguém tem paciência de olhar. O método é o Toyota Production System que implantei com a TSSC, a consultoria da própria Toyota, aplicado do jeito que funciona no chão brasileiro.",
                      btn_zap("operacao-abertura") + btn_pdf("operacao-abertura"),
-                     "real-armazem-graos")
+                     "real-armazem-graos",
+                     nota="Sócio de terminal ou de operação em sociedade? O diagnóstico também serve como leitura independente de cada operação, além do relatório da gestão local.")
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Diagnóstico de 5 dias</div><h2>Diagnóstico em cinco dias, com as perdas quantificadas em reais</h2>
 <ol class="passos">
 <li><b>Onde perde dinheiro</b><span>De três a cinco pontos críticos levantados no chão, com operadores, liderança e indicadores.</span></li>
@@ -658,6 +661,12 @@ def operacao():
 <li><b>Plano de 90 dias</b><span>Ações em ordem de custo e benefício, com responsáveis.</span></li>
 <li><b>Devolutiva ao time</b><span>Apresentação presencial para quem vai executar.</span></li>
 </ol></div></section>""")
+    corpo += T("""<section class="faixa quem quem-compacto"><div class="miolo quem-grade">
+<div class="quem-foto"><img src="/fotos/nitai-retrato-escuro.webp" alt="Nitai Morais"></div>
+<div class="quem-texto"><div class="rot">Quem vai a campo</div><h2>Nitai Morais</h2>
+<p>16 anos na Vale e na VLI, na gestão de terminais integrados a ferrovia e porto. Cada diagnóstico é feito por mim, no chão, do primeiro ao quinto dia.</p>
+<p class="rota-mapa"><a href="/sobre/">Ver a trajetória →</a></p></div>
+</div></section>""")
     corpo += T("""<section class="faixa sup"><div class="miolo"><div class="rot">Temas</div><h2>Principais fontes de perda</h2>
 <div class="ofertas">
 <div class="oferta"><h3>Capacidade e gargalo</h3><p>A etapa que limita tudo, quase sempre distribuição de papéis e não falta de equipamento.</p></div>
