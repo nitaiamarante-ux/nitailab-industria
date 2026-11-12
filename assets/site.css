@@ -120,7 +120,7 @@ p{max-width:66ch}
 .nums{display:grid;grid-template-columns:repeat(4,1fr);margin-top:48px}
 .nums div{padding:0 28px;border-left:1px solid var(--linha)}
 .nums div:first-child{padding-left:0;border-left:0}
-.nums.tres{grid-template-columns:repeat(3,1fr)}
+.nums .ctx{display:block;margin-top:10px;font-size:13px;line-height:1.4;color:var(--tx2);opacity:.75;max-width:26ch}
 .nums b{display:block;font-family:var(--f-display);font-size:clamp(2rem,3.4vw,2.9rem);font-weight:600;color:var(--dourado-claro);line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
 .nums span{display:block;margin-top:12px;font-size:16px;color:var(--tx2);max-width:24ch}
 
@@ -349,9 +349,10 @@ p{max-width:66ch}
   .rota li{padding-top:0}
   .rota li::before{left:-30px;top:3px}
   .nums{grid-template-columns:1fr 1fr;gap:32px 0}
-  .nums.tres{grid-template-columns:1fr}
-  .nums.tres div,.nums.tres div:first-child{padding-left:0;border-left:0}
-  .nums div:nth-child(3){padding-left:0;border-left:0}
+  .nums div{padding:0 0 0 16px;min-width:0}
+  .nums div:nth-child(odd){padding-left:0;border-left:0;padding-right:16px}
+  .nums b{font-size:clamp(1.6rem,7.4vw,2rem)}
+  .nums span,.nums .ctx{max-width:none}
   .ofertas,.ofertas.tres,.duas,.casos{grid-template-columns:1fr;gap:20px}
   .abre-retrato .miolo{grid-template-columns:1fr;min-height:0;gap:0}
   .ar-foto{order:-1;height:380px;margin:0 -16px}

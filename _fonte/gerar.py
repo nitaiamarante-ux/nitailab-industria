@@ -675,10 +675,12 @@ def operacao():
 <div class="oferta"><h3>Paradas de manutenção</h3><p>Planejamento e controle para parar sem perder a produção programada.</p></div>
 </div></div></section>""")
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Resultados</div><h2>Resultados obtidos</h2>
-<div class="nums tres">
-<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>
-<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>
-<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>
+<p class="t2">Na VLI, como responsável pelo planejamento e controle da operação e gerente interino dos terminais.</p>
+<div class="nums">
+<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span><small class="ctx">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>
+<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span><small class="ctx">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>
+<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span><small class="ctx">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>
+<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span><small class="ctx">Terminais de produtos siderúrgicos, 2022 a 2024</small></div>
 </div>
 <div class="duas" style="margin-top:56px"><div><div class="rot">Método</div><h3 style="margin:10px 0 12px">Toyota Production System com a própria Toyota</h3>
 <p class="t2">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>
