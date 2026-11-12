@@ -409,3 +409,4 @@ html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2,html[lang="zh-Hans"] h3,html[lan
 .cartoes.quatro{grid-template-columns:repeat(2,1fr)}
 .portas-nota{margin-top:28px;color:var(--tx2);font-size:16px}
 @media (max-width:760px){.cartoes.quatro{grid-template-columns:1fr}}
+.cartao .serv{display:block;color:var(--tx2);font-size:12px}
