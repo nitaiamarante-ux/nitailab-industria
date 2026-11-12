@@ -47,6 +47,10 @@
   "pt": "Oi, Nitai! Conheci seu trabalho pelo site e queria conversar com você.",
   "tr": "Hi Nitai, I came across your work on your website and would like to talk."
  },
+ "0f3dc87c6152": {
+  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Serviços</div>\n<h2>Quatro formas de começar</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">Diagnóstico operacional</span><span class=\"rot\">Para quem opera terminal, armazém, pátio ou planta</span><span class=\"q\">Diagnóstico de 5 dias no chão da operação</span><p>Você recebe de três a cinco perdas medidas em reais, o plano de 90 dias e a devolutiva ao time que vai executar.</p><span class=\"ir\">Ver o diagnóstico →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">Verificação de mina e fornecedor</span><span class=\"rot\">Para quem vai comprar minério ou entrar num negócio de mina</span><span class=\"q\">A mina e o fornecedor conferidos antes de assinar</span><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar até o porto, com cada evidência oficial anexada. Parecer de uma página em poucos dias.</p><span class=\"ir\">Ver a verificação →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de netback</span><span class=\"rot\">Para quem tem mina e vende para comprador local</span><span class=\"q\">Quanto sobraria vendendo para outro mercado</span><p>Rota, frete, porto e preço de referência, até o netback: o que sobra na mina depois de cada trecho.</p><span class=\"ir\">Ver a logística →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de rota e custo</span><span class=\"rot\">Para quem precisa levar carga até o porto</span><span class=\"q\">Rota, custo e risco da carga, com alternativa</span><p>Modal, terminal, ferrovia e porto comparados no custo por tonelada e no risco de cada trecho, para decidir antes de contratar.</p><span class=\"ir\">Ver a logística →</span></div></a>\n</div>\n<p class=\"portas-nota\">Valor fechado e escopo por escrito antes de começar. A primeira conversa sobre o caso não tem custo.</p>\n</div></section>",
+  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Services</div>\n<h2>Four ways to start</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">Operational diagnosis</span><span class=\"rot\">For those who run a terminal, warehouse, yard or plant</span><span class=\"q\">A 5-day diagnostic on the operating floor</span><p>You receive three to five losses measured in reais, the 90-day plan and a debrief for the team that will carry it out.</p><span class=\"ir\">See the diagnostic →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">Mine and supplier verification</span><span class=\"rot\">For those about to buy ore or enter a mining deal</span><span class=\"q\">The mine and the supplier checked before you sign</span><p>Title at ANM, CFEM, licence, the lab report read and the capacity to move the cargo to port, with each piece of official evidence attached. A one-page assessment in a few days.</p><span class=\"ir\">See the verification →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">Netback study</span><span class=\"rot\">For those who own a mine and sell to a local buyer</span><span class=\"q\">What you would net by selling to another market</span><p>Route, freight, port and reference price, down to the netback: what is left at the mine after each leg.</p><span class=\"ir\">See the logistics →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">Route and cost study</span><span class=\"rot\">For those who need to move cargo to port</span><span class=\"q\">Route, cost and risk of the cargo, with an alternative</span><p>Mode, terminal, railway and port compared on cost per tonne and on the risk of each leg, so you can decide before you contract.</p><span class=\"ir\">See the logistics →</span></div></a>\n</div>\n<p class=\"portas-nota\">Fixed fee and scope in writing before we start. The first conversation about your case is free of charge.</p>\n</div></section>"
+ },
  "0f4114a74a2c": {
   "pt": "Sua carga passa por aqui? Fale comigo",
   "tr": "Does your cargo move through here? Get in touch"
@@ -114,6 +118,14 @@
  "183170aae4b0": {
   "pt": "Frentes de atuação",
   "tr": "Areas of work"
+ },
+ "18380071e7d8": {
+  "pt": "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
+  "tr": "Bulk cargo logistics consulting, from origin to port | Nitai Lab"
+ },
+ "1842c0de3394": {
+  "pt": "Sim. O diagnóstico também atende o sócio que quer uma leitura independente da operação, além do relatório da gestão local. Formato e frequência se combinam caso a caso.",
+  "tr": "Yes. The diagnostic also serves the partner who wants an independent reading of the operation, in addition to the local management's report. Format and frequency are agreed case by case."
  },
  "191d322eafd2": {
   "pt": "Não, complementa. A auditoria da fundição olha o sistema de diligência e confere documentos por amostra. Aqui o confronto é mina a mina: a origem declarada contra o registro oficial de cada uma.",
@@ -195,10 +207,6 @@
   "pt": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem conduz o trabalho</div><h2>Nitai Morais</h2>\n<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>\n<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">Ver a trajetória</a></div></div>\n</div></section>",
   "tr": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Who leads the work</div><h2>Nitai Morais</h2>\n<p>Sixteen years inside the chain: in Vale's commercial team, in VLI's terminal planning and in operations management, leading teams of up to 250 people. I planned capacity, defended budgets, negotiated with clients and implemented TPS with consulting from Toyota itself.</p>\n<p>Today I apply that experience to decisions on route, cost and risk, and to operations that need to perform better. I lead every engagement personally, from diagnosis to delivery.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">See my track record</a></div></div>\n</div></section>"
  },
- "2d57d2fdad45": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<div class=\"nums\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>\n<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>\n<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Results</div><h2>Results achieved</h2>\n<div class=\"nums\">\n<div><b>BRL&nbsp;3.9M</b><span>saved in one year, with volume above budget</span></div>\n<div><b>BRL&nbsp;8.1M</b><span>cut from the budget by redesigning wagon unloading</span></div>\n<div><b>More than 50%</b><span>reduction in the operating budget over three years</span></div>\n<div><b>BRL&nbsp;2M</b><span>saved per year by restructuring service contracts</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Method</div><h3 style=\"margin:10px 0 12px\">Toyota Production System with Toyota itself</h3>\n<p class=\"t2\">I led the TPS implementation with direct consulting from TSSC, the Toyota centre that brings the method to companies outside Japan. The terminal became VLI's TPS school.</p>\n<p class=\"t2\">In Brazil, TPS often arrives only halfway: tools and audits. The missing half is treating operators as people who think. That is the half I bring.</p></div>\n<div class=\"caixa\"><span class=\"rot\">A test you can run tomorrow</span><p>Ask the operators on one shift what their biggest difficulty in the operation is. Then ask them to propose solutions.</p><p>If you are not surprised, either there is a problem with morale and culture, or the operation is already very well run.</p></div></div>"
- },
  "2db3308cfa5a": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Trajetória</div><h2>Trajetória por área de atuação</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024 a hoje<small>Consultor independente</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Desde 2026 pela NP Consultoria e Serviços, a empresa da Nitai Lab.</p></div></div>\n<div><div class=\"quando\">2022 a 2024<small>VLI</small></div><div><h3>Minério e siderurgia</h3><p>Gestão de planejamento, processos, manutenção e operação dos terminais de Santa Luzia e Ouro Preto, em Minas, com até dez produtos de minério segregados e parada geral planejada sem perder produção. Gerente interino por oito meses.</p></div></div>\n<div><div class=\"quando\">2019 a 2022<small>VLI</small></div><div><h3>Planejamento de terminais de grãos e fertilizantes</h3><p>Planejamento de longo, médio e curto prazo dos terminais de Araguari e Pirapora: dimensionamento, defesa de orçamento, investimentos e custos, e novos negócios com a capacidade ociosa e a sazonalidade de cada operação. Implantação do TPS com a TSSC e o primeiro modelo de EBITDA por unidade operacional da empresa. Gerente interino por seis meses.</p></div></div>\n<div><div class=\"quando\">2016 a 2019<small>VLI</small></div><div><h3>Cadeia de fertilizantes e recuperação de terminal</h3><p>Planejamento da cadeia do porto de Tubarão, pelas ferrovias EFVM e FCA, até o terminal e o cliente. Recuperação do terminal de grãos de Pirapora até a primeira certificação permanente do Ministério da Agricultura.</p></div></div>\n<div><div class=\"quando\">2008 a 2016<small>Vale e VLI</small></div><div><h3>Comercial</h3><p>Atendimento a siderúrgicas e distribuidoras de combustíveis em Belo Horizonte, São Luís e Ouro Branco, incluindo a carteira de gusa e a primeira cobrança de estadia de vagões a um grande cliente. Tricampeão do ranking de atendimento ao cliente.</p></div></div>\n</div></div></section>",
   "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Career</div><h2>Career by area</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024 to present<small>Independent consultant</small></div><div><h3>Logistics and operations consulting</h3><p>Bulk logistics, feasibility and verification for those buying, selling or investing, and operational diagnostics for industry. Since 2026 through NP Consultoria e Serviços, the Nitai Lab company.</p></div></div>\n<div><div class=\"quando\">2022 to 2024<small>VLI</small></div><div><h3>Iron ore and steel</h3><p>Responsible for planning, processes, maintenance and operations at the Santa Luzia and Ouro Preto terminals in Minas Gerais, with up to ten segregated ore products and a full planned shutdown without lost production. Acting manager for eight months.</p></div></div>\n<div><div class=\"quando\">2019 to 2022<small>VLI</small></div><div><h3>Grain and fertiliser terminal planning</h3><p>Long, medium and short-term planning for the Araguari and Pirapora terminals: capacity sizing, budget defence, capex and opex, and new business built on idle capacity and each operation's seasonality. TPS implementation with TSSC and the company's first EBITDA model per operating unit. Acting manager for six months.</p></div></div>\n<div><div class=\"quando\">2016 to 2019<small>VLI</small></div><div><h3>Fertiliser chain and terminal turnaround</h3><p>Planning of the chain from the port of Tubarão, via the EFVM and FCA railways, to the terminal and the customer. Turnaround of the Pirapora grain terminal up to its first permanent certification from the Ministry of Agriculture.</p></div></div>\n<div><div class=\"quando\">2008 to 2016<small>Vale and VLI</small></div><div><h3>Commercial and key accounts</h3><p>Account management for steel mills and fuel distributors in Belo Horizonte, São Luís and Ouro Branco, including the pig iron portfolio and the first wagon demurrage charge billed to a major client. Three-time winner of the company's customer-service ranking.</p></div></div>\n</div></div></section>"
@@ -206,6 +214,10 @@
  "2f5f2da824c6": {
   "pt": "Mato Grosso",
   "tr": "Mato Grosso"
+ },
+ "2f8c405139fe": {
+  "pt": "Serve para quem é sócio de terminal ou de operação em sociedade?",
+  "tr": "Does it work for partners in a terminal or a jointly owned operation?"
  },
  "340a1aca6804": {
   "pt": "TIPLAM",
@@ -290,6 +302,10 @@
  "49d991577e2d": {
   "pt": "Mineiros",
   "tr": "Mineiros"
+ },
+ "4cb967533287": {
+  "pt": "Valor fechado, combinado antes de começar, conforme o porte da operação e a distância. A primeira conversa sobre o caso não tem custo.",
+  "tr": "Fixed price, agreed before we start, according to the size of the operation and the distance. The first conversation about your case is free of charge."
  },
  "4e9ec3a0282d": {
   "pt": "Política de privacidade",
@@ -462,6 +478,10 @@
  "74377f68a978": {
   "pt": "Contato e condições de trabalho.",
   "tr": "Contact and terms of engagement."
+ },
+ "746ada28d048": {
+  "pt": "Quanto custa?",
+  "tr": "How much does it cost?"
  },
  "747e0f9d9982": {
   "pt": "Fotos ilustrativas, Wikimedia Commons.",
@@ -687,6 +707,10 @@
   "pt": "logística portuária",
   "tr": "port logistics"
  },
+ "a0003d13d1f1": {
+  "pt": "Consultoria em logística de granéis e operações, da origem ao porto.",
+  "tr": "Logistics consulting for bulk cargo and operations, from origin to port."
+ },
  "a14b25eaecf0": {
   "pt": "Nitai Morais, 16 anos de Vale e VLI | Nitai Lab",
   "tr": "Nitai Morais, 16 years at Vale and VLI | Nitai Lab"
@@ -795,6 +819,10 @@
   "pt": "Não. Trabalhei com minério, grãos, farelo, fertilizantes, gusa, produtos siderúrgicos e combustíveis. A lógica é a mesma: cada trecho tem custo, prazo, capacidade e dono.",
   "tr": "No. I have worked with iron ore, grains, soybean meal, fertilisers, pig iron, steel products and fuels. The logic is the same: every leg has a cost, a lead time, a capacity and an owner."
  },
+ "b99dfd2f3171": {
+  "pt": "Consultoria operacional: diagnóstico de 5 dias | Nitai Lab",
+  "tr": "Operations consulting: 5-day diagnostic | Nitai Lab"
+ },
  "ba1c56d2b5bc": {
   "pt": "Clientes atendidos dentro da VLI",
   "tr": "Clients served within VLI"
@@ -814,6 +842,10 @@
  "bfdaf5d95a2a": {
   "pt": "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.",
   "tr": "Shop-floor diagnostic at a terminal, warehouse or plant: losses in money and a 90-day plan."
+ },
+ "c0ddb2a7ec69": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<div class=\"nums tres\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>\n<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Results</div><h2>Results achieved</h2>\n<div class=\"nums tres\">\n<div><b>BRL&nbsp;3.9M</b><span>saved in one year, with volume above budget</span></div>\n<div><b>More than 50%</b><span>reduction in the operating budget over three years</span></div>\n<div><b>BRL&nbsp;2M</b><span>saved per year by restructuring service contracts</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Method</div><h3 style=\"margin:10px 0 12px\">Toyota Production System with Toyota itself</h3>\n<p class=\"t2\">I led the TPS implementation with direct consulting from TSSC, the Toyota centre that brings the method to companies outside Japan. The terminal became VLI's TPS school.</p>\n<p class=\"t2\">In Brazil, TPS often arrives only halfway: tools and audits. The missing half is treating operators as people who think. That is the half I bring.</p></div>\n<div class=\"caixa\"><span class=\"rot\">A test you can run tomorrow</span><p>Ask the operators on one shift what their biggest difficulty in the operation is. Then ask them to propose solutions.</p><p>If you are not surprised, either there is a problem with morale and culture, or the operation is already very well run.</p></div></div>"
  },
  "c218ad8fee8c": {
   "pt": "Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.",
@@ -1099,10 +1131,6 @@
   "pt": "Casos de operação e logística.",
   "tr": "Operations and logistics cases."
  },
- "fa78f811f8cd": {
-  "pt": "Consultoria TPS e Lean para operações | Nitai Lab",
-  "tr": "TPS and Lean consulting for operations in Brazil | Nitai Lab"
- },
  "fb8511ae83cb": {
   "pt": "Embarque pelo porto do Itaqui e pelo terminal da VLI.",
   "tr": "Loading through the port of Itaqui and the VLI terminal."
@@ -1118,17 +1146,5 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "Silos and warehouse at a grain terminal"
- },
- "0f3dc87c6152": {
-  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Serviços</div>\n<h2>Quatro formas de começar</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">Diagnóstico operacional</span><span class=\"rot\">Para quem opera terminal, armazém, pátio ou planta</span><span class=\"q\">Diagnóstico de 5 dias no chão da operação</span><p>Você recebe de três a cinco perdas medidas em reais, o plano de 90 dias e a devolutiva ao time que vai executar.</p><span class=\"ir\">Ver o diagnóstico →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">Verificação de mina e fornecedor</span><span class=\"rot\">Para quem vai comprar minério ou entrar num negócio de mina</span><span class=\"q\">A mina e o fornecedor conferidos antes de assinar</span><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar até o porto, com cada evidência oficial anexada. Parecer de uma página em poucos dias.</p><span class=\"ir\">Ver a verificação →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de netback</span><span class=\"rot\">Para quem tem mina e vende para comprador local</span><span class=\"q\">Quanto sobraria vendendo para outro mercado</span><p>Rota, frete, porto e preço de referência, até o netback: o que sobra na mina depois de cada trecho.</p><span class=\"ir\">Ver a logística →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de rota e custo</span><span class=\"rot\">Para quem precisa levar carga até o porto</span><span class=\"q\">Rota, custo e risco da carga, com alternativa</span><p>Modal, terminal, ferrovia e porto comparados no custo por tonelada e no risco de cada trecho, para decidir antes de contratar.</p><span class=\"ir\">Ver a logística →</span></div></a>\n</div>\n<p class=\"portas-nota\">Valor fechado e escopo por escrito antes de começar. A primeira conversa sobre o caso não tem custo.</p>\n</div></section>",
-  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Services</div>\n<h2>Four ways to start</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">Operational diagnosis</span><span class=\"rot\">For those who run a terminal, warehouse, yard or plant</span><span class=\"q\">A 5-day diagnostic on the operating floor</span><p>You receive three to five losses measured in reais, the 90-day plan and a debrief for the team that will carry it out.</p><span class=\"ir\">See the diagnostic →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">Mine and supplier verification</span><span class=\"rot\">For those about to buy ore or enter a mining deal</span><span class=\"q\">The mine and the supplier checked before you sign</span><p>Title at ANM, CFEM, licence, the lab report read and the capacity to move the cargo to port, with each piece of official evidence attached. A one-page assessment in a few days.</p><span class=\"ir\">See the verification →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">Netback study</span><span class=\"rot\">For those who own a mine and sell to a local buyer</span><span class=\"q\">What you would net by selling to another market</span><p>Route, freight, port and reference price, down to the netback: what is left at the mine after each leg.</p><span class=\"ir\">See the logistics →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">Route and cost study</span><span class=\"rot\">For those who need to move cargo to port</span><span class=\"q\">Route, cost and risk of the cargo, with an alternative</span><p>Mode, terminal, railway and port compared on cost per tonne and on the risk of each leg, so you can decide before you contract.</p><span class=\"ir\">See the logistics →</span></div></a>\n</div>\n<p class=\"portas-nota\">Fixed fee and scope in writing before we start. The first conversation about your case is free of charge.</p>\n</div></section>"
- },
- "a0003d13d1f1": {
-  "pt": "Consultoria em logística de granéis e operações, da origem ao porto.",
-  "tr": "Logistics consulting for bulk cargo and operations, from origin to port."
- },
- "18380071e7d8": {
-  "pt": "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
-  "tr": "Bulk cargo logistics consulting, from origin to port | Nitai Lab"
  }
 }

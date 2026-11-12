@@ -47,6 +47,10 @@
   "pt": "Oi, Nitai! Conheci seu trabalho pelo site e queria conversar com você.",
   "tr": "您好，Nitai！我在您的网站上了解到您的工作，希望和您沟通。"
  },
+ "0f3dc87c6152": {
+  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Serviços</div>\n<h2>Quatro formas de começar</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">Diagnóstico operacional</span><span class=\"rot\">Para quem opera terminal, armazém, pátio ou planta</span><span class=\"q\">Diagnóstico de 5 dias no chão da operação</span><p>Você recebe de três a cinco perdas medidas em reais, o plano de 90 dias e a devolutiva ao time que vai executar.</p><span class=\"ir\">Ver o diagnóstico →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">Verificação de mina e fornecedor</span><span class=\"rot\">Para quem vai comprar minério ou entrar num negócio de mina</span><span class=\"q\">A mina e o fornecedor conferidos antes de assinar</span><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar até o porto, com cada evidência oficial anexada. Parecer de uma página em poucos dias.</p><span class=\"ir\">Ver a verificação →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de netback</span><span class=\"rot\">Para quem tem mina e vende para comprador local</span><span class=\"q\">Quanto sobraria vendendo para outro mercado</span><p>Rota, frete, porto e preço de referência, até o netback: o que sobra na mina depois de cada trecho.</p><span class=\"ir\">Ver a logística →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de rota e custo</span><span class=\"rot\">Para quem precisa levar carga até o porto</span><span class=\"q\">Rota, custo e risco da carga, com alternativa</span><p>Modal, terminal, ferrovia e porto comparados no custo por tonelada e no risco de cada trecho, para decidir antes de contratar.</p><span class=\"ir\">Ver a logística →</span></div></a>\n</div>\n<p class=\"portas-nota\">Valor fechado e escopo por escrito antes de começar. A primeira conversa sobre o caso não tem custo.</p>\n</div></section>",
+  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">服务</div>\n<h2>四种起步方式</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">运营诊断</span><span class=\"rot\">适用于运营场站、仓库、堆场或工厂的企业</span><span class=\"q\">在运营现场进行5天诊断</span><p>您将得到三到五项以雷亚尔计量的损耗、90天计划，以及向负责执行的团队所做的汇报。</p><span class=\"ir\">查看诊断 →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">矿山与供应商技术物流核查</span><span class=\"rot\">适用于准备采购矿石或参与矿山交易的企业</span><span class=\"q\">签约之前，先核查矿山和供应商</span><p>ANM 矿权、CFEM、许可证、已审阅的化验报告，以及运抵港口的外运能力，每项均附官方证据。数日内提供一页核查意见。</p><span class=\"ir\">查看核查 →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">净回值（netback）研究</span><span class=\"rot\">适用于拥有矿山、向本地买方销售的企业</span><span class=\"q\">卖给其他市场，能多留下多少</span><p>路线、运费、港口和基准价格，一直算到净回值（netback，即扣除每一段费用后留给矿山的部分）。</p><span class=\"ir\">查看物流 →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">路线与成本研究</span><span class=\"rot\">适用于需要把货物运到港口的企业</span><span class=\"q\">货物的路线、成本与风险，并附备选方案</span><p>运输方式、场站、铁路和港口，按吨成本和每一段的风险进行比较，供您在签约前决策。</p><span class=\"ir\">查看物流 →</span></div></a>\n</div>\n<p class=\"portas-nota\">开工之前，先书面确认固定费用和范围。关于项目的首次沟通不收费。</p>\n</div></section>"
+ },
  "0f4114a74a2c": {
   "pt": "Sua carga passa por aqui? Fale comigo",
   "tr": "您的货物经过这里吗？欢迎联系"
@@ -114,6 +118,14 @@
  "183170aae4b0": {
   "pt": "Frentes de atuação",
   "tr": "业务领域"
+ },
+ "18380071e7d8": {
+  "pt": "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
+  "tr": "散货物流咨询，从产地到港口 | Nitai Lab"
+ },
+ "1842c0de3394": {
+  "pt": "Sim. O diagnóstico também atende o sócio que quer uma leitura independente da operação, além do relatório da gestão local. Formato e frequência se combinam caso a caso.",
+  "tr": "适用。除当地管理层的报告之外，诊断也服务于希望独立了解运营情况的合伙人。形式和频率根据具体情况商定。"
  },
  "191d322eafd2": {
   "pt": "Não, complementa. A auditoria da fundição olha o sistema de diligência e confere documentos por amostra. Aqui o confronto é mina a mina: a origem declarada contra o registro oficial de cada uma.",
@@ -195,10 +207,6 @@
   "pt": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem conduz o trabalho</div><h2>Nitai Morais</h2>\n<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>\n<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">Ver a trajetória</a></div></div>\n</div></section>",
   "tr": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">项目负责人</div><h2>Nitai Morais</h2>\n<p>我在这条供应链内部工作了16年：在淡水河谷的商务部门，在 VLI 负责场站规划，并带领多达250人的运营团队。我做过产能规划，负责预算申报与答辩，与客户谈判，并在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。</p>\n<p>如今，我把这些经验用于路线、成本与风险的决策，以及需要提升效率的运营。每个项目都由我本人负责，从诊断到交付。</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">查看个人经历</a></div></div>\n</div></section>"
  },
- "2d57d2fdad45": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<div class=\"nums\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>\n<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>\n<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">成果</div><h2>取得的成果</h2>\n<div class=\"nums\">\n<div><b>390万雷亚尔</b><span>一年内节省，同时运量高于预算</span></div>\n<div><b>810万雷亚尔</b><span>通过重新设计车皮卸车流程，预算减少</span></div>\n<div><b>超过50%</b><span>三年内运营预算的降幅</span></div>\n<div><b>200万雷亚尔</b><span>通过重组服务合同每年节省</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">方法</div><h3 style=\"margin:10px 0 12px\">与丰田一起实施丰田生产方式</h3>\n<p class=\"t2\">我主导了这项工作，在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。TSSC 是丰田将该方法推广到日本以外企业的中心。这个场站后来成为 VLI 的 TPS 学校。</p>\n<p class=\"t2\">在巴西，TPS 往往只落地一半：工具和审核。缺少的另一半，是把操作人员当作会思考的人。我带来的正是这一半。</p></div>\n<div class=\"caixa\"><span class=\"rot\">明天就可以做的测试</span><p>问一个班组的操作人员，他们在运营中最大的困难是什么。然后请他们提出解决办法。</p><p>如果答案没有让您感到意外，要么是团队氛围和文化有问题，要么是运营已经非常精细。</p></div></div>"
- },
  "2db3308cfa5a": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Trajetória</div><h2>Trajetória por área de atuação</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024 a hoje<small>Consultor independente</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Desde 2026 pela NP Consultoria e Serviços, a empresa da Nitai Lab.</p></div></div>\n<div><div class=\"quando\">2022 a 2024<small>VLI</small></div><div><h3>Minério e siderurgia</h3><p>Gestão de planejamento, processos, manutenção e operação dos terminais de Santa Luzia e Ouro Preto, em Minas, com até dez produtos de minério segregados e parada geral planejada sem perder produção. Gerente interino por oito meses.</p></div></div>\n<div><div class=\"quando\">2019 a 2022<small>VLI</small></div><div><h3>Planejamento de terminais de grãos e fertilizantes</h3><p>Planejamento de longo, médio e curto prazo dos terminais de Araguari e Pirapora: dimensionamento, defesa de orçamento, investimentos e custos, e novos negócios com a capacidade ociosa e a sazonalidade de cada operação. Implantação do TPS com a TSSC e o primeiro modelo de EBITDA por unidade operacional da empresa. Gerente interino por seis meses.</p></div></div>\n<div><div class=\"quando\">2016 a 2019<small>VLI</small></div><div><h3>Cadeia de fertilizantes e recuperação de terminal</h3><p>Planejamento da cadeia do porto de Tubarão, pelas ferrovias EFVM e FCA, até o terminal e o cliente. Recuperação do terminal de grãos de Pirapora até a primeira certificação permanente do Ministério da Agricultura.</p></div></div>\n<div><div class=\"quando\">2008 a 2016<small>Vale e VLI</small></div><div><h3>Comercial</h3><p>Atendimento a siderúrgicas e distribuidoras de combustíveis em Belo Horizonte, São Luís e Ouro Branco, incluindo a carteira de gusa e a primeira cobrança de estadia de vagões a um grande cliente. Tricampeão do ranking de atendimento ao cliente.</p></div></div>\n</div></div></section>",
   "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">经历</div><h2>按业务领域划分的经历</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024年至今<small>独立顾问</small></div><div><h3>物流与运营咨询</h3><p>为买方、卖方和投资方提供散货物流、可行性分析和核查，为工业企业提供运营诊断。自2026年起通过 NP Consultoria e Serviços 开展业务，该公司即 Nitai Lab 所属的企业。</p></div></div>\n<div><div class=\"quando\">2022至2024年<small>VLI</small></div><div><h3>矿石与钢铁</h3><p>负责米纳斯吉拉斯州 圣卢西亚和欧鲁普雷图场站的计划、流程、维护和运营管理，最多同时分区堆存管理十种矿石产品，并完成不损失产量的整体检修。担任代理经理八个月。</p></div></div>\n<div><div class=\"quando\">2019至2022年<small>VLI</small></div><div><h3>粮食与化肥场站规划</h3><p>负责阿拉瓜里和皮拉波拉场站的长期、中期和短期规划：产能测算、预算申报与答辩、投资与成本，以及利用各运营的闲置产能和季节性开发新业务。在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS），并建立了公司首个按运营单元核算的 EBITDA 模型。担任代理经理六个月。</p></div></div>\n<div><div class=\"quando\">2016至2019年<small>VLI</small></div><div><h3>化肥供应链与场站扭转</h3><p>规划从图巴朗港出发，经维多利亚-米纳斯铁路（EFVM）和中大西洋铁路（FCA），到场站和客户的供应链。对皮拉波拉粮食场站进行整治提升，直至获得巴西农业部首个永久认证。</p></div></div>\n<div><div class=\"quando\">2008至2016年<small>淡水河谷和 VLI</small></div><div><h3>商务</h3><p>在贝洛奥里藏特、圣路易斯和欧鲁布朗库服务钢厂和燃料分销商，包括生铁客户组合，以及首次向一家大客户收取车皮滞期费。三度蝉联客户服务排名第一。</p></div></div>\n</div></div></section>"
@@ -206,6 +214,10 @@
  "2f5f2da824c6": {
   "pt": "Mato Grosso",
   "tr": "马托格罗索州"
+ },
+ "2f8c405139fe": {
+  "pt": "Serve para quem é sócio de terminal ou de operação em sociedade?",
+  "tr": "如果我是场站或合资运营项目的合伙人，是否适用？"
  },
  "340a1aca6804": {
   "pt": "TIPLAM",
@@ -290,6 +302,10 @@
  "49d991577e2d": {
   "pt": "Mineiros",
   "tr": "米内鲁斯"
+ },
+ "4cb967533287": {
+  "pt": "Valor fechado, combinado antes de começar, conforme o porte da operação e a distância. A primeira conversa sobre o caso não tem custo.",
+  "tr": "固定价格，开始前商定，根据运营规模和距离而定。就您的情况进行的首次沟通不收费。"
  },
  "4e9ec3a0282d": {
   "pt": "Política de privacidade",
@@ -462,6 +478,10 @@
  "74377f68a978": {
   "pt": "Contato e condições de trabalho.",
   "tr": "联系方式与合作条件。"
+ },
+ "746ada28d048": {
+  "pt": "Quanto custa?",
+  "tr": "费用是多少？"
  },
  "747e0f9d9982": {
   "pt": "Fotos ilustrativas, Wikimedia Commons.",
@@ -687,6 +707,10 @@
   "pt": "logística portuária",
   "tr": "港口物流"
  },
+ "a0003d13d1f1": {
+  "pt": "Consultoria em logística de granéis e operações, da origem ao porto.",
+  "tr": "散货物流与运营咨询，从产地到港口。"
+ },
  "a14b25eaecf0": {
   "pt": "Nitai Morais, 16 anos de Vale e VLI | Nitai Lab",
   "tr": "Nitai Morais，淡水河谷与 VLI 16年经验 | Nitai Lab"
@@ -795,6 +819,10 @@
   "pt": "Não. Trabalhei com minério, grãos, farelo, fertilizantes, gusa, produtos siderúrgicos e combustíveis. A lógica é a mesma: cada trecho tem custo, prazo, capacidade e dono.",
   "tr": "不是。我做过矿石、粮食、豆粕、化肥、生铁、钢材产品和燃料。逻辑是相同的：每一段都有成本、时间、产能和责任方。"
  },
+ "b99dfd2f3171": {
+  "pt": "Consultoria operacional: diagnóstico de 5 dias | Nitai Lab",
+  "tr": "运营咨询：5天诊断 | Nitai Lab"
+ },
  "ba1c56d2b5bc": {
   "pt": "Clientes atendidos dentro da VLI",
   "tr": "在 VLI 内部服务过的客户"
@@ -814,6 +842,10 @@
  "bfdaf5d95a2a": {
   "pt": "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.",
   "tr": "在场站、仓库或工厂现场进行诊断：以雷亚尔计的损耗和90天计划。"
+ },
+ "c0ddb2a7ec69": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<div class=\"nums tres\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>\n<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">成果</div><h2>取得的成果</h2>\n<div class=\"nums tres\">\n<div><b>390万雷亚尔</b><span>一年内节省，同时运量高于预算</span></div>\n<div><b>超过50%</b><span>三年内运营预算的降幅</span></div>\n<div><b>200万雷亚尔</b><span>通过重组服务合同每年节省</span></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">方法</div><h3 style=\"margin:10px 0 12px\">与丰田一起实施丰田生产方式</h3>\n<p class=\"t2\">我主导了这项工作，在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。TSSC 是丰田将该方法推广到日本以外企业的中心。这个场站后来成为 VLI 的 TPS 学校。</p>\n<p class=\"t2\">在巴西，TPS 往往只落地一半：工具和审核。缺少的另一半，是把操作人员当作会思考的人。我带来的正是这一半。</p></div>\n<div class=\"caixa\"><span class=\"rot\">明天就可以做的测试</span><p>问一个班组的操作人员，他们在运营中最大的困难是什么。然后请他们提出解决办法。</p><p>如果答案没有让您感到意外，要么是团队氛围和文化有问题，要么是运营已经非常精细。</p></div></div>"
  },
  "c218ad8fee8c": {
   "pt": "Em 16 anos de Vale e VLI, nas cadeias de minério, grãos, fertilizantes e combustíveis.",
@@ -1099,10 +1131,6 @@
   "pt": "Casos de operação e logística.",
   "tr": "运营与物流案例。"
  },
- "fa78f811f8cd": {
-  "pt": "Consultoria TPS e Lean para operações | Nitai Lab",
-  "tr": "面向运营的 TPS 与精益咨询 | Nitai Lab"
- },
  "fb8511ae83cb": {
   "pt": "Embarque pelo porto do Itaqui e pelo terminal da VLI.",
   "tr": "经伊塔基港和 VLI 码头装船。"
@@ -1118,17 +1146,5 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "粮食场站的筒仓和仓库"
- },
- "0f3dc87c6152": {
-  "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Serviços</div>\n<h2>Quatro formas de começar</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">Diagnóstico operacional</span><span class=\"rot\">Para quem opera terminal, armazém, pátio ou planta</span><span class=\"q\">Diagnóstico de 5 dias no chão da operação</span><p>Você recebe de três a cinco perdas medidas em reais, o plano de 90 dias e a devolutiva ao time que vai executar.</p><span class=\"ir\">Ver o diagnóstico →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">Verificação de mina e fornecedor</span><span class=\"rot\">Para quem vai comprar minério ou entrar num negócio de mina</span><span class=\"q\">A mina e o fornecedor conferidos antes de assinar</span><p>Título na ANM, CFEM, licença, laudo lido e capacidade de escoar até o porto, com cada evidência oficial anexada. Parecer de uma página em poucos dias.</p><span class=\"ir\">Ver a verificação →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de netback</span><span class=\"rot\">Para quem tem mina e vende para comprador local</span><span class=\"q\">Quanto sobraria vendendo para outro mercado</span><p>Rota, frete, porto e preço de referência, até o netback: o que sobra na mina depois de cada trecho.</p><span class=\"ir\">Ver a logística →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">Estudo de rota e custo</span><span class=\"rot\">Para quem precisa levar carga até o porto</span><span class=\"q\">Rota, custo e risco da carga, com alternativa</span><p>Modal, terminal, ferrovia e porto comparados no custo por tonelada e no risco de cada trecho, para decidir antes de contratar.</p><span class=\"ir\">Ver a logística →</span></div></a>\n</div>\n<p class=\"portas-nota\">Valor fechado e escopo por escrito antes de começar. A primeira conversa sobre o caso não tem custo.</p>\n</div></section>",
-  "tr": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">服务</div>\n<h2>四种起步方式</h2>\n<div class=\"cartoes quatro\">\n<a class=\"cartao\" href=\"/operacao/\"><img src=\"/fotos/real-armazem-graos.webp\" alt=\"{alt_armazem}\"><div class=\"corpo\"><span class=\"rot serv\">运营诊断</span><span class=\"rot\">适用于运营场站、仓库、堆场或工厂的企业</span><span class=\"q\">在运营现场进行5天诊断</span><p>您将得到三到五项以雷亚尔计量的损耗、90天计划，以及向负责执行的团队所做的汇报。</p><span class=\"ir\">查看诊断 →</span></div></a>\n<a class=\"cartao\" href=\"/verificacao/\"><img src=\"/fotos/real-planta-mina.webp\" alt=\"{alt_planta}\"><div class=\"corpo\"><span class=\"rot serv\">矿山与供应商技术物流核查</span><span class=\"rot\">适用于准备采购矿石或参与矿山交易的企业</span><span class=\"q\">签约之前，先核查矿山和供应商</span><p>ANM 矿权、CFEM、许可证、已审阅的化验报告，以及运抵港口的外运能力，每项均附官方证据。数日内提供一页核查意见。</p><span class=\"ir\">查看核查 →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-carregamento-minerio.webp\" alt=\"{alt_carreg}\"><div class=\"corpo\"><span class=\"rot serv\">净回值（netback）研究</span><span class=\"rot\">适用于拥有矿山、向本地买方销售的企业</span><span class=\"q\">卖给其他市场，能多留下多少</span><p>路线、运费、港口和基准价格，一直算到净回值（netback，即扣除每一段费用后留给矿山的部分）。</p><span class=\"ir\">查看物流 →</span></div></a>\n<a class=\"cartao\" href=\"/logistica/\"><img src=\"/fotos/real-vagoes-terminal.webp\" alt=\"{alt_vagoes}\"><div class=\"corpo\"><span class=\"rot serv\">路线与成本研究</span><span class=\"rot\">适用于需要把货物运到港口的企业</span><span class=\"q\">货物的路线、成本与风险，并附备选方案</span><p>运输方式、场站、铁路和港口，按吨成本和每一段的风险进行比较，供您在签约前决策。</p><span class=\"ir\">查看物流 →</span></div></a>\n</div>\n<p class=\"portas-nota\">开工之前，先书面确认固定费用和范围。关于项目的首次沟通不收费。</p>\n</div></section>"
- },
- "a0003d13d1f1": {
-  "pt": "Consultoria em logística de granéis e operações, da origem ao porto.",
-  "tr": "散货物流与运营咨询，从产地到港口。"
- },
- "18380071e7d8": {
-  "pt": "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
-  "tr": "散货物流咨询，从产地到港口 | Nitai Lab"
  }
 }

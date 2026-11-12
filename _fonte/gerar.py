@@ -637,7 +637,9 @@ def logistica():
 
 FAQ_OP = [
     ("Em que tipo de operação o diagnóstico funciona?", "Terminal, armazém, pátio, mina, usina, fábrica. O método é olhar o chão, medir tempos e movimentos por etapa e transformar cada perda em reais."),
+    ("Serve para quem é sócio de terminal ou de operação em sociedade?", "Sim. O diagnóstico também atende o sócio que quer uma leitura independente da operação, além do relatório da gestão local. Formato e frequência se combinam caso a caso."),
     ("Quanto tempo leva?", "Cinco dias úteis no formato padrão: contexto, campo, esboço, validação com o time e apresentação."),
+    ("Quanto custa?", "Valor fechado, combinado antes de começar, conforme o porte da operação e a distância. A primeira conversa sobre o caso não tem custo."),
     ("Preciso parar a operação?", "Não. O trabalho acontece com a operação rodando, junto de operadores, liderança e indicadores."),
     ("Você implanta Lean e TPS?", "Sim. Implantei o Toyota Production System com a TSSC e montei a escola de TPS da VLI. O diagnóstico é a porta de entrada: mostra onde o método rende mais na sua operação. A implantação vem depois, como acompanhamento, com escopo próprio."),
     ("O que acontece depois?", "Você decide: seguir sozinho com o plano, contratar acompanhamento da implantação ou um projeto fechado. Cada um com escopo próprio."),
@@ -664,9 +666,8 @@ def operacao():
 <div class="oferta"><h3>Paradas de manutenção</h3><p>Planejamento e controle para parar sem perder a produção programada.</p></div>
 </div></div></section>""")
     corpo += T("""<section class="faixa"><div class="miolo"><div class="rot">Resultados</div><h2>Resultados obtidos</h2>
-<div class="nums">
+<div class="nums tres">
 <div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span></div>
-<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span></div>
 <div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span></div>
 <div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span></div>
 </div>
@@ -677,7 +678,7 @@ def operacao():
     corpo += '\n<h3 style="margin-top:56px">' + T("Perguntas frequentes") + "</h3>" + faq(FAQ_OP) + '<div class="acoes"><a class="btn btn-2" href="/casos/">' + T("Ver os casos") + "</a></div></div></section>"
     corpo += fecho("operacao-fecho", "Solicite um diagnóstico", "Informe o tipo de operação e o principal problema. Retorno indicando por onde começar.")
     ld = [servico("Diagnóstico operacional de 5 dias", "Diagnóstico no chão de terminal, armazém ou planta: perdas em reais e plano de 90 dias.", "/operacao/"), faq_ld(FAQ_OP)]
-    return pagina("/operacao/", "Consultoria TPS e Lean para operações | Nitai Lab",
+    return pagina("/operacao/", "Consultoria operacional: diagnóstico de 5 dias | Nitai Lab",
                   "Diagnóstico de 5 dias com o Toyota Production System no chão de terminal, armazém ou planta: onde a operação perde dinheiro, em reais, e o plano de 90 dias",
                   corpo, [], ld, atual="operacao", origem="operacao")
 
