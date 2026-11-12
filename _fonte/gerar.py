@@ -525,7 +525,7 @@ def inicio():
                    "Descreva em poucas linhas a carga, a operação ou o negócio. Retorno com uma primeira avaliação e o próximo passo recomendado.")
     ld = [{"@type": "WebSite", "name": "Nitai Lab", "url": u("/"), "inLanguage": LANGS[LANG]["tag"],
            "publisher": {"@id": URL + "/#empresa"}}]
-    return pagina("/", "Logística de granéis, da origem ao porto | Nitai Lab",
+    return pagina("/", "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
                   "Consultoria de logística de granéis e carga industrial com 16 anos de Vale e VLI: estratégia e estrutura, desempenho da operação e verificação.",
                   corpo, ["trem-min-1"], ld, origem="inicio")
 

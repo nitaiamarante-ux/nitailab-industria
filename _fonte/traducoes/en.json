@@ -727,10 +727,6 @@
   "pt": "Minério e siderurgia",
   "tr": "Iron ore and steel"
  },
- "aabf25d5bf4c": {
-  "pt": "Logística de granéis, da origem ao porto | Nitai Lab",
-  "tr": "Brazil bulk logistics, from origin to port | Nitai Lab"
- },
  "aaf70f6b2b06": {
   "pt": "No terminal integrador, o grão passa do caminhão para o trem.",
   "tr": "At the inland rail terminal, the grain moves from truck to train."
@@ -1130,5 +1126,9 @@
  "a0003d13d1f1": {
   "pt": "Consultoria em logística de granéis e operações, da origem ao porto.",
   "tr": "Logistics consulting for bulk cargo and operations, from origin to port."
+ },
+ "18380071e7d8": {
+  "pt": "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
+  "tr": "Bulk cargo logistics consulting, from origin to port | Nitai Lab"
  }
 }

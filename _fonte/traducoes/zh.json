@@ -727,10 +727,6 @@
   "pt": "Minério e siderurgia",
   "tr": "矿石与钢铁"
  },
- "aabf25d5bf4c": {
-  "pt": "Logística de granéis, da origem ao porto | Nitai Lab",
-  "tr": "散货物流，从产地到港口 | Nitai Lab"
- },
  "aaf70f6b2b06": {
   "pt": "No terminal integrador, o grão passa do caminhão para o trem.",
   "tr": "在铁路场站，粮食由卡车转运到列车。"
@@ -1130,5 +1126,9 @@
  "a0003d13d1f1": {
   "pt": "Consultoria em logística de granéis e operações, da origem ao porto.",
   "tr": "散货物流与运营咨询，从产地到港口。"
+ },
+ "18380071e7d8": {
+  "pt": "Consultoria em logística de granéis, da origem ao porto | Nitai Lab",
+  "tr": "散货物流咨询，从产地到港口 | Nitai Lab"
  }
 }
