@@ -516,7 +516,7 @@ def inicio():
     corpo += T("""<section class="faixa quem"><div class="miolo quem-grade">
 <div class="quem-foto"><img src="/fotos/nitai-retrato-escuro.webp" alt="Nitai Morais"></div>
 <div class="quem-texto"><div class="rot">Quem conduz o trabalho</div><h2>Nitai Morais</h2>
-<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>
+<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 80 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>
 <p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>
 <div class="acoes"><a class="btn btn-2" href="/sobre/">Ver a trajetória</a></div></div>
 </div></section>""")
@@ -787,7 +787,7 @@ def sobre():
 <div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>
 <div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>
 <div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>
-<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>
+<div><b>80</b><span>pessoas na maior equipe que liderei</span></div>
 </div></div></section>""")
     corpo += T("""<section class="faixa sup"><div class="miolo"><div class="rot">Trajetória</div><h2>Trajetória por área de atuação</h2>
 <div class="traj">

@@ -11,6 +11,10 @@
   "pt": "KCl, ureia, MAP e NPK",
   "tr": "氯化钾、尿素、磷酸一铵和复合肥"
  },
+ "04b1f2d7986d": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>80</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div><h2>经验的规模</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>320万吨</b><span>两年间我负责的客户组合中出口的生铁</span></div>\n<div><b>80</b><span>人，我带领过的最大团队</span></div>\n</div></div></section>"
+ },
  "057ee07c70e4": {
   "pt": "Diagnóstico de 5 dias com o Toyota Production System no chão de terminal, armazém ou planta: onde a operação perde dinheiro, em reais, e o plano de 90 dias",
   "tr": "在场站、仓库或工厂现场运用丰田生产方式进行5天诊断：运营在哪里损失了钱、金额多少，以及90天计划"
@@ -34,6 +38,10 @@
  "088725f24197": {
   "pt": "Logística de granéis e carga industrial no Brasil, da origem ao porto. NP Consultoria e Serviços Ltda, CNPJ 68.698.300/0001-20, Minas Gerais.",
   "tr": "巴西散货与工业货物物流，从产地到港口。NP Consultoria e Serviços Ltda，CNPJ 68.698.300/0001-20，米纳斯吉拉斯州。"
+ },
+ "0a7a4f5e46f5": {
+  "pt": "Sócio de terminal ou de operação em sociedade? O diagnóstico também serve como leitura independente de cada operação, além do relatório da gestão local.",
+  "tr": "您是场站或合资运营项目的合伙人？除当地管理层的报告之外，诊断也可作为对每个运营项目的独立评估。"
  },
  "0c88625f53c0": {
   "pt": "Gestão de terminais integrados a ferrovia e porto, TPS com a TSSC, primeiro modelo de EBITDA por unidade da VLI. Base em Minas Gerais.",
@@ -202,10 +210,6 @@
  "2a256d33a48a": {
   "pt": "netback",
   "tr": "净回值（netback）"
- },
- "2aee2ff4427c": {
-  "pt": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem conduz o trabalho</div><h2>Nitai Morais</h2>\n<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 250 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>\n<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">Ver a trajetória</a></div></div>\n</div></section>",
-  "tr": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">项目负责人</div><h2>Nitai Morais</h2>\n<p>我在这条供应链内部工作了16年：在淡水河谷的商务部门，在 VLI 负责场站规划，并带领多达250人的运营团队。我做过产能规划，负责预算申报与答辩，与客户谈判，并在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。</p>\n<p>如今，我把这些经验用于路线、成本与风险的决策，以及需要提升效率的运营。每个项目都由我本人负责，从诊断到交付。</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">查看个人经历</a></div></div>\n</div></section>"
  },
  "2db3308cfa5a": {
   "pt": "<section class=\"faixa sup\"><div class=\"miolo\"><div class=\"rot\">Trajetória</div><h2>Trajetória por área de atuação</h2>\n<div class=\"traj\">\n<div><div class=\"quando\">2024 a hoje<small>Consultor independente</small></div><div><h3>Consultoria em logística e operações</h3><p>Logística de granéis, viabilidade e verificação para quem compra, vende ou investe, e diagnóstico operacional para a indústria. Desde 2026 pela NP Consultoria e Serviços, a empresa da Nitai Lab.</p></div></div>\n<div><div class=\"quando\">2022 a 2024<small>VLI</small></div><div><h3>Minério e siderurgia</h3><p>Gestão de planejamento, processos, manutenção e operação dos terminais de Santa Luzia e Ouro Preto, em Minas, com até dez produtos de minério segregados e parada geral planejada sem perder produção. Gerente interino por oito meses.</p></div></div>\n<div><div class=\"quando\">2019 a 2022<small>VLI</small></div><div><h3>Planejamento de terminais de grãos e fertilizantes</h3><p>Planejamento de longo, médio e curto prazo dos terminais de Araguari e Pirapora: dimensionamento, defesa de orçamento, investimentos e custos, e novos negócios com a capacidade ociosa e a sazonalidade de cada operação. Implantação do TPS com a TSSC e o primeiro modelo de EBITDA por unidade operacional da empresa. Gerente interino por seis meses.</p></div></div>\n<div><div class=\"quando\">2016 a 2019<small>VLI</small></div><div><h3>Cadeia de fertilizantes e recuperação de terminal</h3><p>Planejamento da cadeia do porto de Tubarão, pelas ferrovias EFVM e FCA, até o terminal e o cliente. Recuperação do terminal de grãos de Pirapora até a primeira certificação permanente do Ministério da Agricultura.</p></div></div>\n<div><div class=\"quando\">2008 a 2016<small>Vale e VLI</small></div><div><h3>Comercial</h3><p>Atendimento a siderúrgicas e distribuidoras de combustíveis em Belo Horizonte, São Luís e Ouro Branco, incluindo a carteira de gusa e a primeira cobrança de estadia de vagões a um grande cliente. Tricampeão do ranking de atendimento ao cliente.</p></div></div>\n</div></div></section>",
@@ -391,9 +395,21 @@
   "pt": "Nitai Lab Logística e Operações",
   "tr": "Nitai Lab 物流与运营"
  },
+ "5e444650aa45": {
+  "pt": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem conduz o trabalho</div><h2>Nitai Morais</h2>\n<p>Foram 16 anos dentro da cadeia: no comercial da Vale, no planejamento dos terminais da VLI e na gestão de operações com equipes de até 80 pessoas. Planejei capacidade, defendi orçamento, negociei com clientes e implantei o TPS com a consultoria da própria Toyota.</p>\n<p>Hoje aplico essa experiência em decisões de rota, custo e risco e em operações que precisam render mais. Cada trabalho é conduzido por mim, do diagnóstico à entrega.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">Ver a trajetória</a></div></div>\n</div></section>",
+  "tr": "<section class=\"faixa quem\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">项目负责人</div><h2>Nitai Morais</h2>\n<p>我在这条供应链内部工作了16年：在淡水河谷的商务部门，在 VLI 负责场站规划，并带领多达80人的运营团队。我做过产能规划，负责预算申报与答辩，与客户谈判，并在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。</p>\n<p>如今，我把这些经验用于路线、成本与风险的决策，以及需要提升效率的运营。每个项目都由我本人负责，从诊断到交付。</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/sobre/\">查看个人经历</a></div></div>\n</div></section>"
+ },
+ "5f2aa8382dad": {
+  "pt": "Fica com você. Informação de um cliente não vai para outro, nem vira caso público sem autorização por escrito.",
+  "tr": "信息归您所有。一个客户的信息不会流向另一个客户，未经书面授权也不会成为公开案例。"
+ },
  "600ccd1b7156": {
   "pt": "de",
   "tr": "/"
+ },
+ "60617640932b": {
+  "pt": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem vai a campo</div><h2>Nitai Morais</h2>\n<p>16 anos na Vale e na VLI, na gestão de terminais integrados a ferrovia e porto. Cada diagnóstico é feito por mim, no chão, do primeiro ao quinto dia.</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">Ver a trajetória →</a></p></div>\n</div></section>",
+  "tr": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">亲赴现场的人</div><h2>Nitai Morais</h2>\n<p>在淡水河谷和 VLI 工作16年，管理与铁路和港口相连的场站。每一次诊断都由我本人在现场完成，从第一天到第五天。</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">查看从业经历 →</a></p></div>\n</div></section>"
  },
  "62a5eafcd483": {
   "pt": "Sim. O relatório sai em português, inglês ou chinês. Comprador estrangeiro costuma pedir exatamente isso antes de uma proposta, ou para provar ao próprio cliente a origem do que compra.",
@@ -402,6 +418,10 @@
  "62c203a8d4ab": {
   "pt": "Trava nas passagens entre caminhão e trem e no line-up do porto. Se a gusa chega antes, entope o pátio; se chega tarde, o navio perde a fila e paga demurrage.",
   "tr": "瓶颈在卡车与列车的衔接处，以及港口的船舶排队。生铁到得太早，会堵塞堆场；到得太晚，船舶错过排队位置，要支付滞期费。"
+ },
+ "64cae89ad560": {
+  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<p class=\"t2\">Na VLI, como responsável pelo planejamento e controle da operação e gerente interino dos terminais.</p>\n<div class=\"nums\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span><small class=\"ctx\">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>\n<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span><small class=\"ctx\">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>\n<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span><small class=\"ctx\">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span><small class=\"ctx\">Terminais de produtos siderúrgicos, 2022 a 2024</small></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
+  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">成果</div><h2>取得的成果</h2>\n<p class=\"t2\">在 VLI，我曾负责运营的规划与控制，并临时代理场站经理。</p>\n<div class=\"nums\">\n<div><b>390万雷亚尔</b><span>一年内节省，同时运量高于预算</span><small class=\"ctx\">谷物、粕类和化肥场站，2019 年至 2022 年</small></div>\n<div><b>810万雷亚尔</b><span>通过重新设计车皮卸车流程，预算减少</span><small class=\"ctx\">谷物、粕类和化肥场站，2019 年至 2022 年</small></div>\n<div><b>超过50%</b><span>三年内运营预算的降幅</span><small class=\"ctx\">谷物、粕类和化肥场站，2019 年至 2022 年</small></div>\n<div><b>200万雷亚尔</b><span>通过重组服务合同每年节省</span><small class=\"ctx\">钢材产品场站，2022 年至 2024 年</small></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">方法</div><h3 style=\"margin:10px 0 12px\">与丰田一起实施丰田生产方式</h3>\n<p class=\"t2\">我主导了这项工作，在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。TSSC 是丰田将该方法推广到日本以外企业的中心。这个场站后来成为 VLI 的 TPS 学校。</p>\n<p class=\"t2\">在巴西，TPS 往往只落地一半：工具和审核。缺少的另一半，是把操作人员当作会思考的人。我带来的正是这一半。</p></div>\n<div class=\"caixa\"><span class=\"rot\">明天就可以做的测试</span><p>问一个班组的操作人员，他们在运营中最大的困难是什么。然后请他们提出解决办法。</p><p>如果答案没有让您感到意外，要么是团队氛围和文化有问题，要么是运营已经非常精细。</p></div></div>"
  },
  "65cf9ce24faf": {
   "pt": "<section class=\"campo\"><img src=\"/fotos/real-nitai-campo-mina.webp\" alt=\"Nitai Morais em visita técnica a uma planta de beneficiamento de minério\">\n<div class=\"miolo\"><div class=\"campo-texto\"><div class=\"rot\">Em campo</div><h2>Visita técnica a uma planta de beneficiamento de minério</h2>\n<p>Verificação também é presença: ver a planta operando, as pilhas, o acesso e o caminho da carga até a ferrovia e o porto.</p>\n<div class=\"acoes\"><a class=\"btn btn-2\" href=\"/verificacao/\">Ver Verificação</a></div></div></div></section>",
@@ -414,6 +434,10 @@
  "66851f9cc076": {
   "pt": "Oi, Nitai! Li os casos no seu site e me identifiquei. Podemos conversar?",
   "tr": "您好，Nitai！我读了您网站上的案例，很有共鸣。方便沟通一下吗？"
+ },
+ "66d7e1134a7c": {
+  "pt": "O que acontece com o que você vê na minha operação?",
+  "tr": "您在我的运营中看到的信息会如何处理？"
  },
  "671ce08c560c": {
   "pt": "São Desidério",
@@ -554,10 +578,6 @@
  "86bdc52765a8": {
   "pt": "Pará",
   "tr": "帕拉州"
- },
- "86e94f698eec": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Escala</div><h2>Escala da experiência</h2>\n<div class=\"nums\">\n<div><b>R$ 500 mi</b><span>por ano de receita nas operações de terminais que planejei</span></div>\n<div><b>15 mi t</b><span>de grãos exportados sob o meu planejamento</span></div>\n<div><b>3,2 mi t</b><span>de gusa na exportação da carteira que conduzi, em dois anos</span></div>\n<div><b>250</b><span>pessoas na maior equipe que liderei</span></div>\n</div></div></section>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">规模</div><h2>经验的规模</h2>\n<div class=\"nums\">\n<div><b>5亿雷亚尔</b><span>我所规划的场站运营的年营业收入</span></div>\n<div><b>1500万吨</b><span>在我的规划下出口的粮食</span></div>\n<div><b>320万吨</b><span>两年间我负责的客户组合中出口的生铁</span></div>\n<div><b>250</b><span>人，我带领过的最大团队</span></div>\n</div></div></section>"
  },
  "86f6357f0521": {
   "pt": "Caminhão",
@@ -1142,25 +1162,5 @@
  "fe8d99b3d242": {
   "pt": "Silos e armazém de um terminal de grãos",
   "tr": "粮食场站的筒仓和仓库"
- },
- "0a7a4f5e46f5": {
-  "pt": "Sócio de terminal ou de operação em sociedade? O diagnóstico também serve como leitura independente de cada operação, além do relatório da gestão local.",
-  "tr": "您是场站或合资运营项目的合伙人？除当地管理层的报告之外，诊断也可作为对每个运营项目的独立评估。"
- },
- "60617640932b": {
-  "pt": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">Quem vai a campo</div><h2>Nitai Morais</h2>\n<p>16 anos na Vale e na VLI, na gestão de terminais integrados a ferrovia e porto. Cada diagnóstico é feito por mim, no chão, do primeiro ao quinto dia.</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">Ver a trajetória →</a></p></div>\n</div></section>",
-  "tr": "<section class=\"faixa quem quem-compacto\"><div class=\"miolo quem-grade\">\n<div class=\"quem-foto\"><img src=\"/fotos/nitai-retrato-escuro.webp\" alt=\"Nitai Morais\"></div>\n<div class=\"quem-texto\"><div class=\"rot\">亲赴现场的人</div><h2>Nitai Morais</h2>\n<p>在淡水河谷和 VLI 工作16年，管理与铁路和港口相连的场站。每一次诊断都由我本人在现场完成，从第一天到第五天。</p>\n<p class=\"rota-mapa\"><a href=\"/sobre/\">查看从业经历 →</a></p></div>\n</div></section>"
- },
- "66d7e1134a7c": {
-  "pt": "O que acontece com o que você vê na minha operação?",
-  "tr": "您在我的运营中看到的信息会如何处理？"
- },
- "5f2aa8382dad": {
-  "pt": "Fica com você. Informação de um cliente não vai para outro, nem vira caso público sem autorização por escrito.",
-  "tr": "信息归您所有。一个客户的信息不会流向另一个客户，未经书面授权也不会成为公开案例。"
- },
- "64cae89ad560": {
-  "pt": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">Resultados</div><h2>Resultados obtidos</h2>\n<p class=\"t2\">Na VLI, como responsável pelo planejamento e controle da operação e gerente interino dos terminais.</p>\n<div class=\"nums\">\n<div><b>R$ 3,9 mi</b><span>economizados em um ano, com volume acima do orçado</span><small class=\"ctx\">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>\n<div><b>R$ 8,1 mi</b><span>a menos no orçamento com o redesenho da descarga de vagões</span><small class=\"ctx\">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>\n<div><b>Mais de 50%</b><span>de redução no orçamento operacional, ao longo de três anos</span><small class=\"ctx\">Terminais de grãos, farelo e fertilizantes, 2019 a 2022</small></div>\n<div><b>R$ 2 mi</b><span>por ano de economia na reestruturação de contratos de serviço</span><small class=\"ctx\">Terminais de produtos siderúrgicos, 2022 a 2024</small></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">Método</div><h3 style=\"margin:10px 0 12px\">Toyota Production System com a própria Toyota</h3>\n<p class=\"t2\">Liderei a implantação do TPS com consultoria direta da TSSC, o centro da Toyota que leva o método a empresas fora do Japão. O terminal virou a escola de TPS da VLI.</p>\n<p class=\"t2\">No Brasil, o TPS costuma chegar pela metade: ferramenta e auditoria. A metade que falta é tratar operador como cabeça pensante. É essa que eu levo.</p></div>\n<div class=\"caixa\"><span class=\"rot\">Um teste para fazer amanhã</span><p>Pergunte aos operadores de um turno qual é a maior dificuldade deles na operação. Depois peça que proponham soluções.</p><p>Se você não se surpreender, ou há problema de clima e cultura, ou a operação já está muito afiada.</p></div></div>",
-  "tr": "<section class=\"faixa\"><div class=\"miolo\"><div class=\"rot\">成果</div><h2>取得的成果</h2>\n<p class=\"t2\">在 VLI，我曾负责运营的规划与控制，并临时代理场站经理。</p>\n<div class=\"nums\">\n<div><b>390万雷亚尔</b><span>一年内节省，同时运量高于预算</span><small class=\"ctx\">谷物、粕类和化肥场站，2019 年至 2022 年</small></div>\n<div><b>810万雷亚尔</b><span>通过重新设计车皮卸车流程，预算减少</span><small class=\"ctx\">谷物、粕类和化肥场站，2019 年至 2022 年</small></div>\n<div><b>超过50%</b><span>三年内运营预算的降幅</span><small class=\"ctx\">谷物、粕类和化肥场站，2019 年至 2022 年</small></div>\n<div><b>200万雷亚尔</b><span>通过重组服务合同每年节省</span><small class=\"ctx\">钢材产品场站，2022 年至 2024 年</small></div>\n</div>\n<div class=\"duas\" style=\"margin-top:56px\"><div><div class=\"rot\">方法</div><h3 style=\"margin:10px 0 12px\">与丰田一起实施丰田生产方式</h3>\n<p class=\"t2\">我主导了这项工作，在丰田旗下 TSSC 的直接指导下实施丰田生产方式（TPS）。TSSC 是丰田将该方法推广到日本以外企业的中心。这个场站后来成为 VLI 的 TPS 学校。</p>\n<p class=\"t2\">在巴西，TPS 往往只落地一半：工具和审核。缺少的另一半，是把操作人员当作会思考的人。我带来的正是这一半。</p></div>\n<div class=\"caixa\"><span class=\"rot\">明天就可以做的测试</span><p>问一个班组的操作人员，他们在运营中最大的困难是什么。然后请他们提出解决办法。</p><p>如果答案没有让您感到意外，要么是团队氛围和文化有问题，要么是运营已经非常精细。</p></div></div>"
  }
 }
